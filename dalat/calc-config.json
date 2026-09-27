@@ -1,0 +1,1384 @@
+{
+ "dest": "Ho Chi Minh - Dalat - Mui Ne",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-8)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+ "singleNote": "RM 80 per malam per pax (Rate Card Operasi) &mdash; 5D4N = RM 320, 4D3N = RM 240, padan katalog. Melaras sendiri bila hari ditambah atau dibuang.",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tidak boleh booking. <b>Check availability</b> dengan operator untuk Raya Aidilfitri, Raya Haji, New Year dan Christmas.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 30,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "ext": {
+  "night": {
+   "normal": 120,
+   "peak": 120
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 99,
+  "shareVehicle": true,
+  "autoNights": false,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 300,
+      "peak": 300
+     },
+     {
+      "from": 5,
+      "to": 13,
+      "normal": 380,
+      "peak": 380
+     },
+     {
+      "from": 14,
+      "to": 99,
+      "normal": 450,
+      "peak": 450
+     }
+    ]
+   },
+   "dayDed": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -150,
+      "peak": -150
+     },
+     {
+      "from": 5,
+      "to": 13,
+      "normal": -190,
+      "peak": -190
+     },
+     {
+      "from": 14,
+      "to": 99,
+      "normal": -230,
+      "peak": -230
+     }
+    ]
+   },
+   "air": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 300,
+      "peak": 300
+     },
+     {
+      "from": 5,
+      "to": 13,
+      "normal": 380,
+      "peak": 380
+     },
+     {
+      "from": 14,
+      "to": 99,
+      "normal": 450,
+      "peak": 450
+     }
+    ]
+   },
+   "airDed": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -150,
+      "peak": -150
+     },
+     {
+      "from": 5,
+      "to": 13,
+      "normal": -190,
+      "peak": -190
+     },
+     {
+      "from": 14,
+      "to": 99,
+      "normal": -230,
+      "peak": -230
+     }
+    ]
+   },
+   "up4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 160,
+      "peak": 160
+     }
+    ]
+   },
+   "up5": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 350,
+      "peak": 350
+     }
+    ]
+   },
+   "h4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 240,
+      "peak": 240
+     }
+    ]
+   },
+   "h5": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 320,
+      "peak": 320
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -50,
+      "peak": -50
+     }
+    ]
+   },
+   "nightShort4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -120,
+      "peak": -120
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang (dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade hotel 4 bintang (dalam pakej)",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade ({days})"
+  },
+  {
+   "v": "up5",
+   "t": "Upgrade hotel 5 bintang (dalam pakej)",
+   "cost": "incl",
+   "perPaxRate": "up5",
+   "hotel": "5-Star Hotel",
+   "incl": "5-Star hotel upgrade ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; hotel 3 bintang",
+   "cost": "night",
+   "hotel": "3-Star Hotel",
+   "line": "Additional night, 3-Star hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "n4",
+   "t": "Malam tambahan &middot; hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "h4",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night, 4-Star hotel",
+   "incl": "Additional night at 4-Star Hotel ({days})"
+  },
+  {
+   "v": "n5",
+   "t": "Malam tambahan &middot; hotel 5 bintang",
+   "cost": "night",
+   "nightRate": "h5",
+   "hotel": "5-Star Hotel",
+   "line": "Additional night, 5-Star hotel",
+   "incl": "Additional night at 5-Star Hotel ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tolak 1 malam &middot; hotel 3 bintang",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed (3-Star)"
+  },
+  {
+   "v": "noht4",
+   "t": "Tolak 1 malam &middot; hotel 4 bintang",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan termasuk",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private transportation with Muslim driving guide (Malay / English spoken) ({days}) - 8 hours basis"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Airport Transfer",
+   "incl": "Private airport transfer ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation with driving guide ({days}) - 8 hours basis"
+  },
+  {
+   "v": "airx",
+   "t": "Airport Transfer tambahan",
+   "cost": "zero",
+   "perVehicleRate": "air",
+   "lbl": "Private Airport Transfer",
+   "line": "Additional airport transfer",
+   "incl": "Additional private airport transfer ({days})"
+  },
+  {
+   "v": "feded",
+   "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (transport deducted)"
+  },
+  {
+   "v": "airded",
+   "t": "Tolak airport transfer dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "airDed",
+   "lbl": "-",
+   "line": "Airport transfer deducted"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "L5d1",
+   "t": "Ketibaan SGN - transfer ke Dalat",
+   "en": "ARRIVAL SGN - TRANSFER TO DALAT",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Dalat]",
+   "act": [
+    "Tiba Tan Son Nhat International Airport (SGN), Ho Chi Minh (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+    "Land transfer ke Da Lat (6 - 8 jam pemanduan)",
+    "Check-in hotel 3 bintang di Dalat"
+   ],
+   "eact": [
+    "Arrive Tan Son Nhat International Airport (SGN), Ho Chi Minh (suggested arrival time 12pm or earlier)",
+    "Land transfer to Da Lat (6 - 8 hours drive)",
+    "Check in 3-Star hotel in Dalat"
+   ],
+   "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+  },
+  {
+   "v": "L5d2",
+   "t": "Dalat fullday tour",
+   "en": "DALAT FULLDAY TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Dalat]",
+   "act": [
+    "Mongo Land (termasuk Rainbow Slide)",
+    "Flower Park, taman bunga terbesar di Dalat",
+    "Mei Linh Coffee Garden, ladang kopi segar",
+    "Shopping Amee Wholesale (pasar fesyen pemborong)",
+    "Datanla Waterfall (termasuk roller coaster)",
+    "Dalat Railway Station",
+    "Kembali ke hotel, free and easy"
+   ],
+   "eact": [
+    "Mongo Land (Rainbow Slide included)",
+    "Flower Park, the largest flower park in Dalat",
+    "Mei Linh Coffee Garden, fresh coffee plantation",
+    "Amee Wholesale shopping (fashion designer market)",
+    "Datanla Waterfall (roller coaster included)",
+    "Dalat Railway Station",
+    "Return to hotel, free and easy"
+   ],
+   "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+  },
+  {
+   "v": "L5d3",
+   "t": "Mui Ne fullday tour - kembali ke HCM",
+   "en": "MUI NE FULLDAY TOUR - RETURN TO HCM",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Mui Ne]",
+   "act": [
+    "Land transfer ke Mui Ne (5 jam pemanduan)",
+    "White Sand Dunes, satu-satunya padang pasir di Asia Tenggara",
+    "Red Sand Dunes (aktiviti JEEP dan ATV adalah opsyenal)",
+    "Fishing Village",
+    "Land transfer ke Ho Chi Minh (3 jam pemanduan)",
+    "Singgah gudang shopping telekung, tudung dan lain-lain",
+    "Check-in hotel 3 bintang di Ho Chi Minh",
+    "Free and easy - shopping di Malaysia Street dan Ben Thanh Market"
+   ],
+   "eact": [
+    "Land transfer to Mui Ne (5 hours drive)",
+    "White Sand Dunes, the only desert in Southeast Asia",
+    "Red Sand Dunes (JEEP and ATV activity is optional)",
+    "Fishing Village",
+    "Land transfer to Ho Chi Minh (3 hours drive)",
+    "Stop by wholesale shopping warehouse - telekung, tudung and more",
+    "Check in 3-Star hotel in Ho Chi Minh",
+    "Free and easy - shopping at Malaysia Street and Ben Thanh Market"
+   ],
+   "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+  },
+  {
+   "v": "L5d4",
+   "t": "Mekong River fullday tour",
+   "en": "MEKONG RIVER FULLDAY TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Mekong]",
+   "act": [
+    "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+    "Honey Bee-farm (rasa teh madu dengan lemon)",
+    "Coconut candy workshop",
+    "Menaiki horse-cart",
+    "Soai Kinh Lam Fabric Market, pasar kain terbesar",
+    "Free and easy - street night market"
+   ],
+   "eact": [
+    "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+    "Honey Bee-farm (taste honey tea with lemon)",
+    "Coconut candy workshop",
+    "Ride on horse-cart",
+    "Soai Kinh Lam Fabric Market, the largest fabric market",
+    "Free and easy - street night market"
+   ],
+   "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+  },
+  {
+   "v": "L5d5",
+   "t": "HCM - penerbangan pulang",
+   "en": "HCM - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Free and easy - shopping Ben Thanh Market",
+    "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 3 petang atau lebih awal)"
+   ],
+   "eact": [
+    "Free and easy - shopping at Ben Thanh Market",
+    "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 3pm or earlier)"
+   ],
+   "g": "Blok 5D4N - HCM, Dalat, Mui Ne"
+  },
+  {
+   "v": "L4d1",
+   "t": "Ketibaan - HCM shopping tour",
+   "en": "ARRIVAL - HCM SHOPPING TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[HCM]",
+   "act": [
+    "Tiba Tan Son Nhat International Airport (SGN) (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+    "Wholesale Shopping Tour - baju kurung, tudung, telekung, kasut dan beg",
+    "Check-in hotel 3 bintang di Ho Chi Minh",
+    "Free and easy - street night market"
+   ],
+   "eact": [
+    "Arrive Tan Son Nhat International Airport (SGN) (suggested arrival time 12pm or earlier)",
+    "Wholesale Shopping Tour - baju kurung, tudung, telekung, shoes and bags",
+    "Check in 3-Star hotel in Ho Chi Minh",
+    "Free and easy - street night market"
+   ],
+   "g": "Blok 4D3N - HCM sahaja"
+  },
+  {
+   "v": "L4d2",
+   "t": "Mekong River - shopping dan food tour",
+   "en": "MEKONG RIVER - SHOPPING AND FOOD TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Mekong]",
+   "act": [
+    "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+    "Honey Bee-farm (rasa teh madu dengan lemon)",
+    "Coconut candy workshop",
+    "Menaiki horse-cart",
+    "Lawat dan solat di Masjid My Tho, diikuti makan tengah hari",
+    "Dainy atau Sarah Wholesale Market",
+    "Free and easy - street night market"
+   ],
+   "eact": [
+    "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+    "Honey Bee-farm (taste honey tea with lemon)",
+    "Coconut candy workshop",
+    "Ride on horse-cart",
+    "Visit and pray at My Tho Mosque, followed by lunch",
+    "Dainy or Sarah Wholesale Market",
+    "Free and easy - street night market"
+   ],
+   "g": "Blok 4D3N - HCM sahaja"
+  },
+  {
+   "v": "L4d3",
+   "t": "Chu Chi Tunnel - city dan shopping tour",
+   "en": "CHU CHI TUNNEL - CITY AND SHOPPING TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[HCM]",
+   "act": [
+    "Chu Chi Tunnel Tour, terowong bawah tanah zaman Perang Vietnam",
+    "Lawat dan solat di Masjid Jamia Al Muslimin",
+    "War Remnants Museum",
+    "Central Post Office, pejabat pos terbesar Vietnam",
+    "Notre Dame Cathedral",
+    "Opera House",
+    "Shopping Tour - Taka Plaza dan Saigon Square"
+   ],
+   "eact": [
+    "Chu Chi Tunnel Tour, underground tunnel from the Vietnam War",
+    "Visit and pray at Jamia Al Muslimin Mosque",
+    "War Remnants Museum",
+    "Central Post Office, the largest post office in Vietnam",
+    "Notre Dame Cathedral",
+    "Opera House",
+    "Shopping Tour - Taka Plaza and Saigon Square"
+   ],
+   "g": "Blok 4D3N - HCM sahaja"
+  },
+  {
+   "v": "L4d4",
+   "t": "Shopping tour - penerbangan pulang",
+   "en": "SHOPPING TOUR - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Shopping Ben Thanh Market",
+    "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+   ],
+   "eact": [
+    "Shopping at Ben Thanh Market",
+    "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 2pm onwards)"
+   ],
+   "g": "Blok 4D3N - HCM sahaja"
+  },
+  {
+   "v": "ext",
+   "t": "Hari tambahan - itinerari ikut permintaan customer",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "region": "[HCM]",
+   "g": "Umum",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ]
+  },
+  {
+   "v": "fed",
+   "t": "Free and easy - tiada transport",
+   "en": "FREE AND EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "region": "[HCM]",
+   "g": "Umum",
+   "act": [
+    "Free and easy sepanjang hari"
+   ],
+   "eact": [
+    "Free and easy at own leisure"
+   ]
+  }
+ ],
+ "addons": [
+  [
+   "Cyclo Tour Ho Chi Minh (1 hour)",
+   97,
+   97
+  ],
+  [
+   "Saigon River Cruise (1 - 1.5 hours)",
+   107,
+   107
+  ],
+  [
+   "JEEP at White Sand Dune Mui Ne - per jeep, max 6 pax",
+   200,
+   0,
+   "unit"
+  ],
+  [
+   "ATV at White Sand Dune Mui Ne - per ATV, max 2 pax",
+   180,
+   0,
+   "unit"
+  ],
+  [
+   "Dalat Alpine Coaster at Datanla Waterfall",
+   50,
+   50
+  ],
+  [
+   "Chu Chi Tunnel Day Tour - 2 pax",
+   300,
+   300
+  ],
+  [
+   "Chu Chi Tunnel Day Tour - 3 to 5 pax",
+   200,
+   200
+  ],
+  [
+   "Chu Chi Tunnel Day Tour - 6 to 8 pax",
+   150,
+   150
+  ],
+  [
+   "Chu Chi Tunnel Day Tour - 9 pax and above",
+   100,
+   100
+  ]
+ ],
+ "extraSurcharge": [
+  {
+   "label": "Travel date surcharge 2027 (January - February)",
+   "dateIn": [
+    "2027-01-01",
+    "2027-02-28"
+   ],
+   "perPax": 120
+  }
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 4,
+   "text": "2&ndash;4 pax: MPV 7-seater &middot; maksimum 1 bagasi per pax (kapasiti kenderaan)"
+  },
+  {
+   "from": 5,
+   "to": 12,
+   "text": "5&ndash;12 pax: Van 16-seater &middot; driver + guide"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "text": "13&ndash;15 pax: Mini bus 25-seater &middot; driver + guide"
+  },
+  {
+   "from": 16,
+   "to": 99999,
+   "text": "16 pax ke atas: di luar jadual harga katalog &mdash; rujuk consultant sebelum quote"
+  }
+ ],
+ "validity": "Prices follow the PT HCM-Dalat-Mui Ne 5D4N 2026 v2 catalogue dated 11 March 2026 and the PT HCM 4D3N 2026 catalogue dated 8 December 2025, valid for travel until 31 December 2026. Departures in January and February 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout dates: 16 - 22 February 2026 and 17 - 18 February 2027 (Chinese New Year).",
+ "variants": [
+  {
+   "id": "v5d4n",
+   "name": "PT HCM - Dalat - Mui Ne 5D4N (3-Star Fullboard)",
+   "pkgLabel": "Ho Chi Minh - Dalat - Mui Ne: HCM Shopping Tour, Dalat Flower Park, Sand Dunes",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "singlePerNight": 80,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 400,
+    "rate3": 300
+   },
+   "ext": {
+    "night": {
+     "normal": 120,
+     "peak": 120
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "shareVehicle": true,
+    "autoNights": false,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 300,
+        "peak": 300
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": 380,
+        "peak": 380
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": 450,
+        "peak": 450
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": -190,
+        "peak": -190
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": -230,
+        "peak": -230
+       }
+      ]
+     },
+     "air": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 300,
+        "peak": 300
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": 380,
+        "peak": 380
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": 450,
+        "peak": 450
+       }
+      ]
+     },
+     "airDed": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": -190,
+        "peak": -190
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": -230,
+        "peak": -230
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 160,
+        "peak": 160
+       }
+      ]
+     },
+     "up5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 350,
+        "peak": 350
+       }
+      ]
+     },
+     "h4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 240,
+        "peak": 240
+       }
+      ]
+     },
+     "h5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 320,
+        "peak": 320
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": -50
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -120,
+        "peak": -120
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 2077,
+     "c": 1877,
+     "n": 1677
+    },
+    {
+     "from": 3,
+     "to": 4,
+     "a": 1777,
+     "c": 1677,
+     "n": 1477
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "a": 1677,
+     "c": 1477,
+     "n": 1277
+    },
+    {
+     "from": 7,
+     "to": 8,
+     "a": 1477,
+     "c": 1277,
+     "n": 1077
+    },
+    {
+     "from": 9,
+     "to": 15,
+     "a": 1377,
+     "c": 1177,
+     "n": 977
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan SGN - transfer ke Dalat",
+     "en": "ARRIVAL SGN - TRANSFER TO DALAT",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Dalat]",
+     "act": [
+      "Tiba Tan Son Nhat International Airport (SGN), Ho Chi Minh (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+      "Land transfer ke Da Lat (6 - 8 jam pemanduan)",
+      "Check-in hotel 3 bintang di Dalat"
+     ],
+     "eact": [
+      "Arrive Tan Son Nhat International Airport (SGN), Ho Chi Minh (suggested arrival time 12pm or earlier)",
+      "Land transfer to Da Lat (6 - 8 hours drive)",
+      "Check in 3-Star hotel in Dalat"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Dalat fullday tour",
+     "en": "DALAT FULLDAY TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Dalat]",
+     "act": [
+      "Mongo Land (termasuk Rainbow Slide)",
+      "Flower Park, taman bunga terbesar di Dalat",
+      "Mei Linh Coffee Garden, ladang kopi segar",
+      "Shopping Amee Wholesale (pasar fesyen pemborong)",
+      "Datanla Waterfall (termasuk roller coaster)",
+      "Dalat Railway Station",
+      "Kembali ke hotel, free and easy"
+     ],
+     "eact": [
+      "Mongo Land (Rainbow Slide included)",
+      "Flower Park, the largest flower park in Dalat",
+      "Mei Linh Coffee Garden, fresh coffee plantation",
+      "Amee Wholesale shopping (fashion designer market)",
+      "Datanla Waterfall (roller coaster included)",
+      "Dalat Railway Station",
+      "Return to hotel, free and easy"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Mui Ne fullday tour - kembali ke HCM",
+     "en": "MUI NE FULLDAY TOUR - RETURN TO HCM",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Mui Ne]",
+     "act": [
+      "Land transfer ke Mui Ne (5 jam pemanduan)",
+      "White Sand Dunes, satu-satunya padang pasir di Asia Tenggara",
+      "Red Sand Dunes (aktiviti JEEP dan ATV adalah opsyenal)",
+      "Fishing Village",
+      "Land transfer ke Ho Chi Minh (3 jam pemanduan)",
+      "Singgah gudang shopping telekung, tudung dan lain-lain",
+      "Check-in hotel 3 bintang di Ho Chi Minh",
+      "Free and easy - shopping di Malaysia Street dan Ben Thanh Market"
+     ],
+     "eact": [
+      "Land transfer to Mui Ne (5 hours drive)",
+      "White Sand Dunes, the only desert in Southeast Asia",
+      "Red Sand Dunes (JEEP and ATV activity is optional)",
+      "Fishing Village",
+      "Land transfer to Ho Chi Minh (3 hours drive)",
+      "Stop by wholesale shopping warehouse - telekung, tudung and more",
+      "Check in 3-Star hotel in Ho Chi Minh",
+      "Free and easy - shopping at Malaysia Street and Ben Thanh Market"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Mekong River fullday tour",
+     "en": "MEKONG RIVER FULLDAY TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Mekong]",
+     "act": [
+      "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+      "Honey Bee-farm (rasa teh madu dengan lemon)",
+      "Coconut candy workshop",
+      "Menaiki horse-cart",
+      "Soai Kinh Lam Fabric Market, pasar kain terbesar",
+      "Free and easy - street night market"
+     ],
+     "eact": [
+      "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+      "Honey Bee-farm (taste honey tea with lemon)",
+      "Coconut candy workshop",
+      "Ride on horse-cart",
+      "Soai Kinh Lam Fabric Market, the largest fabric market",
+      "Free and easy - street night market"
+     ]
+    },
+    {
+     "v": "d5",
+     "t": "HCM - penerbangan pulang",
+     "en": "HCM - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Free and easy - shopping Ben Thanh Market",
+      "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 3 petang atau lebih awal)"
+     ],
+     "eact": [
+      "Free and easy - shopping at Ben Thanh Market",
+      "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 3pm or earlier)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Dalat and Ho Chi Minh",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Daily breakfast at hotel",
+    "Driving guide (Malay / English spoken)",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "JEEP and ATV activity at Sand Dunes"
+   ]
+  },
+  {
+   "id": "v4d3n",
+   "name": "PT HCM 4D3N Shopping Tour (3-Star Fullboard, HCM sahaja)",
+   "pkgLabel": "Ho Chi Minh: Shopping Tour, Mekong River, Chu Chi Tunnel",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "singlePerNight": 80,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 300,
+    "rate3": 200
+   },
+   "ext": {
+    "night": {
+     "normal": 120,
+     "peak": 120
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "shareVehicle": true,
+    "autoNights": false,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 300,
+        "peak": 300
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": 380,
+        "peak": 380
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": 450,
+        "peak": 450
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": -190,
+        "peak": -190
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": -230,
+        "peak": -230
+       }
+      ]
+     },
+     "air": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 300,
+        "peak": 300
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": 380,
+        "peak": 380
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": 450,
+        "peak": 450
+       }
+      ]
+     },
+     "airDed": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 13,
+        "normal": -190,
+        "peak": -190
+       },
+       {
+        "from": 14,
+        "to": 99,
+        "normal": -230,
+        "peak": -230
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 130,
+        "peak": 130
+       }
+      ]
+     },
+     "up5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 350,
+        "peak": 350
+       }
+      ]
+     },
+     "h4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 240,
+        "peak": 240
+       }
+      ]
+     },
+     "h5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 320,
+        "peak": 320
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": -50
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -120,
+        "peak": -120
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 4,
+     "a": 1377,
+     "c": 1177,
+     "n": 997
+    },
+    {
+     "from": 5,
+     "to": 7,
+     "a": 1277,
+     "c": 1097,
+     "n": 897
+    },
+    {
+     "from": 8,
+     "to": 15,
+     "a": 1177,
+     "c": 977,
+     "n": 777
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan - HCM shopping tour",
+     "en": "ARRIVAL - HCM SHOPPING TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[HCM]",
+     "act": [
+      "Tiba Tan Son Nhat International Airport (SGN) (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+      "Wholesale Shopping Tour - baju kurung, tudung, telekung, kasut dan beg",
+      "Check-in hotel 3 bintang di Ho Chi Minh",
+      "Free and easy - street night market"
+     ],
+     "eact": [
+      "Arrive Tan Son Nhat International Airport (SGN) (suggested arrival time 12pm or earlier)",
+      "Wholesale Shopping Tour - baju kurung, tudung, telekung, shoes and bags",
+      "Check in 3-Star hotel in Ho Chi Minh",
+      "Free and easy - street night market"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Mekong River - shopping dan food tour",
+     "en": "MEKONG RIVER - SHOPPING AND FOOD TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Mekong]",
+     "act": [
+      "Mekong Tour: Tien River Delta - Pulau Dragon, Unicorn, Tortoise dan Phoenix",
+      "Honey Bee-farm (rasa teh madu dengan lemon)",
+      "Coconut candy workshop",
+      "Menaiki horse-cart",
+      "Lawat dan solat di Masjid My Tho, diikuti makan tengah hari",
+      "Dainy atau Sarah Wholesale Market",
+      "Free and easy - street night market"
+     ],
+     "eact": [
+      "Mekong Tour: Tien River Delta Dragon, Unicorn, Tortoise and Phoenix Islands",
+      "Honey Bee-farm (taste honey tea with lemon)",
+      "Coconut candy workshop",
+      "Ride on horse-cart",
+      "Visit and pray at My Tho Mosque, followed by lunch",
+      "Dainy or Sarah Wholesale Market",
+      "Free and easy - street night market"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Chu Chi Tunnel - city dan shopping tour",
+     "en": "CHU CHI TUNNEL - CITY AND SHOPPING TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[HCM]",
+     "act": [
+      "Chu Chi Tunnel Tour, terowong bawah tanah zaman Perang Vietnam",
+      "Lawat dan solat di Masjid Jamia Al Muslimin",
+      "War Remnants Museum",
+      "Central Post Office, pejabat pos terbesar Vietnam",
+      "Notre Dame Cathedral",
+      "Opera House",
+      "Shopping Tour - Taka Plaza dan Saigon Square"
+     ],
+     "eact": [
+      "Chu Chi Tunnel Tour, underground tunnel from the Vietnam War",
+      "Visit and pray at Jamia Al Muslimin Mosque",
+      "War Remnants Museum",
+      "Central Post Office, the largest post office in Vietnam",
+      "Notre Dame Cathedral",
+      "Opera House",
+      "Shopping Tour - Taka Plaza and Saigon Square"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Shopping tour - penerbangan pulang",
+     "en": "SHOPPING TOUR - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Shopping Ben Thanh Market",
+      "Transfer ke Tan Son Nhat International Airport (SGN) untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+     ],
+     "eact": [
+      "Shopping at Ben Thanh Market",
+      "Transfer to Tan Son Nhat International Airport (SGN) for return flight (suggested departure time 2pm onwards)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Ho Chi Minh",
+    "{auto}",
+    "Entrance fees",
+    "Daily international breakfast at hotel",
+    "Driving guide (Malay / English spoken)",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ]
+  }
+ ]
+}

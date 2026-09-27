@@ -1,0 +1,1234 @@
+{
+ "dest": "Maldives",
+ "currency": "RM",
+ "deposit": 500,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (2-9)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Infant 0&ndash;2 tahun RM100 setiap varian &mdash; bukan FOC.",
+ "singleNote": "4-Star, Combo &amp; Water Villa +RM700/pax &middot; Basic: quoted upon request (katalog tiada kadar &mdash; kalkulator tidak caj apa-apa untuk Basic).",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, surcaj musim dan late/last minute dikira sendiri. <b>Surcaj musim Maldives ialah amaun rata per pax</b> untuk keseluruhan trip (bukan per malam), dan setiap varian ada tetingkap tarikhnya sendiri. <b>Super Peak</b> (Combo 1 Sep&ndash;31 Dis 2026, Water Villa 25&ndash;31 Dis 2026) ialah <i>price upon request</i> &mdash; kalkulator sengaja tidak mengira apa-apa dan akan beri amaran; minta sebut harga operator. <b>Travel 11 Jan&ndash;30 Jun 2027</b> dikenakan surcaj RM200/pax semua varian.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "ext": {
+  "night": {
+   "normal": 550,
+   "peak": 550
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 10,
+  "rates": {
+   "n3": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 10,
+      "normal": 550,
+      "peak": 550
+     }
+    ]
+   },
+   "n4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 10,
+      "normal": 800,
+      "peak": 800
+     }
+    ]
+   },
+   "nwv": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 10,
+      "normal": 1600,
+      "peak": 1600
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel dalam pakej",
+   "cost": "incl"
+  },
+  {
+   "v": "wvin",
+   "t": "Water villa dalam pakej",
+   "cost": "incl",
+   "hotel": "Water Villa"
+  },
+  {
+   "v": "up4a",
+   "t": "Upgrade hotel 4 bintang &ndash; kadar muka depan katalog (RM240/pax untuk 3 malam)",
+   "cost": "incl",
+   "perPax": 80.0,
+   "hotel": "4-Star Hotel (Maafushi)",
+   "incl": "4-Star hotel upgrade ({days})",
+   "line": "4-Star hotel upgrade"
+  },
+  {
+   "v": "up4b",
+   "t": "Upgrade hotel 4 bintang &ndash; kadar Important Notes katalog (RM400/pax untuk 3 malam)",
+   "cost": "incl",
+   "perPax": 133.33333333333334,
+   "hotel": "4-Star Hotel (Maafushi)",
+   "incl": "4-Star hotel upgrade ({days})",
+   "line": "4-Star hotel upgrade"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &ndash; kelas hotel pakej",
+   "cost": "night",
+   "incl": "Additional night, same hotel class as package ({days})"
+  },
+  {
+   "v": "x3",
+   "t": "Malam tambahan &ndash; hotel 3 bintang Maafushi",
+   "cost": "night",
+   "nightRate": "n3",
+   "hotel": "3-Star Hotel (Maafushi)",
+   "incl": "Additional night at 3-Star hotel, Maafushi ({days})"
+  },
+  {
+   "v": "x4",
+   "t": "Malam tambahan &ndash; hotel 4 bintang Maafushi",
+   "cost": "night",
+   "nightRate": "n4",
+   "hotel": "4-Star Hotel (Maafushi)",
+   "incl": "Additional night at 4-Star hotel, Maafushi ({days})"
+  },
+  {
+   "v": "xwv",
+   "t": "Malam tambahan &ndash; water villa",
+   "cost": "night",
+   "nightRate": "nwv",
+   "hotel": "Water Villa",
+   "incl": "Additional night at water villa ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / balik)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada meal",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "air",
+   "t": "Airport transfer by speedboat (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Speedboat Transfer (sharing)",
+   "incl": "Return airport transfer by speedboat, sharing basis ({days})"
+  },
+  {
+   "v": "airlate",
+   "t": "Airport transfer by speedboat &ndash; ketibaan selepas 8 malam",
+   "cost": "incl",
+   "perPax": 150,
+   "lbl": "Speedboat Transfer (sharing, after 8pm)",
+   "incl": "Airport transfer by speedboat - late arrival after 8pm ({days})",
+   "line": "Late-night speedboat transfer"
+  },
+  {
+   "v": "incl",
+   "t": "Excursion speedboat + local guide (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Excursion Speedboat (sharing)",
+   "incl": "Island excursion by shared speedboat with local guide ({days})"
+  },
+  {
+   "v": "trf",
+   "t": "Speedboat transfer antara pulau (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Speedboat Transfer (sharing)",
+   "incl": "Inter-island speedboat transfer, sharing basis ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Tiada transport (hari tambahan, free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "addons": [
+  [
+   "Kaani (4-Star) - Full Day Excursion Trip",
+   250,
+   250,
+   "pax"
+  ],
+  [
+   "Kaani (4-Star) - Real Break Trip",
+   350,
+   350,
+   "pax"
+  ],
+  [
+   "Kaani (4-Star) - Whale Shark Trip",
+   500,
+   500,
+   "pax"
+  ],
+  [
+   "Kaani (4-Star) - Private Island Excursion",
+   800,
+   800,
+   "pax"
+  ],
+  [
+   "Arena (4-Star) - Full Day Adventure",
+   320,
+   320,
+   "pax"
+  ],
+  [
+   "Arena (4-Star) - Shark Bay Snorkelling",
+   270,
+   270,
+   "pax"
+  ],
+  [
+   "Arena (4-Star) - Whale Shark Expedition",
+   520,
+   520,
+   "pax"
+  ],
+  [
+   "Arena (4-Star) - Private Island Excursion",
+   800,
+   800,
+   "pax"
+  ],
+  [
+   "ICOM (3-Star) - Vaavu Atoll Shipwreck",
+   350,
+   350,
+   "pax"
+  ],
+  [
+   "ICOM (3-Star) - Whale Shark Trip",
+   500,
+   500,
+   "pax"
+  ],
+  [
+   "ICOM (3-Star) - Private Island Excursion",
+   800,
+   800,
+   "pax"
+  ],
+  [
+   "Velana (3-Star) - Fish Tank Trip",
+   350,
+   350,
+   "pax"
+  ],
+  [
+   "Velana (3-Star) - Whale Shark Trip",
+   500,
+   500,
+   "pax"
+  ],
+  [
+   "Velana (3-Star) - Real Break Tour",
+   350,
+   350,
+   "pax"
+  ],
+  [
+   "Night fishing trip by boat",
+   200,
+   200,
+   "pax"
+  ],
+  [
+   "Dolphin watching (separate trip)",
+   150,
+   150,
+   "pax"
+  ],
+  [
+   "Submarine tour",
+   350,
+   350,
+   "pax"
+  ],
+  [
+   "Extra halal lunch (Maafushi)",
+   50,
+   50,
+   "pax"
+  ],
+  [
+   "Extra halal dinner (Maafushi)",
+   65,
+   65,
+   "pax"
+  ],
+  [
+   "Bedroom decoration - honeymoon (per couple)",
+   100,
+   0,
+   "unit"
+  ],
+  [
+   "Beachside candle-light dinner (per couple)",
+   90,
+   0,
+   "unit"
+  ],
+  [
+   "Couple spa treatment at resort (per couple)",
+   400,
+   0,
+   "unit"
+  ]
+ ],
+ "extraSurcharge": [
+  {
+   "label": "Travel date 2027",
+   "dateIn": [
+    "2027-01-11",
+    "2027-06-30"
+   ],
+   "perPax": 200
+  }
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 5,
+   "text": "Add-on excursion 4-Star perlu <b>minimum 6 pax (Kaani)</b> / <b>10 pax (Arena)</b> &mdash; sahkan dengan operator sebelum jual add-on excursion."
+  },
+  {
+   "from": 6,
+   "to": 9,
+   "text": "Add-on excursion <b>Arena</b> perlu minimum 10 pax."
+  }
+ ],
+ "validity": "Prices are based on the PT Maldives 2026 catalogues (Basic v4, 4-Star v3, Combo, Water Villa) and are valid for travel until 31 December 2026; travel dates from 11 January to 30 June 2027 carry a RM 200 per pax 2027 travel surcharge. Quotation valid for 24 hours after submission. Price is based on 2 to 3 persons per room. Deposit RM 500 per pax upon confirmation, full payment 45 days before departure. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Itinerary, price and flight are subject to change. All island transfers and activities are by shared speedboat and depend on weather conditions. Free activities are non-exchangeable for other activities, vouchers or cash.",
+ "variants": [
+  {
+   "id": "basic",
+   "name": "PT Maldives Basic 4D3N (3 bintang)",
+   "pkgLabel": "Maldives Basic - Maafushi Island Trip, Fish Tank Excursion",
+   "hotelLabel": "3-Star Hotel (Maafushi)",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 10,
+     "a": 2097,
+     "c": 1697,
+     "n": 1097
+    }
+   ],
+   "infant": 100,
+   "single": 0,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 300,
+    "rate3": 200,
+    "perGroup": true
+   },
+   "peak": {
+    "mode": "flat",
+    "value": 0,
+    "windows": [
+     [
+      "2025-12-21",
+      "2026-01-10",
+      null,
+      200,
+      "Peak Season"
+     ],
+     [
+      "2026-01-11",
+      "2026-04-30",
+      null,
+      100,
+      "High Season"
+     ],
+     [
+      "2026-11-01",
+      "2026-12-20",
+      null,
+      100,
+      "High Season"
+     ],
+     [
+      "2026-12-21",
+      "2027-01-10",
+      null,
+      200,
+      "Peak Season"
+     ],
+     [
+      "2026-12-24",
+      "2026-12-24",
+      null,
+      600,
+      "Christmas Eve"
+     ],
+     [
+      "2026-12-31",
+      "2026-12-31",
+      null,
+      700,
+      "New Year Eve"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 550,
+     "peak": 550
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 10,
+    "rates": {
+     "n3": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 550,
+        "peak": 550
+       }
+      ]
+     },
+     "n4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 800,
+        "peak": 800
+       }
+      ]
+     },
+     "nwv": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 1600,
+        "peak": 1600
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Kuala Lumpur - Male (Maafushi)",
+     "en": "KUALA LUMPUR - MALE (MAAFUSHI)",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "act": [
+      "Cadangan tiba sebelum 12 tengah hari",
+      "Airport transfer by speedboat (sharing) ke Maafushi",
+      "Check-in hotel 3 bintang Maafushi"
+     ],
+     "eact": [
+      "Recommended to arrive before 12 noon",
+      "Airport transfer by speedboat (sharing basis) to Maafushi",
+      "Check in 3-Star hotel in Maafushi"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Fish Tank Excursion Trip (shared tour)",
+     "en": "FISH TANK EXCURSION TRIP (SHARED TOUR)",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Dolphin sightseeing",
+      "Reef snorkelling",
+      "Fish tank snorkelling",
+      "Lunch atas sandbank",
+      "Kembali ke Maafushi Island"
+     ],
+     "eact": [
+      "Dolphin sightseeing",
+      "Reef snorkelling",
+      "Fish tank snorkelling",
+      "Lunch on the sandbank",
+      "Return to Maafushi Island"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Maafushi Island - Free &amp; Easy",
+     "en": "MAAFUSHI ISLAND - FREE & EASY",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "none",
+     "act": [
+      "Free &amp; easy di Maafushi",
+      "Optional: tambah excursion (rujuk senarai add-on)"
+     ],
+     "eact": [
+      "Free and easy in Maafushi",
+      "Optional excursions available at additional cost"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Male - Kuala Lumpur",
+     "en": "MALE - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Cadangan berlepas selepas 12 tengah hari",
+      "Check-out hotel",
+      "Airport transfer by speedboat ke Velana (MLE)"
+     ],
+     "eact": [
+      "Recommended to depart after 12 noon",
+      "Check out hotel",
+      "Airport transfer by speedboat to Velana (MLE)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "3 nights accommodation at 3-Star Hotel in Maafushi",
+    "{auto}",
+    "Activities as per itinerary (Fish Tank excursion, shared tour)",
+    "Daily breakfast",
+    "Tipping fee",
+    "Green Tax",
+    "Tourism and Services Tax (TGST)"
+   ],
+   "exclusions": [
+    "International flight ticket (return)",
+    "In-flight meals",
+    "Additional tours and meals",
+    "Personal expenses",
+    "Any other activities not mentioned in the itinerary"
+   ],
+   "exclusionsTail": [
+    "Extra charges apply for arrival at Male after 8pm - late speedboat transfer, RM 150 per way per pax"
+   ],
+   "labelCwb": "Child With Bed (2-9)",
+   "labelCnb": "Child No Bed (2-5)"
+  },
+  {
+   "id": "star4",
+   "name": "PT Maldives 4-Star 4D3N (full board)",
+   "pkgLabel": "Maldives 4-Star - Maafushi Island Trip, Full Board",
+   "hotelLabel": "4-Star Hotel (Maafushi)",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 10,
+     "a": 3097,
+     "c": 2197,
+     "n": 1797
+    }
+   ],
+   "infant": 100,
+   "single": 700,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 400,
+    "rate3": 300,
+    "perGroup": true
+   },
+   "peak": {
+    "mode": "flat",
+    "value": 0,
+    "windows": [
+     [
+      "2025-12-21",
+      "2026-01-10",
+      null,
+      300,
+      "Peak Season"
+     ],
+     [
+      "2026-01-11",
+      "2026-04-30",
+      null,
+      200,
+      "High Season"
+     ],
+     [
+      "2026-11-01",
+      "2026-12-20",
+      null,
+      200,
+      "High Season"
+     ],
+     [
+      "2026-12-21",
+      "2027-01-10",
+      null,
+      300,
+      "Peak Season"
+     ],
+     [
+      "2026-12-24",
+      "2026-12-24",
+      null,
+      600,
+      "Christmas Eve"
+     ],
+     [
+      "2026-12-31",
+      "2026-12-31",
+      null,
+      700,
+      "New Year Eve"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 800,
+     "peak": 800
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 10,
+    "rates": {
+     "n3": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 550,
+        "peak": 550
+       }
+      ]
+     },
+     "n4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 800,
+        "peak": 800
+       }
+      ]
+     },
+     "nwv": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 1600,
+        "peak": 1600
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Kuala Lumpur - Male (Maafushi)",
+     "en": "KUALA LUMPUR - MALE (MAAFUSHI)",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "act": [
+      "Cadangan tiba sebelum 12 tengah hari",
+      "Airport transfer by speedboat (sharing) ke Maafushi",
+      "Check-in hotel 4 bintang Maafushi",
+      "Dinner di hotel"
+     ],
+     "eact": [
+      "Recommended to arrive before 12 noon",
+      "Airport transfer by speedboat (sharing basis) to Maafushi",
+      "Check in 4-Star hotel in Maafushi",
+      "Dinner at hotel"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Full Day / Real Break Excursion (shared tour)",
+     "en": "FULL DAY OR REAL BREAK EXCURSION TRIP (SHARED TOUR)",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Snorkelling di spot terkenal",
+      "Swimming &amp; lunch atas sandbank",
+      "Dolphin watching / sightseeing",
+      "ATAU Real Break: nurse shark, ship wreck point, island hopping"
+     ],
+     "eact": [
+      "Snorkelling at famous spot",
+      "Swimming and lunch at the sandbank",
+      "Dolphin watching or sightseeing",
+      "OR Real Break: nurse shark, ship wreck point, island hopping"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Maafushi - Free &amp; Easy + Night Fishing",
+     "en": "MAAFUSHI - FREE & EASY + NIGHT FISHING",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Free &amp; easy atau join optional tour",
+      "Sunset point",
+      "Night fishing trip by boat (shared tour)"
+     ],
+     "eact": [
+      "Free and easy or join optional tours",
+      "Sunset point",
+      "Night fishing trip by boat (shared tour)"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Male - Kuala Lumpur",
+     "en": "MALE - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Cadangan berlepas selepas 12 tengah hari",
+      "Check-out hotel",
+      "Airport transfer by speedboat ke Velana (MLE)"
+     ],
+     "eact": [
+      "Recommended to depart after 12 noon",
+      "Check out hotel",
+      "Airport transfer by speedboat to Velana (MLE)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "3 nights accommodation at 4-Star Hotel in Maafushi",
+    "{auto}",
+    "Full board meals - breakfast, lunch and dinner as per itinerary",
+    "Snorkelling at famous spot and swimming at sandbank with lunch and dolphin watching (shared tour)",
+    "Snorkelling with nurse sharks, ship wreck point and island hopping with lunch (shared tour)",
+    "Night fishing trip by boat",
+    "Tipping fee, Green Tax and Tourism and Services Tax (TGST)"
+   ],
+   "exclusions": [
+    "International flight ticket (return)",
+    "In-flight meals",
+    "Additional tours and meals",
+    "Personal expenses",
+    "Any other activities not mentioned in the itinerary"
+   ],
+   "exclusionsTail": [
+    "Extra charges apply for arrival at Male after 8pm - late speedboat transfer, RM 150 per way per pax"
+   ],
+   "labelCwb": "Child With Bed (2-9)",
+   "labelCnb": "Child No Bed (2-5)"
+  },
+  {
+   "id": "combo",
+   "name": "PT Maldives Combo Island 4D3N",
+   "pkgLabel": "Maldives Combo Island - Maafushi Island Trip and Adaaran Select Hudhuran Fushi Water Villa",
+   "hotelLabel": "3-Star Local Island Hotel (Maafushi)",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 10,
+     "a": 4197,
+     "c": 3997,
+     "n": 3797
+    }
+   ],
+   "infant": 100,
+   "single": 700,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 400,
+    "rate3": 300,
+    "perGroup": true
+   },
+   "peak": {
+    "mode": "flat",
+    "value": 0,
+    "windows": [
+     [
+      "2026-01-09",
+      "2026-04-05",
+      null,
+      400,
+      "High Season"
+     ],
+     [
+      "2026-04-06",
+      "2026-05-07",
+      null,
+      200,
+      "Peak Season"
+     ],
+     [
+      "2026-08-01",
+      "2026-08-31",
+      null,
+      100,
+      "Shoulder Season"
+     ],
+     [
+      "2026-10-01",
+      "2026-10-31",
+      null,
+      100,
+      "Shoulder Season"
+     ],
+     [
+      "2026-09-01",
+      "2026-12-31",
+      null,
+      "request",
+      "Super Peak Season"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 550,
+     "peak": 550
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 10,
+    "rates": {
+     "n3": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 550,
+        "peak": 550
+       }
+      ]
+     },
+     "n4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 800,
+        "peak": 800
+       }
+      ]
+     },
+     "nwv": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 1600,
+        "peak": 1600
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Kuala Lumpur - Male (Maafushi)",
+     "en": "KUALA LUMPUR - MALE (MAAFUSHI)",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "act": [
+      "Meet &amp; greet oleh wakil tempatan",
+      "Cadangan tiba sebelum 12 tengah hari",
+      "Airport transfer by speedboat (sharing) ke Maafushi",
+      "Check-in local island hotel (Maafushi)",
+      "Dinner"
+     ],
+     "eact": [
+      "Meet and greet by local representative",
+      "Recommended to arrive before 12 noon",
+      "Airport transfer by speedboat (sharing basis) to Maafushi",
+      "Check in local island hotel in Maafushi",
+      "Dinner"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Adventure Snorkeling + Dolphin (shared tour)",
+     "en": "ADVENTURE SNORKELING AND DOLPHIN SIGHTSEEING (SHARED TOUR)",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Snorkelling di spot terkenal",
+      "Swimming &amp; lunch atas sandbank",
+      "Dolphin watching / sightseeing",
+      "Kayaking atau stand-up paddle (ikut cuaca)"
+     ],
+     "eact": [
+      "Snorkelling at famous spot",
+      "Swimming and lunch at the sandbank",
+      "Dolphin watching or sightseeing",
+      "Kayaking or stand-up paddle (subject to weather)"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Maafushi - Water Villa (Adaaran Select Hudhuran Fushi)",
+     "en": "MAAFUSHI - WATER VILLA (ADAARAN SELECT HUDHURAN FUSHI)",
+     "acc": "wvin",
+     "meal": "bld",
+     "trp": "trf",
+     "act": [
+      "Hari transit - packing bagasi awal pagi",
+      "Speedboat ke Male, kemudian speedboat ke Adaaran Select Hudhuran Fushi",
+      "Check-in water villa",
+      "Percutian santai / aktiviti harian resort"
+     ],
+     "eact": [
+      "Transit day - luggage to be packed early",
+      "Speedboat to Male, then speedboat to Adaaran Select Hudhuran Fushi",
+      "Check in water villa",
+      "Relaxed holiday with daily resort activities or free at own leisure"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Male - Kuala Lumpur",
+     "en": "MALE - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Cadangan berlepas selepas 12 tengah hari",
+      "Check-out hotel",
+      "Airport transfer by speedboat ke Velana (MLE)"
+     ],
+     "eact": [
+      "Recommended to depart after 12 noon",
+      "Check out hotel",
+      "Airport transfer by speedboat to Velana (MLE)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "Meet and greet by local representative",
+    "3 nights accommodation - 2 nights local island hotel in Maafushi and 1 night water villa at Adaaran Select Hudhuran Fushi",
+    "{auto}",
+    "Meals as per itinerary",
+    "Full day snorkelling trip and dolphin sightseeing",
+    "Local guide during excursion",
+    "Kayaking or stand-up paddle (subject to weather condition)",
+    "Complimentary GoPro photos and videos during snorkelling trips",
+    "Complimentary snorkelling gear and beach towel",
+    "10 percent discount on souvenirs at selected stores",
+    "All taxes - GST, Service Tax and Tourist Green Tax"
+   ],
+   "exclusions": [
+    "International flight ticket (return)",
+    "In-flight meals",
+    "Additional tours and meals",
+    "Personal expenses",
+    "Any other activities not mentioned in the itinerary"
+   ],
+   "exclusionsTail": [
+    "Extra charges apply for arrival at Male after 8pm - late speedboat transfer, RM 150 per way per pax"
+   ],
+   "labelCwb": "Child With Bed (2-9)",
+   "labelCnb": "Child No Bed (2-5)"
+  },
+  {
+   "id": "wv",
+   "name": "PT Maldives Water Villa 4D3N (OBLU)",
+   "pkgLabel": "Maldives Water Villa - OBLU Xperience Ailafushi",
+   "hotelLabel": "Water Villa (OBLU Xperience Ailafushi)",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 10,
+     "a": 5197,
+     "c": 4997,
+     "n": 4797
+    }
+   ],
+   "infant": 100,
+   "single": 700,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 400,
+    "rate3": 300,
+    "perGroup": true
+   },
+   "peak": {
+    "mode": "flat",
+    "value": 0,
+    "windows": [
+     [
+      "2026-03-24",
+      "2026-04-30",
+      null,
+      300,
+      "High Season"
+     ],
+     [
+      "2026-11-01",
+      "2026-12-24",
+      null,
+      500,
+      "Peak Season"
+     ],
+     [
+      "2026-12-25",
+      "2026-12-31",
+      null,
+      "request",
+      "Super Peak Season"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 1600,
+     "peak": 1600
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 10,
+    "rates": {
+     "n3": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 550,
+        "peak": 550
+       }
+      ]
+     },
+     "n4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 800,
+        "peak": 800
+       }
+      ]
+     },
+     "nwv": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 10,
+        "normal": 1600,
+        "peak": 1600
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Kuala Lumpur - Male (OBLU Water Villa)",
+     "en": "KUALA LUMPUR - MALE (OBLU WATER VILLA)",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "act": [
+      "Meet &amp; greet oleh wakil tempatan",
+      "Cadangan tiba sebelum 12 tengah hari",
+      "Airport transfer by speedboat (sharing) ke OBLU Xperience Ailafushi",
+      "Check-in water villa",
+      "Welcome drinks &amp; dinner"
+     ],
+     "eact": [
+      "Meet and greet by local representative",
+      "Recommended to arrive before 12 noon",
+      "Airport transfer by speedboat (sharing basis) to OBLU Xperience Ailafushi",
+      "Check in water villa",
+      "Welcome drinks and dinner"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "OBLU Xperience Water Villa",
+     "en": "OBLU XPERIENCE WATER VILLA",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "none",
+     "act": [
+      "Percutian santai dengan aktiviti harian",
+      "Live music dengan DJ &amp; group activities",
+      "Non-motorized water sports",
+      "Free at own leisure"
+     ],
+     "eact": [
+      "Relaxed holiday with daily activities",
+      "Live music with DJ and organized group activities",
+      "Complimentary non-motorized water sports",
+      "Free at own leisure"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "OBLU Xperience Water Villa",
+     "en": "OBLU XPERIENCE WATER VILLA",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "none",
+     "act": [
+      "Percutian santai dengan aktiviti harian",
+      "Overwater fitness centre",
+      "Free at own leisure"
+     ],
+     "eact": [
+      "Relaxed holiday with daily activities",
+      "Overwater fitness centre",
+      "Free at own leisure"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Male - Kuala Lumpur",
+     "en": "MALE - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Cadangan berlepas selepas 12 tengah hari",
+      "Check-out hotel",
+      "Airport transfer by speedboat ke Velana (MLE)"
+     ],
+     "eact": [
+      "Recommended to depart after 12 noon",
+      "Check out hotel",
+      "Airport transfer by speedboat to Velana (MLE)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "Meet and greet by local representative",
+    "3 nights accommodation at OBLU Xperience Ailafushi water villa",
+    "{auto}",
+    "Welcome drinks",
+    "Meals based on the package (refer itinerary)",
+    "Unlimited access to the fully equipped overwater fitness centre",
+    "Daily live music performance with DJ and recreational activities",
+    "Daily organized group activities",
+    "Complimentary use of selected non-motorized water sports equipment for a limited duration daily",
+    "All taxes - GST, Service Tax and Tourist Green Tax"
+   ],
+   "exclusions": [
+    "International flight ticket (return)",
+    "In-flight meals",
+    "Additional tours and meals",
+    "Personal expenses",
+    "Any other activities not mentioned in the itinerary"
+   ],
+   "exclusionsTail": [
+    "Extra charges apply for arrival at Male after 8pm - late speedboat transfer, RM 150 per way per pax"
+   ],
+   "labelCwb": "Child With Bed (2-9)",
+   "labelCnb": "Child No Bed (2-5)"
+  }
+ ]
+}

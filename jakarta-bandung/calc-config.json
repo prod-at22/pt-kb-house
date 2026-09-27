@@ -1,0 +1,1227 @@
+{
+ "dest": "Jakarta - Bandung",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-10)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (katalog)",
+ "singleNote": "RM 350 per pax, sekali sahaja",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season, late booking dan surcaj 2027 dikira sendiri dan terus masuk dalam harga per pax. <b>Kadar transport ikut kawasan dan kelas kenderaan</b> (Avanza 2&ndash;4, Innova 5&ndash;6, Hiace 7&ndash;12) &mdash; pilih blok itinerary supaya kadar hari tambahan berlabuh pada kawasan yang betul. <b>Pindah bandar</b> guna blok <i>Pindah bandar</i>: ia mengenakan full day tour <b>dan</b> transfer, seperti nota rate card. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf hotel 4 bintang &ndash; malam peak season</i> pada baris hari itu (RM90 upgrade + RM5 beza peak).",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "hideGeneric": [
+  "ext",
+  "fe"
+ ],
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 30,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "peak": {
+  "mode": "perNight",
+  "value": 30,
+  "windows": [
+   [
+    "2026-03-19",
+    "2026-03-28"
+   ],
+   [
+    "2026-05-14",
+    "2026-05-16"
+   ],
+   [
+    "2026-05-27",
+    "2026-05-30"
+   ],
+   [
+    "2026-06-12",
+    "2026-06-16"
+   ],
+   [
+    "2026-08-14",
+    "2026-08-16"
+   ],
+   [
+    "2026-08-21",
+    "2026-08-24"
+   ],
+   [
+    "2026-12-20",
+    "2027-01-01"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Travel date 2027",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 50
+  }
+ ],
+ "ext": {
+  "night": {
+   "normal": 90,
+   "peak": 90
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 12,
+  "shareVehicle": true,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 19,
+      "normal": null,
+      "peak": null
+     }
+    ],
+    "[Bandung]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 260,
+      "peak": 260
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 300,
+      "peak": 300
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 400,
+      "peak": 400
+     },
+     {
+      "from": 13,
+      "to": 19,
+      "normal": null,
+      "peak": null
+     }
+    ],
+    "[Jakarta]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 320,
+      "peak": 320
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 400,
+      "peak": 400
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 520,
+      "peak": 520
+     },
+     {
+      "from": 13,
+      "to": 19,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   },
+   "dayDed": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -100,
+      "peak": -100
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -150,
+      "peak": -150
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -200,
+      "peak": -200
+     },
+     {
+      "from": 13,
+      "to": 19,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   },
+   "transfer": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 400,
+      "peak": 400
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 450,
+      "peak": 450
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 550,
+      "peak": 550
+     },
+     {
+      "from": 13,
+      "to": 19,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   },
+   "xferDed": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 12,
+      "normal": -150,
+      "peak": -150
+     },
+     {
+      "from": 13,
+      "to": 19,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   },
+   "hBdg4": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 19,
+      "normal": 150,
+      "peak": 150
+     }
+    ]
+   },
+   "hJkt3": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 19,
+      "normal": 110,
+      "peak": 110
+     }
+    ]
+   },
+   "hJkt4": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 19,
+      "normal": 200,
+      "peak": 200
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 19,
+      "normal": -50,
+      "peak": -50
+     }
+    ]
+   },
+   "nightShort4": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 19,
+      "normal": -100,
+      "peak": -100
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang Bandung (dalam pakej)",
+   "cost": "incl",
+   "hotel": "3-Star Hotel (Bandung)",
+   "incl": "Accommodation at 3-Star Hotel in Bandung ({days}) - Zest Hotel, Fave Hotel or similar"
+  },
+  {
+   "v": "up4",
+   "t": "Naik taraf hotel 4 bintang (malam pakej)",
+   "cost": "incl",
+   "perPax": 90,
+   "hotel": "4-Star Hotel (Bandung)",
+   "line": "4-Star hotel upgrade",
+   "incl": "Accommodation at 4-Star Hotel in Bandung ({days}) - ASTON Pasteur, Mercure or similar, upgraded from 3-Star"
+  },
+  {
+   "v": "up4pk",
+   "t": "Naik taraf hotel 4 bintang &ndash; malam peak season",
+   "cost": "incl",
+   "perPax": 95,
+   "hotel": "4-Star Hotel (Bandung)",
+   "line": "4-Star hotel upgrade (peak season night)",
+   "incl": "Accommodation at 4-Star Hotel in Bandung ({days}) - ASTON Pasteur, Mercure or similar, upgraded from 3-Star"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; Bandung hotel 3 bintang",
+   "cost": "night",
+   "hotel": "3-Star Hotel (Bandung)",
+   "line": "Additional night, 3-Star hotel in Bandung",
+   "incl": "Additional night at 3-Star Hotel in Bandung ({days})"
+  },
+  {
+   "v": "n4bdg",
+   "t": "Malam tambahan &middot; Bandung hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "hBdg4",
+   "hotel": "4-Star Hotel (Bandung)",
+   "line": "Additional night, 4-Star hotel in Bandung",
+   "incl": "Additional night at 4-Star Hotel in Bandung ({days})"
+  },
+  {
+   "v": "n3jkt",
+   "t": "Malam tambahan &middot; Jakarta hotel 3 bintang",
+   "cost": "night",
+   "nightRate": "hJkt3",
+   "hotel": "3-Star Hotel (Jakarta)",
+   "line": "Additional night, 3-Star hotel in Jakarta",
+   "incl": "Additional night at 3-Star Hotel in Jakarta ({days}) - Holiday Inn Matraman or similar"
+  },
+  {
+   "v": "n4jkt",
+   "t": "Malam tambahan &middot; Jakarta hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "hJkt4",
+   "hotel": "4-Star Hotel (Jakarta)",
+   "line": "Additional night, 4-Star hotel in Jakarta",
+   "incl": "Additional night at 4-Star Hotel in Jakarta ({days}) - Millenium Sirih or similar"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel &ndash; tolak malam 3 bintang dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "noht4",
+   "t": "Tanpa hotel &ndash; tolak malam 4 bintang dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan termasuk",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private transportation with Malay/English speaking driving guide ({days})"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Airport Transfer + Driving Guide",
+   "incl": "Private airport transfer at Soekarno-Hatta International Airport ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation with driving guide ({days})"
+  },
+  {
+   "v": "xfer",
+   "t": "Full day tour + Transfer Jakarta/Bandung (pindah bandar)",
+   "cost": "day",
+   "guided": true,
+   "perVehicleRate": "transfer",
+   "lbl": "Private Transport + Driving Guide",
+   "line": "Full day tour with intercity transfer Jakarta - Bandung",
+   "incl": "Full day tour with private intercity transfer between Jakarta and Bandung ({days})"
+  },
+  {
+   "v": "xferonly",
+   "t": "Transfer Jakarta/Bandung sahaja (tanpa tour)",
+   "cost": "zero",
+   "perVehicleRate": "transfer",
+   "lbl": "Private Transfer",
+   "line": "Private intercity transfer Jakarta - Bandung",
+   "incl": "Private intercity transfer between Jakarta and Bandung ({days})"
+  },
+  {
+   "v": "feded",
+   "t": "Free &amp; easy &ndash; tolak driving guide dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (private transport and driving guide deducted)"
+  },
+  {
+   "v": "xferded",
+   "t": "Buang transfer Jakarta/Bandung &ndash; tolak dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "xferDed",
+   "lbl": "-",
+   "line": "Less intercity transfer Jakarta - Bandung"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "ext",
+   "t": "Hari tambahan - pilih blok tour di bawah",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ],
+   "region": "[Bandung]",
+   "g": "Umum"
+  },
+  {
+   "v": "fe",
+   "t": "Free & easy - tiada tour",
+   "en": "FREE AND EASY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "none",
+   "act": [
+    "Hari bebas - tiada aktiviti dijadualkan"
+   ],
+   "eact": [
+    "Free and easy day at own leisure"
+   ],
+   "region": "[Bandung]",
+   "g": "Umum"
+  },
+  {
+   "v": "feded",
+   "t": "Free & easy - tolak driving guide dari katalog",
+   "en": "FREE AND EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "feded",
+   "act": [
+    "Hari bebas tanpa transport atau driving guide"
+   ],
+   "eact": [
+    "Free and easy day without transport or driving guide"
+   ],
+   "region": "[Bandung]",
+   "g": "Umum"
+  },
+  {
+   "v": "arr",
+   "t": "Ketibaan Jakarta - airport transfer sahaja",
+   "en": "ARRIVAL JAKARTA",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "act": [
+    "Sambutan di Soekarno-Hatta International Airport (CGK)",
+    "Check-in hotel"
+   ],
+   "eact": [
+    "Meet and greet at Soekarno-Hatta International Airport (CGK)",
+    "Hotel check in"
+   ],
+   "region": "[Jakarta]",
+   "g": "Umum"
+  },
+  {
+   "v": "dep",
+   "t": "Berlepas - airport transfer sahaja",
+   "en": "DEPARTURE",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Check-out hotel",
+    "Transfer ke Soekarno-Hatta International Airport (CGK)"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Transfer to Soekarno-Hatta International Airport (CGK)"
+   ],
+   "region": "[Jakarta]",
+   "g": "Umum"
+  },
+  {
+   "v": "bdgciwidey",
+   "t": "Bandung - Kawah Putih & Ciwidey full day",
+   "en": "BANDUNG - KAWAH PUTIH & CIWIDEY",
+   "acc": "extra",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "Kawah Putih, Ciwidey",
+    "Glamping Lakeside Rancabali",
+    "Rengganis Bridge & Keranjang Sultan - chairlift disertakan"
+   ],
+   "eact": [
+    "Kawah Putih, Ciwidey",
+    "Glamping Lakeside Rancabali",
+    "Rengganis Bridge & Keranjang Sultan - chairlift included"
+   ],
+   "region": "[Bandung]",
+   "g": "Bandung - day tour"
+  },
+  {
+   "v": "bdglembang",
+   "t": "Bandung - Lembang full day",
+   "en": "BANDUNG - LEMBANG DAY TOUR",
+   "acc": "extra",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "The Lodge Maribaya",
+    "Floating Market Lembang",
+    "Lembang Farm House",
+    "Orchid Forest Cikole"
+   ],
+   "eact": [
+    "The Lodge Maribaya",
+    "Floating Market Lembang",
+    "Lembang Farm House",
+    "Orchid Forest Cikole"
+   ],
+   "region": "[Bandung]",
+   "g": "Bandung - day tour"
+  },
+  {
+   "v": "bdgtrans",
+   "t": "Bandung - Trans Studio full day",
+   "en": "BANDUNG - TRANS STUDIO",
+   "acc": "extra",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "Trans Studio Bandung - tiket dibeli berasingan sebagai add-on",
+    "Trans Studio Mall"
+   ],
+   "eact": [
+    "Trans Studio Bandung indoor theme park",
+    "Trans Studio Mall"
+   ],
+   "region": "[Bandung]",
+   "g": "Bandung - day tour"
+  },
+  {
+   "v": "bdgdusun",
+   "t": "Bandung - Dusun Bambu & Lembang full day",
+   "en": "BANDUNG - DUSUN BAMBU & LEMBANG",
+   "acc": "extra",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "Dusun Bambu - tiket dibeli berasingan sebagai add-on",
+    "Kopi Luwak Cikole",
+    "Lembang Park & Zoo"
+   ],
+   "eact": [
+    "Dusun Bambu Family Leisure Park",
+    "Kopi Luwak Cikole",
+    "Lembang Park & Zoo"
+   ],
+   "region": "[Bandung]",
+   "g": "Bandung - day tour"
+  },
+  {
+   "v": "bdgshop",
+   "t": "Bandung - shopping & food tour full day",
+   "en": "BANDUNG - SHOPPING & FOOD TOUR",
+   "acc": "extra",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "Rumah Mode",
+    "Toko Tiga Jeans Factory",
+    "Kedai Barang Kulit Cibaduyut",
+    "Jalan Asia Afrika",
+    "Ole Ole Kartika Sari"
+   ],
+   "eact": [
+    "Rumah Mode factory outlet",
+    "Toko Tiga Jeans Factory",
+    "Cibaduyut leather goods street",
+    "Jalan Asia Afrika",
+    "Ole Ole Kartika Sari"
+   ],
+   "region": "[Bandung]",
+   "g": "Bandung - day tour"
+  },
+  {
+   "v": "jktcity",
+   "t": "Jakarta - city tour full day",
+   "en": "JAKARTA CITY TOUR",
+   "acc": "n3jkt",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "Monumen Nasional (Monas)",
+    "Masjid Istiqlal",
+    "Kota Tua Jakarta"
+   ],
+   "eact": [
+    "Monumen Nasional (Monas)",
+    "Istiqlal Mosque",
+    "Kota Tua old town"
+   ],
+   "region": "[Jakarta]",
+   "g": "Jakarta - day tour"
+  },
+  {
+   "v": "jktancol",
+   "t": "Jakarta - Ancol full day",
+   "en": "JAKARTA - ANCOL",
+   "acc": "n3jkt",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "Sea World Ancol - tiket dibeli berasingan sebagai add-on",
+    "Ancol Dreamland Theme Park - tiket dibeli berasingan sebagai add-on"
+   ],
+   "eact": [
+    "Sea World Ancol",
+    "Ancol Dreamland Theme Park"
+   ],
+   "region": "[Jakarta]",
+   "g": "Jakarta - day tour"
+  },
+  {
+   "v": "jktshop",
+   "t": "Jakarta - shopping full day",
+   "en": "JAKARTA SHOPPING TOUR",
+   "acc": "n3jkt",
+   "meal": "bld",
+   "trp": "ext",
+   "act": [
+    "Mangga Dua",
+    "Tanah Abang",
+    "Grand Indonesia atau Sarinah"
+   ],
+   "eact": [
+    "Mangga Dua wholesale market",
+    "Tanah Abang textile market",
+    "Grand Indonesia or Sarinah"
+   ],
+   "region": "[Jakarta]",
+   "g": "Jakarta - day tour"
+  },
+  {
+   "v": "xferbj",
+   "t": "Pindah bandar - Bandung ke Jakarta + full day tour",
+   "en": "BANDUNG TO JAKARTA TRANSFER & CITY TOUR",
+   "acc": "n3jkt",
+   "meal": "bld",
+   "trp": "xfer",
+   "act": [
+    "Check-out hotel Bandung",
+    "Land transfer Bandung ke Jakarta - lebih kurang 3 hingga 4 jam",
+    "Jakarta city tour mengikut masa yang ada",
+    "Check-in hotel Jakarta"
+   ],
+   "eact": [
+    "Hotel check out in Bandung",
+    "Land transfer from Bandung to Jakarta - approximately 3 to 4 hours",
+    "Jakarta city tour subject to time available",
+    "Hotel check in in Jakarta"
+   ],
+   "region": "[Jakarta]",
+   "g": "Pindah bandar"
+  },
+  {
+   "v": "xferjb",
+   "t": "Pindah bandar - Jakarta ke Bandung + full day tour",
+   "en": "JAKARTA TO BANDUNG TRANSFER & CITY TOUR",
+   "acc": "extra",
+   "meal": "bld",
+   "trp": "xfer",
+   "act": [
+    "Check-out hotel Jakarta",
+    "Land transfer Jakarta ke Bandung - lebih kurang 3 hingga 4 jam",
+    "Bandung city tour mengikut masa yang ada",
+    "Check-in hotel Bandung"
+   ],
+   "eact": [
+    "Hotel check out in Jakarta",
+    "Land transfer from Jakarta to Bandung - approximately 3 to 4 hours",
+    "Bandung city tour subject to time available",
+    "Hotel check in in Bandung"
+   ],
+   "region": "[Bandung]",
+   "g": "Pindah bandar"
+  }
+ ],
+ "addons": [
+  [
+   "Whoosh Train Economy Seat - one way, including station transfers - per pax",
+   157,
+   157,
+   "pax"
+  ],
+  [
+   "Whoosh Train Business Class - one way, including station transfers - per pax",
+   210,
+   210,
+   "pax"
+  ],
+  [
+   "Whoosh Train First Class - one way, including station transfers - per pax",
+   260,
+   260,
+   "pax"
+  ],
+  [
+   "Panoramic Train including shuttle - 30 seats only - per pax",
+   257,
+   257,
+   "pax"
+  ],
+  [
+   "Argo Train Economy Class including shuttle - per pax",
+   175,
+   175,
+   "pax"
+  ],
+  [
+   "Argo Train Executive Class including shuttle - per pax",
+   220,
+   220,
+   "pax"
+  ],
+  [
+   "Argo Train Luxury Class including shuttle - per pax",
+   280,
+   280,
+   "pax"
+  ],
+  [
+   "Sea World Ancol Jakarta entrance ticket - per pax",
+   60,
+   60,
+   "pax"
+  ],
+  [
+   "Sea World Ancol Jakarta entrance ticket, Lebaran period - per pax",
+   100,
+   100,
+   "pax"
+  ],
+  [
+   "Ancol Dreamland Theme Park entrance ticket - per pax",
+   60,
+   60,
+   "pax"
+  ],
+  [
+   "Ancol Dreamland Theme Park entrance ticket, Lebaran period - per pax",
+   100,
+   100,
+   "pax"
+  ],
+  [
+   "Trans Studio Bandung entrance ticket, weekday - per pax",
+   65,
+   65,
+   "pax"
+  ],
+  [
+   "Trans Studio Bandung entrance ticket, weekend or Lebaran - per pax",
+   105,
+   105,
+   "pax"
+  ],
+  [
+   "Dusun Bambu entrance ticket, weekday - per pax",
+   45,
+   45,
+   "pax"
+  ],
+  [
+   "Dusun Bambu entrance ticket, weekend - per pax",
+   80,
+   80,
+   "pax"
+  ],
+  [
+   "Transport upgrade from Innova to Hiace - per pax",
+   100,
+   100,
+   "pax"
+  ],
+  [
+   "Family room upgrade from Double or Twin - per pax per night",
+   40,
+   40,
+   "pax"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 4,
+   "text": "2&ndash;4 pax: Toyota Avanza / APV &mdash; kadar transport band 2&ndash;4 pax"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "text": "5&ndash;6 pax: Toyota Innova &mdash; kadar transport band 5&ndash;6 pax. Naik taraf ke Hiace RM100/pax (add-on)."
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "text": "7&ndash;12 pax: Toyota Hiace &mdash; kadar transport band 7&ndash;12 pax. Bas tidak digunakan untuk Bandung kerana jalan sempit; van maksimum 12 pax."
+  },
+  {
+   "from": 13,
+   "to": 99999,
+   "text": "13 pax ke atas: melebihi satu Hiace &mdash; perlu lebih satu kenderaan. Rate card operasi <b>tidak menyiarkan</b> kadar untuk band ini, jadi kadar transport akan papar <i>kadar?</i>. Minta sebut harga operasi."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. A deposit of RM 250 per pax is required upon confirmation, with full payment due 45 days before departure. Prices are quoted in Malaysian Ringgit and may change with the prevailing currency exchange rate. Itinerary, price and flight schedule are subject to change due to weather, traffic and operational conditions &mdash; the Jakarta to Bandung road journey takes approximately 3 to 4 hours and heavy traffic is common. Final itinerary and hotel confirmation will be issued 14 to 21 days before departure. Guests carry their own luggage on the Whoosh train. Free activities are non-exchangeable for other activities, vouchers or cash if not taken up. This package is valid for travel until 31 December 2026.",
+ "variants": [
+  {
+   "id": "optA",
+   "name": "PT Jakarta-Bandung 4H3M &middot; Option A (Nature &amp; Adventure)",
+   "pkgLabel": "Jakarta - Bandung Option A - Kawah Putih, Glamping Lakeside, Rengganis Bridge & Keranjang Sultan, Lodge Maribaya, Floating Market, Farm House",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel (Bandung)",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 1487,
+     "c": 1387,
+     "n": 1187
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 1227,
+     "c": 1127,
+     "n": 927
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "a": 1187,
+     "c": 1087,
+     "n": 887
+    },
+    {
+     "from": 10,
+     "to": 19,
+     "a": 1147,
+     "c": 1047,
+     "n": 847
+    }
+   ],
+   "infant": 0,
+   "single": 350,
+   "labelCwb": "Child With Bed (6-10)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Jakarta - Whoosh Train - Bandung Shopping Tour",
+     "en": "ARRIVAL JAKARTA - WHOOSH TRAIN - BANDUNG SHOPPING TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Airport pickup di Soekarno-Hatta International Airport (CGK)",
+      "Cadangan ketibaan 12 tengah hari atau lebih awal",
+      "Whoosh High Speed Train Jakarta ke Bandung - Economy Seat",
+      "Rumah Kain Sulam M Collection",
+      "Rumah Textile",
+      "Check-in hotel 3 bintang Bandung"
+     ],
+     "eact": [
+      "Airport pickup at Soekarno-Hatta International Airport (CGK)",
+      "Suggested arrival 12PM or earlier",
+      "Whoosh High Speed Train from Jakarta to Bandung - Economy Seat",
+      "Rumah Kain Sulam M Collection",
+      "Rumah Textile",
+      "Check in 3-Star Hotel in Bandung"
+     ],
+     "region": "[Jakarta]"
+    },
+    {
+     "v": "d2a",
+     "t": "Kawah Putih - Glamping Lakeside - Rengganis Bridge - Shopping",
+     "en": "KAWAH PUTIH - GLAMPING LAKESIDE - RENGGANIS BRIDGE - SHOPPING",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Kawah Putih, Ciwidey - kawah gunung berapi",
+      "Glamping Lakeside Rancabali",
+      "Rengganis Bridge & Keranjang Sultan - chairlift disertakan",
+      "Kedai Barang Kulit Cibaduyut",
+      "Toko Tiga Jeans Factory",
+      "Jalan Asia Afrika"
+     ],
+     "eact": [
+      "Kawah Putih, Ciwidey - white crater lake",
+      "Glamping Lakeside Rancabali",
+      "Rengganis Bridge & Keranjang Sultan - chairlift included",
+      "Cibaduyut leather goods street",
+      "Toko Tiga Jeans Factory",
+      "Jalan Asia Afrika"
+     ],
+     "region": "[Bandung]"
+    },
+    {
+     "v": "d3",
+     "t": "Lodge Maribaya - Floating Market - Farm House - Food Tour",
+     "en": "LODGE MARIBAYA - FLOATING MARKET - FARM HOUSE - FOOD TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "The Lodge Maribaya",
+      "Floating Market Lembang",
+      "Lembang Farm House",
+      "Rumah Mode",
+      "Ole Ole Tiga Rasa"
+     ],
+     "eact": [
+      "The Lodge Maribaya",
+      "Floating Market Lembang",
+      "Lembang Farm House",
+      "Rumah Mode factory outlet",
+      "Ole Ole Tiga Rasa"
+     ],
+     "region": "[Bandung]"
+    },
+    {
+     "v": "d4",
+     "t": "Bandung - Jakarta Tour - Berlepas",
+     "en": "BANDUNG - JAKARTA TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Ole Ole Kartika Sari",
+      "Land transfer Bandung ke Jakarta - lebih kurang 3 hingga 4 jam",
+      "Optional tertakluk waktu penerbangan: Monumen Nasional (Monas), Masjid Istiqlal, Mangga Dua atau Tanah Abang",
+      "Airport drop di Soekarno-Hatta International Airport (CGK)"
+     ],
+     "eact": [
+      "Ole Ole Kartika Sari",
+      "Land transfer from Bandung to Jakarta - approximately 3 to 4 hours",
+      "Optional subject to flight departure time: Monumen Nasional (Monas), Istiqlal Mosque, Mangga Dua or Tanah Abang",
+      "Airport drop at Soekarno-Hatta International Airport (CGK)"
+     ],
+     "region": "[Jakarta]"
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation, double or triple sharing (triple sharing is extra bed only)",
+    "{auto}",
+    "Daily hotel breakfast",
+    "One-way Whoosh High Speed Train ticket, Jakarta to Bandung (Economy Seat)",
+    "Entrance fees - Kawah Putih, Glamping Lakeside, Rengganis Bridge & Keranjang Sultan with chairlift, The Lodge Maribaya, Floating Market Lembang and Lembang Farm House",
+    "Tipping fee for driver-cum-guide"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "In-flight meals and airport tax",
+    "Additional tours and meals not stated in the itinerary"
+   ],
+   "exclusionsTail": [
+    "Optional activity tickets not stated in the itinerary",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "optB",
+   "name": "PT Jakarta-Bandung 4H3M &middot; Option B (Kids Friendly)",
+   "pkgLabel": "Jakarta - Bandung Option B - Kopi Luwak Cikole, Orchid Forest, Lembang Park & Zoo, Lodge Maribaya, Floating Market, Farm House",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel (Bandung)",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 1487,
+     "c": 1387,
+     "n": 1187
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 1227,
+     "c": 1127,
+     "n": 927
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "a": 1187,
+     "c": 1087,
+     "n": 887
+    },
+    {
+     "from": 10,
+     "to": 19,
+     "a": 1147,
+     "c": 1047,
+     "n": 847
+    }
+   ],
+   "infant": 0,
+   "single": 350,
+   "labelCwb": "Child With Bed (6-10)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Jakarta - Whoosh Train - Bandung Shopping Tour",
+     "en": "ARRIVAL JAKARTA - WHOOSH TRAIN - BANDUNG SHOPPING TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Airport pickup di Soekarno-Hatta International Airport (CGK)",
+      "Cadangan ketibaan 12 tengah hari atau lebih awal",
+      "Whoosh High Speed Train Jakarta ke Bandung - Economy Seat",
+      "Rumah Kain Sulam M Collection",
+      "Rumah Textile",
+      "Check-in hotel 3 bintang Bandung"
+     ],
+     "eact": [
+      "Airport pickup at Soekarno-Hatta International Airport (CGK)",
+      "Suggested arrival 12PM or earlier",
+      "Whoosh High Speed Train from Jakarta to Bandung - Economy Seat",
+      "Rumah Kain Sulam M Collection",
+      "Rumah Textile",
+      "Check in 3-Star Hotel in Bandung"
+     ],
+     "region": "[Jakarta]"
+    },
+    {
+     "v": "d2b",
+     "t": "Kopi Luwak Cikole - Orchid Forest - Lembang Park & Zoo - Shopping",
+     "en": "KOPI LUWAK CIKOLE - ORCHID FOREST - LEMBANG PARK & ZOO - SHOPPING",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Kopi Luwak Cikole",
+      "Orchid Forest Cikole",
+      "Lembang Park & Zoo",
+      "Toko Tiga Jeans Factory",
+      "Jalan Asia Afrika"
+     ],
+     "eact": [
+      "Kopi Luwak Cikole",
+      "Orchid Forest Cikole",
+      "Lembang Park & Zoo",
+      "Toko Tiga Jeans Factory",
+      "Jalan Asia Afrika"
+     ],
+     "region": "[Bandung]"
+    },
+    {
+     "v": "d3",
+     "t": "Lodge Maribaya - Floating Market - Farm House - Food Tour",
+     "en": "LODGE MARIBAYA - FLOATING MARKET - FARM HOUSE - FOOD TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "The Lodge Maribaya",
+      "Floating Market Lembang",
+      "Lembang Farm House",
+      "Rumah Mode",
+      "Ole Ole Tiga Rasa"
+     ],
+     "eact": [
+      "The Lodge Maribaya",
+      "Floating Market Lembang",
+      "Lembang Farm House",
+      "Rumah Mode factory outlet",
+      "Ole Ole Tiga Rasa"
+     ],
+     "region": "[Bandung]"
+    },
+    {
+     "v": "d4",
+     "t": "Bandung - Jakarta Tour - Berlepas",
+     "en": "BANDUNG - JAKARTA TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Ole Ole Kartika Sari",
+      "Land transfer Bandung ke Jakarta - lebih kurang 3 hingga 4 jam",
+      "Optional tertakluk waktu penerbangan: Monumen Nasional (Monas), Masjid Istiqlal, Mangga Dua atau Tanah Abang",
+      "Airport drop di Soekarno-Hatta International Airport (CGK)"
+     ],
+     "eact": [
+      "Ole Ole Kartika Sari",
+      "Land transfer from Bandung to Jakarta - approximately 3 to 4 hours",
+      "Optional subject to flight departure time: Monumen Nasional (Monas), Istiqlal Mosque, Mangga Dua or Tanah Abang",
+      "Airport drop at Soekarno-Hatta International Airport (CGK)"
+     ],
+     "region": "[Jakarta]"
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation, double or triple sharing (triple sharing is extra bed only)",
+    "{auto}",
+    "Daily hotel breakfast",
+    "One-way Whoosh High Speed Train ticket, Jakarta to Bandung (Economy Seat)",
+    "Entrance fees - Orchid Forest Cikole, Lembang Park & Zoo, The Lodge Maribaya, Floating Market Lembang and Lembang Farm House",
+    "Tipping fee for driver-cum-guide"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "In-flight meals and airport tax",
+    "Additional tours and meals not stated in the itinerary"
+   ],
+   "exclusionsTail": [
+    "Optional activity tickets not stated in the itinerary",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ]
+  }
+ ]
+}

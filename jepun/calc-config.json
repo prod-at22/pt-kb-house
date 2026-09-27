@@ -1,0 +1,5228 @@
+{
+ "dest": "Jepun",
+ "currency": "RM",
+ "deposit": 500,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6&ndash;11 tahun)",
+  "cnb": "Child No Bed (2&ndash;5 tahun)"
+ },
+ "infantNote": "Bawah 2 tahun &mdash; RM 200 flat, tidak dikenakan peratusan peak.",
+ "singleNote": "Tokyo / Osaka RM 1,200 &middot; Tokyo&ndash;Osaka RM 1,400 &middot; Hokkaido RM 300 semalam (RM 1,200 untuk 4 malam standard).",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Buka panel itinerary untuk tukar blok hari daripada pustaka ProdReq (Tokyo, Osaka, Kyoto, Nara, Kobe, Fuji, theme park, pindah bandar, Hokkaido) &mdash; kos transport berlabuh pada kawasan blok yang dipilih.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "variants": [
+  {
+   "id": "tokyob",
+   "name": "PT Tokyo Basic 5D4N (public transport)",
+   "pkgLabel": "PT Tokyo Basic - Mount Fuji, Shibuya & Asakusa",
+   "hotelLabel": "Hotel (APA Hotel / Mystays or similar)",
+   "days": 5,
+   "nights": 4,
+   "infant": 200,
+   "single": 1200,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 300
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Tokyo City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Fuji]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Osaka City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3400,
+        "peak": 3400
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 3800,
+        "peak": 3800
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kyoto]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara+Kyoto]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kobe]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kamakura]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Disneyland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[USJ]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Shinkansen]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Haneda]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Narita]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kansai]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Hokkaido]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Theme Park]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Ine]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Gala Yuzawa]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2800,
+        "peak": 2800
+       },
+       {
+        "from": 5,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airport": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airportDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "cityTransfer": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -250,
+        "peak": -250
+       }
+      ]
+     },
+     "bf": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 40,
+        "peak": 40
+       }
+      ]
+     },
+     "bfDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -40,
+        "peak": -40
+       }
+      ]
+     },
+     "lunchDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "dinnerDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "legShin": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 600,
+        "peak": 600
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 4997,
+     "c": 4797,
+     "n": 4597
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 3897,
+     "c": 3697,
+     "n": 3497
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 3497,
+     "c": 3297,
+     "n": 3097
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 3197,
+     "c": 2997,
+     "n": 2797
+    },
+    {
+     "from": 8,
+     "to": 9,
+     "a": 2997,
+     "c": 2797,
+     "n": 2597
+    },
+    {
+     "from": 10,
+     "to": 12,
+     "a": 2797,
+     "c": 2597,
+     "n": 2397
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KL - Tokyo Haneda (ketibaan)",
+     "en": "KUALA LUMPUR - TOKYO HANEDA",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Haneda]",
+     "act": [
+      "Tiba di Tokyo Haneda Airport (HND)",
+      "Airport pickup dan transfer ke penginapan",
+      "Check in"
+     ],
+     "eact": [
+      "Arrive at Tokyo Haneda Airport (HND)",
+      "Airport pickup and transfer to accommodation",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d2",
+     "t": "Mount Fuji (public transport)",
+     "en": "MOUNT FUJI",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Fuji]",
+     "act": [
+      "Mt Fuji Panoramic Ropeway",
+      "Lake Kawaguchiko",
+      "Kawaguchiko-Ohashi Bridge",
+      "Fujikawaguchiko Mosque",
+      "Kembali ke Tokyo"
+     ],
+     "eact": [
+      "Mt Fuji Panoramic Ropeway",
+      "Lake Kawaguchiko",
+      "Kawaguchiko-Ohashi Bridge",
+      "Fujikawaguchiko Mosque",
+      "Back to Tokyo"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d3",
+     "t": "Tokyo City Tour",
+     "en": "TOKYO CITY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Tokyo City]",
+     "act": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "eact": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d4",
+     "t": "Odaiba / Disney (pilih satu)",
+     "en": "ODAIBA OR DISNEYLAND",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Tokyo City]",
+     "act": [
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "ATAU Disneyland / DisneySea (optional tour RM 300 per pax)"
+     ],
+     "eact": [
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "OR Disneyland / DisneySea (optional tour)"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d5",
+     "t": "Tokyo - KL (berlepas)",
+     "en": "TOKYO - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "none",
+     "trp": "airpub",
+     "region": "[Haneda]",
+     "act": [
+      "Check out",
+      "Akihabara",
+      "Ginza",
+      "Transfer ke Haneda Airport"
+     ],
+     "eact": [
+      "Check out",
+      "Akihabara",
+      "Ginza",
+      "Transfer to Haneda Airport"
+     ],
+     "g": "Itinerary pakej ini"
+    }
+   ],
+   "inclusions": [
+    "Accommodation - hotel, {nights} nights",
+    "Private Airport Transfer (Day 1, Day 5)",
+    "Public Transport (Day 2 - Day 5)",
+    "Public Transport Card",
+    "Tour Guide (Malay / English speaker), 10 hours basis",
+    "Entrance fee: Mt Fuji Panoramic Ropeway",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight ticket",
+    "In-flight meal",
+    "Breakfast"
+   ],
+   "exclusionsTail": [
+    "Extra hours transport & tour guide: 5,000 - 10,000 yen per hour",
+    "Compulsory car seat for infant",
+    "Other entrance fees",
+    "Personal expenses",
+    "Optional activity",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "tokyos",
+   "name": "PT Tokyo Standard 5D4N (private transport)",
+   "pkgLabel": "PT Tokyo Standard - Fuji, Oishi Park, Shibuya & Asakusa",
+   "hotelLabel": "Apartment / Hotel (Section L Apartment or similar)",
+   "days": 5,
+   "nights": 4,
+   "infant": 200,
+   "single": 1200,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 300
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Tokyo City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Fuji]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Osaka City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3400,
+        "peak": 3400
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 3800,
+        "peak": 3800
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kyoto]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara+Kyoto]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kobe]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kamakura]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Disneyland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[USJ]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Shinkansen]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Haneda]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Narita]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kansai]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Hokkaido]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Theme Park]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Ine]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Gala Yuzawa]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2800,
+        "peak": 2800
+       },
+       {
+        "from": 5,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airport": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airportDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "cityTransfer": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -250,
+        "peak": -250
+       }
+      ]
+     },
+     "bf": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 40,
+        "peak": 40
+       }
+      ]
+     },
+     "bfDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -40,
+        "peak": -40
+       }
+      ]
+     },
+     "lunchDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "dinnerDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "legShin": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 600,
+        "peak": 600
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 6997,
+     "c": 6797,
+     "n": 6597
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 5697,
+     "c": 5497,
+     "n": 5297
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 4797,
+     "c": 4597,
+     "n": 4397
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 4297,
+     "c": 4097,
+     "n": 3897
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 3897,
+     "c": 3697,
+     "n": 3497
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 3497,
+     "c": 3297,
+     "n": 3097
+    },
+    {
+     "from": 8,
+     "to": 9,
+     "a": 3897,
+     "c": 3697,
+     "n": 3497
+    },
+    {
+     "from": 10,
+     "to": 10,
+     "a": 3697,
+     "c": 3497,
+     "n": 3297
+    },
+    {
+     "from": 11,
+     "to": 11,
+     "a": 3497,
+     "c": 3297,
+     "n": 3097
+    },
+    {
+     "from": 12,
+     "to": 12,
+     "a": 3397,
+     "c": 3197,
+     "n": 2997
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KL - Tokyo Haneda (ketibaan)",
+     "en": "KUALA LUMPUR - TOKYO HANEDA",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Haneda]",
+     "act": [
+      "Tiba di Tokyo Haneda Airport (HND)",
+      "Airport pickup dan transfer ke penginapan",
+      "Check in"
+     ],
+     "eact": [
+      "Arrive at Tokyo Haneda Airport (HND)",
+      "Airport pickup and transfer to accommodation",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d2",
+     "t": "Mount Fuji (private transport)",
+     "en": "MOUNT FUJI",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Fuji]",
+     "act": [
+      "Iyashi no Sato Nemba (Open Air Old Japanese Village Museum)",
+      "Oishi Park (Fuji View Photo Spot)",
+      "Kawaguchiko Mosque",
+      "Kembali ke Tokyo"
+     ],
+     "eact": [
+      "Iyashi no Sato Nemba (Open Air Old Japanese Village Museum)",
+      "Oishi Park (Fuji View Photo Spot)",
+      "Kawaguchiko Mosque",
+      "Back to Tokyo"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d3",
+     "t": "Tokyo City Tour",
+     "en": "TOKYO CITY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Tokyo City]",
+     "act": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "eact": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d4",
+     "t": "Akihabara / Disney (pilih satu)",
+     "en": "AKIHABARA OR DISNEYLAND",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Tokyo City]",
+     "act": [
+      "Akihabara",
+      "Ginza",
+      "ATAU Disneyland / DisneySea (optional tour RM 300 per pax)"
+     ],
+     "eact": [
+      "Akihabara",
+      "Ginza",
+      "OR Disneyland / DisneySea (optional tour)"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d5",
+     "t": "Tokyo - KL (berlepas)",
+     "en": "TOKYO - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "none",
+     "trp": "airpri",
+     "region": "[Haneda]",
+     "act": [
+      "Check out",
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "Transfer ke Haneda Airport"
+     ],
+     "eact": [
+      "Check out",
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "Transfer to Haneda Airport"
+     ],
+     "g": "Itinerary pakej ini"
+    }
+   ],
+   "inclusions": [
+    "Accommodation - apartment / hotel, {nights} nights",
+    "Private Airport Transfer (Day 1, Day 5)",
+    "Private Transport (Day 2 - Day 5), 10 hours basis",
+    "Private driver cum guide (Malay / English), 10 hours basis",
+    "Entrance fee: Iyashi no Sato",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight ticket",
+    "In-flight meal",
+    "Breakfast"
+   ],
+   "exclusionsTail": [
+    "Extra hours transport & tour guide: 5,000 - 10,000 yen per hour",
+    "Compulsory car seat for infant",
+    "Other entrance fees",
+    "Personal expenses",
+    "Optional activity",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "osakab",
+   "name": "PT Osaka Basic 5D4N (public transport)",
+   "pkgLabel": "PT Osaka Basic - Osaka, Kyoto & Nara",
+   "hotelLabel": "Hotel (Smile Hotel or similar)",
+   "days": 5,
+   "nights": 4,
+   "infant": 200,
+   "single": 1200,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 300
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Tokyo City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Fuji]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Osaka City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3400,
+        "peak": 3400
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 3800,
+        "peak": 3800
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kyoto]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara+Kyoto]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kobe]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kamakura]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Disneyland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[USJ]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Shinkansen]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Haneda]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Narita]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kansai]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Hokkaido]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Theme Park]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Ine]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Gala Yuzawa]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2800,
+        "peak": 2800
+       },
+       {
+        "from": 5,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airport": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airportDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "cityTransfer": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -250,
+        "peak": -250
+       }
+      ]
+     },
+     "bf": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 40,
+        "peak": 40
+       }
+      ]
+     },
+     "bfDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -40,
+        "peak": -40
+       }
+      ]
+     },
+     "lunchDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "dinnerDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "legShin": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 600,
+        "peak": 600
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 4697,
+     "c": 4497,
+     "n": 4297
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 3997,
+     "c": 3797,
+     "n": 3597
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 3697,
+     "c": 3497,
+     "n": 3297
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 3597,
+     "c": 3397,
+     "n": 3197
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 3397,
+     "c": 3197,
+     "n": 2997
+    },
+    {
+     "from": 8,
+     "to": 12,
+     "a": 3197,
+     "c": 2997,
+     "n": 2797
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KL - Osaka Kansai + Osaka City",
+     "en": "KUALA LUMPUR - OSAKA KANSAI",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "airpub",
+     "region": "[Kansai]",
+     "act": [
+      "Tiba di Kansai Airport (KIX), airport pickup",
+      "Drop bagasi di penginapan",
+      "Osaka Castle Park",
+      "Namba",
+      "Dotonbori",
+      "Check in"
+     ],
+     "eact": [
+      "Arrive at Kansai Airport (KIX), airport pickup",
+      "Drop luggage at accommodation",
+      "Osaka Castle Park",
+      "Namba",
+      "Dotonbori",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d2",
+     "t": "Kyoto Day Tour",
+     "en": "KYOTO DAY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Kyoto]",
+     "act": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "eact": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d3",
+     "t": "Nara Day Tour",
+     "en": "NARA DAY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Nara]",
+     "act": [
+      "Higashimuki Shopping Street",
+      "Nara Deer Park",
+      "Shinsaibashi"
+     ],
+     "eact": [
+      "Higashimuki Shopping Street",
+      "Nara Deer Park",
+      "Shinsaibashi"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d4",
+     "t": "Osaka / USJ (pilih satu)",
+     "en": "OSAKA BAY OR USJ",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Osaka City]",
+     "act": [
+      "Osaka Bay (Osaka Aquarium, Tempozan Ferris Wheel, Santa Maria Cruise)",
+      "Shinsekai & Tsutenkaku Tower",
+      "ATAU Universal Studio Japan (optional tour RM 250 per pax)"
+     ],
+     "eact": [
+      "Osaka Bay (Osaka Aquarium, Tempozan Ferris Wheel, Santa Maria Cruise)",
+      "Shinsekai & Tsutenkaku Tower",
+      "OR Universal Studio Japan (optional tour)"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d5",
+     "t": "Osaka Kansai - KL (berlepas)",
+     "en": "OSAKA KANSAI - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Kansai]",
+     "act": [
+      "Check out",
+      "Airport transfer ke Kansai Airport (KIX)"
+     ],
+     "eact": [
+      "Check out",
+      "Airport transfer to Kansai Airport (KIX)"
+     ],
+     "g": "Itinerary pakej ini"
+    }
+   ],
+   "inclusions": [
+    "Accommodation - hotel, {nights} nights",
+    "Private Airport Transfer (Day 1, Day 5)",
+    "Public Transport (Day 1 - Day 4)",
+    "Public Transport Card",
+    "Tour Guide (Malay / English speaker), 10 hours basis",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight ticket",
+    "In-flight meal",
+    "Breakfast"
+   ],
+   "exclusionsTail": [
+    "Extra hours transport & tour guide: 5,000 - 10,000 yen per hour",
+    "Compulsory car seat for infant",
+    "Other entrance fees",
+    "Personal expenses",
+    "Optional activity",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "osakas",
+   "name": "PT Osaka Standard 5D4N (private transport)",
+   "pkgLabel": "PT Osaka Standard - Osaka, Kyoto & Nara",
+   "hotelLabel": "Apartment / Hotel (Apartment Hotel 11 or similar)",
+   "days": 5,
+   "nights": 4,
+   "infant": 200,
+   "single": 1200,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 300
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Tokyo City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Fuji]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Osaka City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3400,
+        "peak": 3400
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 3800,
+        "peak": 3800
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kyoto]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara+Kyoto]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kobe]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kamakura]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Disneyland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[USJ]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Shinkansen]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Haneda]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Narita]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kansai]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Hokkaido]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Theme Park]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Ine]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Gala Yuzawa]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2800,
+        "peak": 2800
+       },
+       {
+        "from": 5,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airport": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airportDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "cityTransfer": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -250,
+        "peak": -250
+       }
+      ]
+     },
+     "bf": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 40,
+        "peak": 40
+       }
+      ]
+     },
+     "bfDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -40,
+        "peak": -40
+       }
+      ]
+     },
+     "lunchDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "dinnerDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "legShin": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 600,
+        "peak": 600
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 6197,
+     "c": 5997,
+     "n": 5797
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 4797,
+     "c": 4597,
+     "n": 4397
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 4197,
+     "c": 3997,
+     "n": 3797
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 3797,
+     "c": 3597,
+     "n": 3397
+    },
+    {
+     "from": 6,
+     "to": 8,
+     "a": 3497,
+     "c": 3297,
+     "n": 3097
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "a": 3297,
+     "c": 3097,
+     "n": 2897
+    },
+    {
+     "from": 10,
+     "to": 10,
+     "a": 3497,
+     "c": 3297,
+     "n": 3097
+    },
+    {
+     "from": 11,
+     "to": 11,
+     "a": 3297,
+     "c": 3097,
+     "n": 2897
+    },
+    {
+     "from": 12,
+     "to": 12,
+     "a": 3197,
+     "c": 2997,
+     "n": 2797
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KL - Osaka Kansai + Osaka City",
+     "en": "KUALA LUMPUR - OSAKA KANSAI",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "airpri",
+     "region": "[Kansai]",
+     "act": [
+      "Tiba di Kansai Airport (KIX), airport pickup",
+      "Drop bagasi di penginapan",
+      "Osaka Castle Park",
+      "Namba",
+      "Dotonbori",
+      "Check in"
+     ],
+     "eact": [
+      "Arrive at Kansai Airport (KIX), airport pickup",
+      "Drop luggage at accommodation",
+      "Osaka Castle Park",
+      "Namba",
+      "Dotonbori",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d2",
+     "t": "Kyoto Day Tour",
+     "en": "KYOTO DAY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Kyoto]",
+     "act": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "eact": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d3",
+     "t": "Nara Day Tour",
+     "en": "NARA DAY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Nara]",
+     "act": [
+      "Higashimuki Shopping Street",
+      "Nara Deer Park",
+      "Shinsaibashi"
+     ],
+     "eact": [
+      "Higashimuki Shopping Street",
+      "Nara Deer Park",
+      "Shinsaibashi"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d4",
+     "t": "Osaka / USJ (pilih satu)",
+     "en": "OSAKA BAY OR USJ",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Osaka City]",
+     "act": [
+      "Osaka Bay (Osaka Aquarium, Tempozan Ferris Wheel, Santa Maria Cruise)",
+      "Shinsekai & Tsutenkaku Tower",
+      "ATAU Universal Studio Japan (optional tour RM 250 per pax)"
+     ],
+     "eact": [
+      "Osaka Bay (Osaka Aquarium, Tempozan Ferris Wheel, Santa Maria Cruise)",
+      "Shinsekai & Tsutenkaku Tower",
+      "OR Universal Studio Japan (optional tour)"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d5",
+     "t": "Osaka Kansai - KL (berlepas)",
+     "en": "OSAKA KANSAI - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Kansai]",
+     "act": [
+      "Check out",
+      "Airport transfer ke Kansai Airport (KIX)"
+     ],
+     "eact": [
+      "Check out",
+      "Airport transfer to Kansai Airport (KIX)"
+     ],
+     "g": "Itinerary pakej ini"
+    }
+   ],
+   "inclusions": [
+    "Accommodation - apartment / hotel, {nights} nights",
+    "Private Airport Transfer (Day 1, Day 5)",
+    "Private Transport (Day 1 - Day 4), 10 hours basis",
+    "Private driver cum guide (Malay / English), 10 hours basis",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight ticket",
+    "In-flight meal",
+    "Breakfast"
+   ],
+   "exclusionsTail": [
+    "Extra hours transport & tour guide: 5,000 - 10,000 yen per hour",
+    "Compulsory car seat for infant",
+    "Other entrance fees",
+    "Personal expenses",
+    "Optional activity",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "tobab",
+   "name": "PT Tokyo-Osaka Basic 7D6N (public + Shinkansen)",
+   "pkgLabel": "PT Tokyo-Osaka Basic - Shibuya, Mount Fuji, Odaiba, Osaka & Kyoto",
+   "hotelLabel": "Hotel (APA / Mystays Tokyo, Smile Hotel Osaka or similar)",
+   "days": 7,
+   "nights": 6,
+   "infant": 200,
+   "single": 1400,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 300
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Tokyo City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Fuji]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Osaka City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3400,
+        "peak": 3400
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 3800,
+        "peak": 3800
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kyoto]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara+Kyoto]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kobe]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kamakura]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Disneyland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[USJ]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Shinkansen]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Haneda]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Narita]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kansai]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Hokkaido]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Theme Park]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Ine]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Gala Yuzawa]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2800,
+        "peak": 2800
+       },
+       {
+        "from": 5,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airport": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airportDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "cityTransfer": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -250,
+        "peak": -250
+       }
+      ]
+     },
+     "bf": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 40,
+        "peak": 40
+       }
+      ]
+     },
+     "bfDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -40,
+        "peak": -40
+       }
+      ]
+     },
+     "lunchDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "dinnerDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "legShin": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 600,
+        "peak": 600
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 6797,
+     "c": 6597,
+     "n": 6397
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 5897,
+     "c": 5697,
+     "n": 5497
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 5497,
+     "c": 5297,
+     "n": 5097
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 5197,
+     "c": 4997,
+     "n": 4797
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 4997,
+     "c": 4797,
+     "n": 4597
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 4897,
+     "c": 4697,
+     "n": 4497
+    },
+    {
+     "from": 8,
+     "to": 12,
+     "a": 4697,
+     "c": 4497,
+     "n": 4297
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KL - Tokyo Haneda (ketibaan)",
+     "en": "KUALA LUMPUR - TOKYO HANEDA",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Haneda]",
+     "act": [
+      "Tiba di Tokyo Haneda Airport (HND)",
+      "Airport pickup dan transfer ke penginapan",
+      "Check in"
+     ],
+     "eact": [
+      "Arrive at Tokyo Haneda Airport (HND)",
+      "Airport pickup and transfer to accommodation",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d2",
+     "t": "Mount Fuji (public transport)",
+     "en": "MOUNT FUJI",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Fuji]",
+     "act": [
+      "Mt Fuji Panoramic Ropeway",
+      "Lake Kawaguchiko",
+      "Kawaguchiko-Ohashi Bridge",
+      "Fujikawaguchiko Mosque",
+      "Kembali ke Tokyo"
+     ],
+     "eact": [
+      "Mt Fuji Panoramic Ropeway",
+      "Lake Kawaguchiko",
+      "Kawaguchiko-Ohashi Bridge",
+      "Fujikawaguchiko Mosque",
+      "Back to Tokyo"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d3",
+     "t": "Tokyo City Tour",
+     "en": "TOKYO CITY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Tokyo City]",
+     "act": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "eact": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d4",
+     "t": "Odaiba / Disney (pilih satu)",
+     "en": "ODAIBA OR DISNEYLAND",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Tokyo City]",
+     "act": [
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "ATAU Disneyland / DisneySea (optional tour RM 300 per pax)"
+     ],
+     "eact": [
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "OR Disneyland / DisneySea (optional tour)"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d5",
+     "t": "Tokyo - Osaka (Shinkansen)",
+     "en": "TOKYO - OSAKA BY SHINKANSEN",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "shinp",
+     "region": "[Shinkansen]",
+     "act": [
+      "Check out",
+      "Shinkansen Tokyo ke Osaka",
+      "Drop bagasi di penginapan",
+      "Osaka Castle Park",
+      "Namba",
+      "Check in"
+     ],
+     "eact": [
+      "Check out",
+      "Shinkansen Tokyo to Osaka",
+      "Drop luggage at accommodation",
+      "Osaka Castle Park",
+      "Namba",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d6",
+     "t": "Kyoto Day Tour",
+     "en": "KYOTO DAY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pub",
+     "region": "[Kyoto]",
+     "act": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "eact": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d7",
+     "t": "Osaka Kansai - KL (berlepas)",
+     "en": "OSAKA KANSAI - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Kansai]",
+     "act": [
+      "Check out",
+      "Airport transfer ke Kansai Airport (KIX)"
+     ],
+     "eact": [
+      "Check out",
+      "Airport transfer to Kansai Airport (KIX)"
+     ],
+     "g": "Itinerary pakej ini"
+    }
+   ],
+   "inclusions": [
+    "Accommodation - hotel, {nights} nights",
+    "Private Airport Transfer (Day 1, Day 7)",
+    "Public Transport (Day 2 - Day 6)",
+    "Public Transport Card",
+    "Tour Guide (Malay / English speaker), 10 hours basis",
+    "Shinkansen Tokyo to Osaka",
+    "Entrance fee: Mt Fuji Panoramic Ropeway",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight ticket",
+    "In-flight meal",
+    "Breakfast"
+   ],
+   "exclusionsTail": [
+    "Extra hours transport & tour guide: 5,000 - 10,000 yen per hour",
+    "Compulsory car seat for infant",
+    "Other entrance fees",
+    "Personal expenses",
+    "Optional activity",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "tobas",
+   "name": "PT Tokyo-Osaka Standard 7D6N (private + Shinkansen)",
+   "pkgLabel": "PT Tokyo-Osaka Standard - Shibuya, Mount Fuji, Odaiba, Osaka & Kyoto",
+   "hotelLabel": "Apartment / Hotel (Section A Apartment Tokyo, Apartment Hotel 11 Osaka or similar)",
+   "days": 7,
+   "nights": 6,
+   "infant": 200,
+   "single": 1400,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 300
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Tokyo City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Fuji]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Osaka City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3400,
+        "peak": 3400
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 3800,
+        "peak": 3800
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kyoto]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara+Kyoto]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kobe]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kamakura]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Disneyland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[USJ]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Shinkansen]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Haneda]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Narita]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kansai]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Hokkaido]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Theme Park]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Ine]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Gala Yuzawa]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2800,
+        "peak": 2800
+       },
+       {
+        "from": 5,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airport": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airportDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "cityTransfer": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -250,
+        "peak": -250
+       }
+      ]
+     },
+     "bf": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 40,
+        "peak": 40
+       }
+      ]
+     },
+     "bfDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -40,
+        "peak": -40
+       }
+      ]
+     },
+     "lunchDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "dinnerDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "legShin": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 600,
+        "peak": 600
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 8997,
+     "c": 8797,
+     "n": 8597
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 7197,
+     "c": 6997,
+     "n": 6797
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 5997,
+     "c": 5797,
+     "n": 5597
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 5797,
+     "c": 5597,
+     "n": 5397
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 5497,
+     "c": 5297,
+     "n": 5097
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 4997,
+     "c": 4797,
+     "n": 4597
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "a": 5497,
+     "c": 5297,
+     "n": 5097
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "a": 5397,
+     "c": 5197,
+     "n": 4997
+    },
+    {
+     "from": 10,
+     "to": 10,
+     "a": 5197,
+     "c": 4997,
+     "n": 4797
+    },
+    {
+     "from": 11,
+     "to": 11,
+     "a": 5097,
+     "c": 4897,
+     "n": 4697
+    },
+    {
+     "from": 12,
+     "to": 12,
+     "a": 4997,
+     "c": 4797,
+     "n": 4597
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KL - Tokyo Haneda (ketibaan)",
+     "en": "KUALA LUMPUR - TOKYO HANEDA",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Haneda]",
+     "act": [
+      "Tiba di Tokyo Haneda Airport (HND)",
+      "Airport pickup dan transfer ke penginapan",
+      "Check in"
+     ],
+     "eact": [
+      "Arrive at Tokyo Haneda Airport (HND)",
+      "Airport pickup and transfer to accommodation",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d2",
+     "t": "Mount Fuji (private transport)",
+     "en": "MOUNT FUJI",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Fuji]",
+     "act": [
+      "Iyashi no Sato Nemba (Open Air Old Japanese Village Museum)",
+      "Oishi Park (Fuji View Photo Spot)",
+      "Kawaguchiko Mosque",
+      "Kembali ke Tokyo"
+     ],
+     "eact": [
+      "Iyashi no Sato Nemba (Open Air Old Japanese Village Museum)",
+      "Oishi Park (Fuji View Photo Spot)",
+      "Kawaguchiko Mosque",
+      "Back to Tokyo"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d3",
+     "t": "Tokyo City Tour",
+     "en": "TOKYO CITY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Tokyo City]",
+     "act": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "eact": [
+      "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+      "Ueno (Ueno Park, Ameyoko shopping street)",
+      "Shibuya Crossing Street"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d4",
+     "t": "Odaiba / Disney (pilih satu)",
+     "en": "ODAIBA OR DISNEYLAND",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Tokyo City]",
+     "act": [
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "ATAU Disneyland / DisneySea (optional tour RM 300 per pax)"
+     ],
+     "eact": [
+      "Odaiba (Fuji TV, AquaCity, Decks Tokyo Beach, Diversity Tokyo City)",
+      "OR Disneyland / DisneySea (optional tour)"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d5",
+     "t": "Tokyo - Osaka (Shinkansen)",
+     "en": "TOKYO - OSAKA BY SHINKANSEN",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "shinv",
+     "region": "[Shinkansen]",
+     "act": [
+      "Check out",
+      "Shinkansen Tokyo ke Osaka",
+      "Drop bagasi di penginapan",
+      "Osaka Castle Park",
+      "Namba",
+      "Check in"
+     ],
+     "eact": [
+      "Check out",
+      "Shinkansen Tokyo to Osaka",
+      "Drop luggage at accommodation",
+      "Osaka Castle Park",
+      "Namba",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d6",
+     "t": "Kyoto Day Tour",
+     "en": "KYOTO DAY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Kyoto]",
+     "act": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "eact": [
+      "Arashiyama Bamboo Forest",
+      "Togetsukyo Bridge",
+      "Katsura River",
+      "Fushimi Inari"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d7",
+     "t": "Osaka Kansai - KL (berlepas)",
+     "en": "OSAKA KANSAI - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Kansai]",
+     "act": [
+      "Check out",
+      "Airport transfer ke Kansai Airport (KIX)"
+     ],
+     "eact": [
+      "Check out",
+      "Airport transfer to Kansai Airport (KIX)"
+     ],
+     "g": "Itinerary pakej ini"
+    }
+   ],
+   "inclusions": [
+    "Accommodation - apartment / hotel, {nights} nights",
+    "Private Airport Transfer (Day 1, Day 7)",
+    "Private Transport (Day 2 - Day 6), 10 hours basis",
+    "Driver cum guide (Malay / English), 10 hours basis",
+    "Shinkansen Tokyo to Osaka",
+    "Entrance fee: Iyashi no Sato Nemba",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight ticket",
+    "In-flight meal",
+    "Breakfast"
+   ],
+   "exclusionsTail": [
+    "Extra hours transport & tour guide: 5,000 - 10,000 yen per hour",
+    "Compulsory car seat for infant",
+    "Other entrance fees",
+    "Personal expenses",
+    "Optional activity",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "hokkaido",
+   "name": "PT Hokkaido-Sapporo 5D4N (private transport)",
+   "pkgLabel": "PT Hokkaido-Sapporo - Sapporo, Otaru, Asahikawa, Bibai, Furano & Noboribetsu",
+   "hotelLabel": "Hotel / Apartment (APA Hotel, Mystays or similar)",
+   "days": 5,
+   "nights": 4,
+   "infant": 200,
+   "singlePerNight": 300,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 300
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 99,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Tokyo City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Fuji]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 8,
+        "normal": 4300,
+        "peak": 4300
+       },
+       {
+        "from": 9,
+        "to": 12,
+        "normal": 4600,
+        "peak": 4600
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Osaka City]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3000,
+        "peak": 3000
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3400,
+        "peak": 3400
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 3800,
+        "peak": 3800
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kyoto]": [
+       {
+        "from": 1,
+        "to": 7,
+        "normal": 3300,
+        "peak": 3300
+       },
+       {
+        "from": 8,
+        "to": 9,
+        "normal": 3700,
+        "peak": 3700
+       },
+       {
+        "from": 10,
+        "to": 12,
+        "normal": 4400,
+        "peak": 4400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Nara+Kyoto]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kobe]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kamakura]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Disneyland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[USJ]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Shinkansen]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Haneda]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Narita]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Kansai]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Hokkaido]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Theme Park]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Ine]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Gala Yuzawa]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2800,
+        "peak": 2800
+       },
+       {
+        "from": 5,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airport": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "airportDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "cityTransfer": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -250,
+        "peak": -250
+       }
+      ]
+     },
+     "bf": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 40,
+        "peak": 40
+       }
+      ]
+     },
+     "bfDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -40,
+        "peak": -40
+       }
+      ]
+     },
+     "lunchDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "dinnerDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -65,
+        "peak": -65
+       }
+      ]
+     },
+     "legShin": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 600,
+        "peak": 600
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 8397,
+     "c": 8197,
+     "n": 7997
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 6497,
+     "c": 6297,
+     "n": 6097
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 5497,
+     "c": 5297,
+     "n": 5097
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 4997,
+     "c": 4797,
+     "n": 4597
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 4597,
+     "c": 4397,
+     "n": 4197
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 4297,
+     "c": 4097,
+     "n": 3897
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "a": 3997,
+     "c": 3797,
+     "n": 3597
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "a": 4797,
+     "c": 4597,
+     "n": 4397
+    },
+    {
+     "from": 10,
+     "to": 10,
+     "a": 4597,
+     "c": 4397,
+     "n": 4197
+    }
+   ],
+   "peak": {
+    "mode": "percent",
+    "value": 10,
+    "windows": [
+     [
+      "2026-12-20",
+      "2027-01-05",
+      null,
+      15
+     ],
+     [
+      "2027-01-20",
+      "2027-02-05",
+      null,
+      15
+     ],
+     [
+      "2026-06-15",
+      "2026-09-01",
+      null,
+      10
+     ],
+     [
+      "2026-12-01",
+      "2026-12-20",
+      null,
+      10
+     ],
+     [
+      "2027-01-06",
+      "2027-01-19",
+      null,
+      10
+     ],
+     [
+      "2027-02-06",
+      "2027-03-01",
+      null,
+      10
+     ],
+     [
+      "2027-06-15",
+      "2027-09-01",
+      null,
+      10
+     ]
+    ]
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan - Sapporo Tour",
+     "en": "ARRIVAL - SAPPORO TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "airpri",
+     "region": "[Hokkaido]",
+     "act": [
+      "Airport pickup (New Chitose Airport, CTS)",
+      "Lake Shikotsu",
+      "Odori Park",
+      "Sapporo TV Tower",
+      "Check in"
+     ],
+     "eact": [
+      "Airport pickup (New Chitose Airport, CTS)",
+      "Lake Shikotsu",
+      "Odori Park",
+      "Sapporo TV Tower",
+      "Check in"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d2",
+     "t": "Otaru Tour",
+     "en": "OTARU TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Hokkaido]",
+     "act": [
+      "Otaru Canal",
+      "Al-Noor Mosque (Otaru Mosque)",
+      "Sakaimachi Street",
+      "Aurora Town"
+     ],
+     "eact": [
+      "Otaru Canal",
+      "Al-Noor Mosque (Otaru Mosque)",
+      "Sakaimachi Street",
+      "Aurora Town"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d3",
+     "t": "Central Hokkaido Tour",
+     "en": "CENTRAL HOKKAIDO TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Hokkaido]",
+     "act": [
+      "Asahiyama Zoo (Walking Penguin Show musim sejuk)",
+      "Shirogane Blue Pond (Biei)",
+      "Ningle Terrace (Furano)"
+     ],
+     "eact": [
+      "Asahiyama Zoo (Walking Penguin Show during winter)",
+      "Shirogane Blue Pond (Biei)",
+      "Ningle Terrace (Furano)"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d4",
+     "t": "Bibai Snowland / Noboribetsu (ikut musim)",
+     "en": "SEASONAL DAY TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Hokkaido]",
+     "act": [
+      "Winter: Bibai Snowland (snow tubing, snow rafting, mini snowmobile) + Mitsui Premium Outlet",
+      "Spring / Summer / Autumn: Jigokudani Hell Valley + Date Jidaimura Village"
+     ],
+     "eact": [
+      "Winter: Bibai Snowland (snow tubing, snow rafting, mini snowmobile) + Mitsui Premium Outlet",
+      "Spring / Summer / Autumn: Jigokudani Hell Valley + Date Jidaimura Village"
+     ],
+     "g": "Itinerary pakej ini"
+    },
+    {
+     "v": "d5",
+     "t": "Sapporo - KL (berlepas)",
+     "en": "SAPPORO - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "none",
+     "trp": "airpri",
+     "region": "[Hokkaido]",
+     "act": [
+      "Check out",
+      "Airport transfer ke New Chitose Airport (CTS)"
+     ],
+     "eact": [
+      "Check out",
+      "Airport transfer to New Chitose Airport (CTS)"
+     ],
+     "g": "Itinerary pakej ini"
+    }
+   ],
+   "inclusions": [
+    "Accommodation - hotel / apartment, {nights} nights",
+    "Private Airport Transfer",
+    "Private Transport, 10 hours basis",
+    "Professional licensed driver (Japanese speaking), 10 hours basis",
+    "Tour Guide (Malay speaking), 10 hours basis",
+    "Entrance fee: Asahiyama Zoo, Bibai Snowland, Noboribetsu Date Jidaimura",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "International flight ticket",
+    "In-flight meal",
+    "Breakfast"
+   ],
+   "exclusionsTail": [
+    "Extra hours transport & tour guide: 5,000 - 10,000 yen per hour",
+    "Infant car seat RM 197 per day (compulsory)",
+    "Personal expenses",
+    "Optional activity",
+    "Travel insurance"
+   ]
+  }
+ ],
+ "library": [
+  {
+   "v": "ext",
+   "t": "Hari tambahan (tulis sendiri)",
+   "en": "EXTENSION DAY",
+   "acc": "extra",
+   "meal": "none",
+   "trp": "ext",
+   "region": "",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "fe",
+   "t": "Free & Easy (dalam pakej)",
+   "en": "FREE & EASY",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "none",
+   "region": "",
+   "act": [
+    "Free & easy tanpa guide / pengangkutan"
+   ],
+   "eact": [
+    "Free & easy - no guide or transport"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "fed",
+   "t": "Free & Easy - tolak driving guide dari katalog",
+   "en": "FREE & EASY",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "feded",
+   "region": "",
+   "act": [
+    "Free & easy tanpa guide / pengangkutan"
+   ],
+   "eact": [
+    "Free & easy - no guide or transport"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "tkah",
+   "t": "Ketibaan Haneda (HND)",
+   "en": "TOKYO HANEDA ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Haneda]",
+   "act": [
+    "Tiba Tokyo Haneda Airport (HND)",
+    "Airport pickup",
+    "Check in hotel / apartment"
+   ],
+   "eact": [
+    "Arrive Tokyo Haneda Airport (HND)",
+    "Airport pickup",
+    "Check in hotel / apartment"
+   ],
+   "g": "Tokyo - ketibaan & pulang"
+  },
+  {
+   "v": "tkan",
+   "t": "Ketibaan Narita (NRT)",
+   "en": "TOKYO NARITA ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Narita]",
+   "act": [
+    "Tiba Tokyo Narita Airport (NRT)",
+    "Airport pickup",
+    "Check in hotel / apartment"
+   ],
+   "eact": [
+    "Arrive Tokyo Narita Airport (NRT)",
+    "Airport pickup",
+    "Check in hotel / apartment"
+   ],
+   "g": "Tokyo - ketibaan & pulang"
+  },
+  {
+   "v": "tkdh",
+   "t": "Berlepas dari Haneda (HND)",
+   "en": "TOKYO HANEDA DEPARTURE",
+   "acc": "none",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Haneda]",
+   "act": [
+    "Check out",
+    "Transfer ke Haneda Airport (HND)"
+   ],
+   "eact": [
+    "Check out",
+    "Transfer to Haneda Airport (HND)"
+   ],
+   "g": "Tokyo - ketibaan & pulang"
+  },
+  {
+   "v": "tkdn",
+   "t": "Berlepas dari Narita (NRT)",
+   "en": "TOKYO NARITA DEPARTURE",
+   "acc": "none",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Narita]",
+   "act": [
+    "Check out",
+    "Transfer ke Narita Airport (NRT)"
+   ],
+   "eact": [
+    "Check out",
+    "Transfer to Narita Airport (NRT)"
+   ],
+   "g": "Tokyo - ketibaan & pulang"
+  },
+  {
+   "v": "tkc",
+   "t": "Tokyo City Tour",
+   "en": "TOKYO CITY TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Tokyo City]",
+   "act": [
+    "Tokyo Tower",
+    "Odaiba (Divercity, Fuji TV, AquaCity, Decks Tokyo Beach)",
+    "Shibuya Crossing",
+    "Hachiko Statue"
+   ],
+   "eact": [
+    "Tokyo Tower",
+    "Odaiba (Divercity, Fuji TV, AquaCity, Decks Tokyo Beach)",
+    "Shibuya Crossing",
+    "Hachiko Statue"
+   ],
+   "g": "Tokyo - bandar"
+  },
+  {
+   "v": "tkh",
+   "t": "Tokyo Heritage",
+   "en": "TOKYO HERITAGE",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Tokyo City]",
+   "act": [
+    "Asakusa",
+    "Sensoji Temple",
+    "Kaminarimon Gate",
+    "Nakamise Street",
+    "Ueno Park",
+    "Ameyoko"
+   ],
+   "eact": [
+    "Asakusa",
+    "Sensoji Temple",
+    "Kaminarimon Gate",
+    "Nakamise Street",
+    "Ueno Park",
+    "Ameyoko"
+   ],
+   "g": "Tokyo - bandar"
+  },
+  {
+   "v": "tks",
+   "t": "Tokyo Shopping / Modern",
+   "en": "TOKYO SHOPPING AND MODERN",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Tokyo City]",
+   "act": [
+    "Shinjuku Gyoen",
+    "Harajuku",
+    "Takeshita Street",
+    "Omotesando",
+    "Akihabara"
+   ],
+   "eact": [
+    "Shinjuku Gyoen",
+    "Harajuku",
+    "Takeshita Street",
+    "Omotesando",
+    "Akihabara"
+   ],
+   "g": "Tokyo - bandar"
+  },
+  {
+   "v": "tkcp",
+   "t": "Tokyo City Tour (public transport)",
+   "en": "TOKYO CITY TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "pub",
+   "region": "[Tokyo City]",
+   "act": [
+    "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+    "Ueno (Ueno Park, Ameyoko shopping street)",
+    "Shibuya Crossing Street"
+   ],
+   "eact": [
+    "Asakusa (Kaminarimon Gate, Sensoji Temple, Nakamise shopping street)",
+    "Ueno (Ueno Park, Ameyoko shopping street)",
+    "Shibuya Crossing Street"
+   ],
+   "g": "Tokyo - bandar"
+  },
+  {
+   "v": "tkma",
+   "t": "Tokyo Museum & Art",
+   "en": "TOKYO MUSEUM AND ART",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Tokyo City]",
+   "act": [
+    "teamLab (Planets atau Borderless - sahkan yang mana)",
+    "Koishikawa Korakuen Garden",
+    "Tokyo National Museum",
+    "JAL Sky Museum (percuma, perlu tempahan awal)"
+   ],
+   "eact": [
+    "teamLab",
+    "Koishikawa Korakuen Garden",
+    "Tokyo National Museum",
+    "JAL Sky Museum"
+   ],
+   "g": "Tokyo - bandar"
+  },
+  {
+   "v": "tkmm",
+   "t": "Tokyo Muslim-friendly",
+   "en": "TOKYO MUSLIM-FRIENDLY",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Tokyo City]",
+   "act": [
+    "Tokyo Camii Mosque (masjid terbesar di Jepun, Yoyogi-Uehara)",
+    "Solat Jumaat diatur di sini jika hari lawatan jatuh pada hari Jumaat",
+    "Asakusa atau Shibuya (gabung ikut pilihan)"
+   ],
+   "eact": [
+    "Tokyo Camii Mosque (largest mosque in Japan)",
+    "Asakusa or Shibuya"
+   ],
+   "g": "Tokyo - bandar"
+  },
+  {
+   "v": "tkf",
+   "t": "Fuji Tour (private transport)",
+   "en": "MOUNT FUJI TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Fuji]",
+   "act": [
+    "Iyashi No Sato (Samurai Village)",
+    "Oishi Park",
+    "Fujikawaguchiko",
+    "Oshino Hakkai",
+    "Kachi Kachi Ropeway / Kawaguchi Cruise (optional)"
+   ],
+   "eact": [
+    "Iyashi No Sato (Samurai Village)",
+    "Oishi Park",
+    "Fujikawaguchiko",
+    "Oshino Hakkai",
+    "Kachi Kachi Ropeway / Kawaguchi Cruise (optional)"
+   ],
+   "g": "Tokyo - Fuji & luar bandar"
+  },
+  {
+   "v": "tkfp",
+   "t": "Fuji Tour (public / highway bus)",
+   "en": "MOUNT FUJI TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "pub",
+   "region": "[Fuji]",
+   "act": [
+    "Mt Fuji Panoramic Ropeway",
+    "Lake Kawaguchiko",
+    "Kawaguchiko-Ohashi Bridge",
+    "Fujikawaguchiko Mosque",
+    "Kembali ke Tokyo"
+   ],
+   "eact": [
+    "Mt Fuji Panoramic Ropeway",
+    "Lake Kawaguchiko",
+    "Kawaguchiko-Ohashi Bridge",
+    "Fujikawaguchiko Mosque",
+    "Back to Tokyo"
+   ],
+   "g": "Tokyo - Fuji & luar bandar"
+  },
+  {
+   "v": "tkk",
+   "t": "Kamakura",
+   "en": "KAMAKURA",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Kamakura]",
+   "act": [
+    "Great Buddha (Kotoku-in)",
+    "Hase-dera Temple",
+    "Pantai Kamakura"
+   ],
+   "eact": [
+    "Great Buddha (Kotoku-in)",
+    "Hase-dera Temple",
+    "Kamakura coast"
+   ],
+   "g": "Tokyo - Fuji & luar bandar"
+  },
+  {
+   "v": "tkdis",
+   "t": "Disneyland / DisneySea (sepanjang hari)",
+   "en": "TOKYO DISNEYLAND",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Disneyland]",
+   "act": [
+    "Tokyo Disneyland ATAU DisneySea sepanjang hari",
+    "Transfer pergi-balik"
+   ],
+   "eact": [
+    "Full-day Tokyo Disneyland OR DisneySea",
+    "Return transfer"
+   ],
+   "g": "Tokyo - theme park"
+  },
+  {
+   "v": "tktp",
+   "t": "Ghibli / Sanrio Puroland / Warner Bros",
+   "en": "TOKYO THEME PARK",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Theme Park]",
+   "act": [
+    "Ghibli Museum ATAU Sanrio Puroland (Hello Kitty) ATAU Warner Bros Studio (Harry Potter)",
+    "Semua perlu tiket bertarikh - tempah awal"
+   ],
+   "eact": [
+    "Ghibli Museum OR Sanrio Puroland OR Warner Bros Studio Tour"
+   ],
+   "g": "Tokyo - theme park"
+  },
+  {
+   "v": "tkgy",
+   "t": "Gala Yuzawa Ski (musim sejuk)",
+   "en": "GALA YUZAWA SKI RESORT",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Gala Yuzawa]",
+   "act": [
+    "Shinkansen Tokyo - Gala Yuzawa (pergi-balik, termasuk)",
+    "Masa bebas di Gala Yuzawa Ski Resort",
+    "Driver sahaja - tiada tour guide pada hari ini",
+    "Gondola dan lift ticket TIDAK termasuk - bayar di sana"
+   ],
+   "eact": [
+    "Shinkansen Tokyo - Gala Yuzawa (return)",
+    "Free time at Gala Yuzawa Ski Resort"
+   ],
+   "g": "Tokyo - theme park"
+  },
+  {
+   "v": "oka",
+   "t": "Ketibaan Kansai (KIX)",
+   "en": "OSAKA KANSAI ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Kansai]",
+   "act": [
+    "Tiba Kansai Airport (KIX)",
+    "Airport pickup",
+    "Check in hotel / apartment"
+   ],
+   "eact": [
+    "Arrive Kansai Airport (KIX)",
+    "Airport pickup",
+    "Check in hotel / apartment"
+   ],
+   "g": "Osaka - ketibaan & pulang"
+  },
+  {
+   "v": "okd",
+   "t": "Berlepas dari Kansai (KIX)",
+   "en": "OSAKA KANSAI DEPARTURE",
+   "acc": "none",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Kansai]",
+   "act": [
+    "Check out",
+    "Transfer ke Kansai Airport (KIX)"
+   ],
+   "eact": [
+    "Check out",
+    "Transfer to Kansai Airport (KIX)"
+   ],
+   "g": "Osaka - ketibaan & pulang"
+  },
+  {
+   "v": "okc",
+   "t": "Osaka City Tour",
+   "en": "OSAKA CITY TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Osaka City]",
+   "act": [
+    "Osaka Castle",
+    "Dotonbori",
+    "Shinsaibashi",
+    "Umeda Sky Building",
+    "Tempozan Ferris Wheel"
+   ],
+   "eact": [
+    "Osaka Castle",
+    "Dotonbori",
+    "Shinsaibashi",
+    "Umeda Sky Building",
+    "Tempozan Ferris Wheel"
+   ],
+   "g": "Osaka - bandar"
+  },
+  {
+   "v": "okcp",
+   "t": "Osaka City Tour (public transport)",
+   "en": "OSAKA CITY TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "pub",
+   "region": "[Osaka City]",
+   "act": [
+    "Osaka Bay (Osaka Aquarium, Tempozan Ferris Wheel, Santa Maria Cruise)",
+    "Shinsekai & Tsutenkaku Tower"
+   ],
+   "eact": [
+    "Osaka Bay (Osaka Aquarium, Tempozan Ferris Wheel, Santa Maria Cruise)",
+    "Shinsekai & Tsutenkaku Tower"
+   ],
+   "g": "Osaka - bandar"
+  },
+  {
+   "v": "okbay",
+   "t": "Osaka Bay & Shinsekai",
+   "en": "OSAKA BAY AND SHINSEKAI",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Osaka City]",
+   "act": [
+    "Kaiyukan Aquarium",
+    "Tempozan Ferris Wheel",
+    "Santa Maria Cruise",
+    "Shinsekai & Tsutenkaku Tower",
+    "Osaka Museum of Housing and Living"
+   ],
+   "eact": [
+    "Kaiyukan Aquarium",
+    "Tempozan Ferris Wheel",
+    "Santa Maria Cruise",
+    "Shinsekai and Tsutenkaku Tower"
+   ],
+   "g": "Osaka - bandar"
+  },
+  {
+   "v": "oky",
+   "t": "Kyoto Tour",
+   "en": "KYOTO TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Kyoto]",
+   "act": [
+    "Arashiyama Bamboo Forest",
+    "Togetsukyo Bridge",
+    "Tenryuji Temple",
+    "Fushimi Inari",
+    "Kiyomizu-dera",
+    "Sagano Romantic Train (optional)"
+   ],
+   "eact": [
+    "Arashiyama Bamboo Forest",
+    "Togetsukyo Bridge",
+    "Tenryuji Temple",
+    "Fushimi Inari",
+    "Kiyomizu-dera",
+    "Sagano Romantic Train (optional)"
+   ],
+   "g": "Osaka - Kyoto, Nara & Kobe"
+  },
+  {
+   "v": "okn",
+   "t": "Nara Tour",
+   "en": "NARA TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Nara]",
+   "act": [
+    "Nara Deer Park",
+    "Todaiji Temple",
+    "Nakatanidou (mochi halal)"
+   ],
+   "eact": [
+    "Nara Deer Park",
+    "Todaiji Temple",
+    "Nakatanidou (halal mochi)"
+   ],
+   "g": "Osaka - Kyoto, Nara & Kobe"
+  },
+  {
+   "v": "oknk",
+   "t": "Nara + Kyoto City Tour (satu hari)",
+   "en": "NARA AND KYOTO TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Nara+Kyoto]",
+   "act": [
+    "Nara Deer Park",
+    "Todaiji Temple",
+    "Arashiyama Bamboo Forest",
+    "Fushimi Inari"
+   ],
+   "eact": [
+    "Nara Deer Park",
+    "Todaiji Temple",
+    "Arashiyama Bamboo Forest",
+    "Fushimi Inari"
+   ],
+   "g": "Osaka - Kyoto, Nara & Kobe"
+  },
+  {
+   "v": "okk",
+   "t": "Kobe Tour",
+   "en": "KOBE TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Kobe]",
+   "act": [
+    "Shin-Kobe Ropeway",
+    "Nunobiki Herbs Garden",
+    "Kobe Mosque",
+    "Kobe Harborland"
+   ],
+   "eact": [
+    "Shin-Kobe Ropeway",
+    "Nunobiki Herbs Garden",
+    "Kobe Mosque",
+    "Kobe Harborland"
+   ],
+   "g": "Osaka - Kyoto, Nara & Kobe"
+  },
+  {
+   "v": "okine",
+   "t": "Ine - Amanohashidate",
+   "en": "INE - AMANOHASHIDATE",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Ine]",
+   "act": [
+    "Ine funaya (rumah bot atas air)",
+    "Amanohashidate sandbar",
+    "Perjalanan jauh - hari penuh ke pantai utara Kyoto"
+   ],
+   "eact": [
+    "Ine funaya (boat houses)",
+    "Amanohashidate sandbar"
+   ],
+   "g": "Osaka - Kyoto, Nara & Kobe"
+  },
+  {
+   "v": "oku",
+   "t": "Universal Studio Japan (sepanjang hari)",
+   "en": "UNIVERSAL STUDIO JAPAN",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[USJ]",
+   "act": [
+    "Universal Studio Japan sepanjang hari",
+    "Transfer pergi-balik"
+   ],
+   "eact": [
+    "Full-day Universal Studio Japan",
+    "Return transfer"
+   ],
+   "g": "Osaka - theme park"
+  },
+  {
+   "v": "mto",
+   "t": "Tokyo > Osaka (Shinkansen, transfer sahaja)",
+   "en": "TOKYO - OSAKA BY SHINKANSEN",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "shinx",
+   "region": "[Osaka City]",
+   "act": [
+    "Check out",
+    "Shinkansen Tokyo ke Osaka",
+    "Transfer hotel - stesen (2 kali)",
+    "Check in Osaka"
+   ],
+   "eact": [
+    "Check out",
+    "Shinkansen Tokyo to Osaka",
+    "Hotel - station transfer (x2)",
+    "Check in Osaka"
+   ],
+   "g": "Pindah bandar"
+  },
+  {
+   "v": "mtog",
+   "t": "Tokyo > Osaka (Shinkansen) + Private Transport & Guide",
+   "en": "TOKYO - OSAKA BY SHINKANSEN",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "shinxg",
+   "region": "[Osaka City]",
+   "act": [
+    "Check out",
+    "Shinkansen Tokyo ke Osaka",
+    "Transfer hotel - stesen (2 kali)",
+    "Osaka City Tour",
+    "Check in Osaka"
+   ],
+   "eact": [
+    "Check out",
+    "Shinkansen Tokyo to Osaka",
+    "Hotel - station transfer (x2)",
+    "Osaka City Tour",
+    "Check in Osaka"
+   ],
+   "g": "Pindah bandar"
+  },
+  {
+   "v": "mot",
+   "t": "Osaka > Tokyo (Shinkansen, transfer sahaja)",
+   "en": "OSAKA - TOKYO BY SHINKANSEN",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "shinx",
+   "region": "[Tokyo City]",
+   "act": [
+    "Check out",
+    "Shinkansen Osaka ke Tokyo",
+    "Transfer hotel - stesen (2 kali)",
+    "Check in Tokyo"
+   ],
+   "eact": [
+    "Check out",
+    "Shinkansen Osaka to Tokyo",
+    "Hotel - station transfer (x2)",
+    "Check in Tokyo"
+   ],
+   "g": "Pindah bandar"
+  },
+  {
+   "v": "motg",
+   "t": "Osaka > Tokyo (Shinkansen) + Private Transport & Guide",
+   "en": "OSAKA - TOKYO BY SHINKANSEN",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "shinxg",
+   "region": "[Tokyo City]",
+   "act": [
+    "Check out",
+    "Shinkansen Osaka ke Tokyo",
+    "Transfer hotel - stesen (2 kali)",
+    "Tokyo City Tour",
+    "Check in Tokyo"
+   ],
+   "eact": [
+    "Check out",
+    "Shinkansen Osaka to Tokyo",
+    "Hotel - station transfer (x2)",
+    "Tokyo City Tour",
+    "Check in Tokyo"
+   ],
+   "g": "Pindah bandar"
+  },
+  {
+   "v": "hka",
+   "t": "Ketibaan Sapporo (CTS) + Sapporo Tour",
+   "en": "SAPPORO ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "airpri",
+   "region": "[Hokkaido]",
+   "act": [
+    "Airport pickup (New Chitose Airport, CTS)",
+    "Lake Shikotsu",
+    "Odori Park",
+    "Sapporo TV Tower",
+    "Check in"
+   ],
+   "eact": [
+    "Airport pickup (New Chitose Airport, CTS)",
+    "Lake Shikotsu",
+    "Odori Park",
+    "Sapporo TV Tower",
+    "Check in"
+   ],
+   "g": "Hokkaido"
+  },
+  {
+   "v": "hko",
+   "t": "Otaru Tour",
+   "en": "OTARU TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Hokkaido]",
+   "act": [
+    "Otaru Canal",
+    "Al-Noor Mosque (Otaru Mosque)",
+    "Sakaimachi Street",
+    "Aurora Town"
+   ],
+   "eact": [
+    "Otaru Canal",
+    "Al-Noor Mosque (Otaru Mosque)",
+    "Sakaimachi Street",
+    "Aurora Town"
+   ],
+   "g": "Hokkaido"
+  },
+  {
+   "v": "hkc",
+   "t": "Central Hokkaido Tour",
+   "en": "CENTRAL HOKKAIDO TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Hokkaido]",
+   "act": [
+    "Asahiyama Zoo (Walking Penguin Show musim sejuk)",
+    "Shirogane Blue Pond (Biei)",
+    "Ningle Terrace (Furano)"
+   ],
+   "eact": [
+    "Asahiyama Zoo (Walking Penguin Show during winter)",
+    "Shirogane Blue Pond (Biei)",
+    "Ningle Terrace (Furano)"
+   ],
+   "g": "Hokkaido"
+  },
+  {
+   "v": "hks",
+   "t": "Bibai Snowland / Noboribetsu (ikut musim)",
+   "en": "SEASONAL DAY TOUR",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "incl",
+   "region": "[Hokkaido]",
+   "act": [
+    "Winter: Bibai Snowland (snow tubing, snow rafting, mini snowmobile) + Mitsui Premium Outlet",
+    "Spring / Summer / Autumn: Jigokudani Hell Valley + Date Jidaimura Village"
+   ],
+   "eact": [
+    "Winter: Bibai Snowland (snow tubing, snow rafting, mini snowmobile) + Mitsui Premium Outlet",
+    "Spring / Summer / Autumn: Jigokudani Hell Valley + Date Jidaimura Village"
+   ],
+   "g": "Hokkaido"
+  },
+  {
+   "v": "hkd",
+   "t": "Berlepas dari Sapporo (CTS)",
+   "en": "SAPPORO DEPARTURE",
+   "acc": "none",
+   "meal": "none",
+   "trp": "airpri",
+   "region": "[Hokkaido]",
+   "act": [
+    "Check out",
+    "Airport transfer ke New Chitose Airport (CTS)"
+   ],
+   "eact": [
+    "Check out",
+    "Airport transfer to New Chitose Airport (CTS)"
+   ],
+   "g": "Hokkaido"
+  }
+ ],
+ "peak": {
+  "mode": "percent",
+  "value": 10,
+  "windows": [
+   [
+    "2026-03-28",
+    "2026-04-15"
+   ],
+   [
+    "2026-04-29",
+    "2026-05-06"
+   ],
+   [
+    "2026-08-13",
+    "2026-08-16"
+   ],
+   [
+    "2026-09-19",
+    "2026-09-23"
+   ],
+   [
+    "2026-12-30",
+    "2027-01-03"
+   ],
+   [
+    "2027-03-28",
+    "2027-04-15"
+   ],
+   [
+    "2027-04-29",
+    "2027-05-06"
+   ],
+   [
+    "2027-08-13",
+    "2027-08-16"
+   ],
+   [
+    "2027-12-30",
+    "2028-01-03"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Travel date 2027 (1 Jan - 30 Jun 2027)",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 200
+  }
+ ],
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "lastMinute": {
+  "lt": 21,
+  "rate2": 500,
+  "rate3": 400
+ },
+ "meals": {
+  "lunch": 65,
+  "dinner": 65
+ },
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "autoAddonQty": true,
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Apartment / Hotel (dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "extra",
+   "t": "Apartment / Hotel (malam tambahan)",
+   "cost": "night",
+   "line": "Additional night, apartment / hotel"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel - tolak malam dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "None (pakej tidak termasuk makan)",
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast (tambahan)",
+   "l": 0,
+   "d": 0,
+   "lbl": "Breakfast",
+   "perPaxRate": "bf",
+   "line": "Breakfast"
+  },
+  {
+   "v": "l",
+   "t": "Lunch (tambahan)",
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner (tambahan)",
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast & Lunch (tambahan)",
+   "l": 1,
+   "d": 0,
+   "lbl": "Breakfast, Lunch",
+   "perPaxRate": "bf",
+   "line": "Breakfast"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast & Dinner (tambahan)",
+   "l": 0,
+   "d": 1,
+   "lbl": "Breakfast, Dinner",
+   "perPaxRate": "bf",
+   "line": "Breakfast"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch & Dinner (tambahan)",
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch & Dinner (fullboard)",
+   "l": 1,
+   "d": 1,
+   "lbl": "Breakfast, Lunch, Dinner",
+   "perPaxRate": "bf",
+   "line": "Breakfast"
+  },
+  {
+   "v": "nob",
+   "t": "Tiada breakfast - tolak dari katalog",
+   "l": 0,
+   "d": 0,
+   "lbl": "-",
+   "perPaxRate": "bfDed",
+   "line": "Breakfast removed"
+  },
+  {
+   "v": "nol",
+   "t": "Tiada lunch - tolak dari katalog",
+   "l": 0,
+   "d": 0,
+   "lbl": "-",
+   "perPaxRate": "lunchDed",
+   "line": "Lunch removed"
+  },
+  {
+   "v": "nod",
+   "t": "Tiada dinner - tolak dari katalog",
+   "l": 0,
+   "d": 0,
+   "lbl": "-",
+   "perPaxRate": "dinnerDed",
+   "line": "Dinner removed"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Guide"
+  },
+  {
+   "v": "pub",
+   "t": "Public Transport + Tour Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Public Transport + Guide"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Private Airport Transfer"
+  },
+  {
+   "v": "airpub",
+   "t": "Airport Transfer + Public Transport (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Airport Transfer + Public Transport"
+  },
+  {
+   "v": "airpri",
+   "t": "Airport Transfer + Private Transport (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Airport Transfer + Private Transport"
+  },
+  {
+   "v": "shinp",
+   "t": "Shinkansen + Public Transport (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Shinkansen + Public Transport"
+  },
+  {
+   "v": "shinv",
+   "t": "Shinkansen + Private Transport (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Shinkansen + Private Transport"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Guide"
+  },
+  {
+   "v": "shinx",
+   "t": "Shinkansen tambahan + 2 transfer stesen (transfer sahaja)",
+   "cost": "zero",
+   "perPaxRate": "legShin",
+   "perVehicleRate": "cityTransfer",
+   "perVehicleQty": 2,
+   "lbl": "Shinkansen + Station Transfer",
+   "line": "Shinkansen inter-city transfer"
+  },
+  {
+   "v": "shinxg",
+   "t": "Shinkansen tambahan + 2 transfer stesen + Private Transport & Guide",
+   "cost": "day",
+   "guided": true,
+   "perPaxRate": "legShin",
+   "perVehicleRate": "cityTransfer",
+   "perVehicleQty": 2,
+   "lbl": "Shinkansen + Station Transfer + Private Transport & Guide",
+   "line": "Shinkansen inter-city transfer"
+  },
+  {
+   "v": "airx",
+   "t": "Airport Transfer tambahan",
+   "perVehicleRate": "airport",
+   "lbl": "Private Airport Transfer",
+   "line": "Additional airport transfer"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free & easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  },
+  {
+   "v": "feded",
+   "t": "Free & easy - tolak driving guide dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free & easy (driving guide deducted)"
+  },
+  {
+   "v": "airded",
+   "t": "Buang airport transfer - tolak dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "airportDed",
+   "lbl": "-",
+   "line": "Airport transfer deducted"
+  }
+ ],
+ "addons": [
+  [
+   "Disneyland / DisneySea",
+   300,
+   300,
+   "pax"
+  ],
+  [
+   "Universal Studio Japan",
+   250,
+   250,
+   "pax"
+  ],
+  [
+   "Infant car seat (Hokkaido) - per hari",
+   197,
+   197,
+   "unit"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 7,
+   "text": "1&ndash;7 pax: Tokyo <b>Qayyum</b> (Voxy / Noah), Osaka <b>Ucop</b> (Alphard). Transport + driving guide ialah <b>satu kadar bundled</b> &mdash; jangan tambah elaun guide berasingan. Airport transfer maksimum <b>1 bagasi per pax</b>. ProdReq v2 5.1."
+  },
+  {
+   "from": 5,
+   "to": 7,
+   "text": "&#9888; <b>Had muatan Osaka.</b> Alphard hanya muat <b>4 pax airport transfer</b> dan <b>5 pax city tour</b>; Voxy / Noah di Tokyo muat 7. Pada combo Tokyo&ndash;Osaka had Osaka mengikat seluruh trip &mdash; 5 pax ke atas perlu Hiace di Osaka dan kadar berubah. Kira semula, jangan ekstrapolasi. ProdReq v2 5.1."
+  },
+  {
+   "from": 8,
+   "to": 8,
+   "text": "8 pax: Hiace 10-seater (<b>WIF</b> di Tokyo dan Osaka). Kadar transport melonjak, dan elaun guide + service charge WIF dikenakan berasingan &mdash; ProdReq v2 5.1 &amp; 5.6."
+  },
+  {
+   "from": 9,
+   "to": 12,
+   "text": "9&ndash;12 pax: Coaster 14-seater (WIF). Perlu driver + tour guide berasingan &mdash; ProdReq v2 5.1 &amp; 4B."
+  },
+  {
+   "from": 13,
+   "to": 99999,
+   "text": "13 pax ke atas: melebihi band katalog (maksimum 12 pax). Kadar transport <b>tiada</b> dalam rate sheet &mdash; sahkan dengan operator sebelum quote."
+  },
+  {
+   "from": 1,
+   "to": 99999,
+   "text": "Harga adalah untuk <b>2&ndash;4 orang per apartment</b> atau 2 orang per bilik hotel. Single supplement terpakai &mdash; ProdReq 12."
+  },
+  {
+   "from": 1,
+   "to": 99999,
+   "text": "Breakfast RM 40/pax hanya untuk <b>hotel</b> &mdash; penginapan <b>Airbnb / apartment tidak termasuk breakfast</b>. Malam tambahan RM 300/pax, tolak malam RM 250/pax (3 Star Hotel or Airbnb). Lunch &amp; dinner RM 65/pax sehidangan."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel / apartment availability as no space has been secured. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days before the departure date. Transport and guide are on a 10-hour basis; extra hours are charged 5,000 - 10,000 yen per hour, payable in cash directly to the driver / guide. Tipping is included. Itinerary, price and flight schedule are subject to change (weather, traffic, safety); final itinerary and hotel are confirmed 14 days (Tokyo / Osaka / Hokkaido) or 14 - 21 days (Tokyo&ndash;Osaka) before departure. Ground arrangement and tipping only &mdash; international flight tickets are not included."
+}

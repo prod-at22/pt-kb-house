@@ -1,0 +1,2405 @@
+{
+ "dest": "Lombok",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;5)"
+ },
+ "infantNote": "Infant bawah 2 tahun &mdash; FOC",
+ "singleNote": "+RM 500/pax &mdash; Standard 3 bintang SAHAJA",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Pilih varian ikut kelas hotel</b> (3 atau 4 bintang): kadar peak, kadar malam tambahan dan kadar tolak malam berbeza antara keduanya. <b>Honeymoon</b> harga flat per pasangan (2 pax sahaja) &mdash; tiada kadar kanak-kanak dan tiada single supplement. Kadar transport ialah kadar <b>per kenderaan</b> ikut kapasiti (Avanza/APV 2&ndash;4 &middot; Innova 5&ndash;6 &middot; Hiace 7&ndash;12) dan dibahagi sama rata antara pax berbayar. <b>Nak buang satu malam tanpa memendekkan trip?</b> Pada hari itu set Accommodation kepada <i>Tolak 1 malam dari pakej</i> dan Meal kepada <i>Breakfast sahaja</i> &mdash; malam dan hidangan kedua-duanya ditolak. Kalau baris hari itu dibuang terus, hanya malam pakej yang ditolak; hidangan hari itu perlu ditolak sendiri.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 30,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "ext": {
+  "night": {
+   "normal": 85,
+   "peak": 145
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 12,
+  "shareVehicle": true,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": 250,
+      "peak": 250
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 320,
+      "peak": 320
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 420,
+      "peak": 420
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": null,
+      "peak": null
+     }
+    ],
+    "[Full Day]": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": 250,
+      "peak": 250
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 320,
+      "peak": 320
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 420,
+      "peak": 420
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": null,
+      "peak": null
+     }
+    ],
+    "[Half Day]": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": 200,
+      "peak": 200
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 250,
+      "peak": 250
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 320,
+      "peak": 320
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": null,
+      "peak": null
+     }
+    ],
+    "[Airport Transfer]": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": 150,
+      "peak": 150
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 180,
+      "peak": 180
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 210,
+      "peak": 210
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   },
+   "dayDed": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": -200,
+      "peak": -200
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -270,
+      "peak": -270
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -370,
+      "peak": -370
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": 0,
+      "peak": 0
+     }
+    ],
+    "[Full Day]": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": -200,
+      "peak": -200
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -270,
+      "peak": -270
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -370,
+      "peak": -370
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": 0,
+      "peak": 0
+     }
+    ],
+    "[Half Day]": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": -150,
+      "peak": -150
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -200,
+      "peak": -200
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -270,
+      "peak": -270
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": 0,
+      "peak": 0
+     }
+    ],
+    "[Airport Transfer]": [
+     {
+      "from": 1,
+      "to": 4,
+      "normal": -100,
+      "peak": -100
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -130,
+      "peak": -130
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -160,
+      "peak": -160
+     },
+     {
+      "from": 13,
+      "to": 99,
+      "normal": 0,
+      "peak": 0
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -50,
+      "peak": 0
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel dalam pakej",
+   "cost": "incl"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan - kelas hotel pakej",
+   "cost": "night",
+   "line": "Additional night accommodation",
+   "incl": "Additional night accommodation ({days})"
+  },
+  {
+   "v": "drop",
+   "t": "Tolak 1 malam dari pakej - customer tidak bermalam",
+   "cost": "zero",
+   "dropsNight": true,
+   "perPaxRate": "nightShort",
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam - hari check-out",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan termasuk",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-",
+   "bfLock": true
+  },
+  {
+   "v": "d",
+   "t": "Dinner sahaja (hari ketibaan)",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner",
+   "bfLock": true
+  },
+  {
+   "v": "b",
+   "t": "Breakfast sahaja - tiada lunch / dinner",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private transportation with driving guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Airport Transfer + Driving Guide",
+   "incl": "Private airport transfer with driving guide ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation with driving guide ({days})"
+  },
+  {
+   "v": "feded",
+   "t": "Free and easy - tolak transport dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (transport deducted)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free and easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "ext",
+   "t": "Hari tambahan - full day tour (12 jam)",
+   "en": "ADDITIONAL FULL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "region": "[Full Day]",
+   "g": "Umum",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer (12 jam)"
+   ],
+   "eact": [
+    "Itinerary as requested by customer (12 hours)"
+   ]
+  },
+  {
+   "v": "exth",
+   "t": "Hari tambahan - half day tour (5 - 6 jam)",
+   "en": "ADDITIONAL HALF DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "region": "[Half Day]",
+   "g": "Umum",
+   "act": [
+    "Half day tour mengikut permintaan customer (5 - 6 jam)"
+   ],
+   "eact": [
+    "Half day tour as requested by customer (5 - 6 hours)"
+   ]
+  },
+  {
+   "v": "arr",
+   "t": "Ketibaan - airport transfer sahaja",
+   "en": "LOMBOK ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Airport Transfer]",
+   "g": "Umum",
+   "act": [
+    "Tiba di Lombok International Airport (LOP)",
+    "Land transfer ke hotel",
+    "Check-in hotel"
+   ],
+   "eact": [
+    "Arrive at Lombok International Airport (LOP)",
+    "Land transfer to the hotel",
+    "Hotel check in"
+   ]
+  },
+  {
+   "v": "dep",
+   "t": "Berlepas - airport transfer sahaja",
+   "en": "LOMBOK DEPARTURE",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Airport Transfer]",
+   "g": "Umum",
+   "act": [
+    "Check-out hotel",
+    "Airport transfer ke LOP"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Airport transfer to LOP"
+   ]
+  },
+  {
+   "v": "fe",
+   "t": "Free and easy - tiada transport",
+   "en": "FREE AND EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "g": "Umum",
+   "act": [
+    "Hari bebas - tiada transport dan tiada guide"
+   ],
+   "eact": [
+    "Free and easy day - no transport and no guide"
+   ]
+  },
+  {
+   "v": "d3b",
+   "t": "Pink Beach Island Tour",
+   "en": "PINK BEACH ISLAND TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Full Day]",
+   "act": [
+    "Transfer ke jetty (1 jam 30 minit dari hotel)",
+    "Private boat ke Pink Beach (45 minit)",
+    "Snorkeling di Pink Beach",
+    "Boat transfer balik ke Mataram atau Senggigi",
+    "Balik hotel dan rehat"
+   ],
+   "eact": [
+    "Transfer to the jetty (1 hour 30 minutes from the hotel)",
+    "Private boat to Pink Beach (45 minutes)",
+    "Snorkeling at Pink Beach",
+    "Boat transfer back to Mataram or Senggigi",
+    "Return to hotel and rest"
+   ],
+   "g": "Tour Lombok"
+  },
+  {
+   "v": "gili",
+   "t": "Gili Trawangan Full Day Tour",
+   "en": "GILI TRAWANGAN FULL DAY TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "region": "[Full Day]",
+   "g": "Tour Lombok",
+   "act": [
+    "Naik bot di jetty ke Gili Trawangan",
+    "Aktiviti snorkeling (private boat)",
+    "Masjid Baitulrohman",
+    "Explore Gili Trawangan"
+   ],
+   "eact": [
+    "Boat transfer from the jetty to Gili Trawangan",
+    "Snorkeling activities (private boat)",
+    "Masjid Baitulrohman",
+    "Explore Gili Trawangan"
+   ]
+  },
+  {
+   "v": "sembalun",
+   "t": "Sembalun - Mount Rinjani Area Tour",
+   "en": "SEMBALUN - MOUNT RINJANI AREA TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "region": "[Full Day]",
+   "g": "Tour Lombok",
+   "act": [
+    "Pusuk Sembalun",
+    "Kebon - strawberry picking (ikut musim)",
+    "Kedai Sawah",
+    "Taman Surga",
+    "Bukit Selong"
+   ],
+   "eact": [
+    "Pusuk Sembalun",
+    "Kebon - strawberry picking (subject to season)",
+    "Kedai Sawah",
+    "Taman Surga",
+    "Bukit Selong"
+   ]
+  },
+  {
+   "v": "sasak",
+   "t": "Sasak Cultural Tour",
+   "en": "SASAK CULTURAL TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "region": "[Full Day]",
+   "g": "Tour Lombok",
+   "act": [
+    "Desa Banyumulek - kraf tembikar",
+    "Desa Sukarara - tenunan tradisional",
+    "Sade Rambitan - kampung Sasak",
+    "Tanjung Aan - pantai pasir putih"
+   ],
+   "eact": [
+    "Desa Banyumulek - traditional pottery village",
+    "Desa Sukarara - traditional weaving village",
+    "Sade Rambitan - Sasak village",
+    "Tanjung Aan - white sand beach"
+   ]
+  },
+  {
+   "v": "gumuk",
+   "t": "Gumuk Pasir - Kuta Mandalika Half Day Tour",
+   "en": "GUMUK PASIR & KUTA MANDALIKA HALF DAY TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "region": "[Half Day]",
+   "g": "Tour Lombok",
+   "act": [
+    "Gumuk Pasir - rainbow slide, zipline dan basikal (pilih add-on)",
+    "Pantai Kuta Mandalika",
+    "Mandalika Circuit (pandangan luar)"
+   ],
+   "eact": [
+    "Gumuk Pasir sand dunes",
+    "Kuta Mandalika Beach",
+    "Mandalika Circuit (external view)"
+   ]
+  }
+ ],
+ "addons": [
+  [
+   "Cidomo Horse Ride Gili Trawangan - per carriage",
+   80,
+   0,
+   "unit"
+  ],
+  [
+   "Rainbow Slide Gumuk Pasir",
+   50,
+   50
+  ],
+  [
+   "Zipline Gumuk Pasir",
+   120,
+   120
+  ],
+  [
+   "Bicycle Rental - 2 hours",
+   50,
+   50
+  ],
+  [
+   "Pink Beach Kayak",
+   80,
+   80
+  ],
+  [
+   "Snorkel Gear Upgrade",
+   50,
+   50
+  ],
+  [
+   "Strawberry Picking Sembalun",
+   60,
+   60
+  ],
+  [
+   "Romantic Sunset Dinner - per couple",
+   300,
+   0,
+   "unit"
+  ],
+  [
+   "Spa Couple Treatment 60 minutes - per couple",
+   500,
+   0,
+   "unit"
+  ],
+  [
+   "Private Boat to Pink Beach - per boat, 10 pax",
+   380,
+   0,
+   "share"
+  ],
+  [
+   "Private Boat to Pink Beach deducted - per boat",
+   -250,
+   0,
+   "share"
+  ],
+  [
+   "Entrance to Pink Beach",
+   20,
+   20
+  ],
+  [
+   "Entrance to Pink Beach deducted",
+   -10,
+   -10
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 4,
+   "text": "2&ndash;4 pax: kenderaan Avanza / APV"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "text": "5&ndash;6 pax: kenderaan Innova"
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "text": "7&ndash;12 pax: kenderaan Hiace 12-seater"
+  },
+  {
+   "from": 13,
+   "to": 99999,
+   "text": "13 pax ke atas: katalog beri tier harga sehingga 15 pax, tetapi rate card transport hanya sehingga Hiace 12 pax. Perlu dua kenderaan atau bas &mdash; sahkan kadar dengan operator sebelum quote."
+  }
+ ],
+ "validity": "Prices follow the PT Lombok 2026 v3 and PT Honeymoon Lombok 2026 v3 catalogues, last updated 12 March 2026, and are valid for travel until 31 March 2027. This quotation is valid for 24 hours. A deposit of RM250 per person is due on confirmation and full payment 45 days before departure. Standard prices are based on 2 to 3 persons sharing one room. The final itinerary and hotel arrangements are confirmed 14 days before the trip, subject to availability. Private driver and guide are on a 12 hour basis; 150,000 IDR per hour applies to every extra hour, paid in cash to the driver.",
+ "variants": [
+  {
+   "id": "std3",
+   "name": "PT Lombok 4D3N &middot; Hotel 3 bintang",
+   "pkgLabel": "Lombok - Mataram, Gili Trawangan, Sembalun or Pink Beach, Sasak Tour",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "breakfast": true,
+   "single": 500,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 1257,
+     "c": 1157,
+     "n": 1057
+    },
+    {
+     "from": 4,
+     "to": 6,
+     "a": 1197,
+     "c": 1097,
+     "n": 997
+    },
+    {
+     "from": 7,
+     "to": 10,
+     "a": 1157,
+     "c": 1057,
+     "n": 957
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "a": 1097,
+     "c": 997,
+     "n": 897
+    }
+   ],
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "peak": {
+    "mode": "perNight",
+    "value": 60,
+    "windows": [
+     [
+      "2026-03-15",
+      "2026-03-31",
+      null,
+      60
+     ],
+     [
+      "2026-06-25",
+      "2026-07-12",
+      null,
+      60
+     ],
+     [
+      "2026-10-09",
+      "2026-10-11",
+      null,
+      150,
+      "Event Peak Season"
+     ],
+     [
+      "2026-12-25",
+      "2027-01-05",
+      null,
+      60
+     ],
+     [
+      "2027-02-05",
+      "2027-02-25",
+      null,
+      60
+     ],
+     [
+      "2027-03-05",
+      "2027-04-15",
+      null,
+      60
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 85,
+     "peak": 145
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 200,
+        "peak": 200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 150,
+        "peak": 150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 180,
+        "peak": 180
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 210,
+        "peak": 210
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -100,
+        "peak": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -130,
+        "peak": -130
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -160,
+        "peak": -160
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": 0
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Lombok - transfer hotel",
+     "en": "LOMBOK ARRIVAL",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "region": "[Airport Transfer]",
+     "act": [
+      "Tiba di Lombok International Airport (LOP)",
+      "Land transfer ke Mataram atau Senggigi",
+      "Check-in hotel",
+      "Dinner dan rehat"
+     ],
+     "eact": [
+      "Arrive at Lombok International Airport (LOP)",
+      "Land transfer to Mataram or Senggigi",
+      "Hotel check in",
+      "Dinner and rest"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Gili Trawangan",
+     "en": "GILI TRAWANGAN",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Naik bot di jetty ke Gili Trawangan",
+      "Aktiviti snorkeling (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Cidomo Horse Ride (optional - pilih add-on Cidomo Horse Ride)",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Boat transfer from the jetty to Gili Trawangan",
+      "Snorkeling activities (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Sembalun - Mount Rinjani Area Tour",
+     "en": "SEMBALUN - MOUNT RINJANI AREA TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Transfer ke Sembalun (3 jam dari hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (ikut musim)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Transfer to Sembalun (3 hours from the hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (subject to season)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Sasak Cultural Tour - berlepas",
+     "en": "SASAK CULTURAL TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "bl",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Check-out hotel",
+      "Desa Banyumulek - kraf tembikar",
+      "Desa Sukarara - tenunan tradisional",
+      "Sade Rambitan - kampung Sasak",
+      "Tanjung Aan - pantai pasir putih",
+      "Transfer balik ke LOP"
+     ],
+     "eact": [
+      "Hotel check out",
+      "Desa Banyumulek - traditional pottery village",
+      "Desa Sukarara - traditional weaving village",
+      "Sade Rambitan - Sasak village",
+      "Tanjung Aan - white sand beach",
+      "Transfer back to LOP for the return flight"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Mataram or Senggigi - Hotel Central Inn, Grand Sengigi Hotel or Fave Hotel or similar",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Full board halal meals as stated in the itinerary",
+    "Private boat and snorkeling set",
+    "Bottled drinking water while touring",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets (KUL - LOP)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Optional activities - horse ride, bicycle, zipline, Pink Beach kayak and rainbow slide",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  },
+  {
+   "id": "std4",
+   "name": "PT Lombok 4D3N &middot; Hotel 4 bintang",
+   "pkgLabel": "Lombok - Mataram, Gili Trawangan, Sembalun or Pink Beach, Sasak Tour",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "4-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "breakfast": true,
+   "single": 0,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 1497,
+     "c": 1397,
+     "n": 1297
+    },
+    {
+     "from": 4,
+     "to": 6,
+     "a": 1437,
+     "c": 1337,
+     "n": 1237
+    },
+    {
+     "from": 7,
+     "to": 10,
+     "a": 1397,
+     "c": 1297,
+     "n": 1197
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "a": 1337,
+     "c": 1237,
+     "n": 1137
+    }
+   ],
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "peak": {
+    "mode": "perNight",
+    "value": 70,
+    "windows": [
+     [
+      "2026-03-15",
+      "2026-03-31",
+      null,
+      70
+     ],
+     [
+      "2026-06-25",
+      "2026-07-12",
+      null,
+      70
+     ],
+     [
+      "2026-10-09",
+      "2026-10-11",
+      null,
+      250,
+      "Event Peak Season"
+     ],
+     [
+      "2026-12-25",
+      "2027-01-05",
+      null,
+      70
+     ],
+     [
+      "2027-02-05",
+      "2027-02-25",
+      null,
+      70
+     ],
+     [
+      "2027-03-05",
+      "2027-04-15",
+      null,
+      70
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 120,
+     "peak": 190
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 200,
+        "peak": 200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 150,
+        "peak": 150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 180,
+        "peak": 180
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 210,
+        "peak": 210
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -100,
+        "peak": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -130,
+        "peak": -130
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -160,
+        "peak": -160
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -90,
+        "peak": 0
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Lombok - transfer hotel",
+     "en": "LOMBOK ARRIVAL",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "region": "[Airport Transfer]",
+     "act": [
+      "Tiba di Lombok International Airport (LOP)",
+      "Land transfer ke Mataram atau Senggigi",
+      "Check-in hotel",
+      "Dinner dan rehat"
+     ],
+     "eact": [
+      "Arrive at Lombok International Airport (LOP)",
+      "Land transfer to Mataram or Senggigi",
+      "Hotel check in",
+      "Dinner and rest"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Gili Trawangan",
+     "en": "GILI TRAWANGAN",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Naik bot di jetty ke Gili Trawangan",
+      "Aktiviti snorkeling (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Cidomo Horse Ride (optional - pilih add-on Cidomo Horse Ride)",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Boat transfer from the jetty to Gili Trawangan",
+      "Snorkeling activities (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Sembalun - Mount Rinjani Area Tour",
+     "en": "SEMBALUN - MOUNT RINJANI AREA TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Transfer ke Sembalun (3 jam dari hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (ikut musim)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Transfer to Sembalun (3 hours from the hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (subject to season)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Sasak Cultural Tour - berlepas",
+     "en": "SASAK CULTURAL TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "bl",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Check-out hotel",
+      "Desa Banyumulek - kraf tembikar",
+      "Desa Sukarara - tenunan tradisional",
+      "Sade Rambitan - kampung Sasak",
+      "Tanjung Aan - pantai pasir putih",
+      "Transfer balik ke LOP"
+     ],
+     "eact": [
+      "Hotel check out",
+      "Desa Banyumulek - traditional pottery village",
+      "Desa Sukarara - traditional weaving village",
+      "Sade Rambitan - Sasak village",
+      "Tanjung Aan - white sand beach",
+      "Transfer back to LOP for the return flight"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 4-Star Hotel in Mataram or Senggigi - Hotel Aruna, Holiday Resort, Primepark Hotel or similar",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Full board halal meals as stated in the itinerary",
+    "Private boat and snorkeling set",
+    "Bottled drinking water while touring",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets (KUL - LOP)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Optional activities - horse ride, bicycle, zipline, Pink Beach kayak and rainbow slide",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  },
+  {
+   "id": "hny3",
+   "name": "PT Honeymoon Lombok 4D3N &middot; Hotel 3 bintang",
+   "pkgLabel": "Lombok Honeymoon - Mataram, Gili Trawangan, Sembalun or Pink Beach, Sasak Tour",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "breakfast": true,
+   "single": 0,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1348.5,
+     "c": 1348.5,
+     "n": 1348.5
+    }
+   ],
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "peak": {
+    "mode": "perNight",
+    "value": 60,
+    "windows": [
+     [
+      "2026-03-15",
+      "2026-03-31",
+      null,
+      60
+     ],
+     [
+      "2026-06-25",
+      "2026-07-12",
+      null,
+      60
+     ],
+     [
+      "2026-10-09",
+      "2026-10-11",
+      null,
+      150,
+      "Event Peak Season"
+     ],
+     [
+      "2026-12-25",
+      "2027-01-05",
+      null,
+      60
+     ],
+     [
+      "2027-02-05",
+      "2027-02-25",
+      null,
+      60
+     ],
+     [
+      "2027-03-05",
+      "2027-04-15",
+      null,
+      60
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 85,
+     "peak": 145
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 200,
+        "peak": 200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 150,
+        "peak": 150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 180,
+        "peak": 180
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 210,
+        "peak": 210
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -100,
+        "peak": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -130,
+        "peak": -130
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -160,
+        "peak": -160
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": 0
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Lombok - transfer hotel",
+     "en": "LOMBOK ARRIVAL",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "region": "[Airport Transfer]",
+     "act": [
+      "Tiba di Lombok International Airport (LOP)",
+      "Land transfer ke Mataram atau Senggigi",
+      "Check-in hotel - bilik dihias honeymoon",
+      "Dinner dan rehat"
+     ],
+     "eact": [
+      "Arrive at Lombok International Airport (LOP)",
+      "Land transfer to Mataram or Senggigi",
+      "Hotel check in with honeymoon room decoration",
+      "Dinner and rest"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Gili Trawangan + Candle Light Dinner",
+     "en": "GILI TRAWANGAN & CANDLE LIGHT DINNER",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Naik bot di jetty ke Gili Trawangan",
+      "Aktiviti snorkeling (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Private Horse Carriage keliling Gili Trawangan",
+      "Candle Light Dinner by The Bay",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Boat transfer from the jetty to Gili Trawangan",
+      "Snorkeling activities (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Private horse carriage around Gili Trawangan",
+      "Candle light dinner by the bay",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Sembalun - Mount Rinjani Area Tour",
+     "en": "SEMBALUN - MOUNT RINJANI AREA TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Transfer ke Sembalun (3 jam dari hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (ikut musim)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Transfer to Sembalun (3 hours from the hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (subject to season)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Sasak Cultural Tour - berlepas",
+     "en": "SASAK CULTURAL TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "bl",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Check-out hotel",
+      "Desa Banyumulek - kraf tembikar",
+      "Desa Sukarara - tenunan tradisional",
+      "Sade Rambitan - kampung Sasak",
+      "Tanjung Aan - pantai pasir putih",
+      "Transfer balik ke LOP"
+     ],
+     "eact": [
+      "Hotel check out",
+      "Desa Banyumulek - traditional pottery village",
+      "Desa Sukarara - traditional weaving village",
+      "Sade Rambitan - Sasak village",
+      "Tanjung Aan - white sand beach",
+      "Transfer back to LOP for the return flight"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Mataram or Senggigi - Hotel Central Inn, Grand Sengigi Hotel or Fave Hotel or similar",
+    "Honeymoon room decoration",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Full board halal meals as stated in the itinerary",
+    "Private horse carriage around Gili Trawangan",
+    "Candle light dinner by the beach",
+    "Private boat and snorkeling set",
+    "Bottled drinking water while touring",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets (KUL - LOP)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Optional activities - horse ride, bicycle, zipline, Pink Beach kayak and rainbow slide",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  },
+  {
+   "id": "hny4",
+   "name": "PT Honeymoon Lombok 4D3N &middot; Hotel 4 bintang",
+   "pkgLabel": "Lombok Honeymoon - Mataram, Gili Trawangan, Sembalun or Pink Beach, Sasak Tour",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "4-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "breakfast": true,
+   "single": 0,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1588.5,
+     "c": 1588.5,
+     "n": 1588.5
+    }
+   ],
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "peak": {
+    "mode": "perNight",
+    "value": 70,
+    "windows": [
+     [
+      "2026-03-15",
+      "2026-03-31",
+      null,
+      70
+     ],
+     [
+      "2026-06-25",
+      "2026-07-12",
+      null,
+      70
+     ],
+     [
+      "2026-10-09",
+      "2026-10-11",
+      null,
+      250,
+      "Event Peak Season"
+     ],
+     [
+      "2026-12-25",
+      "2027-01-05",
+      null,
+      70
+     ],
+     [
+      "2027-02-05",
+      "2027-02-25",
+      null,
+      70
+     ],
+     [
+      "2027-03-05",
+      "2027-04-15",
+      null,
+      70
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 120,
+     "peak": 190
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 420,
+        "peak": 420
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 200,
+        "peak": 200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 320,
+        "peak": 320
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 150,
+        "peak": 150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 180,
+        "peak": 180
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 210,
+        "peak": 210
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -370,
+        "peak": -370
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -270,
+        "peak": -270
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ],
+      "[Airport Transfer]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -100,
+        "peak": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -130,
+        "peak": -130
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -160,
+        "peak": -160
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -90,
+        "peak": 0
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Lombok - transfer hotel",
+     "en": "LOMBOK ARRIVAL",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "region": "[Airport Transfer]",
+     "act": [
+      "Tiba di Lombok International Airport (LOP)",
+      "Land transfer ke Mataram atau Senggigi",
+      "Check-in hotel - bilik dihias honeymoon",
+      "Dinner dan rehat"
+     ],
+     "eact": [
+      "Arrive at Lombok International Airport (LOP)",
+      "Land transfer to Mataram or Senggigi",
+      "Hotel check in with honeymoon room decoration",
+      "Dinner and rest"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Gili Trawangan + Candle Light Dinner",
+     "en": "GILI TRAWANGAN & CANDLE LIGHT DINNER",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Naik bot di jetty ke Gili Trawangan",
+      "Aktiviti snorkeling (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Private Horse Carriage keliling Gili Trawangan",
+      "Candle Light Dinner by The Bay",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Boat transfer from the jetty to Gili Trawangan",
+      "Snorkeling activities (private boat)",
+      "Masjid Baitulrohman",
+      "Explore Gili Trawangan",
+      "Private horse carriage around Gili Trawangan",
+      "Candle light dinner by the bay",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Sembalun - Mount Rinjani Area Tour",
+     "en": "SEMBALUN - MOUNT RINJANI AREA TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Transfer ke Sembalun (3 jam dari hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (ikut musim)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Balik hotel dan rehat"
+     ],
+     "eact": [
+      "Transfer to Sembalun (3 hours from the hotel)",
+      "Pusuk Sembalun",
+      "Kebon - strawberry picking (subject to season)",
+      "Kedai Sawah",
+      "Taman Surga",
+      "Bukit Selong",
+      "Return to hotel and rest"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Sasak Cultural Tour - berlepas",
+     "en": "SASAK CULTURAL TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "bl",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Check-out hotel",
+      "Desa Banyumulek - kraf tembikar",
+      "Desa Sukarara - tenunan tradisional",
+      "Sade Rambitan - kampung Sasak",
+      "Tanjung Aan - pantai pasir putih",
+      "Transfer balik ke LOP"
+     ],
+     "eact": [
+      "Hotel check out",
+      "Desa Banyumulek - traditional pottery village",
+      "Desa Sukarara - traditional weaving village",
+      "Sade Rambitan - Sasak village",
+      "Tanjung Aan - white sand beach",
+      "Transfer back to LOP for the return flight"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 4-Star Hotel in Mataram or Senggigi - Hotel Aruna, Holiday Resort, Astoria Hotel or similar",
+    "Honeymoon room decoration",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Full board halal meals as stated in the itinerary",
+    "Private horse carriage around Gili Trawangan",
+    "Candle light dinner by the beach",
+    "Private boat and snorkeling set",
+    "Bottled drinking water while touring",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets (KUL - LOP)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Optional activities - horse ride, bicycle, zipline, Pink Beach kayak and rainbow slide",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  }
+ ]
+}

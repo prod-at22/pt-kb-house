@@ -1,0 +1,2231 @@
+{
+ "dest": "Turki",
+ "currency": "RM",
+ "deposit": 500,
+ "defaultAdult": 2,
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "childLabels": {
+  "cwb": "Child With Bed (7&ndash;11 tahun)",
+  "cnb": "Child No Bed (2&ndash;6 tahun)"
+ },
+ "infantNote": "Bawah 2 tahun &mdash; harga flat ikut pakej.",
+ "singleNote": "Single supplement RM1,000 per pax.",
+ "peak": {
+  "mode": "percent",
+  "value": 10,
+  "windows": [
+   [
+    "2026-09-01",
+    "2026-11-30",
+    "klasikbasic"
+   ],
+   [
+    "2026-08-21",
+    "2026-08-24",
+    "klasikbasic"
+   ],
+   [
+    "2026-12-20",
+    "2027-01-01",
+    "klasikbasic"
+   ],
+   [
+    "2026-09-01",
+    "2026-11-30",
+    "klasikstd"
+   ],
+   [
+    "2026-08-21",
+    "2026-08-24",
+    "klasikstd"
+   ],
+   [
+    "2026-12-20",
+    "2027-01-01",
+    "klasikstd"
+   ],
+   [
+    "2026-09-01",
+    "2026-11-30",
+    "istcap"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Travel 2027 surcharge",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 300,
+   "variants": [
+    "klasikbasic",
+    "klasikstd",
+    "istcap"
+   ]
+  },
+  {
+   "label": "Winter surcharge",
+   "dateIn": [
+    "2026-12-01",
+    "2026-12-31"
+   ],
+   "perPax": 500,
+   "variants": [
+    "istbur"
+   ]
+  },
+  {
+   "label": "Winter surcharge",
+   "dateIn": [
+    "2027-01-01",
+    "2027-02-28"
+   ],
+   "perPax": 500,
+   "variants": [
+    "istbur"
+   ]
+  }
+ ],
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "ext": {
+  "autoNights": true,
+  "shareVehicle": true,
+  "night": {
+   "normal": 300,
+   "peak": 400
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 16,
+  "rates": {
+   "day": {
+    "[SAW <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 2000,
+      "peak": 2000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 4500,
+      "peak": 4500
+     }
+    ],
+    "[IGA <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 2000,
+      "peak": 2000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 4500,
+      "peak": 4500
+     }
+    ],
+    "[Istanbul Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 5000,
+      "peak": 5000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 12300,
+      "peak": 12300
+     }
+    ],
+    "[Ankara Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 3000,
+      "peak": 3000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 6550,
+      "peak": 6550
+     }
+    ],
+    "[Konya Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 2800,
+      "peak": 2800
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 6550,
+      "peak": 6550
+     }
+    ],
+    "[Pamukkale Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 3000,
+      "peak": 3000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 6550,
+      "peak": 6550
+     }
+    ],
+    "[Kusadasi Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 3000,
+      "peak": 3000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 6550,
+      "peak": 6550
+     }
+    ],
+    "[Bursa Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 3000,
+      "peak": 3000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 6550,
+      "peak": 6550
+     }
+    ],
+    "[Istanbul <-> Ankara]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 7000,
+      "peak": 7000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 37000,
+      "peak": 37000
+     }
+    ],
+    "[Ankara <-> Cappadocia]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 7000,
+      "peak": 7000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 16800,
+      "peak": 16800
+     }
+    ],
+    "[Cappadocia <-> Konya]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 7000,
+      "peak": 7000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 16800,
+      "peak": 16800
+     }
+    ],
+    "[Konya <-> Pamukkale]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 9900,
+      "peak": 9900
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 23600,
+      "peak": 23600
+     }
+    ],
+    "[Pamukkale <-> Kusadasi]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 6500,
+      "peak": 6500
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 15800,
+      "peak": 15800
+     }
+    ],
+    "[Kusadasi <-> Bursa]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 7000,
+      "peak": 7000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 18900,
+      "peak": 18900
+     }
+    ],
+    "[Bursa <-> Uludag]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 2300,
+      "peak": 2300
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 6900,
+      "peak": 6900
+     }
+    ],
+    "[Bursa <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 5000,
+      "peak": 5000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 13400,
+      "peak": 13400
+     }
+    ],
+    "[Pamukkale <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": 12700,
+      "peak": 12700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": 28900,
+      "peak": 28900
+     }
+    ]
+   },
+   "dayDed": {
+    "[SAW <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -1700,
+      "peak": -1700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -4000,
+      "peak": -4000
+     }
+    ],
+    "[IGA <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -1700,
+      "peak": -1700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -4000,
+      "peak": -4000
+     }
+    ],
+    "[Istanbul Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -4700,
+      "peak": -4700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -11800,
+      "peak": -11800
+     }
+    ],
+    "[Ankara Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -2700,
+      "peak": -2700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -6050,
+      "peak": -6050
+     }
+    ],
+    "[Konya Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -2500,
+      "peak": -2500
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -6050,
+      "peak": -6050
+     }
+    ],
+    "[Pamukkale Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -2700,
+      "peak": -2700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -6050,
+      "peak": -6050
+     }
+    ],
+    "[Kusadasi Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -2700,
+      "peak": -2700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -6050,
+      "peak": -6050
+     }
+    ],
+    "[Bursa Day Tour]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -2700,
+      "peak": -2700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -6050,
+      "peak": -6050
+     }
+    ],
+    "[Istanbul <-> Ankara]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -6700,
+      "peak": -6700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -36500,
+      "peak": -36500
+     }
+    ],
+    "[Ankara <-> Cappadocia]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -6700,
+      "peak": -6700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -16300,
+      "peak": -16300
+     }
+    ],
+    "[Cappadocia <-> Konya]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -6700,
+      "peak": -6700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -16300,
+      "peak": -16300
+     }
+    ],
+    "[Konya <-> Pamukkale]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -9600,
+      "peak": -9600
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -23100,
+      "peak": -23100
+     }
+    ],
+    "[Pamukkale <-> Kusadasi]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -6200,
+      "peak": -6200
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -15300,
+      "peak": -15300
+     }
+    ],
+    "[Kusadasi <-> Bursa]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -6700,
+      "peak": -6700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -18400,
+      "peak": -18400
+     }
+    ],
+    "[Bursa <-> Uludag]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -2000,
+      "peak": -2000
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -6400,
+      "peak": -6400
+     }
+    ],
+    "[Bursa <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -4700,
+      "peak": -4700
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -12900,
+      "peak": -12900
+     }
+    ],
+    "[Pamukkale <-> Istanbul]": [
+     {
+      "from": 1,
+      "to": 7,
+      "normal": -12400,
+      "peak": -12400
+     },
+     {
+      "from": 8,
+      "to": 16,
+      "normal": -28400,
+      "peak": -28400
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -150,
+      "peak": -200
+     }
+    ]
+   },
+   "up4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 200,
+      "peak": 300
+     }
+    ]
+   },
+   "up5": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 400,
+      "peak": 500
+     }
+    ]
+   }
+  }
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 45,
+  "drop": 30
+ },
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driver (termasuk)",
+   "cost": "incl",
+   "lbl": "Private Transport + Driving Guide",
+   "guided": true
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer + Guide (termasuk)",
+   "cost": "incl",
+   "lbl": "Airport Transfer + Guide"
+  },
+  {
+   "v": "flt",
+   "t": "Domestic Flight + Transfer (termasuk)",
+   "cost": "incl",
+   "lbl": "Domestic Flight + Transfer",
+   "guided": true
+  },
+  {
+   "v": "tram",
+   "t": "Tram / Public Transport (termasuk)",
+   "cost": "incl",
+   "lbl": "Tram + Guide",
+   "guided": true
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driver (extension)",
+   "cost": "day",
+   "lbl": "Private Transport + Driver",
+   "line": "Private transport + driver"
+  },
+  {
+   "v": "extg",
+   "t": "Private Transport + Driver + Tour Guide (extension)",
+   "cost": "day",
+   "perVehicle": 480,
+   "lbl": "Private Transport + Driver + Tour Guide",
+   "line": "Additional tour guide",
+   "guided": true
+  },
+  {
+   "v": "guide",
+   "t": "Tour Guide tambahan sahaja (RM480 / hari)",
+   "cost": "incl",
+   "perVehicle": 480,
+   "lbl": "Tour Guide",
+   "line": "Additional tour guide",
+   "guided": true
+  },
+  {
+   "v": "ded",
+   "t": "Tolak transport dari pakej",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Transport deducted from package"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "addons": [
+  [
+   "Hot Air Balloon Cappadocia",
+   1275,
+   0,
+   "pax"
+  ],
+  [
+   "Balloon Watching",
+   440,
+   0,
+   "pax"
+  ],
+  [
+   "Jeep Safari (Cappadocia)",
+   550,
+   0,
+   "pax"
+  ],
+  [
+   "Jeep Tour (min 2 pax)",
+   257,
+   0,
+   "pax"
+  ],
+  [
+   "ATV Tour",
+   227,
+   0,
+   "pax"
+  ],
+  [
+   "Horse Riding",
+   257,
+   0,
+   "pax"
+  ],
+  [
+   "Turkish Night",
+   297,
+   0,
+   "pax"
+  ],
+  [
+   "Whirling Dervishes",
+   227,
+   0,
+   "pax"
+  ],
+  [
+   "Bosphorus Dinner Cruise",
+   297,
+   0,
+   "pax"
+  ],
+  [
+   "Topkapi Palace Entrance (tiada caj untuk Klasik STANDARD)",
+   277,
+   0,
+   "pax"
+  ],
+  [
+   "Uludag Snow Park 1D1N - 2 pax",
+   800,
+   0,
+   "pax"
+  ],
+  [
+   "Uludag Snow Park 1D1N - 3 pax",
+   600,
+   0,
+   "pax"
+  ],
+  [
+   "Uludag Snow Park 1D1N - 4 pax ke atas",
+   500,
+   0,
+   "pax"
+  ],
+  [
+   "Tour Guide (per hari, per group)",
+   480,
+   0,
+   "unit"
+  ]
+ ],
+ "validity": "<b>Terms:</b> All prices are valid for 24 hours after quotation submission. Price is based on 2&ndash;3 persons per room. RM500 deposit per person (RM1,000 for Istanbul&ndash;Cappadocia); full payment must be made 45 days prior to arrival. Private transportation &amp; driving guide is based on a 10&ndash;11 hour basis; extra hours are chargeable. Final itinerary and hotel arrangements will be confirmed 14 days before the trip. Itinerary, price and flight schedule are subject to change. Any complimentary activity is non-exchangeable for other activities, vouchers or cash. Package valid for travel until 31 December 2026.",
+ "variants": [
+  {
+   "id": "klasikstd",
+   "name": "PT Turki Klasik STANDARD 8D7N",
+   "pkgLabel": "PT Turki Klasik Standard",
+   "hotelLabel": "3-Star Hotel",
+   "days": 8,
+   "nights": 7,
+   "infant": 200,
+   "single": 1000,
+   "labelCwb": "Child With Bed (7-11 years)",
+   "labelCnb": "Child No Bed (2-6 years)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 7197,
+     "c": 6997,
+     "n": 6797
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 6597,
+     "c": 6397,
+     "n": 6197
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 6397,
+     "c": 6197,
+     "n": 5997
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 6097,
+     "c": 5897,
+     "n": 5697
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 4697,
+     "c": 4497,
+     "n": 4297
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 4397,
+     "c": 4197,
+     "n": 3997
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "a": 4397,
+     "c": 4197,
+     "n": 3997
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "a": 3897,
+     "c": 3697,
+     "n": 3497
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Istanbul - Bolu",
+     "en": "ISTANBUL - BOLU",
+     "act": [
+      "Airport pickup",
+      "Transfer ke Bolu",
+      "Check in hotel Bolu"
+     ],
+     "eact": [
+      "Airport pickup",
+      "Transfer to Bolu",
+      "Check in Bolu hotel"
+     ],
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air"
+    },
+    {
+     "v": "d2",
+     "t": "Bolu - Ankara - Cappadocia",
+     "en": "BOLU - ANKARA - CAPPADOCIA",
+     "act": [
+      "Transfer ke Ankara",
+      "Anitkabir (Makam Ataturk)",
+      "Salt Lake",
+      "Transfer ke Cappadocia",
+      "Check in hotel Cappadocia"
+     ],
+     "eact": [
+      "Transfer to Ankara",
+      "Ataturk Mausoleum",
+      "Salt Lake",
+      "Transfer to Cappadocia",
+      "Check in Cappadocia hotel"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl"
+    },
+    {
+     "v": "d3",
+     "t": "Cappadocia",
+     "en": "CAPPADOCIA",
+     "act": [
+      "Uchisar Castle",
+      "Love Valley",
+      "Pottery Ceramic Workshop",
+      "Zelve Open Air Museum",
+      "Pasabag Fairy Chimneys Valley",
+      "Devrent Valley"
+     ],
+     "eact": [
+      "Uchisar Castle",
+      "Love Valley",
+      "Pottery Ceramic Workshop",
+      "Zelve Open Air Museum",
+      "Pasabag Fairy Chimneys Valley",
+      "Devrent Valley"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl"
+    },
+    {
+     "v": "d4",
+     "t": "Cappadocia - Konya - Pamukkale",
+     "en": "CAPPADOCIA - KONYA - PAMUKKALE",
+     "act": [
+      "Transfer ke Konya",
+      "Sultanhani Caravanserai",
+      "Muzium Mevlana",
+      "Transfer ke Pamukkale",
+      "Check in hotel Pamukkale"
+     ],
+     "eact": [
+      "Transfer to Konya",
+      "Visit Sultanhani Caravanserai",
+      "Mevlana Museum",
+      "Transfer to Pamukkale",
+      "Check in Pamukkale hotel"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl"
+    },
+    {
+     "v": "d5",
+     "t": "Pamukkale - Bursa",
+     "en": "PAMUKKALE - BURSA",
+     "act": [
+      "Cotton Castle",
+      "Kota Purba Pamukkale (Hierapolis)",
+      "Transfer ke Bursa",
+      "Check in hotel Bursa"
+     ],
+     "eact": [
+      "Cotton Castle",
+      "Ancient City of Pamukkale",
+      "Transfer to Bursa",
+      "Check in Bursa hotel"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl"
+    },
+    {
+     "v": "d6",
+     "t": "Bursa - Istanbul",
+     "en": "BURSA - ISTANBUL",
+     "act": [
+      "Grand Mosque Bursa",
+      "Kozahan",
+      "Green Mosque",
+      "Makam Osman Gazi & Orhan Gazi",
+      "Menara Jam Tophane",
+      "Transfer ke Istanbul",
+      "Check in hotel Istanbul"
+     ],
+     "eact": [
+      "Grand Mosque of Bursa",
+      "Kozahan",
+      "Green Mosque",
+      "Tombs of Osman Gazi and Orhan Gazi",
+      "Tophane Clock Tower",
+      "Transfer to Istanbul",
+      "Check in Istanbul hotel"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Bursa <-> Istanbul]"
+    },
+    {
+     "v": "d7",
+     "t": "Istanbul - Kota Lama",
+     "en": "ISTANBUL - OLD CITY",
+     "act": [
+      "Topkapi Palace Tour",
+      "Masjid Hagia Sophia (photo stop)",
+      "Blue Mosque",
+      "Grand Bazaar"
+     ],
+     "eact": [
+      "Topkapi Palace Tour",
+      "Hagia Sophia Mosque (photo stop)",
+      "Blue Mosque",
+      "Grand Bazaar"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "tram",
+     "region": "[Istanbul Day Tour]"
+    },
+    {
+     "v": "d8",
+     "t": "Istanbul - Airport Transfer",
+     "en": "ISTANBUL - AIRPORT TRANSFER",
+     "act": [
+      "Check out hotel",
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Airport transfer (selepas 2PM)"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Airport transfer (after 2PM)"
+     ],
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[IGA <-> Istanbul]"
+    }
+   ],
+   "inclusions": [
+    "Accommodation ({nights} nights, 3-Star Hotel)",
+    "Private transport",
+    "Tour guide (English speaking)",
+    "Entrance fees as per itinerary",
+    "Tipping fee for driver and tour guide",
+    "{nights} breakfasts",
+    "Cotton Castle",
+    "Bosphorus Cruise",
+    "Topkapi Palace Tour"
+   ],
+   "exclusions": [
+    "International flight tickets",
+    "Personal expenses",
+    "Hagia Sophia Mosque entrance fee"
+   ],
+   "exclusionsTail": [
+    "Additional meals",
+    "Travel insurance",
+    "Fees for optional activities",
+    "Porter fee"
+   ]
+  },
+  {
+   "id": "klasikbasic",
+   "name": "PT Turki Klasik BASIC 8D7N",
+   "pkgLabel": "PT Turki Klasik Basic",
+   "hotelLabel": "3-Star Hotel",
+   "days": 8,
+   "nights": 7,
+   "infant": 200,
+   "single": 1000,
+   "labelCwb": "Child With Bed (7-11 years)",
+   "labelCnb": "Child No Bed (2-6 years)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 6297,
+     "c": 6097,
+     "n": 5897
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 5697,
+     "c": 5497,
+     "n": 5297
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 5597,
+     "c": 5397,
+     "n": 5197
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 5297,
+     "c": 5097,
+     "n": 4897
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 3997,
+     "c": 3797,
+     "n": 3597
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 3497,
+     "c": 3297,
+     "n": 3097
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "a": 3297,
+     "c": 3097,
+     "n": 2897
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "a": 2797,
+     "c": 2597,
+     "n": 2397
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Istanbul - Bolu",
+     "en": "ISTANBUL - BOLU",
+     "act": [
+      "Airport pickup",
+      "Transfer ke Bolu",
+      "Check in hotel Bolu"
+     ],
+     "eact": [
+      "Airport pickup",
+      "Transfer to Bolu",
+      "Check in Bolu hotel"
+     ],
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air"
+    },
+    {
+     "v": "d2",
+     "t": "Bolu - Ankara - Cappadocia",
+     "en": "BOLU - ANKARA - CAPPADOCIA",
+     "act": [
+      "Transfer ke Ankara",
+      "Anitkabir (Makam Ataturk)",
+      "Salt Lake",
+      "Transfer ke Cappadocia",
+      "Check in hotel Cappadocia"
+     ],
+     "eact": [
+      "Transfer to Ankara",
+      "Ataturk Mausoleum",
+      "Salt Lake",
+      "Transfer to Cappadocia",
+      "Check in Cappadocia hotel"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl"
+    },
+    {
+     "v": "d3",
+     "t": "Cappadocia",
+     "en": "CAPPADOCIA",
+     "act": [
+      "Uchisar Castle",
+      "Love Valley",
+      "Pottery Ceramic Workshop",
+      "Zelve Open Air Museum",
+      "Pasabag Fairy Chimneys Valley",
+      "Devrent Valley"
+     ],
+     "eact": [
+      "Uchisar Castle",
+      "Love Valley",
+      "Pottery Ceramic Workshop",
+      "Zelve Open Air Museum",
+      "Pasabag Fairy Chimneys Valley",
+      "Devrent Valley"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl"
+    },
+    {
+     "v": "d4",
+     "t": "Cappadocia - Konya - Pamukkale",
+     "en": "CAPPADOCIA - KONYA - PAMUKKALE",
+     "act": [
+      "Transfer ke Konya",
+      "Sultanhani Caravanserai",
+      "Muzium Mevlana",
+      "Transfer ke Pamukkale",
+      "Check in hotel Pamukkale"
+     ],
+     "eact": [
+      "Transfer to Konya",
+      "Visit Sultanhani Caravanserai",
+      "Mevlana Museum",
+      "Transfer to Pamukkale",
+      "Check in Pamukkale hotel"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl"
+    },
+    {
+     "v": "d5",
+     "t": "Pamukkale - Bursa",
+     "en": "PAMUKKALE - BURSA",
+     "act": [
+      "Cotton Castle",
+      "Kota Purba Pamukkale (Hierapolis)",
+      "Transfer ke Bursa",
+      "Check in hotel Bursa"
+     ],
+     "eact": [
+      "Cotton Castle",
+      "Ancient City of Pamukkale",
+      "Transfer to Bursa",
+      "Check in Bursa hotel"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl"
+    },
+    {
+     "v": "d6",
+     "t": "Bursa - Istanbul",
+     "en": "BURSA - ISTANBUL",
+     "act": [
+      "Grand Mosque Bursa",
+      "Kozahan",
+      "Green Mosque",
+      "Makam Osman Gazi & Orhan Gazi",
+      "Menara Jam Tophane",
+      "Transfer ke Istanbul",
+      "Check in hotel Istanbul"
+     ],
+     "eact": [
+      "Grand Mosque of Bursa",
+      "Kozahan",
+      "Green Mosque",
+      "Tombs of Osman Gazi and Orhan Gazi",
+      "Tophane Clock Tower",
+      "Transfer to Istanbul",
+      "Check in Istanbul hotel"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Bursa <-> Istanbul]"
+    },
+    {
+     "v": "d7",
+     "t": "Istanbul - Kota Lama",
+     "en": "ISTANBUL - OLD CITY",
+     "act": [
+      "Topkapi Palace (photo stop)",
+      "Masjid Hagia Sophia (photo stop)",
+      "Blue Mosque",
+      "Grand Bazaar"
+     ],
+     "eact": [
+      "Topkapi Palace (photo stop)",
+      "Hagia Sophia Mosque (photo stop)",
+      "Blue Mosque",
+      "Grand Bazaar"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "tram",
+     "region": "[Istanbul Day Tour]"
+    },
+    {
+     "v": "d8",
+     "t": "Istanbul - Airport Transfer",
+     "en": "ISTANBUL - AIRPORT TRANSFER",
+     "act": [
+      "Check out hotel",
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Airport transfer (selepas 2PM)"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Airport transfer (after 2PM)"
+     ],
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[IGA <-> Istanbul]"
+    }
+   ],
+   "inclusions": [
+    "Accommodation ({nights} nights, 3-Star Hotel)",
+    "Private transport",
+    "Tour guide (English speaking)",
+    "Entrance fees as per itinerary",
+    "Tipping fee for driver and tour guide",
+    "{nights} breakfasts at hotel",
+    "Cotton Castle",
+    "Bosphorus Cruise"
+   ],
+   "exclusions": [
+    "International flight tickets",
+    "Personal expenses",
+    "Hagia Sophia Mosque entrance fee",
+    "Topkapi Palace tour"
+   ],
+   "exclusionsTail": [
+    "Additional meals",
+    "Travel insurance",
+    "Fees for optional activities",
+    "Porter fee"
+   ]
+  },
+  {
+   "id": "istcap",
+   "name": "PT Istanbul - Cappadocia 6D5N",
+   "pkgLabel": "PT Istanbul - Cappadocia",
+   "hotelLabel": "3-Star Hotel",
+   "days": 6,
+   "nights": 5,
+   "infant": 500,
+   "single": 1000,
+   "deposit": 1000,
+   "labelCwb": "Child With Bed (7-11 years)",
+   "labelCnb": "Child No Bed (2-6 years)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 6497,
+     "c": 6297,
+     "n": 6097
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 5697,
+     "c": 5497,
+     "n": 5297
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 5597,
+     "c": 5397,
+     "n": 5197
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 5297,
+     "c": 5097,
+     "n": 4897
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 4897,
+     "c": 4697,
+     "n": 4497
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 4797,
+     "c": 4597,
+     "n": 4397
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "a": 4597,
+     "c": 4397,
+     "n": 4197
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "a": 4297,
+     "c": 4097,
+     "n": 3897
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Istanbul",
+     "en": "ISTANBUL ARRIVAL",
+     "act": [
+      "Airport pickup",
+      "Check in hotel Istanbul",
+      "Free and easy"
+     ],
+     "eact": [
+      "Airport pickup",
+      "Check in Istanbul hotel",
+      "Free and easy"
+     ],
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "region": "[IGA <-> Istanbul]"
+    },
+    {
+     "v": "d2",
+     "t": "Istanbul - Cappadocia",
+     "en": "ISTANBUL - CAPPADOCIA",
+     "act": [
+      "Topkapi Palace (photo stop)",
+      "Masjid Hagia Sophia (photo stop)",
+      "Blue Mosque",
+      "Penerbangan domestik ke Cappadocia",
+      "Check in hotel Cappadocia"
+     ],
+     "eact": [
+      "Topkapi Palace (photo stop)",
+      "Hagia Sophia Mosque (photo stop)",
+      "Blue Mosque",
+      "Depart to Cappadocia by flight",
+      "Check in Cappadocia hotel"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "flt"
+    },
+    {
+     "v": "d3",
+     "t": "Cappadocia",
+     "en": "CAPPADOCIA",
+     "act": [
+      "Uchisar Castle",
+      "Love Valley",
+      "Pottery Ceramic Workshop",
+      "Zelve Open Air Museum",
+      "Pasabag Fairy Chimneys Valley",
+      "Devrent Valley"
+     ],
+     "eact": [
+      "Uchisar Castle",
+      "Love Valley",
+      "Pottery Ceramic Workshop",
+      "Zelve Open Air Museum",
+      "Pasabag Fairy Chimneys Valley",
+      "Devrent Valley"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl"
+    },
+    {
+     "v": "d4",
+     "t": "Cappadocia - Istanbul",
+     "en": "CAPPADOCIA - ISTANBUL",
+     "act": [
+      "Penerbangan domestik ke Istanbul",
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Grand Bazaar",
+      "Check in hotel Istanbul"
+     ],
+     "eact": [
+      "Depart to Istanbul by flight",
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Grand Bazaar",
+      "Check in Istanbul hotel"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "flt"
+    },
+    {
+     "v": "d5",
+     "t": "Istanbul - Eyup & Taksim",
+     "en": "ISTANBUL - EYUP & TAKSIM",
+     "act": [
+      "Masjid Eyup",
+      "Bukit Pierre Loti",
+      "Taksim Square & Istiklal Street",
+      "Galata Tower"
+     ],
+     "eact": [
+      "Eyup Mosque",
+      "Pierre Loti Hill",
+      "Taksim Square and Istiklal Street",
+      "Galata Tower"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Istanbul Day Tour]"
+    },
+    {
+     "v": "d6",
+     "t": "Istanbul - Airport Transfer",
+     "en": "ISTANBUL - AIRPORT TRANSFER",
+     "act": [
+      "Check out hotel",
+      "Airport transfer"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Airport transfer"
+     ],
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[IGA <-> Istanbul]"
+    }
+   ],
+   "inclusions": [
+    "Accommodation ({nights} nights, 3-Star Hotel)",
+    "Private transport",
+    "Private driver (Turkish speaking)",
+    "Tour guide (English speaking)",
+    "Domestic flight (15kg baggage)",
+    "{nights} breakfasts",
+    "Entrance fees as per itinerary",
+    "Bosphorus Cruise",
+    "Pierre Loti Teleferik",
+    "Tipping fee for driver and tour guide"
+   ],
+   "exclusions": [
+    "International flight tickets",
+    "Personal expenses",
+    "Hagia Sophia Mosque entrance fee",
+    "Topkapi Palace entrance fee"
+   ],
+   "exclusionsTail": [
+    "Additional meals",
+    "Travel insurance",
+    "Fees for optional activities",
+    "Porter fee"
+   ]
+  },
+  {
+   "id": "istbur",
+   "name": "PT Istanbul - Bursa 5D4N",
+   "pkgLabel": "PT Istanbul - Bursa",
+   "hotelLabel": "3-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "infant": 200,
+   "single": 1000,
+   "labelCwb": "Child With Bed (7-11 years)",
+   "labelCnb": "Child No Bed (2-6 years)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 4997,
+     "c": 4797,
+     "n": 4597
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 4697,
+     "c": 4497,
+     "n": 4297
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 4597,
+     "c": 4397,
+     "n": 4197
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 4297,
+     "c": 4097,
+     "n": 3897
+    },
+    {
+     "from": 6,
+     "to": 6,
+     "a": 3897,
+     "c": 3697,
+     "n": 3497
+    },
+    {
+     "from": 7,
+     "to": 7,
+     "a": 3797,
+     "c": 3597,
+     "n": 3397
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "a": 3597,
+     "c": 3397,
+     "n": 3197
+    },
+    {
+     "from": 9,
+     "to": 9,
+     "a": 3197,
+     "c": 2997,
+     "n": 2797
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Istanbul - Bursa",
+     "en": "ARRIVAL - ISTANBUL - BURSA",
+     "act": [
+      "Airport pickup",
+      "Transfer ke Bursa",
+      "Check in hotel Bursa"
+     ],
+     "eact": [
+      "Airport pickup",
+      "Transfer to Bursa",
+      "Check in Bursa hotel"
+     ],
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "air"
+    },
+    {
+     "v": "d2",
+     "t": "Bursa - Istanbul",
+     "en": "BURSA - ISTANBUL",
+     "act": [
+      "Grand Mosque Bursa",
+      "Kozahan",
+      "Green Mosque",
+      "Makam Osman Gazi & Orhan Gazi",
+      "Menara Jam Tophane",
+      "Transfer ke Istanbul",
+      "Check in hotel Istanbul"
+     ],
+     "eact": [
+      "Grand Mosque of Bursa",
+      "Kozahan",
+      "Green Mosque",
+      "Tombs of Osman Gazi and Orhan Gazi",
+      "Tophane Clock Tower",
+      "Transfer to Istanbul",
+      "Check in Istanbul hotel"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Bursa <-> Istanbul]"
+    },
+    {
+     "v": "d3",
+     "t": "Istanbul - Kota Lama",
+     "en": "ISTANBUL - OLD CITY",
+     "act": [
+      "Topkapi Palace (photo stop)",
+      "Masjid Hagia Sophia (photo stop)",
+      "Blue Mosque",
+      "Hippodrome"
+     ],
+     "eact": [
+      "Topkapi Palace (photo stop)",
+      "Hagia Sophia Mosque (photo stop)",
+      "Blue Mosque",
+      "Hippodrome"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "tram",
+     "region": "[Istanbul Day Tour]"
+    },
+    {
+     "v": "d4",
+     "t": "Istanbul - Bosphorus & Bazaar",
+     "en": "ISTANBUL - BOSPHORUS & BAZAAR",
+     "act": [
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Grand Bazaar"
+     ],
+     "eact": [
+      "Bosphorus Cruise",
+      "Spice Bazaar",
+      "Grand Bazaar"
+     ],
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "tram",
+     "region": "[Istanbul Day Tour]"
+    },
+    {
+     "v": "d5",
+     "t": "Istanbul - Airport Transfer",
+     "en": "ISTANBUL - AIRPORT TRANSFER",
+     "act": [
+      "Check out hotel",
+      "Masjid Eyup Sultan",
+      "Bukit Pierre Loti",
+      "Airport transfer (selepas 5PM)"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Eyup Sultan Mosque",
+      "Pierre Loti Hill",
+      "Airport transfer (after 5PM)"
+     ],
+     "acc": "none",
+     "meal": "bl",
+     "trp": "air",
+     "region": "[IGA <-> Istanbul]"
+    }
+   ],
+   "inclusions": [
+    "Accommodation ({nights} nights, 3-Star Hotel)",
+    "Private transport",
+    "Private driver (Turkish speaking)",
+    "Tour guide (English speaking)",
+    "{nights} breakfasts",
+    "Entrance fees as per itinerary",
+    "Bosphorus Cruise",
+    "Pierre Loti Teleferik",
+    "Tipping fee for driver and tour guide"
+   ],
+   "exclusions": [
+    "International flight tickets",
+    "Personal expenses",
+    "Hagia Sophia entrance fee",
+    "Topkapi Palace entrance fee"
+   ],
+   "exclusionsTail": [
+    "Additional meals",
+    "Travel insurance",
+    "Fees for optional activities",
+    "Porter fee"
+   ]
+  }
+ ],
+ "library": [
+  {
+   "v": "sg_saw_istanbul",
+   "g": "Transfer Airport",
+   "t": "Transfer SAW -> Istanbul (ketibaan)",
+   "region": "[SAW <-> Istanbul]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Airport pickup SAW",
+    "Transfer & check-in Istanbul"
+   ],
+   "en": "ARRIVAL TRANSFER SAW - ISTANBUL",
+   "eact": [
+    "Airport pickup SAW",
+    "Transfer & hotel check in Istanbul"
+   ]
+  },
+  {
+   "v": "sg_iga_istanbul",
+   "g": "Transfer Airport",
+   "t": "Transfer IGA -> Istanbul (ketibaan)",
+   "region": "[IGA <-> Istanbul]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Airport pickup IGA",
+    "Transfer & check-in Istanbul"
+   ],
+   "en": "ARRIVAL TRANSFER IGA - ISTANBUL",
+   "eact": [
+    "Airport pickup IGA",
+    "Transfer & hotel check in Istanbul"
+   ]
+  },
+  {
+   "v": "sg_istanbul_iga_out",
+   "g": "Transfer Airport",
+   "t": "Transfer Istanbul -> IGA (berlepas / checkout)",
+   "en": "DEPARTURE TRANSFER ISTANBUL - IGA",
+   "region": "[IGA <-> Istanbul]",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Check-out hotel",
+    "Airport transfer IGA"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Airport transfer IGA"
+   ]
+  },
+  {
+   "v": "sg_istanbul_saw_out",
+   "g": "Transfer Airport",
+   "t": "Transfer Istanbul -> SAW (berlepas / checkout)",
+   "en": "DEPARTURE TRANSFER ISTANBUL - SAW",
+   "region": "[SAW <-> Istanbul]",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Check-out hotel",
+    "Airport transfer SAW"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Airport transfer SAW"
+   ]
+  },
+  {
+   "v": "sg_istanbuldaytour",
+   "g": "Day Tour",
+   "t": "Istanbul Day Tour",
+   "region": "[Istanbul Day Tour]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Topkapi Palace (photo stop)",
+    "Hagia Sophia (photo stop)",
+    "Blue Mosque",
+    "Hippodrome",
+    "Grand Bazaar"
+   ],
+   "en": "ISTANBUL DAY TOUR",
+   "eact": [
+    "Topkapi Palace (photo stop)",
+    "Hagia Sophia (photo stop)",
+    "Blue Mosque",
+    "Hippodrome",
+    "Grand Bazaar"
+   ]
+  },
+  {
+   "v": "sg_ankaradaytour",
+   "g": "Day Tour",
+   "t": "Ankara Day Tour",
+   "region": "[Ankara Day Tour]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Ataturk Mausoleum",
+    "Salt Lake"
+   ],
+   "en": "ANKARA DAY TOUR",
+   "eact": [
+    "Ataturk Mausoleum",
+    "Salt Lake"
+   ]
+  },
+  {
+   "v": "sg_konyatour",
+   "g": "Day Tour",
+   "t": "Konya Tour",
+   "region": "[Konya Tour]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Sultanhani Caravanserai",
+    "Mevlana Museum"
+   ],
+   "en": "KONYA TOUR",
+   "eact": [
+    "Sultanhani Caravanserai",
+    "Mevlana Museum"
+   ]
+  },
+  {
+   "v": "sg_pamukkaletour",
+   "g": "Day Tour",
+   "t": "Pamukkale Tour",
+   "region": "[Pamukkale Tour]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Cotton Castle",
+    "Ancient City Hierapolis"
+   ],
+   "en": "PAMUKKALE TOUR",
+   "eact": [
+    "Cotton Castle",
+    "Ancient City Hierapolis"
+   ]
+  },
+  {
+   "v": "sg_kusadasidaytour",
+   "g": "Day Tour",
+   "t": "Kusadasi (Ephesus) Day Tour",
+   "region": "[Kusadasi Day Tour]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Kusadasi (Ephesus) Day Tour"
+   ],
+   "en": "KUSADASI (EPHESUS) DAY TOUR",
+   "eact": [
+    "Kusadasi (Ephesus) Day Tour"
+   ]
+  },
+  {
+   "v": "sg_bursadaytour",
+   "g": "Day Tour",
+   "t": "Bursa Day Tour",
+   "region": "[Bursa Day Tour]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Grand Mosque of Bursa (Ulu Camii)",
+    "Kozahan (Pasar Sutera)",
+    "Green Mosque",
+    "Makam Osman & Orhan Gazi",
+    "Tophane Clock Tower"
+   ],
+   "en": "BURSA DAY TOUR",
+   "eact": [
+    "Grand Mosque of Bursa (Ulu Camii)",
+    "Kozahan (Pasar Sutera)",
+    "Green Mosque",
+    "Makam Osman & Orhan Gazi",
+    "Tophane Clock Tower"
+   ]
+  },
+  {
+   "v": "sg_istanbul_ankara",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Istanbul <-> Ankara",
+   "region": "[Istanbul <-> Ankara]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Istanbul <-> Ankara"
+   ],
+   "en": "ISTANBUL <-> ANKARA",
+   "eact": [
+    "Istanbul <-> Ankara"
+   ]
+  },
+  {
+   "v": "sg_ankara_cappadocia",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Ankara <-> Cappadocia",
+   "region": "[Ankara <-> Cappadocia]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Ataturk Mausoleum",
+    "Salt Lake",
+    "Transfer & check-in Cappadocia"
+   ],
+   "en": "ANKARA <-> CAPPADOCIA",
+   "eact": [
+    "Ataturk Mausoleum",
+    "Salt Lake",
+    "Transfer & check-in Cappadocia"
+   ]
+  },
+  {
+   "v": "sg_cappadocia_konya",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Cappadocia <-> Konya",
+   "region": "[Cappadocia <-> Konya]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Sultanhani Caravanserai",
+    "Mevlana Museum",
+    "Transfer Konya"
+   ],
+   "en": "CAPPADOCIA <-> KONYA",
+   "eact": [
+    "Sultanhani Caravanserai",
+    "Mevlana Museum",
+    "Transfer Konya"
+   ]
+  },
+  {
+   "v": "sg_konya_pamukkale",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Konya <-> Pamukkale",
+   "region": "[Konya <-> Pamukkale]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Transfer Konya - Pamukkale",
+    "Check-in Pamukkale"
+   ],
+   "en": "KONYA <-> PAMUKKALE",
+   "eact": [
+    "Transfer Konya - Pamukkale",
+    "Check-in Pamukkale"
+   ]
+  },
+  {
+   "v": "sg_pamukkale_kusadasi",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Pamukkale <-> Kusadasi",
+   "region": "[Pamukkale <-> Kusadasi]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Cotton Castle",
+    "Ancient City Hierapolis",
+    "Transfer & check-in Kusadasi"
+   ],
+   "en": "PAMUKKALE <-> KUSADASI",
+   "eact": [
+    "Cotton Castle",
+    "Ancient City Hierapolis",
+    "Transfer & check-in Kusadasi"
+   ]
+  },
+  {
+   "v": "sg_kusadasi_bursa",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Kusadasi <-> Bursa",
+   "region": "[Kusadasi <-> Bursa]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Kusadasi <-> Bursa"
+   ],
+   "en": "KUSADASI <-> BURSA",
+   "eact": [
+    "Kusadasi <-> Bursa"
+   ]
+  },
+  {
+   "v": "sg_bursa_uludag",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Bursa <-> Uludag",
+   "region": "[Bursa <-> Uludag]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Bursa <-> Uludag"
+   ],
+   "en": "BURSA <-> ULUDAG",
+   "eact": [
+    "Bursa <-> Uludag"
+   ]
+  },
+  {
+   "v": "sg_bursa_istanbul",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Bursa <-> Istanbul",
+   "region": "[Bursa <-> Istanbul]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Grand Mosque of Bursa (Ulu Camii)",
+    "Kozahan (Pasar Sutera)",
+    "Green Mosque",
+    "Makam Osman & Orhan Gazi",
+    "Tophane Clock Tower",
+    "Transfer & check-in Istanbul"
+   ],
+   "en": "BURSA <-> ISTANBUL",
+   "eact": [
+    "Grand Mosque of Bursa (Ulu Camii)",
+    "Kozahan (Pasar Sutera)",
+    "Green Mosque",
+    "Makam Osman & Orhan Gazi",
+    "Tophane Clock Tower",
+    "Transfer & check-in Istanbul"
+   ]
+  },
+  {
+   "v": "sg_pamukkale_istanbul",
+   "g": "Pemanduan Antara Bandar",
+   "t": "Pamukkale <-> Istanbul",
+   "region": "[Pamukkale <-> Istanbul]",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Pamukkale <-> Istanbul"
+   ],
+   "en": "PAMUKKALE <-> ISTANBUL",
+   "eact": [
+    "Pamukkale <-> Istanbul"
+   ]
+  },
+  {
+   "v": "ext",
+   "g": "Umum",
+   "t": "- Pilih blok segmen rate card -",
+   "en": "TO BE CONFIRMED",
+   "region": "",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "none",
+   "act": [
+    "Blok itinerary belum dipilih - kos transport belum ditetapkan"
+   ],
+   "eact": [
+    "Itinerary to be confirmed"
+   ],
+   "mustPick": true
+  },
+  {
+   "v": "fe",
+   "g": "Umum",
+   "t": "Free & easy - tolak transport dari katalog",
+   "en": "FREE & EASY",
+   "region": "",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "act": [
+    "Free & easy tanpa guide / pengangkutan"
+   ],
+   "eact": [
+    "Free & easy - no guide or transport"
+   ]
+  },
+  {
+   "v": "tramday",
+   "g": "Umum",
+   "t": "Istanbul free & easy dengan tram + guide",
+   "en": "ISTANBUL FREE & EASY",
+   "region": "",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "tram",
+   "act": [
+    "Aktiviti pilihan dalam Istanbul",
+    "Guna tram / pengangkutan awam"
+   ],
+   "eact": [
+    "Optional activities in Istanbul",
+    "Tram / public transport"
+   ]
+  }
+ ],
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang (termasuk pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "extra",
+   "t": "Hotel 3 bintang (malam tambahan &mdash; dikira automatik)",
+   "cost": "incl"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade hotel 4 bintang",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "line": "4-Star hotel upgrade"
+  },
+  {
+   "v": "up5",
+   "t": "Upgrade hotel 5 bintang",
+   "cost": "incl",
+   "perPaxRate": "up5",
+   "line": "5-Star hotel upgrade"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel - tolak malam dari katalog",
+   "cost": "zero",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / balik)",
+   "cost": "zero"
+  }
+ ],
+ "intro": "Isi pax dan tarikh &mdash; peak season (+10%), surcaj 2027/winter dan late booking dikira sendiri. Dalam panel <b>Ubah itinerary</b>, setiap hari boleh ditukar kepada mana-mana blok dalam pustaka rate card operator (Transfer Airport &middot; Day Tour &middot; Pemanduan Antara Bandar); kos transport hari itu terus ikut <b>segmen</b> blok yang dipilih dan <b>saiz kenderaan</b> (Vito 2&ndash;7 pax / Sprinter 8&ndash;16 pax). Menukar blok pada hari yang sudah berpandu ialah RM 0 &mdash; hanya hari yang TC tambah sendiri berkos. Malam lebih atau kurang daripada pakej asal dilaras sendiri. Kadar transport ialah <b>transport + driver sahaja</b>; tour guide RM 480/hari per group dicaj berasingan. Kos transport per kenderaan diprorate ikut bilangan pax, jadi <b>harga per pax</b> dalam breakdown ialah harga akhir. Sumber: katalog 2026 + rate card operator.",
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "ded"
+ },
+ "hideGeneric": [
+  "ext",
+  "cus"
+ ],
+ "autoAddonQty": true,
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 7,
+   "text": "1&ndash;7 pax: kenderaan <b>Vito</b> (kapasiti max 7 pax) &mdash; kadar transport guna band Vito."
+  },
+  {
+   "from": 8,
+   "to": 13,
+   "text": "8&ndash;13 pax: <b>Sprinter / Crafter</b> &mdash; kadar transport guna band Sprinter. Segmen <i>Istanbul &lt;-&gt; Ankara</i> tersiar RM 37,000 (Sprinter), jauh lebih tinggi daripada segmen lain &mdash; sahkan dengan operator sebelum quote."
+  },
+  {
+   "from": 14,
+   "to": 16,
+   "text": "14&ndash;16 pax: Sprinter/Crafter max <b>13 pax dalam Istanbul</b>, max 16 pax luar Istanbul &mdash; segmen dalam Istanbul perlu <b>2 kenderaan</b>. Kadar rate card adalah per kenderaan; sahkan dengan operator."
+  },
+  {
+   "from": 17,
+   "to": 99999,
+   "text": "17 pax ke atas: melebihi kapasiti satu Sprinter &mdash; perlu 2 kenderaan. Enjin sudah darab kadar dengan bilangan kenderaan, tetapi sahkan susunan dengan operator."
+  },
+  {
+   "from": 1,
+   "to": 99999,
+   "text": "Kadar transport rate card ialah <b>transport + driver sahaja</b>. Tour guide RM 480/hari (per group) dicaj berasingan &mdash; untuk hari tambahan pilih <i>Private Transport + Driver + Tour Guide</i>, atau guna add-on <i>Tour Guide</i>. Add-on dalam Istanbul tidak perlu private transport &mdash; boleh guna tram."
+  }
+ ]
+}

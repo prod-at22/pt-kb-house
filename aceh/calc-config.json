@@ -1,0 +1,959 @@
+{
+ "dest": "Aceh",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-10)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = ground FOC (bayaran flat)",
+ "singleNote": "Single supplement +RM250/pax (kadar tersiar katalog, hotel 3 bintang)",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Harga asas = harga katalog</b> (Aceh 4D3N dari RM1,097 &middot; Aceh+Sabang 5D4N dari RM1,457); diskaun Selling Tier 2 (&minus;RM200/pax) TIDAK dikira di sini &mdash; tolak sendiri kalau quote guna Tier 2. <b>Hari tambahan / kurang:</b> rate card beri satu kadar rata semua-dalam (+RM90/pax/hari untuk tambah, &minus;RM50/pax/hari untuk kurang) yang sudah meliputi hotel, transport dan aktiviti &mdash; jadi transport hari tambahan tidak dicaj berasingan. <b>Upgrade hotel:</b> 4 bintang +RM50/pax/malam, 5 bintang +RM90/pax/malam, dikenakan hanya pada malam Banda Aceh (Freddies Sabang kekal 3 bintang).",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "ext": {
+  "night": {
+   "normal": 90,
+   "peak": 90
+  },
+  "autoNights": true,
+  "marginPerPax": 0,
+  "paxPerVehicle": 15,
+  "shareVehicle": true,
+  "rates": {
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99999,
+      "normal": -50,
+      "peak": -50
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang Banda Aceh (dalam pakej)",
+   "cost": "incl",
+   "hotel": "3-Star Hotel",
+   "incl": "Accommodation at a 3-Star Hotel in Banda Aceh ({days})"
+  },
+  {
+   "v": "sabang",
+   "t": "Freddies Hotel Sabang &middot; 3 bintang, kipas (dalam pakej)",
+   "cost": "incl",
+   "hotel": "3-Star Hotel (Sabang)",
+   "incl": "Accommodation at Freddies Hotel, Sabang Island - fan only, no air-conditioning ({days})"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade 4 bintang &middot; Grand Arabiya",
+   "cost": "incl",
+   "perPax": 50,
+   "hotel": "4-Star Hotel",
+   "line": "4-Star hotel upgrade",
+   "incl": "4-Star hotel upgrade - Grand Arabiya Hotel ({days})"
+  },
+  {
+   "v": "up5",
+   "t": "Upgrade 5 bintang &middot; Hermes Palace / Kyriad",
+   "cost": "incl",
+   "perPax": 90,
+   "hotel": "5-Star Hotel",
+   "line": "5-Star hotel upgrade",
+   "incl": "5-Star hotel upgrade - Hermes Palace Hotel or Kyriad Hotel ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / balik)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "nobf",
+   "t": "Tiada makan (hari ketibaan)",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "d1",
+   "t": "Dinner sahaja (hari ketibaan)",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner (tiada breakfast)",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "none",
+   "t": "Tiada makan",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "air",
+   "t": "Private Airport Transfer + Driver &amp; Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Airport Transfer",
+   "incl": "Private airport transfer (BTJ) with driver and tour guide ({days})"
+  },
+  {
+   "v": "priv",
+   "t": "Private Transport + Driver &amp; Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport",
+   "incl": "Private transportation with driver and local tour guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "ferry",
+   "t": "Private Transport + Ferry Ulee Lheu &harr; Balohan (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Ferry",
+   "incl": "Private transportation with return ferry ticket Ulee Lheu - Balohan ({days})"
+  },
+  {
+   "v": "boat",
+   "t": "Dolphin Boat + Ferry (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Dolphin Boat + Ferry",
+   "incl": "Dolphin trip boat and ferry transfer ({days})"
+  },
+  {
+   "v": "van",
+   "t": "Upgrade Van (Toyota Hiace) &ndash; 5 pax ke atas",
+   "cost": "incl",
+   "perVehicle": 300,
+   "guided": true,
+   "lbl": "Private Van (Hiace)",
+   "line": "Van (Hiace) upgrade",
+   "incl": "Van (Toyota Hiace) upgrade ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "lb_arr",
+   "t": "Ketibaan BTJ sahaja (tiada tour)",
+   "en": "BANDA ACEH ARRIVAL",
+   "acc": "incl",
+   "meal": "nobf",
+   "trp": "air",
+   "act": [
+    "Tiba Bandara Sultan Iskandar Muda (BTJ)",
+    "Airport pick-up, transfer ke hotel",
+    "Check-in hotel, bebas dan santai"
+   ],
+   "eact": [
+    "Arrive Sultan Iskandar Muda Airport (BTJ)",
+    "Airport pick-up and transfer to the hotel",
+    "Hotel check in, free and easy"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Banda Aceh - transfer"
+  },
+  {
+   "v": "lb_dep",
+   "t": "Berlepas BTJ sahaja",
+   "en": "DEPARTURE TO KUL",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Sarapan di hotel, check-out",
+    "Transfer ke Bandara Sultan Iskandar Muda (BTJ)"
+   ],
+   "eact": [
+    "Breakfast at the hotel and check out",
+    "Transfer to Sultan Iskandar Muda Airport (BTJ)"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Banda Aceh - transfer"
+  },
+  {
+   "v": "lb_city",
+   "t": "Banda Aceh City Tour (masjid + heritage)",
+   "en": "BANDA ACEH CITY TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "priv",
+   "act": [
+    "Masjid Raya Baiturrahman",
+    "Taman Putri Pahang (Gunongan)",
+    "Kubah Masjid Terapung",
+    "Rumah Tjut Nyak Dhien",
+    "Kembali ke hotel"
+   ],
+   "eact": [
+    "Masjid Raya Baiturrahman",
+    "Putri Pahang Park (Gunongan)",
+    "Floating Mosque Dome",
+    "Tjut Nyak Dhien House",
+    "Return to the hotel"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Banda Aceh - bandar"
+  },
+  {
+   "v": "lb_tsu",
+   "t": "Tsunami Heritage (Museum + PLTD Apung + Ship on House)",
+   "en": "ACEH TSUNAMI HERITAGE",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "priv",
+   "act": [
+    "Aceh Tsunami Museum & Real Tsunami Simulation",
+    "PLTD Apung (kapal janakuasa atas darat)",
+    "Ship on House di Kampung Nelayan",
+    "Ulee Lheu Beach & Masjid Baiturrahim"
+   ],
+   "eact": [
+    "Aceh Tsunami Museum and the Real Tsunami Simulation",
+    "PLTD Apung, the power barge stranded on land",
+    "Ship on House at Nelayan Village",
+    "Ulee Lheu Beach and Masjid Baiturrahim"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Banda Aceh - bandar"
+  },
+  {
+   "v": "lb_lamp",
+   "t": "Pantai Lampuuk + Masjid Rahmatullah (lunch beach-view)",
+   "en": "PANTAI LAMPUUK AND MASJID RAHMATULLAH",
+   "acc": "incl",
+   "meal": "bl",
+   "trp": "priv",
+   "act": [
+    "Masjid Rahmatullah Lampuuk (masjid yang terselamat dari tsunami)",
+    "Makan tengahari beach-view di Pantai Lampuuk",
+    "Solat di Masjid Lampuuk"
+   ],
+   "eact": [
+    "Masjid Rahmatullah Lampuuk, the mosque that survived the tsunami",
+    "Beach-view lunch at Pantai Lampuuk",
+    "Prayer at Masjid Lampuuk"
+   ],
+   "region": "[Aceh Besar]",
+   "g": "Aceh Besar - pesisir"
+  },
+  {
+   "v": "lb_shop",
+   "t": "Shopping Pasar Aceh + Kopi Sawah Padi",
+   "en": "SHOPPING AND ACEHNESE COFFEE",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "priv",
+   "act": [
+    "Membeli-belah di Pasar Tradisional Aceh",
+    "Toko Souvenir",
+    "Minum kopi di Sawah Padi"
+   ],
+   "eact": [
+    "Shopping at Aceh Traditional Market",
+    "Toko Souvenir",
+    "Acehnese coffee at Sawah Padi"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Banda Aceh - bandar"
+  },
+  {
+   "v": "lb_makam",
+   "t": "Masjid Hopping + Makam Ulama Besar Aceh",
+   "en": "MOSQUE HOPPING AND SCHOLARS TOMBS",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "priv",
+   "act": [
+    "Masjid hopping sekitar Banda Aceh",
+    "Makam Syiah Kuala (Syeikh Abdurra'uf Al Singkily)",
+    "Makam Ulama Besar Aceh"
+   ],
+   "eact": [
+    "Mosque hopping around Banda Aceh",
+    "Syiah Kuala's Tomb (Syeikh Abdurra'uf Al Singkily)",
+    "Tombs of the great Acehnese scholars"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Banda Aceh - bandar"
+  },
+  {
+   "v": "lb_sab_in",
+   "t": "Ferry ke Sabang + Sabang Island Tour",
+   "en": "SABANG ISLAND TOUR",
+   "acc": "sabang",
+   "meal": "bld",
+   "trp": "ferry",
+   "act": [
+    "Ferry dari Jeti Ulee Lheu ke Balohan, Pulau Weh",
+    "Photostop Anoi Itam & Pantai Sumur Tiga",
+    "Benteng peninggalan Jepun",
+    "Danau Aneuk Laot, Tugu Sabang Fair, Nol Kilometer Indonesia"
+   ],
+   "eact": [
+    "Ferry from Ulee Lheu Jetty to Balohan, Pulau Weh",
+    "Photostop at Anoi Itam and Pantai Sumur Tiga",
+    "Japanese wartime bunkers",
+    "Danau Aneuk Laot, Sabang Fair Monument and Kilometre Zero of Indonesia"
+   ],
+   "region": "[Sabang]",
+   "g": "Sabang - pulau"
+  },
+  {
+   "v": "lb_rubiah",
+   "t": "Pantai Iboih + Pulau Rubiah (snorkelling)",
+   "en": "PULAU RUBIAH SNORKELLING",
+   "acc": "sabang",
+   "meal": "bld",
+   "trp": "ferry",
+   "act": [
+    "Pantai Iboih",
+    "Pulau Rubiah - snorkelling (peralatan disediakan)",
+    "Toko Souvenir Sabang"
+   ],
+   "eact": [
+    "Pantai Iboih",
+    "Pulau Rubiah snorkelling with gear provided",
+    "Toko Souvenir in Sabang"
+   ],
+   "region": "[Sabang]",
+   "g": "Sabang - pulau"
+  },
+  {
+   "v": "lb_dolphin",
+   "t": "Dolphin Trip + ferry balik Banda Aceh",
+   "en": "DOLPHIN TRIP AND FERRY TO BANDA ACEH",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "boat",
+   "act": [
+    "Dolphin Trip (lebih kurang 7.00 pagi, tertakluk cuaca dan keadaan laut)",
+    "Sarapan di hotel, check-out",
+    "Ferry dari Jeti Balohan ke Banda Aceh"
+   ],
+   "eact": [
+    "Dolphin Trip at around 7.00AM, subject to weather and sea conditions",
+    "Breakfast at the hotel and check out",
+    "Ferry from Balohan Jetty to Banda Aceh"
+   ],
+   "region": "[Sabang]",
+   "g": "Sabang - pulau"
+  },
+  {
+   "v": "lb_fe",
+   "t": "Free & easy di Banda Aceh (tiada tour)",
+   "en": "FREE AND EASY IN BANDA ACEH",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "act": [
+    "Hari bebas di Banda Aceh",
+    "Makan dan aktiviti bayaran sendiri"
+   ],
+   "eact": [
+    "Free day in Banda Aceh",
+    "Meals and activities at own expense"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Free & easy"
+  },
+  {
+   "v": "ext",
+   "t": "Hari tambahan (hotel + transport + aktiviti)",
+   "en": "ADDITIONAL DAY",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "priv",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer",
+    "Termasuk hotel, transport dan aktiviti hari berkenaan"
+   ],
+   "eact": [
+    "Additional itinerary as requested by the customer",
+    "Includes hotel, transportation and activities for the day"
+   ],
+   "region": "[Banda Aceh]",
+   "g": "Hari tambahan"
+  }
+ ],
+ "addons": [
+  [
+   "Dolphin Watching at Sabang",
+   150,
+   150
+  ],
+  [
+   "Glass Boat at Sabang",
+   50,
+   50
+  ],
+  [
+   "Snorkelling at Pulau Rubiah",
+   20,
+   20
+  ],
+  [
+   "Dolphin Watching removed from package",
+   -100,
+   -100
+  ],
+  [
+   "Glass Boat removed from package",
+   -30,
+   -30
+  ],
+  [
+   "Snorkelling removed from package",
+   -15,
+   -15
+  ],
+  [
+   "Ujung Kelindu - per transport, max 4 pax",
+   277,
+   0,
+   "share"
+  ],
+  [
+   "Pantai Pasir Putih Lhok Mee - per transport, max 4 pax",
+   277,
+   0,
+   "share"
+  ],
+  [
+   "Pantai Lhok Seudu - per transport, max 4 pax",
+   257,
+   0,
+   "share"
+  ],
+  [
+   "Masjid Keuchik Leumik - per transport, max 4 pax",
+   257,
+   0,
+   "share"
+  ],
+  [
+   "Extra airport transfer - per way",
+   100,
+   0,
+   "share"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 3,
+   "text": "Kenderaan rate card: <b>Toyota Calya</b> (2&ndash;3 pax)."
+  },
+  {
+   "from": 4,
+   "to": 6,
+   "text": "Kenderaan rate card: <b>Innova Reborn</b> (4&ndash;6 pax). 5 pax ke atas boleh upgrade ke Van (Hiace) &mdash; pilih <i>Upgrade Van</i> pada baris hari (+RM300/hari/transport)."
+  },
+  {
+   "from": 7,
+   "to": 9,
+   "text": "Kenderaan rate card: <b>Van (Toyota Hiace)</b> (7&ndash;9 pax)."
+  },
+  {
+   "from": 10,
+   "to": 15,
+   "text": "Kenderaan rate card: <b>Medium Bus</b> (10&ndash;15 pax)."
+  },
+  {
+   "from": 16,
+   "to": 99999,
+   "text": "16 pax ke atas: rate card hanya senaraikan kenderaan sehingga 15 pax &mdash; <b>sahkan bilangan kenderaan dengan Ops</b>, kalkulator kira 1 kenderaan sahaja."
+  },
+  {
+   "from": 26,
+   "to": 99999,
+   "text": "Tier 26 pax ke atas: harga <b>adult</b> dari Product Cheatsheet 2026 (Price Tier 4); harga kanak-kanak tidak tersiar untuk tier ini &mdash; kalkulator guna harga kanak-kanak tier 11&ndash;25, <b>sahkan dengan Ops</b>."
+  },
+  {
+   "from": 41,
+   "to": 99999,
+   "text": "41 pax ke atas: <b>Aceh+Sabang 5D4N tiada tier yang sah</b> (rate card tulis RM1,017, lebih rendah daripada tier 26&ndash;40 &mdash; nampak salah taip). Kalkulator guna tier 26&ndash;40; sebut harga dengan operator."
+  }
+ ],
+ "peak": {
+  "mode": "perNight",
+  "value": 50,
+  "windows": [
+   [
+    "2025-12-22",
+    "2026-01-05",
+    null,
+    50,
+    "Peak Krismas & Tahun Baharu"
+   ],
+   [
+    "2026-03-15",
+    "2026-03-30",
+    null,
+    50,
+    "Peak Cuti Sekolah Mac"
+   ],
+   [
+    "2026-05-25",
+    "2026-06-05",
+    null,
+    50,
+    "Peak Hari Raya / Cuti Pertengahan Tahun"
+   ],
+   [
+    "2026-12-20",
+    "2027-01-05",
+    null,
+    50,
+    "Peak Krismas & Tahun Baharu"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Travel date surcharge (Jan-Jun 2026)",
+   "dateIn": [
+    "2026-01-01",
+    "2026-06-30"
+   ],
+   "perPax": 50,
+   "variants": [
+    "sabang"
+   ]
+  }
+ ],
+ "validity": "Prices are based on the PT Aceh 4D3N and PT Aceh + Sabang 5D4N 2026 catalogues last updated 8 December 2025 and are valid for travel until 31 January 2027; departures from 1 February 2027 must be requoted. This quotation is valid for 24 hours. A deposit of RM250 per person is due on confirmation and full payment 45 days before departure. A late booking surcharge of RM50 per booking applies to bookings made less than 45 days before departure. Prices are for 2 to 3 persons per room; a proper bed for triple sharing and family rooms are available at 4-Star hotels only, subject to availability, while 3-Star hotels use an extra rollaway bed. Private transportation, driver and tour guide are on a 12 hours basis; extra hours are charged at 150,000 IDR per hour, payable in cash to the driver. The final itinerary and hotel arrangements are confirmed 14 days before the trip. The dolphin trip and the Ulee Lheu - Balohan ferry crossing are subject to weather and sea conditions.",
+ "variants": [
+  {
+   "id": "aceh",
+   "name": "PT Aceh 4D3N (3 bintang)",
+   "pkgLabel": "Aceh - Banda Aceh, Tsunami Sites & Historical Sites",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 250,
+   "infant": 0,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1197,
+     "c": 1037,
+     "n": 877
+    },
+    {
+     "from": 3,
+     "to": 5,
+     "a": 1167,
+     "c": 1017,
+     "n": 857
+    },
+    {
+     "from": 6,
+     "to": 10,
+     "a": 1137,
+     "c": 997,
+     "n": 847
+    },
+    {
+     "from": 11,
+     "to": 25,
+     "a": 1097,
+     "c": 977,
+     "n": 837
+    },
+    {
+     "from": 26,
+     "to": 40,
+     "a": 1072,
+     "c": 977,
+     "n": 837
+    },
+    {
+     "from": 41,
+     "to": 99999,
+     "a": 1047,
+     "c": 977,
+     "n": 837
+    }
+   ],
+   "itin": [
+    {
+     "v": "a1",
+     "t": "KUL - Banda Aceh (ketibaan) + Museum Tsunami",
+     "en": "BANDA ACEH ARRIVAL - TSUNAMI MUSEUM",
+     "acc": "incl",
+     "meal": "d1",
+     "trp": "air",
+     "act": [
+      "Tiba Bandara Sultan Iskandar Muda (BTJ) - ketibaan disarankan 10.00-11.00 pagi",
+      "Airport pick-up",
+      "Aceh Tsunami Museum",
+      "Ulee Lheu Beach & Masjid Baiturrahim",
+      "Check-in hotel 3 bintang Banda Aceh",
+      "Bebas dan santai"
+     ],
+     "eact": [
+      "Arrive Sultan Iskandar Muda Airport (BTJ) - arrival recommended 10.00AM - 11.00AM",
+      "Airport pick-up",
+      "Aceh Tsunami Museum",
+      "Ulee Lheu Beach and Masjid Baiturrahim",
+      "Check in 3-Star hotel in Banda Aceh",
+      "Free and easy"
+     ],
+     "region": "[Banda Aceh]"
+    },
+    {
+     "v": "a2",
+     "t": "Banda Aceh City Tour + Pantai Lampuuk",
+     "en": "BANDA ACEH CITY TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "priv",
+     "act": [
+      "Masjid Raya Baiturrahman",
+      "Taman Putri Pahang (Gunongan)",
+      "Kubah Masjid Terapung selepas tsunami",
+      "Rumah Tjut Nyak Dhien",
+      "Makan tengahari di Pantai Lampuuk & solat di Masjid Lampuuk",
+      "Kembali ke hotel, bebas dan santai"
+     ],
+     "eact": [
+      "Masjid Raya Baiturrahman",
+      "Putri Pahang Park (Gunongan)",
+      "Floating Mosque Dome after the tsunami",
+      "Tjut Nyak Dhien House",
+      "Lunch at Pantai Lampuuk and prayer at Masjid Lampuuk",
+      "Return to hotel, free and easy"
+     ],
+     "region": "[Banda Aceh]"
+    },
+    {
+     "v": "a3",
+     "t": "Banda Aceh + Shopping",
+     "en": "BANDA ACEH AND SHOPPING",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "priv",
+     "act": [
+      "Ship on House di Kampung Nelayan",
+      "Makam Syiah Kuala (Syeikh Abdurra'uf Al Singkily)",
+      "Membeli-belah di Pasar Tradisional Aceh",
+      "Makan malam di restoran tempatan",
+      "Kembali ke hotel, bebas dan santai"
+     ],
+     "eact": [
+      "Ship on House at Nelayan Village",
+      "Syiah Kuala's Tomb (Syeikh Abdurra'uf Al Singkily)",
+      "Shopping at Aceh Traditional Market",
+      "Dinner at a local restaurant",
+      "Return to hotel, free and easy"
+     ],
+     "region": "[Banda Aceh]"
+    },
+    {
+     "v": "a4",
+     "t": "Banda Aceh - KUL (berlepas)",
+     "en": "DEPARTURE TO KUL",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Sarapan di hotel",
+      "Check-out hotel",
+      "Transfer ke Bandara Sultan Iskandar Muda (BTJ)",
+      "Penerbangan BTJ ke KUL"
+     ],
+     "eact": [
+      "Breakfast at the hotel",
+      "Check out from the hotel",
+      "Transfer to Sultan Iskandar Muda Airport (BTJ)",
+      "Flight BTJ to KUL"
+     ],
+     "region": "[Banda Aceh]"
+    }
+   ],
+   "inclusions": [
+    "3 nights accommodation at a 3-Star Hotel in Banda Aceh",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Halal Indonesian meals and hotel breakfast as stated in the itinerary",
+    "Private driver and local Acehnese tour guide",
+    "Tipping fee and parking fee"
+   ],
+   "exclusions": [
+    "Return flight tickets (KUL - BTJ)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses and shopping",
+    "Travel insurance or takaful"
+   ],
+   "exclusionsTail": [
+    "Extra hour of transport and tour guide beyond the 12 hours basis - 150,000 IDR per hour, paid in cash to the driver"
+   ],
+   "labelCwb": "Child With Bed (6-10)",
+   "labelCnb": "Child No Bed (2-5)"
+  },
+  {
+   "id": "sabang",
+   "name": "PT Aceh + Sabang 5D4N (3 bintang)",
+   "pkgLabel": "Aceh + Sabang - Banda Aceh, Sabang Island, Dolphin Tour & Rubiah Island",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "single": 250,
+   "infant": 0,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1597,
+     "c": 1037,
+     "n": 877
+    },
+    {
+     "from": 3,
+     "to": 5,
+     "a": 1557,
+     "c": 1017,
+     "n": 857
+    },
+    {
+     "from": 6,
+     "to": 10,
+     "a": 1497,
+     "c": 997,
+     "n": 847
+    },
+    {
+     "from": 11,
+     "to": 25,
+     "a": 1457,
+     "c": 977,
+     "n": 837
+    },
+    {
+     "from": 26,
+     "to": 40,
+     "a": 1442,
+     "c": 977,
+     "n": 837
+    }
+   ],
+   "itin": [
+    {
+     "v": "s1",
+     "t": "KUL - Banda Aceh (ketibaan) + Sunset Ulee Lheu",
+     "en": "BANDA ACEH ARRIVAL",
+     "acc": "incl",
+     "meal": "d1",
+     "trp": "air",
+     "act": [
+      "Tiba Bandara Sultan Iskandar Muda (BTJ) - ketibaan disarankan 10.00-11.00 pagi",
+      "Airport pick-up",
+      "Minum kopi di Sawah Padi",
+      "Sunset di Ulee Lheu Beach & Masjid Baiturrahim",
+      "Check-in hotel 3 bintang Banda Aceh",
+      "Bebas dan santai"
+     ],
+     "eact": [
+      "Arrive Sultan Iskandar Muda Airport (BTJ) - arrival recommended 10.00AM - 11.00AM",
+      "Airport pick-up",
+      "Coffee drinks at Sawah Padi",
+      "Sunset at Ulee Lheu Beach and Masjid Baiturrahim",
+      "Check in 3-Star hotel in Banda Aceh",
+      "Free and easy"
+     ],
+     "region": "[Banda Aceh]"
+    },
+    {
+     "v": "s2",
+     "t": "Sabang Island Tour (ferry + Pulau Rubiah)",
+     "en": "SABANG ISLAND TOUR",
+     "acc": "sabang",
+     "meal": "bld",
+     "trp": "ferry",
+     "act": [
+      "Ferry dari Jeti Ulee Lheu ke Balohan, Pulau Weh",
+      "Photostop Anoi Itam & Pantai Sumur Tiga",
+      "Danau Aneuk Laot, Tugu Sabang Fair, Nol Kilometer Indonesia",
+      "Pantai Iboih - Pulau Rubiah (snorkelling)",
+      "Membeli-belah di Toko Souvenir",
+      "Check-in Freddies Hotel Sabang"
+     ],
+     "eact": [
+      "Ferry from Ulee Lheu Jetty to Balohan, Pulau Weh",
+      "Photostop at Anoi Itam and Pantai Sumur Tiga",
+      "Danau Aneuk Laot, Sabang Fair Monument and Kilometre Zero of Indonesia",
+      "Pantai Iboih and Pulau Rubiah for snorkelling",
+      "Shopping at Toko Souvenir",
+      "Check in Freddies Hotel, Sabang"
+     ],
+     "region": "[Sabang]"
+    },
+    {
+     "v": "s3",
+     "t": "Dolphin Trip + Aceh City Tour",
+     "en": "DOLPHIN TRIP AND ACEH CITY TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "boat",
+     "act": [
+      "Dolphin Trip (lebih kurang 7.00 pagi)",
+      "Sarapan di hotel, check-out",
+      "Ferry dari Jeti Balohan ke Banda Aceh",
+      "Masjid Raya Baiturrahman",
+      "PLTD Apung, Museum Tsunami",
+      "Membeli-belah di Pasar Aceh & Toko Souvenir"
+     ],
+     "eact": [
+      "Dolphin Trip at around 7.00AM",
+      "Breakfast at the hotel and check out",
+      "Ferry from Balohan Jetty to Banda Aceh",
+      "Masjid Raya Baiturrahman",
+      "PLTD Apung and Aceh Tsunami Museum",
+      "Shopping at Pasar Aceh and Toko Souvenir"
+     ],
+     "region": "[Sabang]"
+    },
+    {
+     "v": "s4",
+     "t": "Aceh Heritage Site + Pantai Lampuuk",
+     "en": "ACEH HERITAGE SITE",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "priv",
+     "act": [
+      "Sarapan di hotel",
+      "Taman Gunongan",
+      "Kubah Masjid Terapung",
+      "Rumah Tjut Nyak Dhien",
+      "Makan tengahari di Pantai Lampuuk",
+      "Ship on House, Makam Ulama Besar Aceh"
+     ],
+     "eact": [
+      "Breakfast at the hotel",
+      "Taman Gunongan",
+      "Floating Mosque Dome",
+      "Tjut Nyak Dhien House",
+      "Lunch at Pantai Lampuuk",
+      "Ship on House and the tomb of the great Acehnese scholars"
+     ],
+     "region": "[Banda Aceh]"
+    },
+    {
+     "v": "s5",
+     "t": "Banda Aceh - KUL (berlepas)",
+     "en": "DEPARTURE TO KUL",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Sarapan di hotel",
+      "Check-out hotel",
+      "Transfer ke Bandara Sultan Iskandar Muda (BTJ)",
+      "Penerbangan BTJ ke KUL"
+     ],
+     "eact": [
+      "Breakfast at the hotel",
+      "Check out from the hotel",
+      "Transfer to Sultan Iskandar Muda Airport (BTJ)",
+      "Flight BTJ to KUL"
+     ],
+     "region": "[Banda Aceh]"
+    }
+   ],
+   "inclusions": [
+    "4 nights accommodation - 3 nights at a 3-Star Hotel in Banda Aceh and 1 night at Freddies Hotel, Sabang",
+    "{auto}",
+    "Return ferry ticket Ulee Lheu - Balohan",
+    "Snorkelling gear at Pulau Rubiah",
+    "Dolphin trip at Sabang",
+    "Entrance fees as stated in the itinerary",
+    "Halal Indonesian meals and hotel breakfast as stated in the itinerary",
+    "Private driver and local Acehnese tour guide",
+    "Tipping fee and parking fee"
+   ],
+   "exclusions": [
+    "Return flight tickets (KUL - BTJ)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses and shopping",
+    "Travel insurance or takaful"
+   ],
+   "exclusionsTail": [
+    "Extra hour of transport and tour guide beyond the 12 hours basis - 150,000 IDR per hour, paid in cash to the driver"
+   ],
+   "labelCwb": "Child With Bed (6-10)",
+   "labelCnb": "Child No Bed (2-5)"
+  }
+ ]
+}

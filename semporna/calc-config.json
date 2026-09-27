@@ -1,0 +1,1730 @@
+{
+ "dest": "Semporna",
+ "currency": "RM",
+ "deposit": 500,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-11)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (katalog v4)",
+ "singleNote": "Single supplement: Basic +RM1,200/pax &middot; Standard +RM1,500/pax",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan surcaj 2027 dikira sendiri dan terus masuk dalam harga per pax. <b>Harga asas = harga katalog v4 (24 Ogos 2026)</b>: Basic RM1,397 &middot; Standard RM1,597 per pax untuk 2&ndash;10 pax. <b>Peak season:</b> katalog v4 tidak mengenakan surcaj peak pada akomodasi asas (Wingtat Hotel &middot; Lato Lato Water Chalet) &mdash; surcaj peak hanya melekat pada akomodasi yang di-upgrade, jadi jumlahnya berubah sendiri bila TC pilih upgrade. <b>Malam tambahan:</b> kadar jual dari tab RAW DATA rate card; kadar water chalet ialah per pax per malam dan berubah ikut okupansi bilik. <b>Hari tambahan:</b> Semporna tiada kadar transport day-tour yang tersiar &mdash; kalkulator akan tandakan <i>kadar belum diisi</i> (merah) supaya TC sebut harga dengan operator, bukan quote RM 0. Sama untuk <i>tolak 1 malam</i>. Bot ke water chalet: check-in 2pm / 4pm, check-out 11am / 2pm.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "extraSurcharge": [
+  {
+   "label": "Surcharge travel date 2027",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 150
+  }
+ ],
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 65,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "ext": {
+  "night": {
+   "normal": 160,
+   "peak": 220
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 10,
+  "shareVehicle": true,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 0,
+      "peak": 0
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 0,
+      "peak": 0
+     }
+    ]
+   },
+   "upTownB": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 0,
+      "peak": 30
+     }
+    ]
+   },
+   "upTown30": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 30,
+      "peak": 60
+     }
+    ]
+   },
+   "upTown50": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 50,
+      "peak": 100
+     }
+    ]
+   },
+   "upWc1a": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 0,
+      "peak": 60
+     }
+    ]
+   },
+   "upWc1b": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 150,
+      "peak": 210
+     }
+    ]
+   },
+   "upWc2a": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 450,
+      "peak": 515
+     }
+    ]
+   },
+   "upWc2b": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 600,
+      "peak": 700
+     }
+    ]
+   },
+   "upWc3a": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 2050,
+      "peak": 2135
+     }
+    ]
+   },
+   "upWc3b": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 1350,
+      "peak": 1435
+     }
+    ]
+   },
+   "nBoutique": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 115,
+      "peak": 135
+     }
+    ]
+   },
+   "nSeafest": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 190,
+      "peak": 230
+     }
+    ]
+   },
+   "nLepaC": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 175,
+      "peak": 205
+     }
+    ]
+   },
+   "nLato": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 30,
+      "normal": 360,
+      "peak": 360
+     }
+    ]
+   },
+   "nNusa": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 2,
+      "normal": 410,
+      "peak": 410
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "normal": 380,
+      "peak": 380
+     },
+     {
+      "from": 4,
+      "to": 30,
+      "normal": 330,
+      "peak": 330
+     }
+    ]
+   },
+   "nDanglai": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 2,
+      "normal": 710,
+      "peak": 710
+     },
+     {
+      "from": 3,
+      "to": 3,
+      "normal": 610,
+      "peak": 610
+     },
+     {
+      "from": 4,
+      "to": 30,
+      "normal": 510,
+      "peak": 510
+     }
+    ]
+   },
+   "nDayang": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 2,
+      "normal": 680,
+      "peak": 740
+     },
+     {
+      "from": 3,
+      "to": 30,
+      "normal": 580,
+      "peak": 640
+     }
+    ]
+   },
+   "nRoyal": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 2,
+      "normal": 860,
+      "peak": 960
+     },
+     {
+      "from": 3,
+      "to": 30,
+      "normal": 760,
+      "peak": 860
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Water chalet 1 bintang &middot; Lato Lato (dalam pakej)",
+   "cost": "incl",
+   "hotel": "1-Star Water Chalet",
+   "incl": "Water Chalet accommodation at Lato Lato Water Chalet ({days})"
+  },
+  {
+   "v": "incltown",
+   "t": "Hotel Pekan Semporna &middot; Wingtat Hotel (dalam pakej)",
+   "cost": "incl",
+   "hotel": "Semporna Town Hotel",
+   "incl": "Semporna Town Hotel accommodation at Wingtat Hotel ({days})"
+  },
+  {
+   "v": "upBoutique",
+   "t": "Hotel Pekan &middot; Seafest Boutique",
+   "cost": "incl",
+   "perPaxRate": "upTownB",
+   "zeroOk": true,
+   "hotel": "Seafest Boutique",
+   "line": "Seafest Boutique",
+   "incl": "Semporna Town Hotel accommodation at Seafest Boutique ({days})"
+  },
+  {
+   "v": "upLepaSV",
+   "t": "Upgrade hotel Pekan &middot; Seafest Lepa Wing Sea View",
+   "cost": "incl",
+   "perPaxRate": "upTown30",
+   "hotel": "Seafest Lepa Wing Sea View",
+   "line": "Seafest Lepa Wing Sea View upgrade",
+   "incl": "Semporna Town Hotel upgrade to Seafest Lepa Wing Sea View ({days})"
+  },
+  {
+   "v": "upSeafest",
+   "t": "Upgrade hotel Pekan &middot; Seafest Hotel",
+   "cost": "incl",
+   "perPaxRate": "upTown30",
+   "hotel": "Seafest Hotel",
+   "line": "Seafest Hotel upgrade",
+   "incl": "Semporna Town Hotel upgrade to Seafest Hotel ({days})"
+  },
+  {
+   "v": "upSeafestSV",
+   "t": "Upgrade hotel Pekan &middot; Seafest Hotel Sea View",
+   "cost": "incl",
+   "perPaxRate": "upTown50",
+   "hotel": "Seafest Hotel Sea View",
+   "line": "Seafest Hotel Sea View upgrade",
+   "incl": "Semporna Town Hotel upgrade to Seafest Hotel Sea View ({days})"
+  },
+  {
+   "v": "upWc1a",
+   "t": "Water chalet 1&#9733; &middot; Nusakuya / Blue Ocean",
+   "cost": "incl",
+   "perPaxRate": "upWc1a",
+   "zeroOk": true,
+   "hotel": "1-Star Water Chalet",
+   "line": "1-Star Water Chalet - Nusakuya or Blue Ocean",
+   "incl": "Water Chalet accommodation at Nusakuya Resort or Blue Ocean Resort ({days})"
+  },
+  {
+   "v": "upWc1b",
+   "t": "Upgrade water chalet 1&#9733; &middot; Maglami-Lami / Aminah / Starz Standard",
+   "cost": "incl",
+   "perPaxRate": "upWc1b",
+   "hotel": "1-Star Water Chalet",
+   "line": "1-Star Water Chalet upgrade",
+   "incl": "Water Chalet upgrade to Maglami-Lami Water House, Aminah Holiday Resort or Starz Water Villa Standard ({days})"
+  },
+  {
+   "v": "upWc2a",
+   "t": "Upgrade water chalet 2&#9733; &middot; Danglai / Dayang",
+   "cost": "incl",
+   "perPaxRate": "upWc2a",
+   "hotel": "2-Star Water Chalet",
+   "line": "2-Star Water Chalet upgrade",
+   "incl": "Water Chalet upgrade to Danglai Resort or Dayang Resort ({days})"
+  },
+  {
+   "v": "upWc2b",
+   "t": "Upgrade water chalet 2&#9733; &middot; Royal Resort Standard Suite",
+   "cost": "incl",
+   "perPaxRate": "upWc2b",
+   "hotel": "2-Star Water Chalet",
+   "line": "Royal Resort Standard Suite upgrade",
+   "incl": "Water Chalet upgrade to Royal Resort Standard Suite ({days})"
+  },
+  {
+   "v": "upWc3a",
+   "t": "Upgrade water chalet 3&#9733; &middot; Sipadan Kapalai Standard",
+   "cost": "incl",
+   "perPaxRate": "upWc3a",
+   "hotel": "3-Star Water Chalet",
+   "line": "Sipadan Kapalai upgrade",
+   "incl": "Water Chalet upgrade to Sipadan Kapalai Dive Resort, Standard ({days})"
+  },
+  {
+   "v": "upWc3b",
+   "t": "Upgrade water chalet 3&#9733; &middot; Sipadan Water Village (Sea View)",
+   "cost": "incl",
+   "perPaxRate": "upWc3b",
+   "hotel": "3-Star Water Chalet",
+   "line": "Sipadan Water Village upgrade",
+   "incl": "Water Chalet upgrade to Sipadan Water Village, Sea View ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; hotel Pekan Semporna (Wingtat)",
+   "cost": "night",
+   "hotel": "Semporna Town Hotel",
+   "line": "Additional night, Semporna Town Hotel",
+   "incl": "Additional night at Wingtat Hotel, Semporna Town ({days})"
+  },
+  {
+   "v": "nBoutique",
+   "t": "Malam tambahan &middot; Seafest Boutique",
+   "cost": "night",
+   "nightRate": "nBoutique",
+   "hotel": "Seafest Boutique",
+   "line": "Additional night, Seafest Boutique",
+   "incl": "Additional night at Seafest Boutique ({days})"
+  },
+  {
+   "v": "nLepaC",
+   "t": "Malam tambahan &middot; Seafest Lepa Wing Courtyard",
+   "cost": "night",
+   "nightRate": "nLepaC",
+   "hotel": "Seafest Lepa Wing",
+   "line": "Additional night, Seafest Lepa Wing Courtyard",
+   "incl": "Additional night at Seafest Lepa Wing, Courtyard ({days})"
+  },
+  {
+   "v": "nSeafest",
+   "t": "Malam tambahan &middot; Seafest Hotel",
+   "cost": "night",
+   "nightRate": "nSeafest",
+   "hotel": "Seafest Hotel",
+   "line": "Additional night, Seafest Hotel",
+   "incl": "Additional night at Seafest Hotel ({days})"
+  },
+  {
+   "v": "nLato",
+   "t": "Malam tambahan &middot; water chalet Lato Lato (A/C)",
+   "cost": "night",
+   "nightRate": "nLato",
+   "hotel": "1-Star Water Chalet",
+   "line": "Additional night, Lato Lato Water Chalet",
+   "incl": "Additional night at Lato Lato Water Chalet, air conditioned ({days})"
+  },
+  {
+   "v": "nNusa",
+   "t": "Malam tambahan &middot; water chalet Nusakuya",
+   "cost": "night",
+   "nightRate": "nNusa",
+   "hotel": "1-Star Water Chalet",
+   "line": "Additional night, Nusakuya Resort",
+   "incl": "Additional night at Nusakuya Resort ({days})"
+  },
+  {
+   "v": "nDanglai",
+   "t": "Malam tambahan &middot; water chalet 2&#9733; Danglai",
+   "cost": "night",
+   "nightRate": "nDanglai",
+   "hotel": "2-Star Water Chalet",
+   "line": "Additional night, Danglai Resort",
+   "incl": "Additional night at Danglai Resort ({days})"
+  },
+  {
+   "v": "nDayang",
+   "t": "Malam tambahan &middot; water chalet 2&#9733; Dayang",
+   "cost": "night",
+   "nightRate": "nDayang",
+   "hotel": "2-Star Water Chalet",
+   "line": "Additional night, Dayang Resort",
+   "incl": "Additional night at Dayang Resort ({days})"
+  },
+  {
+   "v": "nRoyal",
+   "t": "Malam tambahan &middot; water chalet 2&#9733; Royal Resort",
+   "cost": "night",
+   "nightRate": "nRoyal",
+   "hotel": "2-Star Water Chalet",
+   "line": "Additional night, Royal Resort",
+   "incl": "Additional night at Royal Resort, Standard Suite ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel &ndash; tolak 1 malam dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "nobf",
+   "t": "Tiada makan (hari ketibaan)",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-",
+   "bfLock": true
+  },
+  {
+   "v": "nobfd",
+   "t": "Dinner sahaja (hari ketibaan, tiada breakfast)",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner",
+   "bfLock": true
+  },
+  {
+   "v": "none",
+   "t": "Breakfast sahaja",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "l",
+   "t": "Lunch / lunch box",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Basic Lunch Box"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Basic Lunch Box, Dinner"
+  },
+  {
+   "v": "cld",
+   "t": "Candlelight Dinner (add-on)",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Candlelight Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "air",
+   "t": "Airport transfer + boat transfer (sharing, dalam pakej)",
+   "cost": "incl",
+   "lbl": "Airport transfer & Boat transfer (sharing basis)",
+   "incl": "Two way shared airport transfer between Tawau Airport and Semporna ({days})"
+  },
+  {
+   "v": "boat",
+   "t": "Boat transfer sahaja (sharing, dalam pakej)",
+   "cost": "incl",
+   "lbl": "Boat transfer (sharing basis)",
+   "incl": "Shared boat transfer between Semporna Jetty and the water chalet ({days})"
+  },
+  {
+   "v": "sic",
+   "t": "Island hopping SIC boat + guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Boat transfer (sharing basis)",
+   "incl": "Shared island hopping boat (SIC) with guide ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Transport / boat hari tambahan",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Boat transfer (sharing basis)",
+   "incl": "Additional day boat and land transfer ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "lb_ih_a",
+   "t": "Island Hopping Set Bohey Dulang (SIC)",
+   "en": "ISLAND HOPPING SET BOHEY DULANG",
+   "acc": "incltown",
+   "meal": "ld",
+   "trp": "sic",
+   "act": [
+    "Bohey Dulang - hiking ke viewpoint kawah",
+    "Pulau Mantabuan - snorkelling",
+    "Pulau Sibuan - sandbar & snorkelling",
+    "Lunch box dan air mineral disediakan",
+    "Balik ke Jeti Semporna, malam di hotel Pekan Semporna"
+   ],
+   "eact": [
+    "Bohey Dulang - hiking to the crater viewpoint",
+    "Mantabuan Island for snorkeling",
+    "Sibuan Island sandbar and snorkeling",
+    "Basic lunch box and mineral water provided",
+    "Return to Semporna Jetty and overnight at Semporna Town hotel"
+   ],
+   "region": "[Island Hopping]",
+   "g": "Semporna - island hopping"
+  },
+  {
+   "v": "lb_ih_b",
+   "t": "Island Hopping Set Mataking (SIC)",
+   "en": "ISLAND HOPPING SET MATAKING",
+   "acc": "incltown",
+   "meal": "ld",
+   "trp": "sic",
+   "act": [
+    "Pulau Mataking - snorkelling & pantai",
+    "Pulau Pom Pom",
+    "Pulau Timba Timba",
+    "Lunch box dan air mineral disediakan",
+    "Balik ke Jeti Semporna, malam di hotel Pekan Semporna"
+   ],
+   "eact": [
+    "Mataking Island - snorkeling and beach",
+    "Pom Pom Island",
+    "Timba Timba Island",
+    "Basic lunch box and mineral water provided",
+    "Return to Semporna Jetty and overnight at Semporna Town hotel"
+   ],
+   "region": "[Island Hopping]",
+   "g": "Semporna - island hopping"
+  },
+  {
+   "v": "lb_ih_c",
+   "t": "Island Hopping Set Mabul (SIC)",
+   "en": "ISLAND HOPPING SET MABUL",
+   "acc": "incltown",
+   "meal": "ld",
+   "trp": "sic",
+   "act": [
+    "Pulau Mabul - snorkelling",
+    "Kapalai - water bungalow & sandbar",
+    "Lunch box dan air mineral disediakan",
+    "Balik ke Jeti Semporna, malam di hotel Pekan Semporna"
+   ],
+   "eact": [
+    "Mabul Island for snorkeling",
+    "Kapalai water bungalow and sandbar",
+    "Basic lunch box and mineral water provided",
+    "Return to Semporna Jetty and overnight at Semporna Town hotel"
+   ],
+   "region": "[Island Hopping]",
+   "g": "Semporna - island hopping"
+  },
+  {
+   "v": "lb_fe",
+   "t": "Free & easy di Pekan Semporna",
+   "en": "FREE AND EASY IN SEMPORNA TOWN",
+   "acc": "incltown",
+   "meal": "none",
+   "trp": "none",
+   "act": [
+    "Hari bebas di Pekan Semporna",
+    "Semporna Town Market, gerai tepi jalan, Seafest Jetty",
+    "Makan dan aktiviti bayaran sendiri"
+   ],
+   "eact": [
+    "Free day in Semporna Town",
+    "Semporna Town Market, street stalls and Seafest Jetty",
+    "Meals and activities at own expense"
+   ],
+   "region": "[Free & Easy]",
+   "g": "Semporna - free & easy"
+  },
+  {
+   "v": "lb_tawau",
+   "t": "Tawau Shopping Tour (full day)",
+   "en": "TAWAU SHOPPING TOUR",
+   "acc": "incltown",
+   "meal": "none",
+   "trp": "none",
+   "act": [
+    "Private transport dengan driver guide (6-8 jam)",
+    "Tawau town shopping, pasar tempatan",
+    "Makan bayaran sendiri"
+   ],
+   "eact": [
+    "Private transport with driver guide, 6 to 8 hours",
+    "Tawau town shopping and local market",
+    "Meals at own expense"
+   ],
+   "region": "[Tawau]",
+   "g": "Semporna - day trip"
+  },
+  {
+   "v": "lb_ws",
+   "t": "Timbun Mata Watersport (half day)",
+   "en": "TIMBUN MATA WATERSPORT",
+   "acc": "incltown",
+   "meal": "l",
+   "trp": "none",
+   "act": [
+    "Timbun Mata - 5 aktiviti watersport",
+    "Parasailing, jet ski, banana boat, paddle boat, UFO donut",
+    "Buffet lunch disediakan"
+   ],
+   "eact": [
+    "Timbun Mata - five watersport activities",
+    "Parasailing, jet ski, banana boat, paddle boat and UFO donut",
+    "Buffet lunch provided"
+   ],
+   "region": "[Watersport]",
+   "g": "Semporna - day trip"
+  },
+  {
+   "v": "lb_dive",
+   "t": "Hari diving (DSD / Fun Dive)",
+   "en": "DIVING DAY",
+   "acc": "incltown",
+   "meal": "l",
+   "trp": "none",
+   "act": [
+    "Discovery Scuba Diving (2 dives) atau Fun Dive (3 dives)",
+    "Peralatan diving, dive master, lunch box",
+    "Disyorkan pada hari pertama"
+   ],
+   "eact": [
+    "Discovery Scuba Diving with two dives or Fun Dive with three dives",
+    "Diving equipment, dive master and lunch box",
+    "Recommended on the first day"
+   ],
+   "region": "[Diving]",
+   "g": "Semporna - day trip"
+  },
+  {
+   "v": "lb_wc",
+   "t": "Malam tambahan water chalet",
+   "en": "ADDITIONAL NIGHT AT WATER CHALET",
+   "acc": "nLato",
+   "meal": "ld",
+   "trp": "boat",
+   "act": [
+    "Shared boat transfer ke water chalet (bot 2pm / 4pm)",
+    "Swim & snorkelling sendiri, sunset view",
+    "Free & easy di water chalet"
+   ],
+   "eact": [
+    "Shared boat transfer to the water chalet, boat departure 2.00PM or 4.00PM",
+    "Self arranged swimming and snorkeling, sunset view",
+    "Free and easy at the water chalet"
+   ],
+   "region": "[Water Chalet]",
+   "g": "Hari tambahan"
+  },
+  {
+   "v": "ext",
+   "t": "Hari tambahan di Semporna",
+   "en": "ADDITIONAL DAY IN SEMPORNA",
+   "acc": "extra",
+   "meal": "none",
+   "trp": "ext",
+   "act": [
+    "Hari tambahan - itinerary ikut permintaan customer",
+    "Transport dan boat transfer ikut aktiviti yang dipilih"
+   ],
+   "eact": [
+    "Additional day, itinerary as requested by the customer",
+    "Land and boat transfer according to the chosen activity"
+   ],
+   "region": "[Free & Easy]",
+   "g": "Hari tambahan"
+  },
+  {
+   "v": "lb_out",
+   "t": "Semporna - Tawau (berlepas)",
+   "en": "SEMPORNA DEPARTURE",
+   "acc": "none",
+   "meal": "none",
+   "trp": "air",
+   "act": [
+    "Sarapan di hotel dan check-out",
+    "Shared airport transfer ke Lapangan Terbang Tawau",
+    "Airport transfer: 6am / 7am / 10am / 12pm / 2pm / 5pm"
+   ],
+   "eact": [
+    "Breakfast at the hotel and check out",
+    "Shared airport transfer to Tawau Airport",
+    "Airport transfer at 6.00AM, 7.00AM, 10.00AM, 12.00PM, 2.00PM or 5.00PM"
+   ],
+   "region": "[Airport Transfer]",
+   "g": "Hari tambahan"
+  }
+ ],
+ "addons": [
+  [
+   "Island Hopping full day - Set Bohey Dulang, Set Mataking or Set Mabul",
+   180,
+   180,
+   "pax"
+  ],
+  [
+   "Island Hopping Set Mabul, Mabul and Kapalai - per group",
+   250,
+   0,
+   "share"
+  ],
+  [
+   "Tawau Shopping Tour full day - private transport with driver guide",
+   120,
+   120,
+   "pax"
+  ],
+  [
+   "Timbun Mata Watersport half day - parasailing, jet ski, banana boat and UFO donut with buffet lunch",
+   300,
+   300,
+   "pax"
+  ],
+  [
+   "Seawalking at Seafest Jetty - 45 minutes, minimum 2 pax",
+   180,
+   180,
+   "pax"
+  ],
+  [
+   "Discovery Scuba Diving - 2 dives with equipment and dive master",
+   280,
+   280,
+   "pax"
+  ],
+  [
+   "Fun Dive - 3 dives with equipment and dive master",
+   330,
+   330,
+   "pax"
+  ],
+  [
+   "Candlelight Dinner - meals with table decoration",
+   280,
+   0,
+   "pax"
+  ],
+  [
+   "Honeymoon room decoration - per room",
+   350,
+   0,
+   "unit"
+  ],
+  [
+   "Regular size cake - per cake",
+   120,
+   0,
+   "unit"
+  ],
+  [
+   "Private car transfer, Tawau city or hotel to Semporna - 1 way, maximum 4 pax",
+   160,
+   0,
+   "unit"
+  ],
+  [
+   "Charter car with Tawau or Semporna city tour - 1 way, maximum 4 pax",
+   280,
+   0,
+   "unit"
+  ],
+  [
+   "Charter van with Tawau or Semporna city tour - 1 way, 5 to 10 pax",
+   480,
+   0,
+   "unit"
+  ],
+  [
+   "Extra shared airport transfer between Tawau Airport and Semporna - 1 way",
+   40,
+   40,
+   "pax"
+  ],
+  [
+   "Extra shared boat transfer to or from the water chalet - 1 way",
+   40,
+   40,
+   "pax"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 1,
+   "text": "1 pax guna tier katalog sendiri (Basic RM1,897 &middot; Standard RM2,297). Katalog tiada harga kanak-kanak untuk 1 pax."
+  },
+  {
+   "from": 2,
+   "to": 10,
+   "text": "Katalog Semporna v4 beri harga <b>rata untuk 2&ndash;10 pax</b>."
+  },
+  {
+   "from": 11,
+   "to": 99999,
+   "text": "11 pax ke atas: katalog hanya sampai 10 pax dan rate card tiada tier lanjutan. <b>Sebut harga baharu dengan operator</b> &mdash; jangan guna tier 2&ndash;10."
+  }
+ ],
+ "validity": "Prices are based on the PT Semporna Basic (3D2N) and Standard (4D3N) 2026 catalogues, version 4, last updated 24 August 2026, and are valid for travel until 31 December 2026. Travel between January and June 2027 carries a surcharge of RM150 per person; departures from July 2027 must be requoted. This quotation is valid for 24 hours after submission. A deposit of RM500 per person is due on confirmation and full payment 30 days before departure. A late booking surcharge of RM50 per booking applies to bookings made less than 45 days before departure. Prices are for 2 to 3 persons per room; a triple room with three single beds is subject to availability and an extra bed is used when none is available. Boat transfers depart Semporna Jetty at 2.00PM or 4.00PM and return at 11.00AM or 2.00PM, and all boat timings are subject to weather and sea tide conditions. Airport and boat transfers and island hopping are on a sharing basis (SIC). All add on activities must be confirmed and paid at least 2 days before the activity day and are subject to availability and weather. The final itinerary and accommodation are confirmed 14 days before the trip.",
+ "variants": [
+  {
+   "id": "basic",
+   "name": "PT Semporna Basic 3D2N",
+   "pkgLabel": "Semporna Basic - Island Hopping Bohey Dulang or Mataking",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "Water Chalet / Semporna Town Hotel",
+   "days": 3,
+   "nights": 2,
+   "breakfast": true,
+   "single": 1200,
+   "infant": 0,
+   "tiers": [
+    {
+     "from": 1,
+     "to": 1,
+     "a": 1897,
+     "c": 1197,
+     "n": 997
+    },
+    {
+     "from": 2,
+     "to": 10,
+     "a": 1397,
+     "c": 1197,
+     "n": 997
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 0,
+    "windows": [
+     [
+      "2026-06-26",
+      "2026-08-31",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2026-09-28",
+      "2026-09-30",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2026-10-01",
+      "2026-10-08",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2026-12-20",
+      "2026-12-31",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2027-01-01",
+      "2027-01-23",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2027-02-12",
+      "2027-02-25",
+      null,
+      0,
+      "Peak Season"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 160,
+     "peak": 220
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 10,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "upTownB": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 30
+       }
+      ]
+     },
+     "upTown30": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 30,
+        "peak": 60
+       }
+      ]
+     },
+     "upTown50": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 50,
+        "peak": 100
+       }
+      ]
+     },
+     "upWc1a": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 60
+       }
+      ]
+     },
+     "upWc1b": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 150,
+        "peak": 210
+       }
+      ]
+     },
+     "upWc2a": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 450,
+        "peak": 515
+       }
+      ]
+     },
+     "upWc2b": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 600,
+        "peak": 700
+       }
+      ]
+     },
+     "upWc3a": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 2050,
+        "peak": 2135
+       }
+      ]
+     },
+     "upWc3b": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 1350,
+        "peak": 1435
+       }
+      ]
+     },
+     "nBoutique": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 115,
+        "peak": 135
+       }
+      ]
+     },
+     "nSeafest": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 190,
+        "peak": 230
+       }
+      ]
+     },
+     "nLepaC": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 175,
+        "peak": 205
+       }
+      ]
+     },
+     "nLato": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 360,
+        "peak": 360
+       }
+      ]
+     },
+     "nNusa": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 410,
+        "peak": 410
+       },
+       {
+        "from": 3,
+        "to": 3,
+        "normal": 380,
+        "peak": 380
+       },
+       {
+        "from": 4,
+        "to": 30,
+        "normal": 330,
+        "peak": 330
+       }
+      ]
+     },
+     "nDanglai": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 710,
+        "peak": 710
+       },
+       {
+        "from": 3,
+        "to": 3,
+        "normal": 610,
+        "peak": 610
+       },
+       {
+        "from": 4,
+        "to": 30,
+        "normal": 510,
+        "peak": 510
+       }
+      ]
+     },
+     "nDayang": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 680,
+        "peak": 740
+       },
+       {
+        "from": 3,
+        "to": 30,
+        "normal": 580,
+        "peak": 640
+       }
+      ]
+     },
+     "nRoyal": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 860,
+        "peak": 960
+       },
+       {
+        "from": 3,
+        "to": 30,
+        "normal": 760,
+        "peak": 860
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Tawau - Semporna - Water Chalet",
+     "en": "TAWAU - SEMPORNA - WATER CHALET",
+     "acc": "incl",
+     "meal": "nobfd",
+     "trp": "air",
+     "act": [
+      "Tiba di Lapangan Terbang Tawau (TWU)",
+      "Airport transfer ke Semporna (~2 jam)",
+      "Shared boat transfer (bot 2pm / 4pm)",
+      "Check-in water chalet",
+      "Swim & snorkelling (self-arranged)",
+      "Sunset view - Free & Easy"
+     ],
+     "eact": [
+      "Arrive at Tawau Airport (TWU)",
+      "Airport transfer to Semporna, about 2 hours",
+      "Shared boat transfer, boat departure 2.00PM or 4.00PM",
+      "Check in at the water chalet",
+      "Self arranged swimming and snorkeling",
+      "Sunset view and free and easy"
+     ],
+     "region": "[Airport Transfer]"
+    },
+    {
+     "v": "d2",
+     "t": "Island Hopping 1 (SIC)",
+     "en": "ISLAND HOPPING (SIC)",
+     "acc": "incltown",
+     "meal": "ld",
+     "trp": "sic",
+     "act": [
+      "Island Hopping Set Bohey Dulang (Bohey Dulang, Mantabuan & Sibuan)",
+      "ATAU Set Mataking (Mataking, Timba Timba & Pom Pom)",
+      "Lunch box dan air mineral disediakan",
+      "Balik ke Jeti Semporna - check-in hotel Pekan Semporna",
+      "Free & Easy"
+     ],
+     "eact": [
+      "Island Hopping Set Bohey Dulang - Bohey Dulang, Mantabuan and Sibuan",
+      "or Island Hopping Set Mataking - Mataking, Timba Timba and Pom Pom",
+      "Basic lunch box and mineral water provided",
+      "Back to Semporna Jetty and check in at Semporna Town hotel",
+      "Free and easy"
+     ],
+     "region": "[Island Hopping]"
+    },
+    {
+     "v": "dout",
+     "t": "Semporna - Tawau (berlepas)",
+     "en": "SEMPORNA - TAWAU",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "act": [
+      "Sarapan dan check-out hotel",
+      "Free & Easy atau additional activities",
+      "Shared airport transfer ke Tawau (6am/7am/10am/12pm/2pm/5pm)"
+     ],
+     "eact": [
+      "Breakfast and hotel check out",
+      "Free and easy or additional activities",
+      "Shared airport transfer to Tawau Airport at 6.00AM, 7.00AM, 10.00AM, 12.00PM, 2.00PM or 5.00PM"
+     ],
+     "region": "[Airport Transfer]"
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "1 Island Hopping - Set Bohey Dulang or Set Mataking",
+    "Snorkelling equipment",
+    "Admissions and jetty fee",
+    "Daily halal breakfast at the hotel",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets to Tawau (TWU)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional packages and add-on activities",
+    "Personal expenses and shopping",
+    "Shower room at Semporna Jetty",
+    "Travel insurance or takaful",
+    "Tourism tax for non Malaysian passport holders",
+    "Surcharge for non Malaysian passport holders"
+   ],
+   "exclusionsTail": [
+    "Boat and airport transfers are on a sharing basis (SIC) unless a private transfer add-on is purchased"
+   ],
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)"
+  },
+  {
+   "id": "std",
+   "name": "PT Semporna Standard 4D3N",
+   "pkgLabel": "Semporna Standard - Island Hopping Bohey Dulang, Mataking or Mabul",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "Water Chalet / Semporna Town Hotel",
+   "days": 4,
+   "nights": 3,
+   "breakfast": true,
+   "single": 1500,
+   "infant": 0,
+   "tiers": [
+    {
+     "from": 1,
+     "to": 1,
+     "a": 2297,
+     "c": 1457,
+     "n": 1357
+    },
+    {
+     "from": 2,
+     "to": 10,
+     "a": 1597,
+     "c": 1457,
+     "n": 1357
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 0,
+    "windows": [
+     [
+      "2026-06-26",
+      "2026-08-31",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2026-09-28",
+      "2026-09-30",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2026-10-01",
+      "2026-10-08",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2026-12-20",
+      "2026-12-31",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2027-01-01",
+      "2027-01-23",
+      null,
+      0,
+      "Peak Season"
+     ],
+     [
+      "2027-02-12",
+      "2027-02-25",
+      null,
+      0,
+      "Peak Season"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 160,
+     "peak": 220
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 10,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "upTownB": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 30
+       }
+      ]
+     },
+     "upTown30": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 30,
+        "peak": 60
+       }
+      ]
+     },
+     "upTown50": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 50,
+        "peak": 100
+       }
+      ]
+     },
+     "upWc1a": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 0,
+        "peak": 60
+       }
+      ]
+     },
+     "upWc1b": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 150,
+        "peak": 210
+       }
+      ]
+     },
+     "upWc2a": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 450,
+        "peak": 515
+       }
+      ]
+     },
+     "upWc2b": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 600,
+        "peak": 680
+       }
+      ]
+     },
+     "upWc3a": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 2050,
+        "peak": 2135
+       }
+      ]
+     },
+     "upWc3b": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 1350,
+        "peak": 1435
+       }
+      ]
+     },
+     "nBoutique": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 115,
+        "peak": 135
+       }
+      ]
+     },
+     "nSeafest": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 190,
+        "peak": 230
+       }
+      ]
+     },
+     "nLepaC": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 175,
+        "peak": 205
+       }
+      ]
+     },
+     "nLato": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 30,
+        "normal": 360,
+        "peak": 360
+       }
+      ]
+     },
+     "nNusa": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 410,
+        "peak": 410
+       },
+       {
+        "from": 3,
+        "to": 3,
+        "normal": 380,
+        "peak": 380
+       },
+       {
+        "from": 4,
+        "to": 30,
+        "normal": 330,
+        "peak": 330
+       }
+      ]
+     },
+     "nDanglai": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 710,
+        "peak": 710
+       },
+       {
+        "from": 3,
+        "to": 3,
+        "normal": 610,
+        "peak": 610
+       },
+       {
+        "from": 4,
+        "to": 30,
+        "normal": 510,
+        "peak": 510
+       }
+      ]
+     },
+     "nDayang": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 680,
+        "peak": 740
+       },
+       {
+        "from": 3,
+        "to": 30,
+        "normal": 580,
+        "peak": 640
+       }
+      ]
+     },
+     "nRoyal": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 2,
+        "normal": 860,
+        "peak": 940
+       },
+       {
+        "from": 3,
+        "to": 30,
+        "normal": 760,
+        "peak": 840
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Tawau - Semporna - Water Chalet",
+     "en": "TAWAU - SEMPORNA - WATER CHALET",
+     "acc": "incl",
+     "meal": "nobfd",
+     "trp": "air",
+     "act": [
+      "Tiba di Lapangan Terbang Tawau (TWU)",
+      "Airport transfer ke Semporna (~2 jam)",
+      "Shared boat transfer (bot 2pm / 4pm)",
+      "Check-in water chalet",
+      "Swim & snorkelling (self-arranged)",
+      "Sunset view - Free & Easy"
+     ],
+     "eact": [
+      "Arrive at Tawau Airport (TWU)",
+      "Airport transfer to Semporna, about 2 hours",
+      "Shared boat transfer, boat departure 2.00PM or 4.00PM",
+      "Check in at the water chalet",
+      "Self arranged swimming and snorkeling",
+      "Sunset view and free and easy"
+     ],
+     "region": "[Airport Transfer]"
+    },
+    {
+     "v": "d2",
+     "t": "Island Hopping 1 (SIC)",
+     "en": "ISLAND HOPPING (SIC)",
+     "acc": "incltown",
+     "meal": "ld",
+     "trp": "sic",
+     "act": [
+      "Island Hopping Set Bohey Dulang (Bohey Dulang, Mantabuan & Sibuan)",
+      "ATAU Set Mataking (Mataking, Timba Timba & Pom Pom)",
+      "Lunch box dan air mineral disediakan",
+      "Balik ke Jeti Semporna - check-in hotel Pekan Semporna",
+      "Free & Easy"
+     ],
+     "eact": [
+      "Island Hopping Set Bohey Dulang - Bohey Dulang, Mantabuan and Sibuan",
+      "or Island Hopping Set Mataking - Mataking, Timba Timba and Pom Pom",
+      "Basic lunch box and mineral water provided",
+      "Back to Semporna Jetty and check in at Semporna Town hotel",
+      "Free and easy"
+     ],
+     "region": "[Island Hopping]"
+    },
+    {
+     "v": "d3fe",
+     "t": "Free & Easy di Pekan Semporna",
+     "en": "FREE AND EASY",
+     "acc": "incltown",
+     "meal": "none",
+     "trp": "none",
+     "act": [
+      "Free & Easy di Pekan Semporna",
+      "ATAU add-on Island Hopping Set Mabul RM180/pax (Mabul & Kapalai)",
+      "Malam di hotel Pekan Semporna"
+     ],
+     "eact": [
+      "Free and easy in Semporna Town",
+      "or add on Island Hopping Set Mabul - Mabul and Kapalai",
+      "Overnight at Semporna Town hotel"
+     ],
+     "region": "[Free & Easy]"
+    },
+    {
+     "v": "dout",
+     "t": "Semporna - Tawau (berlepas)",
+     "en": "SEMPORNA - TAWAU",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "act": [
+      "Sarapan dan check-out hotel",
+      "Free & Easy atau additional activities",
+      "Shared airport transfer ke Tawau (6am/7am/10am/12pm/2pm/5pm)"
+     ],
+     "eact": [
+      "Breakfast and hotel check out",
+      "Free and easy or additional activities",
+      "Shared airport transfer to Tawau Airport at 6.00AM, 7.00AM, 10.00AM, 12.00PM, 2.00PM or 5.00PM"
+     ],
+     "region": "[Airport Transfer]"
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "1 Island Hopping - Set Bohey Dulang or Set Mataking",
+    "Snorkelling equipment",
+    "Admissions and jetty fee",
+    "Daily halal breakfast at the hotel",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets to Tawau (TWU)",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional packages and add-on activities",
+    "Personal expenses and shopping",
+    "Shower room at Semporna Jetty",
+    "Travel insurance or takaful",
+    "Tourism tax for non Malaysian passport holders",
+    "Surcharge for non Malaysian passport holders"
+   ],
+   "exclusionsTail": [
+    "Boat and airport transfers are on a sharing basis (SIC) unless a private transfer add-on is purchased"
+   ],
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)"
+  }
+ ]
+}

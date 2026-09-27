@@ -1,0 +1,905 @@
+{
+ "dest": "MEDAN - LAKE TOBA",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;5)"
+ },
+ "infantNote": "Bawah 2 tahun FOC",
+ "singleNote": "+RM 250 setiap satu (sepanjang 3 malam)",
+ "intro": "Isi pax dan tarikh &mdash; peak season RM 30/pax/malam (hotel 3&#9733;) dan late booking RM 50/booking dikira sendiri. <b>Option B</b> (laluan Samosir/Holbung, +RM 50/pax) ialah varian pakej berasingan &mdash; pilih dari dropdown pakej, bukan add-on. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Upgrade hotel 4&#9733; &mdash; malam PEAK</i> supaya surcaj peak 4&#9733; RM 40/pax/malam dikira betul (RM 30 auto + RM 10 beza). Kadar hari tambahan &amp; malam tambahan <b>belum tersiar</b> dalam katalog atau rate card, jadi ia papar <i>kadar?</i> sehingga diisi dalam calc-config.json.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "peak": {
+  "mode": "perNight",
+  "value": 30,
+  "windows": [
+   [
+    "2025-12-25",
+    "2026-01-05"
+   ],
+   [
+    "2026-03-15",
+    "2026-03-31"
+   ],
+   [
+    "2026-06-25",
+    "2026-07-12"
+   ],
+   [
+    "2026-12-25",
+    "2027-01-05"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Travel date surcharge 8&ndash;15 Mac 2027",
+   "dateIn": [
+    "2027-03-08",
+    "2027-03-15"
+   ],
+   "perPax": 90
+  }
+ ],
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3&#9733; (malam dalam pakej)",
+   "cost": "incl",
+   "hotel": "3-Star Hotel"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade hotel 4&#9733; &mdash; malam BUKAN peak",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "hotel": "4-Star Hotel",
+   "line": "4-Star hotel upgrade",
+   "incl": "4-Star hotel upgrade - Niagara Parapat, Sibayak International Berastagi and Emerald Garden Medan or similar ({days})"
+  },
+  {
+   "v": "up4pk",
+   "t": "Upgrade hotel 4&#9733; &mdash; malam PEAK (termasuk beza surcaj peak 4&#9733;)",
+   "cost": "incl",
+   "perPaxRate": "up4pk",
+   "hotel": "4-Star Hotel",
+   "line": "4-Star hotel upgrade (peak season night)",
+   "incl": "4-Star hotel upgrade - Niagara Parapat, Sibayak International Berastagi and Emerald Garden Medan or similar ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan hotel 3&#9733;",
+   "cost": "night",
+   "hotel": "3-Star Hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "no3",
+   "t": "Tanpa hotel &ndash; tolak malam 3&#9733; dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed (3-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast (dalam pakej)",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast (pakej) &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast (pakej) &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast (pakej), Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch sahaja",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner sahaja",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner (hari ketibaan)",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private Transportation and Driving Guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer KNO (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Private Airport Transfer",
+   "incl": "Private Airport Transfer at Kualanamu International Airport KNO ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation and driving guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "mday",
+   "t": "Sambungan tour berbilang hari (kos sudah dikira pada hari pertama)",
+   "cost": "zero",
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Multi-day tour private transportation and driving guide ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  },
+  {
+   "v": "feded",
+   "t": "Free &amp; easy &ndash; tolak transport &amp; guide dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (transport and driving guide deducted)"
+  }
+ ],
+ "library": [
+  {
+   "v": "ext",
+   "t": "Hari tambahan - pilih blok hari di bawah",
+   "en": "ADDITIONAL DAY",
+   "g": "Umum",
+   "region": "",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Additional day - itinerary as requested by customer"
+   ]
+  },
+  {
+   "v": "fe",
+   "t": "Free & Easy - tolak transport & guide dari katalog",
+   "en": "FREE & EASY",
+   "g": "Umum",
+   "region": "",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "feded",
+   "act": [
+    "Free & easy tanpa transport atau driving guide"
+   ],
+   "eact": [
+    "Free and easy - no transport or driving guide"
+   ]
+  },
+  {
+   "v": "aSam",
+   "t": "Pulau Samosir, Simarjarunjung & Sipiso-Piso (Option A)",
+   "en": "SAMOSIR ISLAND & SIPISO PISO WATERFALL",
+   "g": "Blok hari - Option A",
+   "region": "[Samosir]",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Feri menyeberang ke Pulau Samosir",
+    "Tomok Village (Museum Raja Sidabutar, tarian Sigale-gale)",
+    "Puncak Simarjarunjung",
+    "Air Terjun Sipiso-Piso",
+    "Pasar Buah Berastagi"
+   ],
+   "eact": [
+    "Ferry ride to Samosir Island",
+    "Tomok Village (King Sidabutar Museum, Sigale-gale dance)",
+    "Simarjarunjung Hill",
+    "Sipiso Piso Waterfall",
+    "Berastagi Central Fruit Market"
+   ]
+  },
+  {
+   "v": "aMdn",
+   "t": "Medan city, Istana Maimoon & shopping (Option A)",
+   "en": "MEDAN CITY & SHOPPING",
+   "g": "Blok hari - Option A",
+   "region": "[Medan]",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Replika Pagoda Shwedagon @ Taman Alam Lumbini",
+    "Istana Maimoon (Kesultanan Deli)",
+    "Masjid Raya Al-Mashun 1906",
+    "Outlet batik & produk tempatan",
+    "Pasar Ikan / Plaza Medan"
+   ],
+   "eact": [
+    "Shwedagon Pagoda Replica at Taman Alam Lumbini",
+    "Maimoon Palace (Deli Sultanate)",
+    "Masjid Raya Al-Mashun 1906",
+    "Batik and local product outlets",
+    "Pasar Ikan / Plaza Medan"
+   ]
+  },
+  {
+   "v": "bHol",
+   "t": "Bukit Holbung, Pusuk Buhit & Air Terjun Efrata (Option B)",
+   "en": "BUKIT HOLBUNG & PUSUK BUHIT",
+   "g": "Blok hari - Option B",
+   "region": "[Samosir]",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Mount Pusuk Buhit",
+    "Bukit Holbung (Little Teletubbies)",
+    "Air Terjun Efrata",
+    "Bukit Burung"
+   ],
+   "eact": [
+    "Mount Pusuk Buhit",
+    "Bukit Holbung (Little Teletubbies)",
+    "Efrata Waterfall",
+    "Bukit Burung"
+   ]
+  },
+  {
+   "v": "bSin",
+   "t": "Kaki Gunung Sinabung & Danau Lau Kawar (Option B)",
+   "en": "MOUNT SINABUNG & LAU KAWAR LAKE",
+   "g": "Blok hari - Option B",
+   "region": "[Berastagi]",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Kaki Gunung Sinabung",
+    "Danau Lau Kawar",
+    "Pasar Buah Berastagi"
+   ],
+   "eact": [
+    "Mount Sinabung foothills",
+    "Lau Kawar Lake",
+    "Berastagi Central Fruit Market"
+   ]
+  },
+  {
+   "v": "bTea",
+   "t": "Aek Manik Sidamanik & Kebun Teh Bah Butong (Option B)",
+   "en": "AEK MANIK & BAH BUTONG TEA PLANTATION",
+   "g": "Blok hari - Option B",
+   "region": "[Parapat]",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Kolam Aek Manik Sidamanik",
+    "Kebun Teh Bah Butong"
+   ],
+   "eact": [
+    "Aek Manik Pool, Sidamanik",
+    "Bah Butong Tea Plantation"
+   ]
+  },
+  {
+   "v": "arr",
+   "t": "Airport transfer ketibaan KNO sahaja",
+   "en": "ARRIVAL TRANSFER",
+   "g": "Transfer",
+   "region": "[Airport]",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "act": [
+    "Sambut di Lapangan Terbang Kualanamu (KNO)",
+    "Pemindahan ke hotel"
+   ],
+   "eact": [
+    "Arrival at Kualanamu International Airport (KNO)",
+    "Transfer to hotel"
+   ]
+  },
+  {
+   "v": "dep",
+   "t": "Airport transfer berlepas KNO sahaja",
+   "en": "DEPARTURE TRANSFER",
+   "g": "Transfer",
+   "region": "[Airport]",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Sarapan & daftar keluar",
+    "Pemindahan ke Lapangan Terbang Kualanamu (KNO)"
+   ],
+   "eact": [
+    "Breakfast at hotel",
+    "Hotel check out",
+    "Airport transfer to Kualanamu (KNO)"
+   ]
+  }
+ ],
+ "addons": [
+  [
+   "Drone Shooting (Option B sahaja) - dron, juruterbang, raw + edited footage, sepanjang trip",
+   47,
+   47,
+   "pax"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 4,
+   "text": "1&ndash;4 pax: Toyota Avanza (driver + driving guide)."
+  },
+  {
+   "from": 5,
+   "to": 5,
+   "text": "5 pax: Toyota Innova (driver + driving guide)."
+  },
+  {
+   "from": 6,
+   "to": 19,
+   "text": "6 pax ke atas: Toyota Hiace / van (driver + driving guide). ARBA tidak menyarankan bas &mdash; beberapa attraction terpaksa di-skip."
+  },
+  {
+   "from": 20,
+   "to": 99999,
+   "text": "20 pax ke atas: <b>melebihi tier katalog</b> (tertinggi 10&ndash;19 pax). Kalkulator kekal guna tier 10&ndash;19 &mdash; minta sebut harga operasi."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> All prices are valid for 24 hours after quotation submission and are subject to hotel and room availability as no space has been secured. Prices are quoted for 2 to 3 persons per room; single supplement is RM 250 per person. A deposit of RM 250 per person is required upon confirmation, with full payment due 45 days prior to departure. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before the departure date. Private driver and driving guide are on a 12 hours basis per day; 150,000 IDR per hour is charged for every extra hour and must be paid in cash in Medan. Itinerary, price and flight schedule are subject to change. Final itinerary and hotel arrangements will be confirmed 14 days before the trip. Suggested arrival and departure times are at noon; late arrivals or early departures will not be refunded for activities and meals. This package is valid for travel until 31 January 2027. Ground arrangement and tipping only - flight tickets are not included.",
+ "variants": [
+  {
+   "id": "optiona",
+   "name": "PT Medan&ndash;Danau Toba 4D3N &middot; Option A (Parapat dahulu)",
+   "pkgLabel": "Private Tour Medan - Lake Toba Option A",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1357,
+     "c": 1157,
+     "n": 1057
+    },
+    {
+     "from": 3,
+     "to": 4,
+     "a": 1197,
+     "c": 1097,
+     "n": 997
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "a": 1157,
+     "c": 1057,
+     "n": 957
+    },
+    {
+     "from": 7,
+     "to": 9,
+     "a": 1107,
+     "c": 1007,
+     "n": 907
+    },
+    {
+     "from": 10,
+     "to": 19,
+     "a": 1097,
+     "c": 997,
+     "n": 897
+    }
+   ],
+   "infant": 0,
+   "single": 250,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL - Kualanamu (KNO) - Parapat / Danau Toba",
+     "en": "KUALA LUMPUR - PARAPAT (LAKE TOBA)",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Parapat]",
+     "act": [
+      "Sambut di Lapangan Terbang Kualanamu (KNO)",
+      "Perjalanan ke Parapat, Danau Toba (lebih kurang 5 jam)",
+      "Daftar masuk hotel di Parapat"
+     ],
+     "eact": [
+      "Arrival at Kualanamu International Airport (KNO)",
+      "Transfer to Parapat, Lake Toba (approximately 5 hours)",
+      "Hotel check in at Parapat"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Parapat - Pulau Samosir - Berastagi",
+     "en": "PARAPAT - SAMOSIR ISLAND - BERASTAGI",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Samosir]",
+     "act": [
+      "Feri menyeberang ke Pulau Samosir",
+      "Tomok Village (Museum Raja Sidabutar, tarian Sigale-gale)",
+      "Puncak Simarjarunjung",
+      "Air Terjun Sipiso-Piso",
+      "Pasar Buah Berastagi",
+      "Daftar masuk hotel di Berastagi"
+     ],
+     "eact": [
+      "Ferry ride to Samosir Island",
+      "Tomok Village (King Sidabutar Museum, Sigale-gale dance)",
+      "Simarjarunjung Hill",
+      "Sipiso Piso Waterfall",
+      "Berastagi Central Fruit Market",
+      "Hotel check in at Berastagi"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Berastagi - Medan",
+     "en": "BERASTAGI - MEDAN",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Medan]",
+     "act": [
+      "Replika Pagoda Shwedagon @ Taman Alam Lumbini",
+      "Istana Maimoon (Kesultanan Deli, 1888)",
+      "Masjid Raya Al-Mashun 1906",
+      "Outlet batik & produk tempatan",
+      "Pasar Ikan / Plaza Medan (shopping telekung, baju, handbag)",
+      "Daftar masuk hotel di Medan"
+     ],
+     "eact": [
+      "Shwedagon Pagoda Replica at Taman Alam Lumbini",
+      "Maimoon Palace (Deli Sultanate, 1888)",
+      "Masjid Raya Al-Mashun 1906",
+      "Batik and local product outlets",
+      "Pasar Ikan / Plaza Medan shopping",
+      "Hotel check in at Medan"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Medan - Kualanamu (KNO) - KUL",
+     "en": "MEDAN - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Medan]",
+     "act": [
+      "Sarapan & daftar keluar hotel",
+      "Free & easy (shopping buah tangan)",
+      "Pemindahan ke Lapangan Terbang Kualanamu (KNO) untuk penerbangan pulang"
+     ],
+     "eact": [
+      "Breakfast at hotel",
+      "Hotel check out",
+      "Free and easy shopping",
+      "Airport transfer to Kualanamu International Airport (KNO)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel - Atsari Hotel Parapat, Uluna Hotel Berastagi and MBS Hotel Medan or similar, 2 to 3 persons per room",
+    "{auto}",
+    "Ferry ride to Samosir Island (sharing)",
+    "Entrance fees based on itinerary",
+    "Full meals as per itinerary - local halal cuisine",
+    "Tipping fee for driver and driving guide"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Baggage, in-flight meal and airport tax",
+    "Additional tours and meals",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, payable in cash in Medan"
+   ],
+   "ext": {
+    "night": {
+     "normal": 0,
+     "peak": 0
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 19,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 5,
+        "normal": null
+       },
+       {
+        "from": 6,
+        "to": 19,
+        "normal": null
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 5,
+        "normal": null
+       },
+       {
+        "from": 6,
+        "to": 19,
+        "normal": null
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 19,
+        "normal": 100
+       }
+      ]
+     },
+     "up4pk": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 19,
+        "normal": 110
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 19,
+        "normal": null
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "optionb",
+   "name": "PT Medan&ndash;Danau Toba 4D3N &middot; Option B (Samosir / Holbung) +RM 50/pax",
+   "pkgLabel": "Private Tour Medan - Lake Toba Option B",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1407,
+     "c": 1207,
+     "n": 1107
+    },
+    {
+     "from": 3,
+     "to": 4,
+     "a": 1247,
+     "c": 1147,
+     "n": 1047
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "a": 1207,
+     "c": 1107,
+     "n": 1007
+    },
+    {
+     "from": 7,
+     "to": 9,
+     "a": 1157,
+     "c": 1057,
+     "n": 957
+    },
+    {
+     "from": 10,
+     "to": 19,
+     "a": 1147,
+     "c": 1047,
+     "n": 947
+    }
+   ],
+   "infant": 0,
+   "single": 250,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL - Kualanamu (KNO) - Pulau Samosir",
+     "en": "KUALA LUMPUR - SAMOSIR ISLAND",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Samosir]",
+     "act": [
+      "Sambut di Lapangan Terbang Kualanamu (KNO)",
+      "Kolam Aek Manik Sidamanik",
+      "Kebun Teh Bah Butong",
+      "Menyeberang ke Pulau Samosir via feri",
+      "Daftar masuk hotel di Pulau Samosir"
+     ],
+     "eact": [
+      "Arrival at Kualanamu International Airport (KNO)",
+      "Aek Manik Pool, Sidamanik",
+      "Bah Butong Tea Plantation",
+      "Ferry ride to Samosir Island",
+      "Hotel check in at Samosir Island"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Pulau Samosir - Berastagi",
+     "en": "SAMOSIR ISLAND - BERASTAGI",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Samosir]",
+     "act": [
+      "Mount Pusuk Buhit",
+      "Bukit Holbung (Little Teletubbies)",
+      "Air Terjun Efrata",
+      "Bukit Burung",
+      "Perjalanan ke Berastagi",
+      "Air Terjun Sipiso-Piso",
+      "Daftar masuk hotel di Berastagi"
+     ],
+     "eact": [
+      "Mount Pusuk Buhit",
+      "Bukit Holbung (Little Teletubbies)",
+      "Efrata Waterfall",
+      "Bukit Burung",
+      "Transfer to Berastagi",
+      "Sipiso Piso Waterfall",
+      "Hotel check in at Berastagi"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Berastagi - Medan",
+     "en": "BERASTAGI - MEDAN",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Berastagi]",
+     "act": [
+      "Kaki Gunung Sinabung",
+      "Danau Lau Kawar",
+      "Pasar Buah Berastagi",
+      "Perjalanan ke Medan",
+      "Daftar masuk hotel di Medan"
+     ],
+     "eact": [
+      "Mount Sinabung foothills",
+      "Lau Kawar Lake",
+      "Berastagi Central Fruit Market",
+      "Transfer to Medan",
+      "Hotel check in at Medan"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Medan - Kualanamu (KNO) - KUL",
+     "en": "MEDAN - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Medan]",
+     "act": [
+      "Sarapan & daftar keluar hotel",
+      "Free & easy (shopping buah tangan)",
+      "Pemindahan ke Lapangan Terbang Kualanamu (KNO) untuk penerbangan pulang"
+     ],
+     "eact": [
+      "Breakfast at hotel",
+      "Hotel check out",
+      "Free and easy shopping",
+      "Airport transfer to Kualanamu International Airport (KNO)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel - Samosir Villa Resort, Uluna Hotel Berastagi and MBS Hotel Medan or similar, 2 to 3 persons per room",
+    "{auto}",
+    "Ferry ride to Samosir Island (sharing)",
+    "Entrance fees based on itinerary",
+    "Full meals as per itinerary - local halal cuisine",
+    "Tipping fee for driver and driving guide"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Baggage, in-flight meal and airport tax",
+    "Additional tours and meals",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, payable in cash in Medan"
+   ],
+   "ext": {
+    "night": {
+     "normal": 0,
+     "peak": 0
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 19,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 5,
+        "normal": null
+       },
+       {
+        "from": 6,
+        "to": 19,
+        "normal": null
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 5,
+        "normal": null
+       },
+       {
+        "from": 6,
+        "to": 19,
+        "normal": null
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 19,
+        "normal": 100
+       }
+      ]
+     },
+     "up4pk": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 19,
+        "normal": 110
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 19,
+        "normal": null
+       }
+      ]
+     }
+    }
+   }
+  }
+ ]
+}

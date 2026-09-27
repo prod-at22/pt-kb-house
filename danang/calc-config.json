@@ -1,0 +1,1047 @@
+{
+ "dest": "Danang - Hoi An",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-8)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+ "singleNote": "4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Guide:</b> Local Driving Guide berbahasa English sahaja, bukan Muslim dan tidak bertutur Melayu &mdash; jangan janjikan sebaliknya. <b>Blackout:</b> Chinese New Year 2026 (16&ndash;22 Feb 2026) dan Chinese New Year 2027 (17&ndash;18 Feb 2027).",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 30,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "ext": {
+  "night": {
+   "normal": 100,
+   "peak": 100
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 25,
+  "shareVehicle": true,
+  "autoNights": false,
+  "rates": {
+   "up4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 140,
+      "peak": 140
+     }
+    ]
+   },
+   "up5": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 320,
+      "peak": 320
+     }
+    ]
+   },
+   "h4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 240,
+      "peak": 240
+     }
+    ]
+   },
+   "h5": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 350,
+      "peak": 350
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -50,
+      "peak": -50
+     }
+    ]
+   },
+   "nightShort4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -120,
+      "peak": -120
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang &middot; LA Beach / Golden Rose (dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade hotel 4 bintang &middot; RHM / Santa Luxury",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - RHM Hotel or Santa Luxury Hotel ({days})"
+  },
+  {
+   "v": "up5",
+   "t": "Upgrade hotel 5 bintang &middot; Nalod / Grand Sunrise",
+   "cost": "incl",
+   "perPaxRate": "up5",
+   "hotel": "5-Star Hotel",
+   "incl": "5-Star hotel upgrade - Nalod Hotel Danang or Grand Sunrise Hotel Hoi An ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; hotel 3 bintang",
+   "cost": "night",
+   "hotel": "3-Star Hotel",
+   "line": "Additional night, 3-Star hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "n4",
+   "t": "Malam tambahan &middot; hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "h4",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night, 4-Star hotel",
+   "incl": "Additional night at 4-Star Hotel ({days})"
+  },
+  {
+   "v": "n5",
+   "t": "Malam tambahan &middot; hotel 5 bintang",
+   "cost": "night",
+   "nightRate": "h5",
+   "hotel": "5-Star Hotel",
+   "line": "Additional night, 5-Star hotel",
+   "incl": "Additional night at 5-Star Hotel ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tolak 1 malam &middot; hotel 3 bintang",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed (3-Star)"
+  },
+  {
+   "v": "noht4",
+   "t": "Tolak 1 malam &middot; hotel 4 bintang",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan termasuk",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Local Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Local Driving Guide",
+   "incl": "Private transportation with local driving guide (English spoken) ({days})"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Airport Transfer",
+   "incl": "Private airport transfer ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "zero",
+   "guided": true,
+   "perPax": 50,
+   "lbl": "Private Transport + Local Driving Guide",
+   "line": "Additional day, private transport with local driving guide",
+   "incl": "Additional day private transportation with local driving guide ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "L4d1",
+   "t": "Ketibaan Danang - Champa Museum",
+   "en": "ARRIVAL - DANANG",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Danang]",
+   "act": [
+    "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+    "Airport pickup",
+    "Champa Museum (termasuk)",
+    "Check-in hotel 3 bintang",
+    "Free and easy di Danang Beach",
+    "Makan malam dan lawatan night market"
+   ],
+   "eact": [
+    "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+    "Airport pickup",
+    "Champa Museum (included)",
+    "Check in 3-Star hotel",
+    "Free and easy at Danang Beach",
+    "Dinner and night market visit"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L4d2",
+   "t": "Bana Hills Sunworld tour",
+   "en": "BANA HILLS SUNWORLD TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Bana Hills]",
+   "act": [
+    "Cable Car ke Bana Hills (termasuk)",
+    "French Village",
+    "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+    "Golden Bridge dan Fantasy Park",
+    "Son Tra Night Market"
+   ],
+   "eact": [
+    "Cable car to Bana Hills (included)",
+    "French Village",
+    "Alpine Coaster Ride (optional, paid separately)",
+    "Golden Bridge and Fantasy Park",
+    "Son Tra Night Market"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L4d3",
+   "t": "Danang city tour - Hoi An",
+   "en": "DANANG CITY TOUR - HOI AN",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Hoi An]",
+   "act": [
+    "Love Bridge",
+    "Dragon Bridge",
+    "Shopping di Danang",
+    "Hoi An Old Quarter (termasuk)",
+    "Coconut Basket Boat (termasuk)"
+   ],
+   "eact": [
+    "Love Bridge",
+    "Dragon Bridge",
+    "Shopping in Danang",
+    "Hoi An Old Quarter (included)",
+    "Coconut Basket Boat Tour (included)"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L4d4",
+   "t": "Free and easy - penerbangan pulang",
+   "en": "FREE AND EASY - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Free and easy",
+    "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+   ],
+   "eact": [
+    "Free and easy",
+    "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L5d1",
+   "t": "Ketibaan Danang - Han River Cruise",
+   "en": "ARRIVAL - DANANG",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Danang]",
+   "act": [
+    "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+    "Airport pick-up",
+    "Check-in hotel 3 bintang",
+    "Free and easy di Danang Beach",
+    "Han River Cruise (termasuk)",
+    "Kembali ke hotel"
+   ],
+   "eact": [
+    "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+    "Airport pick-up",
+    "Check in 3-Star hotel",
+    "Free and easy at Danang Beach",
+    "Han River Cruise (included)",
+    "Return to hotel"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d2",
+   "t": "Bana Hills Sunworld tour",
+   "en": "BANA HILLS SUNWORLD TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Bana Hills]",
+   "act": [
+    "Cable Car ke Bana Hills (termasuk)",
+    "French Village",
+    "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+    "Golden Bridge dan Fantasy Park",
+    "Son Tra Night Market"
+   ],
+   "eact": [
+    "Cable car to Bana Hills (included)",
+    "French Village",
+    "Alpine Coaster Ride (optional, paid separately)",
+    "Golden Bridge and Fantasy Park",
+    "Son Tra Night Market"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d3",
+   "t": "Danang city tour",
+   "en": "DANANG CITY TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Danang]",
+   "act": [
+    "Love Bridge",
+    "Shopping di Danang",
+    "Asia Park Danang",
+    "Dragon Bridge"
+   ],
+   "eact": [
+    "Love Bridge",
+    "Shopping in Danang",
+    "Asia Park Danang",
+    "Dragon Bridge"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d4",
+   "t": "Danang - Hoi An",
+   "en": "DANANG - HOI AN",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Hoi An]",
+   "act": [
+    "Champa Museum (termasuk)",
+    "Hoi An Old Quarter (termasuk)",
+    "Coconut Basket Boat Tour (termasuk)"
+   ],
+   "eact": [
+    "Champa Museum (included)",
+    "Hoi An Old Quarter (included)",
+    "Coconut Basket Boat Tour (included)"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d5",
+   "t": "Free and easy - penerbangan pulang",
+   "en": "FREE AND EASY - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Free and easy",
+    "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+   ],
+   "eact": [
+    "Free and easy",
+    "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "ext",
+   "t": "Hari tambahan - itinerari ikut permintaan customer",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "region": "[Danang]",
+   "g": "Umum",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ]
+  },
+  {
+   "v": "fed",
+   "t": "Free and easy - tiada transport",
+   "en": "FREE AND EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "region": "[Danang]",
+   "g": "Umum",
+   "act": [
+    "Free and easy sepanjang hari"
+   ],
+   "eact": [
+    "Free and easy at own leisure"
+   ]
+  }
+ ],
+ "addons": [
+  [
+   "Alpine Coaster at Bana Hills",
+   50,
+   50
+  ],
+  [
+   "Hoi An Memories Show - high class seat, closed on Tuesday",
+   110,
+   110
+  ],
+  [
+   "Extra meal - breakfast, lunch or dinner",
+   30,
+   30
+  ]
+ ],
+ "extraSurcharge": [
+  {
+   "label": "Travel date surcharge 2027 (January - February)",
+   "dateIn": [
+    "2027-01-01",
+    "2027-02-28"
+   ],
+   "perPax": 150
+  }
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 4,
+   "text": "2&ndash;4 pax: MPV 7-seater &middot; private, driver + guide"
+  },
+  {
+   "from": 5,
+   "to": 12,
+   "text": "5&ndash;12 pax: Van 16-seater &middot; private"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "text": "13&ndash;15 pax: Mini bus 25-seater &middot; private"
+  },
+  {
+   "from": 16,
+   "to": 99999,
+   "text": "16 pax ke atas: di luar jadual harga katalog (4D3N tamat 12 pax, 5D4N tamat 15 pax) &mdash; rujuk consultant"
+  }
+ ],
+ "validity": "Prices follow the PT Danang Hoi An 4D3N and 5D4N 2026 v3 catalogues, valid for travel until 31 December 2026. Departures in January and February 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout dates: 16 - 22 February 2026 and 17 - 18 February 2027 (Chinese New Year).",
+ "variants": [
+  {
+   "id": "v4d3n",
+   "name": "PT Danang Hoi An 4D3N (3-Star Fullboard)",
+   "pkgLabel": "Danang - Hoi An: Danang Beach, Bana Hills Cable Car, Coconut Basket Boat Tour",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 240,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 300,
+    "rate3": 200
+   },
+   "ext": {
+    "night": {
+     "normal": 100,
+     "peak": 100
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 25,
+    "shareVehicle": true,
+    "autoNights": false,
+    "rates": {
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 140,
+        "peak": 140
+       }
+      ]
+     },
+     "up5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 320,
+        "peak": 320
+       }
+      ]
+     },
+     "h4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 240,
+        "peak": 240
+       }
+      ]
+     },
+     "h5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 350,
+        "peak": 350
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": -50
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -120,
+        "peak": -120
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 2217,
+     "c": 2017,
+     "n": 1817
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 2147,
+     "c": 1947,
+     "n": 1747
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 1977,
+     "c": 1777,
+     "n": 1577
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 1777,
+     "c": 1577,
+     "n": 1377
+    },
+    {
+     "from": 8,
+     "to": 12,
+     "a": 1677,
+     "c": 1477,
+     "n": 1277
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Danang - Champa Museum",
+     "en": "ARRIVAL - DANANG",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Danang]",
+     "act": [
+      "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+      "Airport pickup",
+      "Champa Museum (termasuk)",
+      "Check-in hotel 3 bintang",
+      "Free and easy di Danang Beach",
+      "Makan malam dan lawatan night market"
+     ],
+     "eact": [
+      "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+      "Airport pickup",
+      "Champa Museum (included)",
+      "Check in 3-Star hotel",
+      "Free and easy at Danang Beach",
+      "Dinner and night market visit"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Bana Hills Sunworld tour",
+     "en": "BANA HILLS SUNWORLD TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Bana Hills]",
+     "act": [
+      "Cable Car ke Bana Hills (termasuk)",
+      "French Village",
+      "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+      "Golden Bridge dan Fantasy Park",
+      "Son Tra Night Market"
+     ],
+     "eact": [
+      "Cable car to Bana Hills (included)",
+      "French Village",
+      "Alpine Coaster Ride (optional, paid separately)",
+      "Golden Bridge and Fantasy Park",
+      "Son Tra Night Market"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Danang city tour - Hoi An",
+     "en": "DANANG CITY TOUR - HOI AN",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Hoi An]",
+     "act": [
+      "Love Bridge",
+      "Dragon Bridge",
+      "Shopping di Danang",
+      "Hoi An Old Quarter (termasuk)",
+      "Coconut Basket Boat (termasuk)"
+     ],
+     "eact": [
+      "Love Bridge",
+      "Dragon Bridge",
+      "Shopping in Danang",
+      "Hoi An Old Quarter (included)",
+      "Coconut Basket Boat Tour (included)"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Free and easy - penerbangan pulang",
+     "en": "FREE AND EASY - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Free and easy",
+      "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+     ],
+     "eact": [
+      "Free and easy",
+      "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel",
+    "{auto}",
+    "Entrance fees: Champa Museum and Hoi An Old Quarter",
+    "Coconut Basket Boat Tour",
+    "Cable car ticket to Bana Hills",
+    "Daily breakfast at hotel",
+    "Local driving guide (English spoken)",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Alpine Coaster ride at Bana Hills"
+   ]
+  },
+  {
+   "id": "v5d4n",
+   "name": "PT Danang Hoi An 5D4N (3-Star Fullboard)",
+   "pkgLabel": "Danang - Hoi An: Han River Cruise, Bana Hills Cable Car, Coconut Basket Boat Tour",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "single": 320,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 400,
+    "rate3": 300
+   },
+   "ext": {
+    "night": {
+     "normal": 100,
+     "peak": 100
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 25,
+    "shareVehicle": true,
+    "autoNights": false,
+    "rates": {
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 140,
+        "peak": 140
+       }
+      ]
+     },
+     "up5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 320,
+        "peak": 320
+       }
+      ]
+     },
+     "h4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 240,
+        "peak": 240
+       }
+      ]
+     },
+     "h5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 350,
+        "peak": 350
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": -50
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -120,
+        "peak": -120
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 4,
+     "a": 2377,
+     "c": 2177,
+     "n": 1977
+    },
+    {
+     "from": 5,
+     "to": 7,
+     "a": 2277,
+     "c": 2077,
+     "n": 1877
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "a": 2177,
+     "c": 1977,
+     "n": 1777
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "a": 1977,
+     "c": 1777,
+     "n": 1577
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Danang - Han River Cruise",
+     "en": "ARRIVAL - DANANG",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Danang]",
+     "act": [
+      "Tiba Danang International Airport (waktu ketibaan dicadangkan 12 tengah hari atau lebih awal)",
+      "Airport pick-up",
+      "Check-in hotel 3 bintang",
+      "Free and easy di Danang Beach",
+      "Han River Cruise (termasuk)",
+      "Kembali ke hotel"
+     ],
+     "eact": [
+      "Arrive Danang International Airport (suggested arrival time 12pm or earlier)",
+      "Airport pick-up",
+      "Check in 3-Star hotel",
+      "Free and easy at Danang Beach",
+      "Han River Cruise (included)",
+      "Return to hotel"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Bana Hills Sunworld tour",
+     "en": "BANA HILLS SUNWORLD TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Bana Hills]",
+     "act": [
+      "Cable Car ke Bana Hills (termasuk)",
+      "French Village",
+      "Alpine Coaster Ride (opsyenal, bayar tambahan)",
+      "Golden Bridge dan Fantasy Park",
+      "Son Tra Night Market"
+     ],
+     "eact": [
+      "Cable car to Bana Hills (included)",
+      "French Village",
+      "Alpine Coaster Ride (optional, paid separately)",
+      "Golden Bridge and Fantasy Park",
+      "Son Tra Night Market"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Danang city tour",
+     "en": "DANANG CITY TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Danang]",
+     "act": [
+      "Love Bridge",
+      "Shopping di Danang",
+      "Asia Park Danang",
+      "Dragon Bridge"
+     ],
+     "eact": [
+      "Love Bridge",
+      "Shopping in Danang",
+      "Asia Park Danang",
+      "Dragon Bridge"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Danang - Hoi An",
+     "en": "DANANG - HOI AN",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Hoi An]",
+     "act": [
+      "Champa Museum (termasuk)",
+      "Hoi An Old Quarter (termasuk)",
+      "Coconut Basket Boat Tour (termasuk)"
+     ],
+     "eact": [
+      "Champa Museum (included)",
+      "Hoi An Old Quarter (included)",
+      "Coconut Basket Boat Tour (included)"
+     ]
+    },
+    {
+     "v": "d5",
+     "t": "Free and easy - penerbangan pulang",
+     "en": "FREE AND EASY - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Free and easy",
+      "Transfer ke Danang International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 11 pagi atau lewat)"
+     ],
+     "eact": [
+      "Free and easy",
+      "Transfer to Danang International Airport for return flight (suggested departure time 11am onwards)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel",
+    "{auto}",
+    "Entrance fees: Champa Museum, Marble Mountain, Bana Hills and Hoi An Old Quarter",
+    "Han River Cruise",
+    "Coconut Basket Boat Tour",
+    "Cable car ticket to Bana Hills",
+    "Daily breakfast at hotel",
+    "Local driving guide (English spoken)",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Alpine Coaster ride at Bana Hills"
+   ]
+  }
+ ]
+}

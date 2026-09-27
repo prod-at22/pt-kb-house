@@ -1,0 +1,1628 @@
+{
+ "dest": "Bali",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-11)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (rate card ARBA, tiada dalam katalog v3)",
+ "singleNote": "Standard RM250/pax &middot; HNY Standard RM800/pax &middot; HNY Premium RM1,500/pax",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Hari Nyepi 18&ndash;20 Mac 2026 (Bali tutup 24 jam) dan Hari Raya Aidilfitri 20&ndash;23 Mac 2026 &mdash; tour tidak tersedia; 2027: 5&ndash;10 Mac dan 9&ndash;12 Mac. Kalkulator tetap mengira tarikh itu, jadi semak sendiri. <b>Honeymoon:</b> harga flat per pasangan (2 pax) dan tidak menerima kanak-kanak. Malam villa dalam pakej Honeymoon kena surcaj peak season lebih tinggi daripada malam hotel &mdash; bila tarikh jatuh dalam peak window, tukar pilihan Accommodation hari villa kepada versi <i>tambah surcaj peak season villa</i>.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 35,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "ext": {
+  "night": {
+   "normal": 80,
+   "peak": 120
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 12,
+  "shareVehicle": true,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 250,
+      "peak": 250
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 350,
+      "peak": 350
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 450,
+      "peak": 450
+     }
+    ],
+    "[Full Day]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 250,
+      "peak": 250
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 350,
+      "peak": 350
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 450,
+      "peak": 450
+     }
+    ],
+    "[Half Day]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 150,
+      "peak": 150
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 200,
+      "peak": 200
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 400,
+      "peak": 400
+     }
+    ],
+    "[Airport + Half Day]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 200,
+      "peak": 200
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 200,
+      "peak": 200
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 200,
+      "peak": 200
+     }
+    ],
+    "[Airport Transfer]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 150,
+      "peak": 150
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 200,
+      "peak": 200
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": 200,
+      "peak": 200
+     }
+    ]
+   },
+   "dayDed": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -120,
+      "peak": -120
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -220,
+      "peak": -220
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -280,
+      "peak": -280
+     }
+    ],
+    "[Full Day]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -120,
+      "peak": -120
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -220,
+      "peak": -220
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -280,
+      "peak": -280
+     }
+    ],
+    "[Half Day]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -70,
+      "peak": -70
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -100,
+      "peak": -100
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -250,
+      "peak": -250
+     }
+    ],
+    "[Airport + Half Day]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -100,
+      "peak": -100
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -100,
+      "peak": -100
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -100,
+      "peak": -100
+     }
+    ],
+    "[Airport Transfer]": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": -70,
+      "peak": -70
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": -100,
+      "peak": -100
+     },
+     {
+      "from": 7,
+      "to": 12,
+      "normal": -100,
+      "peak": -100
+     }
+    ]
+   },
+   "h4a": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 120,
+      "peak": 180
+     }
+    ]
+   },
+   "h4b": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 140,
+      "peak": 220
+     }
+    ]
+   },
+   "vPool": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 280,
+      "peak": 460
+     }
+    ]
+   },
+   "vPrem": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 380,
+      "peak": 660
+     }
+    ]
+   },
+   "vLux": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 450,
+      "peak": 890
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": -50,
+      "peak": 0
+     }
+    ]
+   },
+   "up4a": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 60,
+      "peak": 80
+     }
+    ]
+   },
+   "up4b": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 80,
+      "peak": 140
+     }
+    ]
+   },
+   "upvPool": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 230,
+      "peak": 270
+     }
+    ]
+   },
+   "upvPrem": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 325,
+      "peak": 410
+     }
+    ]
+   },
+   "upvLux": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 15,
+      "normal": 390,
+      "peak": 475
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel dalam pakej",
+   "cost": "incl"
+  },
+  {
+   "v": "villa",
+   "t": "Private Pool Villa (dalam pakej)",
+   "cost": "incl",
+   "hotel": "Private Pool Villa"
+  },
+  {
+   "v": "lvilla",
+   "t": "Luxury Private Pool Villa (dalam pakej)",
+   "cost": "incl",
+   "hotel": "Luxury Private Pool Villa"
+  },
+  {
+   "v": "vpk1",
+   "t": "Private Pool Villa (dalam pakej) &ndash; tambah surcaj peak season villa",
+   "cost": "incl",
+   "perPax": 40,
+   "hotel": "Private Pool Villa",
+   "line": "Villa night peak season surcharge"
+  },
+  {
+   "v": "vpk2",
+   "t": "Luxury Private Pool Villa (dalam pakej) &ndash; tambah surcaj peak season villa",
+   "cost": "incl",
+   "perPax": 65,
+   "hotel": "Luxury Private Pool Villa",
+   "line": "Luxury villa night peak season surcharge"
+  },
+  {
+   "v": "up4a",
+   "t": "Upgrade 4 bintang &middot; The One / Sun Island / Akmani Legian",
+   "cost": "incl",
+   "perPaxRate": "up4a",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - The One Legian, Sun Island Hotel & Spa Legian or The Akmani Legian ({days})"
+  },
+  {
+   "v": "up4b",
+   "t": "Upgrade 4 bintang &middot; Adhi Jaya / Wyndham Garden",
+   "cost": "incl",
+   "perPaxRate": "up4b",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - Adhi Jaya Hotel or Wyndham Garden Hotel ({days})"
+  },
+  {
+   "v": "upvPool",
+   "t": "Upgrade Private Pool Villa &middot; Asa Bali / Sakaye / Maca Umalas",
+   "cost": "incl",
+   "perPaxRate": "upvPool",
+   "hotel": "Private Pool Villa",
+   "incl": "Private Pool Villa upgrade - Asa Bali, The Sakaye or Maca Villas Umalas ({days})"
+  },
+  {
+   "v": "upvPrem",
+   "t": "Upgrade Premium Private Pool Villa &middot; Alaya Dedaun / Lumbini",
+   "cost": "incl",
+   "perPaxRate": "upvPrem",
+   "hotel": "Premium Private Pool Villa",
+   "incl": "Premium Private Pool Villa upgrade - Alaya Dedaun Kuta or Lumbini Villa & Spa ({days})"
+  },
+  {
+   "v": "upvLux",
+   "t": "Upgrade Luxury Private Pool Villa &middot; Asterra Seminyak",
+   "cost": "incl",
+   "perPaxRate": "upvLux",
+   "hotel": "Luxury Private Pool Villa",
+   "incl": "Luxury Private Pool Villa upgrade - Asterra Villa Seminyak ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; hotel 3 bintang",
+   "cost": "night",
+   "hotel": "3-Star Hotel",
+   "line": "Additional night, 3-Star hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "n4a",
+   "t": "Malam tambahan &middot; 4 bintang The One / Sun Island / Akmani",
+   "cost": "night",
+   "nightRate": "h4a",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night, 4-Star hotel",
+   "incl": "Additional night at 4-Star Hotel ({days})"
+  },
+  {
+   "v": "n4b",
+   "t": "Malam tambahan &middot; 4 bintang Adhi Jaya / Wyndham Garden",
+   "cost": "night",
+   "nightRate": "h4b",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night, 4-Star hotel",
+   "incl": "Additional night at 4-Star Hotel ({days})"
+  },
+  {
+   "v": "nvPool",
+   "t": "Malam tambahan &middot; Private Pool Villa",
+   "cost": "night",
+   "nightRate": "vPool",
+   "hotel": "Private Pool Villa",
+   "line": "Additional night, Private Pool Villa",
+   "incl": "Additional night at Private Pool Villa ({days})"
+  },
+  {
+   "v": "nvPrem",
+   "t": "Malam tambahan &middot; Premium Private Pool Villa",
+   "cost": "night",
+   "nightRate": "vPrem",
+   "hotel": "Premium Private Pool Villa",
+   "line": "Additional night, Premium Private Pool Villa",
+   "incl": "Additional night at Premium Private Pool Villa ({days})"
+  },
+  {
+   "v": "nvLux",
+   "t": "Malam tambahan &middot; Luxury Private Pool Villa",
+   "cost": "night",
+   "nightRate": "vLux",
+   "hotel": "Luxury Private Pool Villa",
+   "line": "Additional night, Luxury Private Pool Villa",
+   "incl": "Additional night at Luxury Private Pool Villa ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel &ndash; tolak malam dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan termasuk",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "fbf",
+   "t": "Floating Breakfast (dalam pakej)",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Floating Breakfast"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private transportation with driving guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Airport Transfer + Driving Guide",
+   "incl": "Private airport transfer with driving guide ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation with driving guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "feded",
+   "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (transport deducted)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "ext",
+   "t": "Hari tambahan - pilih blok tour di bawah",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ],
+   "region": "[Full Day]",
+   "g": "Umum"
+  },
+  {
+   "v": "exth",
+   "t": "Hari tambahan - half day tour",
+   "en": "ADDITIONAL HALF DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "act": [
+    "Half day tour mengikut permintaan customer (5 - 6 jam)"
+   ],
+   "eact": [
+    "Half day tour as requested by customer (5 - 6 hours)"
+   ],
+   "region": "[Half Day]",
+   "g": "Umum"
+  },
+  {
+   "v": "arr",
+   "t": "Ketibaan - airport transfer sahaja",
+   "en": "BALI ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "act": [
+    "Airport pickup di I Gusti Ngurah Rai",
+    "Check-in hotel"
+   ],
+   "eact": [
+    "Airport pickup at I Gusti Ngurah Rai",
+    "Hotel check in"
+   ],
+   "region": "[Airport Transfer]",
+   "g": "Umum"
+  },
+  {
+   "v": "dep",
+   "t": "Berlepas - airport transfer sahaja",
+   "en": "BALI DEPARTURE",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Check-out hotel",
+    "Airport transfer ke DPS"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Airport transfer to DPS"
+   ],
+   "region": "[Airport Transfer]",
+   "g": "Umum"
+  },
+  {
+   "v": "tanahlot",
+   "t": "Tanah Lot Full Day Tour",
+   "en": "TANAH LOT FULL DAY TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Keluar hotel 8 - 9 pagi, balik hotel 5 - 6 petang",
+    "Handara Gate",
+    "Wanagiri Hidden Hill",
+    "Pura Ulun Danu Beratan",
+    "Tanah Lot Temple (sunset)",
+    "Tiket masuk RM 95/pax - pilih add-on Tiket masuk Tanah Lot Full Day Tour"
+   ],
+   "eact": [
+    "Depart hotel 8 - 9AM, return 5 - 6PM",
+    "Handara Gate",
+    "Wanagiri Hidden Hill",
+    "Pura Ulun Danu Beratan",
+    "Tanah Lot Temple (sunset)"
+   ],
+   "region": "[Full Day]",
+   "g": "Tour tambahan - full day"
+  },
+  {
+   "v": "lempuyang",
+   "t": "Lempuyang Full Day Tour",
+   "en": "LEMPUYANG FULL DAY TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Keluar hotel 9 pagi, balik hotel 5 - 6 petang",
+    "Lempuyang Temple (Gate of Heaven)",
+    "Tirta Empul",
+    "Tirta Gangga",
+    "Tiket masuk RM 75/pax - pilih add-on Tiket masuk Lempuyang Full Day Tour"
+   ],
+   "eact": [
+    "Depart hotel 9AM, return 5 - 6PM",
+    "Lempuyang Temple (Gate of Heaven)",
+    "Tirta Empul",
+    "Tirta Gangga"
+   ],
+   "region": "[Full Day]",
+   "g": "Tour tambahan - full day"
+  },
+  {
+   "v": "dolphin",
+   "t": "Dolphin - Bedugul Full Day Tour",
+   "en": "DOLPHIN & BEDUGUL FULL DAY TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Keluar hotel 3 pagi, balik hotel 5 - 6 petang",
+    "Bali Dolphin Lovina Tour",
+    "Pura Ulun Danu Beratan",
+    "Handara Gate",
+    "Tanah Lot Temple (pilihan)",
+    "Tiket masuk RM 115/pax, RM 140/pax dengan Tanah Lot"
+   ],
+   "eact": [
+    "Depart hotel 3AM, return 5 - 6PM",
+    "Bali Dolphin Lovina Tour",
+    "Pura Ulun Danu Beratan",
+    "Handara Gate",
+    "Tanah Lot Temple (optional)"
+   ],
+   "region": "[Full Day]",
+   "g": "Tour tambahan - full day"
+  },
+  {
+   "v": "safari",
+   "t": "Bali Safari & Marine Park Tour",
+   "en": "BALI SAFARI & MARINE PARK TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Keluar hotel 9 pagi, balik hotel 5 - 6 petang",
+    "Bali Safari Jungle Hopper - Safari Journey, Animal Show, Big Cat Show, Elephant Show",
+    "Kuta Seminyak Beach / City Tour",
+    "Tiket masuk RM 200/pax - pilih add-on Bali Safari Jungle Hopper"
+   ],
+   "eact": [
+    "Depart hotel 9AM, return 5 - 6PM",
+    "Bali Safari Jungle Hopper - Safari Journey, Animal Show, Big Cat Show, Elephant Show",
+    "Kuta Seminyak Beach / City Tour"
+   ],
+   "region": "[Full Day]",
+   "g": "Tour tambahan - full day"
+  },
+  {
+   "v": "batur",
+   "t": "Jeep Mt Batur Kintamani - Ubud Tour",
+   "en": "JEEP MT BATUR KINTAMANI & UBUD TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Keluar hotel 3 pagi, balik hotel 5 - 6 petang",
+    "Mt Batur Jeep Ride (black sand jeep tour)",
+    "Tegallalang Paddy Terrace",
+    "Mt Kintamani Lookout Point (lunch termasuk dalam tiket)",
+    "Ubud Coffee Plantation",
+    "Tegenungan Waterfall",
+    "Tiket masuk RM 330/pax - lunch sudah termasuk, jangan caj dua kali"
+   ],
+   "eact": [
+    "Depart hotel 3AM, return 5 - 6PM",
+    "Mt Batur Jeep Ride (black sand jeep tour)",
+    "Tegallalang Paddy Terrace",
+    "Mt Kintamani Lookout Point (lunch included in ticket)",
+    "Ubud Coffee Plantation",
+    "Tegenungan Waterfall"
+   ],
+   "region": "[Full Day]",
+   "g": "Tour tambahan - full day"
+  },
+  {
+   "v": "nusadua",
+   "t": "Nusa Dua Watersport Day Tour",
+   "en": "NUSA DUA WATERSPORT DAY TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Nusa Dua Watersport (fi aktiviti pilih dari add-on)",
+    "Waterblow",
+    "Pandawa Beach",
+    "Melasti Beach"
+   ],
+   "eact": [
+    "Nusa Dua Watersport (activity fees as per optional add-ons)",
+    "Waterblow",
+    "Pandawa Beach",
+    "Melasti Beach"
+   ],
+   "region": "[Full Day]",
+   "g": "Tour tambahan - full day"
+  },
+  {
+   "v": "nusapenida",
+   "t": "Nusa Penida Island Day Tour",
+   "en": "NUSA PENIDA ISLAND DAY TOUR",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+    "Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+    "Atau Kelingking Beach, Diamond Beach, Crystal Bay"
+   ],
+   "eact": [
+    "Transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida",
+    "Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+    "Or Kelingking Beach, Diamond Beach, Crystal Bay"
+   ],
+   "region": "[Full Day]",
+   "g": "Tour tambahan - full day"
+  }
+ ],
+ "addons": [
+  [
+   "Kecak Dance Uluwatu Temple",
+   67,
+   67
+  ],
+  [
+   "Barong Dance Ubud",
+   67,
+   67
+  ],
+  [
+   "Uma Ceking Rice Terrace + Bali Swing",
+   117,
+   117
+  ],
+  [
+   "Garuda Wisnu Kencana Cultural Park",
+   67,
+   67
+  ],
+  [
+   "Banana Boat Nusa Dua",
+   67,
+   67
+  ],
+  [
+   "Jet Ski Nusa Dua",
+   157,
+   157
+  ],
+  [
+   "Tubing Ride Nusa Dua",
+   127,
+   127
+  ],
+  [
+   "Fly Fish Nusa Dua",
+   177,
+   177
+  ],
+  [
+   "Snorkeling Nusa Dua",
+   157,
+   157
+  ],
+  [
+   "Glass Bottom Boat + Turtle Island",
+   197,
+   197
+  ],
+  [
+   "Parasailing Adventure Nusa Dua",
+   237,
+   237
+  ],
+  [
+   "Fly Board Nusa Dua",
+   327,
+   327
+  ],
+  [
+   "Sea Walking Nusa Dua",
+   347,
+   347
+  ],
+  [
+   "Snorkeling Nusa Penida (sharing boat)",
+   107,
+   107
+  ],
+  [
+   "Snorkeling Nusa Penida (private boat)",
+   297,
+   297
+  ],
+  [
+   "Romantic Dinner di Bale Udang - per pasangan",
+   150,
+   0,
+   "unit"
+  ],
+  [
+   "Intimate Dinner di Bale Udang - per pasangan",
+   250,
+   0,
+   "unit"
+  ],
+  [
+   "Floating Breakfast di Water Villa - per pasangan",
+   50,
+   0,
+   "unit"
+  ],
+  [
+   "Honeymoon Sunset Dinner Jimbaran - per pasangan",
+   450,
+   0,
+   "unit"
+  ],
+  [
+   "Bedroom Decoration (Asa Bali Villa) - per pasangan",
+   150,
+   0,
+   "unit"
+  ],
+  [
+   "Tanah Lot Temple",
+   25,
+   25
+  ],
+  [
+   "Alas Harum + Couple Swing",
+   120,
+   120
+  ],
+  [
+   "Mt Batur Jeep Ride",
+   250,
+   250
+  ],
+  [
+   "Mt Batur Hiking",
+   180,
+   180
+  ],
+  [
+   "Water Rafting Ubud",
+   150,
+   150
+  ],
+  [
+   "Bali Dolphin Lovina Tour",
+   80,
+   80
+  ],
+  [
+   "Bali Safari Jungle Hopper",
+   200,
+   200
+  ],
+  [
+   "Bali Safari Night Tour",
+   280,
+   280
+  ],
+  [
+   "Bali Zoo",
+   160,
+   160
+  ],
+  [
+   "Tiket masuk Tanah Lot Full Day Tour (4 lokasi)",
+   95,
+   95
+  ],
+  [
+   "Tiket masuk Lempuyang Full Day Tour (3 lokasi)",
+   75,
+   75
+  ],
+  [
+   "Tiket masuk Dolphin - Bedugul Full Day Tour (3 lokasi)",
+   115,
+   115
+  ],
+  [
+   "Tiket masuk Dolphin - Bedugul + Tanah Lot (4 lokasi)",
+   140,
+   140
+  ],
+  [
+   "Tiket masuk Jeep Mt Batur Kintamani - Ubud (5 lokasi)",
+   330,
+   330
+  ],
+  [
+   "Pura Ulun Danu Beratan",
+   25,
+   25
+  ],
+  [
+   "Wanagiri Hidden Hill",
+   35,
+   35
+  ],
+  [
+   "Handara Gate",
+   10,
+   10
+  ],
+  [
+   "Lempuyang Temple (Gate of Heaven)",
+   35,
+   35
+  ],
+  [
+   "Tirta Empul",
+   20,
+   20
+  ],
+  [
+   "Tirta Gangga",
+   20,
+   20
+  ],
+  [
+   "Tegallalang Paddy Terrace",
+   20,
+   20
+  ],
+  [
+   "Mt Kintamani Lookout Point (termasuk lunch)",
+   50,
+   50
+  ],
+  [
+   "Tegenungan Waterfall",
+   10,
+   10
+  ]
+ ],
+ "extraSurcharge": [
+  {
+   "label": "Travel date 2027",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 50,
+   "variants": [
+    "std",
+    "hnystd"
+   ]
+  },
+  {
+   "label": "Travel date 2027",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 100,
+   "variants": [
+    "hnyprem"
+   ]
+  }
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 4,
+   "text": "2&ndash;4 pax: kenderaan Avanza / APV"
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "text": "5&ndash;6 pax: kenderaan Innova"
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "text": "7&ndash;12 pax: kenderaan Hiace"
+  },
+  {
+   "from": 13,
+   "to": 99999,
+   "text": "13 pax ke atas: katalog beri tier harga sehingga 15 pax, tetapi rate card transport hanya sehingga Hiace 12 pax. Perlu dua kenderaan atau van 14-seater / bas 30-seater &mdash; sahkan kadar dengan operator sebelum quote."
+  }
+ ],
+ "validity": "Prices are based on the PT Bali v3 catalogue dated 2 February 2026 and are valid for travel until 31 December 2026; departures from 1 January to 30 June 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours. A deposit of RM250 per pax is due on confirmation and full payment 45 days before departure. The final itinerary and hotels are confirmed 14 days before the trip, subject to availability. Blackout dates: Hari Nyepi 18&ndash;20 March 2026 (Bali closes for 24 hours) and Hari Raya Aidilfitri 20&ndash;23 March 2026 &mdash; tours are not available.",
+ "variants": [
+  {
+   "id": "std",
+   "name": "PT Bali Standard 4D3N",
+   "pkgLabel": "Bali Standard - Uluwatu, Nusa Penida or Nusa Dua, Kintamani Mt Batur, Ubud",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 250,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 1057,
+     "c": 997,
+     "n": 957
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 997,
+     "c": 957,
+     "n": 897
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 957,
+     "c": 897,
+     "n": 857
+    },
+    {
+     "from": 8,
+     "to": 9,
+     "a": 937,
+     "c": 857,
+     "n": 797
+    },
+    {
+     "from": 10,
+     "to": 15,
+     "a": 917,
+     "c": 837,
+     "n": 777
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 40,
+    "windows": [
+     [
+      "2025-12-22",
+      "2025-12-31"
+     ],
+     [
+      "2026-01-01",
+      "2026-01-05"
+     ],
+     [
+      "2026-03-19",
+      "2026-03-31"
+     ],
+     [
+      "2026-08-01",
+      "2026-08-31"
+     ],
+     [
+      "2026-12-20",
+      "2026-12-31"
+     ],
+     [
+      "2027-01-01",
+      "2027-01-05",
+      null,
+      40
+     ]
+    ]
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Tiba Bali - Uluwatu & Kuta",
+     "en": "BALI ARRIVAL - ULUWATU & KUTA TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "act": [
+      "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+      "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+      "Check-in hotel 3 bintang di Kuta atau Legian",
+      "Dinner di restoran halal (bayaran sendiri)"
+     ],
+     "eact": [
+      "Airport pickup at I Gusti Ngurah Rai (arrival between 1.00PM - 3.00PM)",
+      "Uluwatu Temple, famous cliff-top temple landmark",
+      "Check in 3-Star hotel in Kuta or Legian",
+      "Halal dinner (own expense)"
+     ],
+     "region": "[Airport + Half Day]"
+    },
+    {
+     "v": "d2",
+     "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+     "en": "OPTION A NUSA PENIDA ISLAND OR B NUSA DUA TOUR",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+      "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+      "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+      "Dinner di Bale Udang Lake View (bayaran sendiri)"
+     ],
+     "eact": [
+      "Option A: transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida Island",
+      "Option A1 West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Option A2 West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended), Crystal Bay",
+      "Option B Nusa Dua: watersport (activity fees excluded), Waterblow, Pandawa Beach, Melasti Beach",
+      "Dinner at Bale Udang Lake View (own expense)"
+     ],
+     "region": "[Full Day]"
+    },
+    {
+     "v": "d3",
+     "t": "Kintamani Mt Batur & Ubud",
+     "en": "KINTAMANI MT BATUR & UBUD TOUR",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur, pemandangan gunung berapi dan tasik",
+      "Ubud Coffee Plantation (opsyenal)",
+      "Desa Penglipuran, kampung tradisional Bali",
+      "Batik outlet dan shopping ole-ole"
+     ],
+     "eact": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur - magnificent volcano and lake view",
+      "Ubud Coffee Plantation (optional)",
+      "Desa Penglipuran, traditional Balinese village",
+      "Batik outlet and souvenir shopping"
+     ],
+     "region": "[Full Day]"
+    },
+    {
+     "v": "d4",
+     "t": "Berlepas",
+     "en": "BALI - AIRPORT DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Sarapan dan check-out hotel",
+      "Airport transfer ke DPS untuk penerbangan pulang"
+     ],
+     "eact": [
+      "Breakfast and hotel check-out",
+      "Airport transfer to DPS for return flight"
+     ],
+     "region": "[Airport Transfer]"
+    }
+   ],
+   "inclusions": [
+    "3 nights accommodation at 3-Star Hotel in Kuta or Legian",
+    "Daily breakfast at hotel",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Driving guide (English / Indonesian spoken)",
+    "Tipping fee and parking fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ],
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)"
+  },
+  {
+   "id": "hnystd",
+   "name": "PT Bali Honeymoon Standard 4D3N",
+   "pkgLabel": "Bali Honeymoon Standard - Uluwatu, Nusa Penida or Nusa Dua, Kintamani Mt Batur, Ubud",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 800,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 12,
+     "a": 1098.5,
+     "c": 1098.5,
+     "n": 1098.5
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 40,
+    "windows": [
+     [
+      "2025-12-22",
+      "2025-12-31"
+     ],
+     [
+      "2026-01-01",
+      "2026-01-05"
+     ],
+     [
+      "2026-03-19",
+      "2026-03-31"
+     ],
+     [
+      "2026-08-01",
+      "2026-08-31"
+     ],
+     [
+      "2026-12-20",
+      "2026-12-31"
+     ],
+     [
+      "2027-01-01",
+      "2027-01-05",
+      null,
+      40
+     ]
+    ]
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Tiba Bali - Uluwatu & Kuta",
+     "en": "BALI ARRIVAL - ULUWATU & KUTA TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "act": [
+      "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+      "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+      "Check-in hotel 3 bintang di Kuta atau Legian",
+      "Dinner di restoran halal (bayaran sendiri)"
+     ],
+     "eact": [
+      "Airport pickup at I Gusti Ngurah Rai (arrival between 1.00PM - 3.00PM)",
+      "Uluwatu Temple, famous cliff-top temple landmark",
+      "Check in 3-Star hotel in Kuta or Legian",
+      "Halal dinner (own expense)"
+     ],
+     "region": "[Airport + Half Day]"
+    },
+    {
+     "v": "d2",
+     "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+     "en": "OPTION A NUSA PENIDA ISLAND OR B NUSA DUA TOUR",
+     "acc": "incl",
+     "meal": "bd",
+     "trp": "incl",
+     "act": [
+      "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+      "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+      "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+      "Bale Udang Lake View Honeymoon Dinner (termasuk)"
+     ],
+     "eact": [
+      "Option A: transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida Island",
+      "Option A1 West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Option A2 West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended), Crystal Bay",
+      "Option B Nusa Dua: watersport (activity fees excluded), Waterblow, Pandawa Beach, Melasti Beach",
+      "Bale Udang Lake View Honeymoon Dinner (included)"
+     ],
+     "region": "[Full Day]"
+    },
+    {
+     "v": "d3",
+     "t": "Kintamani Mt Batur & Ubud",
+     "en": "KINTAMANI MT BATUR & UBUD TOUR",
+     "acc": "villa",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur, pemandangan gunung berapi dan tasik",
+      "Ubud Coffee Plantation (opsyenal)",
+      "Desa Penglipuran, kampung tradisional Bali",
+      "Batik outlet dan shopping ole-ole",
+      "Check-in Private Pool Villa di Seminyak dengan honeymoon room decoration"
+     ],
+     "eact": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur - magnificent volcano and lake view",
+      "Ubud Coffee Plantation (optional)",
+      "Desa Penglipuran, traditional Balinese village",
+      "Batik outlet and souvenir shopping",
+      "Check in Private Pool Villa in Seminyak with honeymoon room decoration"
+     ],
+     "region": "[Full Day]"
+    },
+    {
+     "v": "d4",
+     "t": "Berlepas",
+     "en": "BALI - AIRPORT DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Sarapan dan check-out hotel",
+      "Airport transfer ke DPS untuk penerbangan pulang"
+     ],
+     "eact": [
+      "Breakfast and hotel check-out",
+      "Airport transfer to DPS for return flight"
+     ],
+     "region": "[Airport Transfer]"
+    }
+   ],
+   "inclusions": [
+    "2 nights accommodation at 3-Star Hotel in Kuta or Legian",
+    "1 night accommodation at Private Pool Villa in Seminyak",
+    "Daily breakfast at hotel",
+    "Romantic Dinner at Bale Udang Lake View",
+    "Honeymoon basic room decoration",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Driving guide (English / Indonesian spoken)",
+    "Tipping fee and parking fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  },
+  {
+   "id": "hnyprem",
+   "name": "PT Bali Honeymoon Premium 4D3N",
+   "pkgLabel": "Bali Honeymoon Premium - Uluwatu, Nusa Penida or Nusa Dua, Kintamani Mt Batur, Ubud",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "4-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 1500,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 12,
+     "a": 1898.5,
+     "c": 1898.5,
+     "n": 1898.5
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 60,
+    "windows": [
+     [
+      "2025-12-22",
+      "2025-12-31"
+     ],
+     [
+      "2026-01-01",
+      "2026-01-05"
+     ],
+     [
+      "2026-03-19",
+      "2026-03-31"
+     ],
+     [
+      "2026-08-01",
+      "2026-08-31"
+     ],
+     [
+      "2026-12-20",
+      "2026-12-31"
+     ],
+     [
+      "2027-01-01",
+      "2027-01-05",
+      null,
+      40
+     ]
+    ]
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Tiba Bali - Uluwatu & Kuta",
+     "en": "BALI ARRIVAL - ULUWATU & KUTA TOUR",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "air",
+     "act": [
+      "Airport pickup di I Gusti Ngurah Rai (ketibaan 1:00 - 3:00 petang)",
+      "Uluwatu Temple, kuil atas tebing menghadap Lautan Hindi",
+      "Check-in hotel 4 bintang di Kuta atau Legian",
+      "Dinner di restoran halal (termasuk fullboard)"
+     ],
+     "eact": [
+      "Airport pickup at I Gusti Ngurah Rai (arrival between 1.00PM - 3.00PM)",
+      "Uluwatu Temple, famous cliff-top temple landmark",
+      "Check in 4-Star hotel in Kuta or Legian",
+      "Halal dinner (fullboard included)"
+     ],
+     "region": "[Airport + Half Day]"
+    },
+    {
+     "v": "d2",
+     "t": "Pilihan A Nusa Penida ATAU B Nusa Dua",
+     "en": "OPTION A NUSA PENIDA ISLAND OR B NUSA DUA TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Pilihan A: transfer ke Sanur Jetty (pickup 6:30 - 7:30 pagi), ferry sharing ke Nusa Penida",
+      "Pilihan A1 West: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Pilihan A2 West & East: Kelingking Beach, Diamond Beach (disyorkan, kurang sesak), Crystal Bay",
+      "Pilihan B Nusa Dua: watersport (fi aktiviti tidak termasuk), Waterblow, Pandawa Beach, Melasti Beach",
+      "Jimbaran Beach Sunset Dinner (termasuk)"
+     ],
+     "eact": [
+      "Option A: transfer to Sanur Jetty (6.30 - 7.30AM pickup), sharing ferry to Nusa Penida Island",
+      "Option A1 West Nusa Penida: Kelingking Beach, Broken Beach, Angel Billabong, Crystal Bay",
+      "Option A2 West & East Nusa Penida: Kelingking Beach, Diamond Beach (recommended), Crystal Bay",
+      "Option B Nusa Dua: watersport (activity fees excluded), Waterblow, Pandawa Beach, Melasti Beach",
+      "Jimbaran Beach Sunset Dinner (included)"
+     ],
+     "region": "[Full Day]"
+    },
+    {
+     "v": "d3",
+     "t": "Kintamani Mt Batur & Ubud",
+     "en": "KINTAMANI MT BATUR & UBUD TOUR",
+     "acc": "lvilla",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur dengan buffet lunch pemandangan gunung",
+      "Ubud Coffee Plantation (opsyenal)",
+      "Desa Penglipuran, kampung tradisional Bali",
+      "Batik outlet dan shopping ole-ole",
+      "Bale Udang Lake View Honeymoon Dinner (termasuk)",
+      "Check-in Luxury Private Pool Villa di Seminyak dengan honeymoon decoration"
+     ],
+     "eact": [
+      "Alas Harum Rice Terrace",
+      "Kintamani Mount Batur with buffet lunch and mountain view",
+      "Ubud Coffee Plantation (optional)",
+      "Desa Penglipuran, traditional Balinese village",
+      "Batik outlet and souvenir shopping",
+      "Bale Udang Lake View Honeymoon Dinner (included)",
+      "Check in Luxury Private Pool Villa in Seminyak with honeymoon decoration"
+     ],
+     "region": "[Full Day]"
+    },
+    {
+     "v": "d4",
+     "t": "Berlepas",
+     "en": "BALI - AIRPORT DEPARTURE",
+     "acc": "none",
+     "meal": "fbf",
+     "trp": "air",
+     "act": [
+      "Floating Breakfast di private pool villa, kemudian check-out",
+      "Airport transfer ke DPS untuk penerbangan pulang"
+     ],
+     "eact": [
+      "Floating Breakfast at the private pool villa, then check out",
+      "Airport transfer to DPS for return flight"
+     ],
+     "region": "[Airport Transfer]"
+    }
+   ],
+   "inclusions": [
+    "2 nights accommodation at 4-Star Hotel in Kuta or Legian",
+    "1 night accommodation at Luxury Private Pool Villa in Seminyak",
+    "Fullboard meals with 1x Floating Breakfast",
+    "Jimbaran Beach Sunset Dinner",
+    "Bale Udang Lake View Romantic Dinner",
+    "Buffet lunch with Mount Batur view",
+    "Honeymoon basic room decoration",
+    "{auto}",
+    "Entrance fees as stated in the itinerary",
+    "Driving guide (English / Indonesian spoken)",
+    "Tipping fee and parking fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  }
+ ]
+}

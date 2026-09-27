@@ -1,0 +1,1765 @@
+{
+ "dest": "BANGKOK",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;5)"
+ },
+ "infantNote": "Bawah 2 tahun FOC",
+ "singleNote": "+RM 450 setiap satu",
+ "intro": "Isi pax dan tarikh &mdash; peak season RM 80/pax/malam dan late booking RM 50 dikira sendiri. Transport ikut kelas kenderaan: 1&ndash;4 pax SUV, 5&ndash;8 pax Minivan; hari tambahan asas 10 jam, lebih masa 500 THB/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan. Malam tambahan hotel dikira <b>per bilik</b> &mdash; pilih add-on <i>Malam tambahan hotel &hellip; per bilik</i> dan isi bilangan bilik.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "hideGeneric": [
+  "ext",
+  "cus",
+  "fe"
+ ],
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "x3",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "peak": {
+  "mode": "perNight",
+  "value": 80,
+  "windows": [
+   [
+    "2026-12-20",
+    "2027-01-05"
+   ],
+   [
+    "2027-02-05",
+    "2027-02-07"
+   ],
+   [
+    "2027-04-13",
+    "2027-04-15"
+   ]
+  ]
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 20,
+  "drop": 0
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3&#9733; (malam dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade 4&#9733; Nouvo City (malam pakej)",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - Nouvo City Hotel or similar ({days})",
+   "line": "4-Star hotel upgrade"
+  },
+  {
+   "v": "up5",
+   "t": "Upgrade 5&#9733; Al-Meroz halal (malam pakej)",
+   "cost": "incl",
+   "perPaxRate": "up5",
+   "hotel": "5-Star Hotel (Al-Meroz)",
+   "incl": "5-Star hotel upgrade - Al-Meroz Hotel or similar ({days})",
+   "line": "5-Star hotel upgrade (Al-Meroz)"
+  },
+  {
+   "v": "x3",
+   "t": "Malam tambahan 3&#9733; &mdash; kadar PER BILIK, isi add-on bilik",
+   "cost": "incl",
+   "hotel": "3-Star Hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "x4",
+   "t": "Malam tambahan 4&#9733; &mdash; kadar PER BILIK, isi add-on bilik",
+   "cost": "incl",
+   "hotel": "4-Star Hotel",
+   "incl": "Additional night at 4-Star Hotel - Nouvo City or similar ({days})"
+  },
+  {
+   "v": "x5",
+   "t": "Malam tambahan 5&#9733; Al-Meroz &mdash; kadar PER BILIK, isi add-on bilik",
+   "cost": "incl",
+   "hotel": "5-Star Hotel (Al-Meroz)",
+   "incl": "Additional night at 5-Star Hotel - Al-Meroz Hotel ({days})"
+  },
+  {
+   "v": "no3",
+   "t": "Tanpa hotel &ndash; tolak malam 3&#9733; dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed (3-Star)"
+  },
+  {
+   "v": "no4",
+   "t": "Tanpa hotel &ndash; tolak malam 4&#9733; dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
+  },
+  {
+   "v": "no5",
+   "t": "Tanpa hotel &ndash; tolak malam 5&#9733; dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort5",
+   "dropsNight": true,
+   "line": "Package night removed (5-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan (hari ketibaan)",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast (dalam pakej)",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast (pakej) &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast (pakej) &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast (pakej), Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch sahaja",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner sahaja",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driver (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driver",
+   "incl": "Private Transportation & Driver ({days}) - 12 hours basis"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Private Airport Transfer",
+   "incl": "Private Airport Transfer from BKK or DMK ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driver (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driver",
+   "incl": "Additional day private transportation & driver ({days}) - 10 hours basis"
+  },
+  {
+   "v": "mday",
+   "t": "Sambungan tour berbilang hari (kos sudah dikira pada hari pertama)",
+   "cost": "zero",
+   "lbl": "Private Transport + Driver",
+   "incl": "Multi-day tour private transportation & driver ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  },
+  {
+   "v": "feded",
+   "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (transport deducted)"
+  }
+ ],
+ "addons": [
+  [
+   "Tukar Day 3 - Pattaya Full Day Tour",
+   80,
+   80,
+   "pax"
+  ],
+  [
+   "Tukar Day 3 - Kanchanaburi + Safari Park Full Day",
+   160,
+   160,
+   "pax"
+  ],
+  [
+   "Tukar Day 3 - Safari World Bangkok Half Day",
+   150,
+   150,
+   "pax"
+  ],
+  [
+   "Giraffe Encounter - Safari Park Kanchanaburi",
+   135,
+   135,
+   "pax"
+  ],
+  [
+   "Chao Phraya Halal Dinner Cruise",
+   150,
+   150,
+   "pax"
+  ],
+  [
+   "Long Tail Boat Damnoen Saduak - per bot",
+   280,
+   0,
+   "unit"
+  ],
+  [
+   "Malam tambahan hotel 3 bintang - per bilik",
+   160,
+   0,
+   "unit"
+  ],
+  [
+   "Malam tambahan hotel 3 bintang PEAK - per bilik",
+   210,
+   0,
+   "unit"
+  ],
+  [
+   "Malam tambahan hotel 4 bintang - per bilik",
+   240,
+   0,
+   "unit"
+  ],
+  [
+   "Malam tambahan hotel 4 bintang PEAK - per bilik",
+   320,
+   0,
+   "unit"
+  ],
+  [
+   "Malam tambahan hotel 5 bintang Al-Meroz - per bilik",
+   300,
+   0,
+   "unit"
+  ],
+  [
+   "Malam tambahan hotel 5 bintang Al-Meroz PEAK - per bilik",
+   380,
+   0,
+   "unit"
+  ],
+  [
+   "Tiket Safari Park Kanchanaburi",
+   75,
+   75,
+   "pax"
+  ],
+  [
+   "Tiket Safari Park / Marine Park (Safari World Bangkok)",
+   135,
+   110,
+   "pax"
+  ],
+  [
+   "Tiket Grand Palace",
+   70,
+   55,
+   "pax"
+  ],
+  [
+   "Tiket Chocolate Ville",
+   30,
+   30,
+   "pax"
+  ],
+  [
+   "Tiket Wat Arun",
+   30,
+   30,
+   "pax"
+  ],
+  [
+   "Wat Arun - sewa pakaian tradisional Thai",
+   45,
+   45,
+   "pax"
+  ],
+  [
+   "Wat Arun - solekan",
+   45,
+   45,
+   "pax"
+  ],
+  [
+   "Wat Arun - jurugambar (per group)",
+   195,
+   0,
+   "unit"
+  ],
+  [
+   "Tiket Sanctuary of Truth Pattaya",
+   70,
+   70,
+   "pax"
+  ],
+  [
+   "Tiket Khao Kheow Open Zoo",
+   50,
+   30,
+   "pax"
+  ],
+  [
+   "Tiket Chokchai Farm",
+   20,
+   15,
+   "pax"
+  ],
+  [
+   "Tiket Dream World Pathum Thani",
+   110,
+   70,
+   "pax"
+  ],
+  [
+   "Tiket Jim Thompson Museum",
+   40,
+   25,
+   "pax"
+  ],
+  [
+   "Tiket Manohkan Skywalk",
+   180,
+   95,
+   "pax"
+  ],
+  [
+   "Tiket Hokkaido Flower Park",
+   20,
+   15,
+   "pax"
+  ],
+  [
+   "Tiket Wat Pho",
+   42,
+   42,
+   "pax"
+  ],
+  [
+   "Tiket Ancient City",
+   120,
+   60,
+   "pax"
+  ],
+  [
+   "Buang tiket Safari Park Kanchanaburi",
+   -60,
+   -60,
+   "pax"
+  ],
+  [
+   "Buang tiket Safari Park / Marine Park",
+   -100,
+   -100,
+   "pax"
+  ],
+  [
+   "Buang tiket Chocolate Ville",
+   -20,
+   -20,
+   "pax"
+  ],
+  [
+   "Buang tiket Wat Arun",
+   -20,
+   -20,
+   "pax"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 4,
+   "text": "1&ndash;4 pax: SUV &mdash; kadar transport band SUV rate card."
+  },
+  {
+   "from": 5,
+   "to": 8,
+   "text": "5&ndash;8 pax: Minivan &mdash; kadar transport band Minivan rate card."
+  },
+  {
+   "from": 9,
+   "to": 10,
+   "text": "9&ndash;10 pax: perlu <b>2 kenderaan</b>. Rate card tiada band khusus, jadi kalkulator kira <b>2 &times; kadar Minivan</b> &mdash; sahkan dengan operasi sebelum quote."
+  },
+  {
+   "from": 11,
+   "to": 99999,
+   "text": "11 pax ke atas: <b>melebihi tier katalog</b> (tertinggi 6&ndash;10 pax). Kalkulator kekal guna tier 6&ndash;10 &mdash; minta sebut harga operasi."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. A deposit of RM 250 per person is required upon confirmation, with full payment due 45 days prior to arrival. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before departure. Private transportation and driver are based on a 12 hours basis per day; additional hours are charged at 500 THB per hour, payable in cash to the driver. Prices are quoted for 2 to 3 persons per room; a triple room with 3 single beds is subject to availability and an extra bed will be added if no triple bed is available. Peak season surcharge applies as stated and is not included in the base price. Itinerary, price and flight schedule are subject to change. Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip. This package is valid for travel until 31 March 2027. Ground arrangement and tipping only - flight tickets are not included.",
+ "variants": [
+  {
+   "id": "std",
+   "name": "PT Bangkok Standard 4D3N",
+   "pkgLabel": "Private Tour Bangkok Standard",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1597,
+     "c": 1497,
+     "n": 1397
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 1397,
+     "c": 1297,
+     "n": 1197
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 1297,
+     "c": 1197,
+     "n": 1097
+    },
+    {
+     "from": 6,
+     "to": 10,
+     "a": 1197,
+     "c": 1097,
+     "n": 997
+    }
+   ],
+   "infant": 0,
+   "single": 450,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL &ndash; Bangkok (Ketibaan)",
+     "en": "KUALA LUMPUR - BANGKOK",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Bangkok]",
+     "act": [
+      "Pick up di Lapangan Terbang BKK / DMK",
+      "Chocolate Ville",
+      "Shopping di Ramkhamhaeng Night Market",
+      "Check-in hotel"
+     ],
+     "eact": [
+      "Pick up at BKK / DMK Airport",
+      "Chocolate Ville",
+      "Shopping at Ramkhamhaeng Night Market",
+      "Hotel check in"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Bangkok &amp; Maeklong",
+     "en": "BANGKOK & MAEKLONG",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Damnoen Saduak]",
+     "act": [
+      "Breakfast di hotel",
+      "Mae Klong Railway Market",
+      "Damnoen Saduak Floating Market",
+      "Ton Son Mosque Bangkok",
+      "Asiatique The Riverfront"
+     ],
+     "eact": [
+      "Breakfast at hotel",
+      "Mae Klong Railway Market",
+      "Damnoen Saduak Floating Market",
+      "Ton Son Mosque Bangkok",
+      "Asiatique The Riverfront"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Bangkok City",
+     "en": "BANGKOK CITY",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Bangkok]",
+     "act": [
+      "Breakfast di hotel",
+      "The Grand Palace ATAU Wat Arun Temple",
+      "Chatuchak Weekend Market",
+      "Siam Paragon",
+      "Lumpini Park",
+      "Pratunam Market"
+     ],
+     "eact": [
+      "Breakfast at hotel",
+      "The Grand Palace OR Wat Arun Temple",
+      "Chatuchak Weekend Market",
+      "Siam Paragon",
+      "Lumpini Park",
+      "Pratunam Market"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Bangkok &ndash; Airport (Berlepas)",
+     "en": "BANGKOK - AIRPORT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport 1 way]",
+     "act": [
+      "Breakfast di hotel",
+      "Check-out hotel",
+      "Airport transfer ke BKK / DMK"
+     ],
+     "eact": [
+      "Breakfast at hotel",
+      "Hotel check out",
+      "Airport transfer to BKK / DMK"
+     ]
+    }
+   ],
+   "library": [
+    {
+     "v": "ext",
+     "t": "Hari tambahan &ndash; pilih blok day tour di bawah",
+     "en": "ADDITIONAL DAY",
+     "g": "Umum",
+     "region": "",
+     "acc": "x3",
+     "meal": "b",
+     "trp": "ext",
+     "act": [
+      "Pilih satu blok day tour untuk hari ini supaya kadar transport ikut kawasan"
+     ],
+     "eact": [
+      "Additional day - itinerary to be confirmed"
+     ]
+    },
+    {
+     "v": "fed",
+     "t": "Free &amp; Easy &ndash; tolak transport dari katalog",
+     "en": "FREE & EASY",
+     "g": "Umum",
+     "region": "",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "feded",
+     "act": [
+      "Free &amp; easy tanpa transport atau driver"
+     ],
+     "eact": [
+      "Free & easy - no transport or driver"
+     ]
+    },
+    {
+     "v": "tBkk",
+     "t": "Bangkok City Tour 1 hari",
+     "en": "BANGKOK CITY TOUR",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Bangkok]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "The Grand Palace atau Wat Arun Temple",
+      "Chatuchak Weekend Market",
+      "Siam Paragon",
+      "Lumpini Park",
+      "Pratunam Market"
+     ],
+     "eact": [
+      "The Grand Palace or Wat Arun Temple",
+      "Chatuchak Weekend Market",
+      "Siam Paragon",
+      "Lumpini Park",
+      "Pratunam Market"
+     ]
+    },
+    {
+     "v": "tDam",
+     "t": "Damnoen Saduak Floating Market 1 hari",
+     "en": "DAMNOEN SADUAK FLOATING MARKET",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Damnoen Saduak]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Mae Klong Railway Market",
+      "Damnoen Saduak Floating Market",
+      "Long Tail Boat (add-on per bot)",
+      "Ton Son Mosque Bangkok"
+     ],
+     "eact": [
+      "Mae Klong Railway Market",
+      "Damnoen Saduak Floating Market",
+      "Ton Son Mosque Bangkok"
+     ]
+    },
+    {
+     "v": "tKan",
+     "t": "Kanchanaburi 1 hari",
+     "en": "KANCHANABURI",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Kanchanaburi]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Safari Park Kanchanaburi (tiket add-on)",
+      "River Kwai Bridge",
+      "Sunflower Field (Disember &ndash; Februari sahaja)"
+     ],
+     "eact": [
+      "Safari Park Kanchanaburi",
+      "River Kwai Bridge",
+      "Sunflower Field (December - February only)"
+     ]
+    },
+    {
+     "v": "tEra",
+     "t": "Erawan Waterfall 1 hari",
+     "en": "ERAWAN WATERFALL",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Erawan]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Erawan National Park",
+      "Erawan Waterfall 7 tingkat"
+     ],
+     "eact": [
+      "Erawan National Park",
+      "Erawan Waterfall seven tiers"
+     ]
+    },
+    {
+     "v": "tAyu",
+     "t": "Ayutthaya 1 hari",
+     "en": "AYUTTHAYA",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Ayutthaya]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Ayutthaya Historical Park",
+      "Wat Mahathat",
+      "Wat Chaiwatthanaram"
+     ],
+     "eact": [
+      "Ayutthaya Historical Park",
+      "Wat Mahathat",
+      "Wat Chaiwatthanaram"
+     ]
+    },
+    {
+     "v": "tKhy",
+     "t": "Khao Yai 1 hari",
+     "en": "KHAO YAI",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Khao Yai]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Khao Yai National Park",
+      "Chokchai Farm (tiket add-on)",
+      "Hokkaido Flower Park (tiket add-on)"
+     ],
+     "eact": [
+      "Khao Yai National Park",
+      "Chokchai Farm",
+      "Hokkaido Flower Park"
+     ]
+    },
+    {
+     "v": "tPat",
+     "t": "Pattaya 1 hari",
+     "en": "PATTAYA",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Pattaya]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Pattaya Beach",
+      "Pattaya Town",
+      "Hard Rock Cafe Pattaya",
+      "Sanctuary of Truth (tiket add-on)"
+     ],
+     "eact": [
+      "Pattaya Beach",
+      "Pattaya Town",
+      "Hard Rock Cafe Pattaya",
+      "Sanctuary of Truth"
+     ]
+    },
+    {
+     "v": "tHua",
+     "t": "Hua Hin 1 hari",
+     "en": "HUA HIN",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Hua Hin]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Hua Hin Beach",
+      "Hua Hin Night Market",
+      "Cicada Market"
+     ],
+     "eact": [
+      "Hua Hin Beach",
+      "Hua Hin Night Market",
+      "Cicada Market"
+     ]
+    },
+    {
+     "v": "tRay",
+     "t": "Rayong Sea 1 hari",
+     "en": "RAYONG",
+     "g": "Add-on day tour (1 hari)",
+     "region": "[Rayong]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Rayong Beach",
+      "Pasar tempatan Rayong"
+     ],
+     "eact": [
+      "Rayong Beach",
+      "Rayong local market"
+     ]
+    },
+    {
+     "v": "tKoh",
+     "t": "Koh Chang Island &ndash; transfer sehala",
+     "en": "KOH CHANG ISLAND",
+     "g": "Transfer / sehala",
+     "region": "[Koh Chang 1 way]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Transfer sehala ke Koh Chang (termasuk jeti feri)"
+     ],
+     "eact": [
+      "One way transfer to Koh Chang (ferry pier included)"
+     ]
+    },
+    {
+     "v": "tApd",
+     "t": "Airport pick up / drop off sehala",
+     "en": "AIRPORT TRANSFER",
+     "g": "Transfer / sehala",
+     "region": "[Airport 1 way]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Airport transfer sehala BKK / DMK"
+     ],
+     "eact": [
+      "One way airport transfer BKK / DMK"
+     ]
+    },
+    {
+     "v": "tAph",
+     "t": "Airport pick up + half day tour",
+     "en": "AIRPORT TRANSFER + HALF DAY TOUR",
+     "g": "Transfer / sehala",
+     "region": "[Airport + Half Day]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Pick up di BKK / DMK",
+      "Half day tour sebelum check-in hotel"
+     ],
+     "eact": [
+      "Pick up at BKK / DMK",
+      "Half day tour before hotel check in"
+     ]
+    },
+    {
+     "v": "tPa1",
+     "t": "Pattaya &ndash; transfer sehala",
+     "en": "PATTAYA TRANSFER",
+     "g": "Transfer / sehala",
+     "region": "[Pattaya 1 way]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Transfer sehala Bangkok &ndash; Pattaya"
+     ],
+     "eact": [
+      "One way transfer Bangkok - Pattaya"
+     ]
+    },
+    {
+     "v": "tHu1",
+     "t": "Hua Hin &ndash; transfer sehala",
+     "en": "HUA HIN TRANSFER",
+     "g": "Transfer / sehala",
+     "region": "[Hua Hin 1 way]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Transfer sehala Bangkok &ndash; Hua Hin"
+     ],
+     "eact": [
+      "One way transfer Bangkok - Hua Hin"
+     ]
+    },
+    {
+     "v": "mKk1",
+     "t": "Khao Kor 4 hari &ndash; HARI 1 (kadar penuh 4 hari)",
+     "en": "KHAO KOR DAY 1",
+     "g": "Tour berbilang hari",
+     "region": "[Khao Kor 4D]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Khao Kor mountain view point",
+      "Wat Pha Sorn Kaew",
+      "Pino Latte Resort & Cafe"
+     ],
+     "eact": [
+      "Khao Kor mountain view point",
+      "Wat Pha Sorn Kaew",
+      "Pino Latte Resort & Cafe"
+     ]
+    },
+    {
+     "v": "mKkx",
+     "t": "Khao Kor 4 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+     "en": "KHAO KOR",
+     "g": "Tour berbilang hari",
+     "region": "",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "mday",
+     "act": [
+      "Khao Kor mountain view point",
+      "Wat Pha Sorn Kaew",
+      "Pino Latte Resort & Cafe"
+     ],
+     "eact": [
+      "Khao Kor mountain view point",
+      "Wat Pha Sorn Kaew",
+      "Pino Latte Resort & Cafe"
+     ]
+    },
+    {
+     "v": "mKy1",
+     "t": "Khao Yai 3 hari &ndash; HARI 1 (kadar penuh 3 hari)",
+     "en": "KHAO YAI DAY 1",
+     "g": "Tour berbilang hari",
+     "region": "[Khao Yai 3D]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Khao Yai National Park",
+      "Chokchai Farm",
+      "Primo Piazza"
+     ],
+     "eact": [
+      "Khao Yai National Park",
+      "Chokchai Farm",
+      "Primo Piazza"
+     ]
+    },
+    {
+     "v": "mKyx",
+     "t": "Khao Yai 3 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+     "en": "KHAO YAI",
+     "g": "Tour berbilang hari",
+     "region": "",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "mday",
+     "act": [
+      "Khao Yai National Park",
+      "Chokchai Farm",
+      "Primo Piazza"
+     ],
+     "eact": [
+      "Khao Yai National Park",
+      "Chokchai Farm",
+      "Primo Piazza"
+     ]
+    },
+    {
+     "v": "mKa1",
+     "t": "Kanchanaburi 2 hari &ndash; HARI 1 (kadar penuh 2 hari)",
+     "en": "KANCHANABURI DAY 1",
+     "g": "Tour berbilang hari",
+     "region": "[Kanchanaburi 2D]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "River Kwai Bridge",
+      "Erawan Waterfall",
+      "Safari Park Kanchanaburi"
+     ],
+     "eact": [
+      "River Kwai Bridge",
+      "Erawan Waterfall",
+      "Safari Park Kanchanaburi"
+     ]
+    },
+    {
+     "v": "mKax",
+     "t": "Kanchanaburi 2 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+     "en": "KANCHANABURI",
+     "g": "Tour berbilang hari",
+     "region": "",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "mday",
+     "act": [
+      "River Kwai Bridge",
+      "Erawan Waterfall",
+      "Safari Park Kanchanaburi"
+     ],
+     "eact": [
+      "River Kwai Bridge",
+      "Erawan Waterfall",
+      "Safari Park Kanchanaburi"
+     ]
+    },
+    {
+     "v": "mHh1",
+     "t": "Hua Hin 2 hari &ndash; HARI 1 (kadar penuh 2 hari)",
+     "en": "HUA HIN DAY 1",
+     "g": "Tour berbilang hari",
+     "region": "[Hua Hin 2D]",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Hua Hin Beach",
+      "Cicada Market",
+      "Swiss Sheep Farm"
+     ],
+     "eact": [
+      "Hua Hin Beach",
+      "Cicada Market",
+      "Swiss Sheep Farm"
+     ]
+    },
+    {
+     "v": "mHhx",
+     "t": "Hua Hin 2 hari &ndash; hari 2 dan seterusnya (kos sudah dikira hari 1)",
+     "en": "HUA HIN",
+     "g": "Tour berbilang hari",
+     "region": "",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "mday",
+     "act": [
+      "Hua Hin Beach",
+      "Cicada Market",
+      "Swiss Sheep Farm"
+     ],
+     "eact": [
+      "Hua Hin Beach",
+      "Cicada Market",
+      "Swiss Sheep Farm"
+     ]
+    }
+   ],
+   "ext": {
+    "night": {
+     "normal": 0,
+     "peak": 0
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 8,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 16,
+        "normal": null
+       }
+      ],
+      "[Bangkok]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 450
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 475
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 475
+       }
+      ],
+      "[Damnoen Saduak]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 500
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 550
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 550
+       }
+      ],
+      "[Kanchanaburi]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 550
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 630
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 630
+       }
+      ],
+      "[Erawan]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 600
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 700
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 700
+       }
+      ],
+      "[Ayutthaya]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 500
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 575
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 575
+       }
+      ],
+      "[Khao Yai]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 575
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 650
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 650
+       }
+      ],
+      "[Pattaya]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 525
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 610
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 610
+       }
+      ],
+      "[Hua Hin]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 575
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 650
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 650
+       }
+      ],
+      "[Rayong]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 575
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 650
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 650
+       }
+      ],
+      "[Koh Chang 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 700
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 850
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 850
+       }
+      ],
+      "[Airport 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 125
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 175
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 175
+       }
+      ],
+      "[Airport + Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 400
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 440
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 440
+       }
+      ],
+      "[Pattaya 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 275
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 350
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 350
+       }
+      ],
+      "[Hua Hin 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 350
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 450
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 450
+       }
+      ],
+      "[Khao Kor 4D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 2150
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 2500
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 2500
+       }
+      ],
+      "[Khao Yai 3D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 1550
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 1700
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 1700
+       }
+      ],
+      "[Kanchanaburi 2D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 1110
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 1300
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 1300
+       }
+      ],
+      "[Hua Hin 2D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 1110
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": 1300
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": 1300
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 16,
+        "normal": null
+       }
+      ],
+      "[Bangkok]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -300
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -350
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -350
+       }
+      ],
+      "[Damnoen Saduak]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -350
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -400
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -400
+       }
+      ],
+      "[Kanchanaburi]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -400
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -480
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -480
+       }
+      ],
+      "[Erawan]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -450
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -550
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -550
+       }
+      ],
+      "[Ayutthaya]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -350
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -425
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -425
+       }
+      ],
+      "[Khao Yai]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -425
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -500
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -500
+       }
+      ],
+      "[Pattaya]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -375
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -460
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -460
+       }
+      ],
+      "[Hua Hin]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -425
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -500
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -500
+       }
+      ],
+      "[Rayong]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -425
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -500
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -500
+       }
+      ],
+      "[Koh Chang 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -550
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -700
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -700
+       }
+      ],
+      "[Airport 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -75
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -125
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -125
+       }
+      ],
+      "[Airport + Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -250
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -390
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -390
+       }
+      ],
+      "[Pattaya 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -125
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -200
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -200
+       }
+      ],
+      "[Hua Hin 1 way]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -200
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -300
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -300
+       }
+      ],
+      "[Khao Kor 4D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -1800
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -2150
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -2150
+       }
+      ],
+      "[Khao Yai 3D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -1300
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -1450
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -1450
+       }
+      ],
+      "[Kanchanaburi 2D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -960
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -1150
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -1150
+       }
+      ],
+      "[Hua Hin 2D]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -960
+       },
+       {
+        "from": 5,
+        "to": 8,
+        "normal": -1150
+       },
+       {
+        "from": 9,
+        "to": 16,
+        "normal": -1150
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 16,
+        "normal": 50
+       }
+      ]
+     },
+     "up5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 16,
+        "normal": 60
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 16,
+        "normal": -50
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 16,
+        "normal": -100
+       }
+      ]
+     },
+     "nightShort5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 16,
+        "normal": -150
+       }
+      ]
+     }
+    }
+   },
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Bangkok - Almas Hotel / Regent Ramkhamhaeng Hotel or similar, 2 to 3 persons per room",
+    "{auto}",
+    "Daily breakfast at hotel",
+    "Entrance fees based on itinerary",
+    "Tipping for driver"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Personal travel insurance",
+    "Personal expenses and shopping",
+    "Excess baggage fee",
+    "Optional activities not stated above"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport - 500 THB per hour, payable in cash to the driver",
+    "Giraffe Encounter, Sunflower Field entrance and Long Tail Boat unless listed above"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1149 @@
+{
+ "dest": "SWITZERLAND",
+ "currency": "RM",
+ "deposit": 500,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (7&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;6)"
+ },
+ "infantNote": "RM 900 flat, bukan FOC",
+ "singleNote": "+RM 2,800 setiap satu (rate card ARBA)",
+ "intro": "Isi pax dan tarikh &mdash; peak season, surcaj travel 2027, last minute dan late booking dikira sendiri. Dalam panel <b>Ubah itinerary</b>, setiap hari boleh ditukar kepada mana-mana blok dalam pustaka (Zurich &middot; Lucerne &middot; Interlaken &middot; Zermatt &middot; panoramic train). Hari yang TC tambah sendiri terus berkos ikut kadar extension; malam lebih atau kurang daripada pakej asal dilaras sendiri. Sumber: katalog PT Switzerland Standard 7D6N 2026 (last updated 8 Dis 2025) dan rate card ARBA. Switzerland <b>tiada ProdReq</b>, jadi kadar transport adalah satu kadar rata seluruh negara &mdash; tiada kadar ikut kawasan.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "variants": [
+  {
+   "id": "std",
+   "name": "PT Switzerland Standard 7D6N",
+   "pkgLabel": "Zurich - Rhine Falls - Lucerne - Bern - Grindelwald - Lauterbrunnen - Zermatt - Blausee - Interlaken Switzerland Muslim Tour (3/4*)",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3/4-Star Hotel",
+   "days": 7,
+   "nights": 6,
+   "infant": 900,
+   "single": 2800,
+   "labelCwb": "Child With Bed (7-11)",
+   "labelCnb": "Child No Bed (2-6)",
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 700,
+    "rate3": 500
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 14997,
+     "c": 14797,
+     "n": 14597
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 11997,
+     "c": 11797,
+     "n": 11597
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 9997,
+     "c": 9797,
+     "n": 9597
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 8997,
+     "c": 8797,
+     "n": 8597
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 7997,
+     "c": 7797,
+     "n": 7597
+    },
+    {
+     "from": 8,
+     "to": 8,
+     "a": 9997,
+     "c": 9797,
+     "n": 9597
+    },
+    {
+     "from": 9,
+     "to": 10,
+     "a": 8997,
+     "c": 8797,
+     "n": 8597
+    },
+    {
+     "from": 11,
+     "to": 14,
+     "a": 7997,
+     "c": 7797,
+     "n": 7597
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KL - Zurich (Ketibaan)",
+     "en": "ZURICH ARRIVAL",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "act": [
+      "Tiba Zurich Airport (ZRH), disambut Malaysian driver-cum-guide",
+      "Transfer ke hotel & check in Zurich",
+      "Free & easy"
+     ],
+     "eact": [
+      "Arrive Zurich Airport (ZRH), met by Malaysian driver-cum-guide",
+      "Transfer to hotel & check in Zurich",
+      "Free & easy"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Rhine Falls & Zurich",
+     "en": "RHINE FALLS & ZURICH",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Rhine Falls - air terjun terbesar Eropah (FREE Boat Tour)",
+      "Zurich Old Town",
+      "Lindenhof (lokasi CLOY)",
+      "Burkliplatz - jambatan tertua Zurich (lokasi CLOY)",
+      "Bahnhofstrasse - shopping street"
+     ],
+     "eact": [
+      "Rhine Falls - largest waterfall in Europe (FREE Boat Tour)",
+      "Zurich Old Town",
+      "Lindenhof (CLOY filming location)",
+      "Burkliplatz - oldest bridge in Zurich (CLOY filming location)",
+      "Bahnhofstrasse shopping street"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Engelberg - Lucerne - Bern",
+     "en": "ENGELBERG - LUCERNE - BERN",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Check out",
+      "Engelberg & Mount Titlis - 360 Rotair cable car (optional)",
+      "Lucerne Old Town",
+      "Chapel Bridge - jambatan kayu lama",
+      "Check in hotel Bern"
+     ],
+     "eact": [
+      "Check out",
+      "Engelberg & Mount Titlis - 360 Rotair cable car (optional)",
+      "Lucerne Old Town",
+      "Chapel Bridge - the famous old wooden bridge",
+      "Check in hotel Bern"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Grindelwald - Lauterbrunnen - Murren",
+     "en": "GRINDELWALD - LAUTERBRUNNEN - MURREN",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Grindelwald - alpine village dengan pemandangan Alps",
+      "Lauterbrunnen - lembah dengan 72 air terjun",
+      "Staubbach Waterfall",
+      "Murren - alpine village",
+      "Birg & Schilthorn - lokasi filem James Bond (optional)"
+     ],
+     "eact": [
+      "Grindelwald - mountain village with Alpine view",
+      "Lauterbrunnen - fairy-tale valley with 72 waterfalls",
+      "Staubbach Waterfall",
+      "Murren - mountain village with Alpine view",
+      "Birg & Schilthorn - James Bond filming location (optional)"
+     ]
+    },
+    {
+     "v": "d5",
+     "t": "Tasch - Zermatt",
+     "en": "TASCH - ZERMATT",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Check out",
+      "FREE panoramic train Tasch - Zermatt",
+      "Matterhorn - gunung 'Toblerone' (optional)",
+      "Gornergrat - pemandangan Matterhorn (optional)",
+      "Check in hotel Tasch / Visp"
+     ],
+     "eact": [
+      "Check out",
+      "FREE panoramic train Tasch - Zermatt",
+      "Matterhorn - the 'Toblerone' mountain (optional)",
+      "Gornergrat - magnificent view of the Matterhorn (optional)",
+      "Check in hotel Tasch / Visp"
+     ]
+    },
+    {
+     "v": "d6",
+     "t": "Blausee - Interlaken - Iseltwald",
+     "en": "BLAUSEE - INTERLAKEN - ISELTWALD",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Check out",
+      "Lake Blausee - tasik biru turquoise (FREE entry)",
+      "Interlaken West - shopping street",
+      "Interlaken Lake Cruise (optional)",
+      "Iseltwald - lokasi filem CLOY",
+      "Check in hotel Bern"
+     ],
+     "eact": [
+      "Check out",
+      "Lake Blausee - the famous turquoise-blue lake (FREE entry)",
+      "Interlaken West shopping street",
+      "Interlaken Lake Cruise (optional)",
+      "Iseltwald - CLOY filming location",
+      "Check in hotel Bern"
+     ]
+    },
+    {
+     "v": "d7",
+     "t": "Zurich (Berlepas)",
+     "en": "ZURICH DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Check out hotel",
+      "Transfer ke Zurich Airport",
+      "Berlepas - tamat perkhidmatan"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Transfer to Zurich Airport",
+      "Departure - end of service"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation in 3/4-Star hotels including daily breakfast (base package: 2 nights Zurich, 2 nights Bern, 1 night Tasch, 1 night Bern)",
+    "Private Airport Transfer (MPV or Van) on Day 1 & Day {days}",
+    "Transportation in Switzerland via Private Transport (MPV or Van), Day 2 - Day 6",
+    "Intercity transfer via Private Transport",
+    "Malaysian driver-cum-guide (Malay / English speaking)",
+    "FREE panoramic train transfer Tasch to Zermatt",
+    "FREE entry to Lake Blausee",
+    "FREE Rhine Falls Boat Tour",
+    "Tipping for driver-cum-guide"
+   ],
+   "exclusions": [
+    "International flight tickets (return)",
+    "Personal expenses",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Fees for other or optional activities not stated above",
+    "City taxes or tourism tax where applicable",
+    "ETIAS travel authorisation (approx. EUR 20 per pax, from Q4 2026)"
+   ]
+  }
+ ],
+ "library": [
+  {
+   "v": "lb_zarr",
+   "g": "Zurich & sekitar",
+   "t": "Ketibaan Zurich (airport transfer + check in)",
+   "en": "ZURICH ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "act": [
+    "Tiba Zurich Airport (ZRH)",
+    "Airport transfer",
+    "Check in hotel Zurich"
+   ],
+   "eact": [
+    "Arrive Zurich Airport (ZRH)",
+    "Airport transfer",
+    "Check in hotel Zurich"
+   ]
+  },
+  {
+   "v": "lb_zdep",
+   "g": "Zurich & sekitar",
+   "t": "Berlepas Zurich (check out + airport transfer)",
+   "en": "ZURICH DEPARTURE",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Check out hotel",
+    "Airport transfer",
+    "Berlepas - tamat perkhidmatan"
+   ],
+   "eact": [
+    "Check out hotel",
+    "Airport transfer",
+    "Departure - end of service"
+   ]
+  },
+  {
+   "v": "lb_zcity",
+   "g": "Zurich & sekitar",
+   "t": "Zurich Old Town & Bahnhofstrasse",
+   "en": "ZURICH OLD TOWN & BAHNHOFSTRASSE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Zurich Old Town - lorong berbatu bersejarah",
+    "Lindenhof (lokasi CLOY)",
+    "Burkliplatz (lokasi CLOY)",
+    "Bahnhofstrasse - shopping street"
+   ],
+   "eact": [
+    "Zurich Old Town - historic cobblestone alleys",
+    "Lindenhof (CLOY filming location)",
+    "Burkliplatz (CLOY filming location)",
+    "Bahnhofstrasse shopping street"
+   ]
+  },
+  {
+   "v": "lb_rhine",
+   "g": "Zurich & sekitar",
+   "t": "Rhine Falls (FREE Boat Tour)",
+   "en": "RHINE FALLS",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Rhine Falls - air terjun terbesar Eropah",
+    "FREE Boat Tour ke tengah jeram",
+    "Viewing platform Schloss Laufen"
+   ],
+   "eact": [
+    "Rhine Falls - largest waterfall in Europe",
+    "FREE Boat Tour to the centre of the falls",
+    "Schloss Laufen viewing platform"
+   ]
+  },
+  {
+   "v": "lb_rhinez",
+   "g": "Zurich & sekitar",
+   "t": "Rhine Falls & Zurich (blok katalog Hari 2)",
+   "en": "RHINE FALLS & ZURICH",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Rhine Falls + FREE Boat Tour",
+    "Zurich Old Town",
+    "Lindenhof & Burkliplatz (lokasi CLOY)",
+    "Bahnhofstrasse"
+   ],
+   "eact": [
+    "Rhine Falls + FREE Boat Tour",
+    "Zurich Old Town",
+    "Lindenhof & Burkliplatz (CLOY filming locations)",
+    "Bahnhofstrasse"
+   ]
+  },
+  {
+   "v": "lb_engel",
+   "g": "Central Switzerland - Lucerne",
+   "t": "Engelberg & Mount Titlis (optional)",
+   "en": "ENGELBERG & MOUNT TITLIS",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Engelberg - alpine resort town",
+    "Mount Titlis 360 Rotair cable car (optional)",
+    "Glacier Cave & Cliff Walk (optional)"
+   ],
+   "eact": [
+    "Engelberg - alpine resort town",
+    "Mount Titlis 360 Rotair cable car (optional)",
+    "Glacier Cave & Cliff Walk (optional)"
+   ]
+  },
+  {
+   "v": "lb_lucerne",
+   "g": "Central Switzerland - Lucerne",
+   "t": "Lucerne Old Town & Chapel Bridge",
+   "en": "LUCERNE & CHAPEL BRIDGE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Lucerne Old Town - bangunan bersejarah & shopping",
+    "Chapel Bridge (Kapellbrucke)",
+    "Lakefront Lucerne"
+   ],
+   "eact": [
+    "Lucerne Old Town - historic buildings & shopping",
+    "Chapel Bridge (Kapellbrucke)",
+    "Lucerne lakefront"
+   ]
+  },
+  {
+   "v": "lb_englu",
+   "g": "Central Switzerland - Lucerne",
+   "t": "Engelberg - Lucerne - Bern (blok katalog Hari 3)",
+   "en": "ENGELBERG - LUCERNE - BERN",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Check out",
+    "Engelberg & Mount Titlis (optional)",
+    "Lucerne Old Town",
+    "Chapel Bridge",
+    "Check in hotel Bern"
+   ],
+   "eact": [
+    "Check out",
+    "Engelberg & Mount Titlis (optional)",
+    "Lucerne Old Town",
+    "Chapel Bridge",
+    "Check in hotel Bern"
+   ]
+  },
+  {
+   "v": "lb_rigi",
+   "g": "Central Switzerland - Lucerne",
+   "t": "Mount Rigi (optional)",
+   "en": "MOUNT RIGI",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Mount Rigi - train + cable car (optional)",
+    "Pemandangan Lake Lucerne",
+    "Pilihan puncak paling murah"
+   ],
+   "eact": [
+    "Mount Rigi - train + cable car (optional)",
+    "Lake Lucerne panorama",
+    "Most affordable summit option"
+   ]
+  },
+  {
+   "v": "lb_bern",
+   "g": "Central Switzerland - Lucerne",
+   "t": "Bern city (ibu negara)",
+   "en": "BERN CITY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Bern Old Town (UNESCO)",
+    "Zytglogge clock tower",
+    "Bear Park & Aare riverside"
+   ],
+   "eact": [
+    "Bern Old Town (UNESCO)",
+    "Zytglogge clock tower",
+    "Bear Park & Aare riverside"
+   ]
+  },
+  {
+   "v": "lb_grind",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Grindelwald",
+   "en": "GRINDELWALD",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Grindelwald - alpine village",
+    "Panorama Eiger & Alps",
+    "Grindelwald First + aktiviti (optional)"
+   ],
+   "eact": [
+    "Grindelwald - alpine village",
+    "Eiger & Alps panorama",
+    "Grindelwald First + activity (optional)"
+   ]
+  },
+  {
+   "v": "lb_lauter",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Lauterbrunnen & Murren",
+   "en": "LAUTERBRUNNEN & MURREN",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Lauterbrunnen - lembah dengan 72 air terjun",
+    "Staubbach Waterfall",
+    "Murren - alpine village",
+    "Schilthorn / Piz Gloria (optional)"
+   ],
+   "eact": [
+    "Lauterbrunnen - valley of 72 waterfalls",
+    "Staubbach Waterfall",
+    "Murren - alpine village",
+    "Schilthorn / Piz Gloria (optional)"
+   ]
+  },
+  {
+   "v": "lb_grlam",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Grindelwald - Lauterbrunnen - Murren (blok katalog Hari 4)",
+   "en": "GRINDELWALD - LAUTERBRUNNEN - MURREN",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Grindelwald",
+    "Lauterbrunnen & Staubbach Waterfall",
+    "Murren",
+    "Birg & Schilthorn (optional)"
+   ],
+   "eact": [
+    "Grindelwald",
+    "Lauterbrunnen & Staubbach Waterfall",
+    "Murren",
+    "Birg & Schilthorn (optional)"
+   ]
+  },
+  {
+   "v": "lb_inter",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Interlaken & Lake Cruise",
+   "en": "INTERLAKEN & LAKE CRUISE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Interlaken West - shopping street",
+    "Interlaken Lake Cruise (optional)",
+    "Halal hub Switzerland"
+   ],
+   "eact": [
+    "Interlaken West shopping street",
+    "Interlaken Lake Cruise (optional)",
+    "Switzerland halal hub"
+   ]
+  },
+  {
+   "v": "lb_blausee",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Lake Blausee (FREE entry)",
+   "en": "LAKE BLAUSEE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Lake Blausee - tasik biru turquoise (FREE entry)",
+    "Boat ride kecil",
+    "Taman semula jadi"
+   ],
+   "eact": [
+    "Lake Blausee - turquoise-blue lake (FREE entry)",
+    "Small boat ride",
+    "Nature park"
+   ]
+  },
+  {
+   "v": "lb_isel",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Iseltwald (lokasi CLOY)",
+   "en": "ISELTWALD",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Iseltwald - kampung tepi Lake Brienz",
+    "Jetty CLOY yang ikonik",
+    "Lake Brienz turquoise"
+   ],
+   "eact": [
+    "Iseltwald - village on Lake Brienz",
+    "The iconic CLOY jetty",
+    "Turquoise Lake Brienz"
+   ]
+  },
+  {
+   "v": "lb_blint",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Blausee - Interlaken - Iseltwald (blok katalog Hari 6)",
+   "en": "BLAUSEE - INTERLAKEN - ISELTWALD",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Check out",
+    "Lake Blausee (FREE entry)",
+    "Interlaken West",
+    "Interlaken Lake Cruise (optional)",
+    "Iseltwald - lokasi CLOY",
+    "Check in hotel Bern"
+   ],
+   "eact": [
+    "Check out",
+    "Lake Blausee (FREE entry)",
+    "Interlaken West",
+    "Interlaken Lake Cruise (optional)",
+    "Iseltwald - CLOY filming location",
+    "Check in hotel Bern"
+   ]
+  },
+  {
+   "v": "lb_jungfrau",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Jungfraujoch - Top of Europe (optional)",
+   "en": "JUNGFRAUJOCH - TOP OF EUROPE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Jungfraujoch - Top of Europe (optional)",
+    "Alpine Sensation & Ice Palace",
+    "Observation deck Sphinx",
+    "Snow Fun Park (pertengahan Mei - pertengahan Okt)"
+   ],
+   "eact": [
+    "Jungfraujoch - Top of Europe (optional)",
+    "Alpine Sensation & Ice Palace",
+    "Sphinx observation deck",
+    "Snow Fun Park (mid May - mid Oct)"
+   ]
+  },
+  {
+   "v": "lb_kander",
+   "g": "Bernese Oberland - Interlaken & Jungfrau",
+   "t": "Kandersteg Oeschinensee (optional)",
+   "en": "KANDERSTEG OESCHINENSEE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Kandersteg",
+    "Oeschinensee gondola (optional)",
+    "Mountain Coaster (optional)"
+   ],
+   "eact": [
+    "Kandersteg",
+    "Oeschinensee gondola (optional)",
+    "Mountain Coaster (optional)"
+   ]
+  },
+  {
+   "v": "lb_zermatt",
+   "g": "Zermatt & Valais",
+   "t": "Tasch - Zermatt (FREE panoramic train)",
+   "en": "TASCH - ZERMATT",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "FREE panoramic train Tasch - Zermatt",
+    "Zermatt - bandar car-free",
+    "Matterhorn viewpoint"
+   ],
+   "eact": [
+    "FREE panoramic train Tasch - Zermatt",
+    "Zermatt - car-free town",
+    "Matterhorn viewpoint"
+   ]
+  },
+  {
+   "v": "lb_gorner",
+   "g": "Zermatt & Valais",
+   "t": "Gornergrat Railway (optional)",
+   "en": "GORNERGRAT RAILWAY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Gornergrat Railway pergi-balik (optional)",
+    "Riffelalp & Riffelberg",
+    "Pemandangan Matterhorn"
+   ],
+   "eact": [
+    "Gornergrat Railway round trip (optional)",
+    "Riffelalp & Riffelberg",
+    "Matterhorn panorama"
+   ]
+  },
+  {
+   "v": "lb_glacier",
+   "g": "Zermatt & Valais",
+   "t": "Matterhorn Glacier Paradise (optional)",
+   "en": "MATTERHORN GLACIER PARADISE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Matterhorn Glacier Paradise (optional)",
+    "Platform 360 darjah",
+    "Glacier Ice Palace"
+   ],
+   "eact": [
+    "Matterhorn Glacier Paradise (optional)",
+    "360-degree viewing platform",
+    "Glacier Ice Palace"
+   ]
+  },
+  {
+   "v": "lb_bernina",
+   "g": "Panoramic train (tiket sehala)",
+   "t": "Bernina Express - Chur ke St Moritz",
+   "en": "BERNINA EXPRESS - CHUR TO ST MORITZ",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Bernina Express Chur - St Moritz (optional, sehala)",
+    "Perjalanan lebih kurang 4 jam"
+   ],
+   "eact": [
+    "Bernina Express Chur - St Moritz (optional, one way)",
+    "Approximately 4 hours"
+   ]
+  },
+  {
+   "v": "lb_glacierx",
+   "g": "Panoramic train (tiket sehala)",
+   "t": "Glacier Express - Chur ke Zermatt",
+   "en": "GLACIER EXPRESS - CHUR TO ZERMATT",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "Glacier Express Chur - Zermatt (optional, sehala)",
+    "Perjalanan lebih kurang 4 jam 30 minit"
+   ],
+   "eact": [
+    "Glacier Express Chur - Zermatt (optional, one way)",
+    "Approximately 4 hours 30 minutes"
+   ]
+  },
+  {
+   "v": "lb_golden",
+   "g": "Panoramic train (tiket sehala)",
+   "t": "GoldenPass Belle Epoque - Zweisimmen ke Montreux",
+   "en": "GOLDENPASS BELLE EPOQUE",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "incl",
+   "act": [
+    "GoldenPass Belle Epoque Zweisimmen - Montreux (optional, sehala)",
+    "Perjalanan lebih kurang 2 jam"
+   ],
+   "eact": [
+    "GoldenPass Belle Epoque Zweisimmen - Montreux (optional, one way)",
+    "Approximately 2 hours"
+   ]
+  },
+  {
+   "v": "ext",
+   "g": "Hari tambahan & lain-lain",
+   "t": "Hari tambahan - Private Transport + Driving Guide",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "act": [
+    "Hari tambahan mengikut permintaan customer",
+    "Private transport + Malaysian driving guide"
+   ],
+   "eact": [
+    "Additional day as per customer request",
+    "Private transport + Malaysian driving guide"
+   ]
+  },
+  {
+   "v": "lb_free",
+   "g": "Hari tambahan & lain-lain",
+   "t": "Free & easy (tiada transport)",
+   "en": "FREE & EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "act": [
+    "Free & easy di kawasan base",
+    "Tiada transport berpandu pada hari ini"
+   ],
+   "eact": [
+    "Free & easy around the base town",
+    "No guided transport on this day"
+   ]
+  }
+ ],
+ "peak": {
+  "mode": "perNight",
+  "value": 200,
+  "windows": [
+   [
+    "2025-12-20",
+    "2026-01-10"
+   ],
+   [
+    "2026-02-01",
+    "2026-02-28"
+   ],
+   [
+    "2026-07-15",
+    "2026-08-15"
+   ],
+   [
+    "2026-12-20",
+    "2027-01-03"
+   ],
+   [
+    "2027-02-01",
+    "2027-02-28"
+   ],
+   [
+    "2027-07-15",
+    "2027-08-15"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Travel surcharge 2027",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 370
+  }
+ ],
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "autoAddonQty": true,
+ "ext": {
+  "night": {
+   "normal": 500,
+   "peak": 650
+  },
+  "marginPerPax": 1300,
+  "paxPerVehicle": 7,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 14,
+      "normal": 3400,
+      "peak": 3700
+     }
+    ]
+   },
+   "dayDed": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 14,
+      "normal": 0,
+      "peak": 0
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 14,
+      "normal": 0,
+      "peak": 0
+     }
+    ]
+   }
+  }
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3/4 bintang (dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "extra",
+   "t": "Hotel 3/4 bintang (malam tambahan)",
+   "cost": "night",
+   "line": "Additional night, 3/4-Star hotel"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel - tolak malam dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "None",
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast (termasuk pakej)",
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast & Lunch",
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast & Dinner",
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch & Dinner",
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch & Dinner",
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Guide"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer (termasuk pakej)",
+   "cost": "incl",
+   "lbl": "Airport Transfer"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Guide"
+  },
+  {
+   "v": "feded",
+   "t": "Free & easy - tolak driving guide dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free & easy (driving guide deducted)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free & easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "addons": [
+  [
+   "Jungfraujoch - Top of Europe",
+   1577,
+   797,
+   "pax"
+  ],
+  [
+   "Gornergrat Railway (Zermatt)",
+   837,
+   417,
+   "pax"
+  ],
+  [
+   "Mount Titlis (Engelberg)",
+   687,
+   347,
+   "pax"
+  ],
+  [
+   "Matterhorn Glacier Paradise (Zermatt)",
+   687,
+   347,
+   "pax"
+  ],
+  [
+   "Schilthorn / Piz Gloria",
+   687,
+   347,
+   "pax"
+  ],
+  [
+   "Grindelwald First + 1 aktiviti",
+   537,
+   297,
+   "pax"
+  ],
+  [
+   "Mount Rigi Pass",
+   497,
+   357,
+   "pax"
+  ],
+  [
+   "Murren (Stechelberg)",
+   327,
+   277,
+   "pax"
+  ],
+  [
+   "Interlaken Lake Cruise",
+   327,
+   0,
+   "pax"
+  ],
+  [
+   "Kandersteg Oeschinensee",
+   197,
+   97,
+   "pax"
+  ],
+  [
+   "Pfingstegg Grindelwald",
+   197,
+   97,
+   "pax"
+  ],
+  [
+   "Iseltwald Bridge Fee",
+   67,
+   67,
+   "pax"
+  ],
+  [
+   "Bernina Express (sehala)",
+   997,
+   497,
+   "pax"
+  ],
+  [
+   "Glacier Express (sehala)",
+   797,
+   397,
+   "pax"
+  ],
+  [
+   "GoldenPass Belle Epoque (sehala)",
+   237,
+   137,
+   "pax"
+  ],
+  [
+   "Skydiving (Interlaken)",
+   2797,
+   0,
+   "pax"
+  ],
+  [
+   "Paragliding (Interlaken)",
+   1337,
+   1337,
+   "pax"
+  ],
+  [
+   "Mountain Cart (Grindelwald First)",
+   137,
+   97,
+   "pax"
+  ],
+  [
+   "Zipline / Flyline (Pfingstegg)",
+   77,
+   57,
+   "pax"
+  ],
+  [
+   "Mountain Coaster (Pfingstegg)",
+   57,
+   37,
+   "pax"
+  ],
+  [
+   "Mountain Coaster (Oeschinensee)",
+   37,
+   37,
+   "pax"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 8,
+   "to": 8,
+   "text": "8 pax: harga per pax <b>lebih tinggi</b> daripada 6&ndash;7 pax kerana konfigurasi kenderaan berubah kepada 2 kenderaan. Ia turun semula pada 9&ndash;10 pax &mdash; ini memang betul mengikut katalog."
+  },
+  {
+   "from": 8,
+   "to": 14,
+   "text": "8&ndash;14 pax: 2&times; Private MPV/Van + driver. Kadar transport hari tambahan didarab dengan bilangan kenderaan (maks 7 pax satu kenderaan)."
+  },
+  {
+   "from": 15,
+   "to": 99999,
+   "text": "Melebihi 14 pax: <b>di luar julat katalog</b> &mdash; minta quotation berasingan daripada operator sebelum quote kepada customer."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel/room availability as no space has been secured. Prices are based on 2&ndash;3 persons per room; single supplement is quoted upon request. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days before the departure date. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Itinerary, price and flight schedule are subject to change (weather, traffic, safety). Free activities are non-exchangeable for other activities, vouchers or cash. Ground arrangement and tipping only &mdash; international flight tickets are not included."
+}

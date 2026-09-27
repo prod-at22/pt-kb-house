@@ -1,0 +1,1085 @@
+{
+ "dest": "Hanoi - Sapa",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-8)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+ "singleNote": "Katalog dan rate card kedua-duanya tulis <b>quoted upon request</b> &mdash; minta kadar daripada operator sebelum quote solo. Tiada kadar tersiar, jadi kalkulator tidak caj apa-apa untuk bilik single.",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tiada operasi. <b>Check availability</b> dengan operator untuk Chinese New Year, Raya Aidilfitri, Raya Haji, New Year dan Christmas.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 30,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "ext": {
+  "night": {
+   "normal": 100,
+   "peak": 100
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 25,
+  "shareVehicle": true,
+  "autoNights": false,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 0,
+      "peak": 0
+     }
+    ]
+   },
+   "up4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 140,
+      "peak": 140
+     }
+    ]
+   },
+   "h4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 240,
+      "peak": 240
+     }
+    ]
+   },
+   "h5": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 320,
+      "peak": 320
+     }
+    ]
+   },
+   "homestay": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 80,
+      "peak": 80
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -50,
+      "peak": -50
+     }
+    ]
+   },
+   "nightShort4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -120,
+      "peak": -120
+     }
+    ]
+   },
+   "cruiseDed": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -100,
+      "peak": -100
+     }
+    ]
+   },
+   "sapa2n": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -50,
+      "peak": -50
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang (dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "up4sapa",
+   "t": "Upgrade 4 bintang Sapa &middot; Delasol / Aliana Boutique",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "hotel": "4-Star Hotel (Sapa)",
+   "incl": "4-Star hotel upgrade in Sapa - Delasol Sapa Hotel or Aliana Boutique Sapa Hotel & Spa ({days})"
+  },
+  {
+   "v": "up4hanoi",
+   "t": "Upgrade 4 bintang Hanoi &middot; Lake Residence / Lake Side",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "hotel": "4-Star Hotel (Hanoi)",
+   "incl": "4-Star hotel upgrade in Hanoi - Lake Residence Hotel or Lake Side Hotel ({days})"
+  },
+  {
+   "v": "cruise",
+   "t": "Halong Bay Cruise 3 bintang (dalam pakej &ndash; tiada upgrade)",
+   "cost": "incl",
+   "hotel": "Halong Bay Cruise (3-Star)",
+   "incl": "1 night on board Halong Bay cruise (Victory Star) with Luon Cave kayak activity ({days})"
+  },
+  {
+   "v": "cruiseday",
+   "t": "Halong Bay day cruise &middot; ganti overnight cruise (5D4N) &ndash; tolak",
+   "cost": "incl",
+   "perPaxRate": "cruiseDed",
+   "hotel": "3-Star Hotel (Hanoi)",
+   "line": "Halong Bay day cruise instead of overnight cruise",
+   "incl": "Halong Bay day cruise on Diamond Cruise, overnight at 3-Star hotel in Hanoi ({days})"
+  },
+  {
+   "v": "sapa2",
+   "t": "Malam ke-2 di Sapa &middot; itinerari diselaraskan &ndash; tolak",
+   "cost": "incl",
+   "perPaxRate": "sapa2n",
+   "hotel": "3-Star Hotel (Sapa)",
+   "line": "Second night in Sapa, adjusted itinerary",
+   "incl": "Second night at 3-Star hotel in Sapa ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; hotel 3 bintang",
+   "cost": "night",
+   "hotel": "3-Star Hotel",
+   "line": "Additional night, 3-Star hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "n4",
+   "t": "Malam tambahan &middot; hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "h4",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night, 4-Star hotel",
+   "incl": "Additional night at 4-Star Hotel ({days})"
+  },
+  {
+   "v": "n5",
+   "t": "Malam tambahan &middot; hotel 5 bintang",
+   "cost": "night",
+   "nightRate": "h5",
+   "hotel": "5-Star Hotel",
+   "line": "Additional night, 5-Star hotel",
+   "incl": "Additional night at 5-Star Hotel ({days})"
+  },
+  {
+   "v": "nhome",
+   "t": "Malam tambahan &middot; Rock Garden Homestay",
+   "cost": "night",
+   "nightRate": "homestay",
+   "hotel": "Rock Garden Homestay",
+   "line": "Additional night, Rock Garden Homestay",
+   "incl": "Additional night at Rock Garden Homestay ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tolak 1 malam &middot; hotel 3 bintang",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed (3-Star)"
+  },
+  {
+   "v": "noht4",
+   "t": "Tolak 1 malam &middot; hotel 4 bintang",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan termasuk",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private transportation with driving guide ({days})"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Airport Transfer",
+   "incl": "Private airport transfer ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation with driving guide ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "L5d1",
+   "t": "Ketibaan Hanoi - transfer ke Sapa",
+   "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+   "acc": "incl",
+   "meal": "d",
+   "trp": "incl",
+   "region": "[Sapa]",
+   "act": [
+    "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+    "Transfer ke Sapa (6 - 8 jam pemanduan)",
+    "Check-in hotel 3 bintang di Sapa"
+   ],
+   "eact": [
+    "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+    "Transfer to Sapa (6 - 8 hours drive)",
+    "Check in 3-Star hotel in Sapa"
+   ],
+   "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+  },
+  {
+   "v": "L5d2",
+   "t": "Fansipan - Cat Cat Village - transfer ke Hanoi",
+   "en": "FANSIPAN - CAT CAT VILLAGE - TRANSFER TO HANOI",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Sapa]",
+   "act": [
+    "Train ke Cable Car Fansipan Mountain (termasuk)",
+    "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+    "Cat Cat Village, kampung etnik H'mong",
+    "Moana Sapa",
+    "Muong Hua Valley",
+    "Transfer ke Hanoi",
+    "Check-in hotel 3 bintang di Hanoi"
+   ],
+   "eact": [
+    "Train to Fansipan Mountain cable car (included)",
+    "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+    "Cat Cat Village, H'mong ethnic mountain village",
+    "Moana Sapa",
+    "Muong Hua Valley",
+    "Transfer to Hanoi",
+    "Check in 3-Star hotel in Hanoi"
+   ],
+   "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+  },
+  {
+   "v": "L5d3",
+   "t": "Halong Bay - bermalam atas cruise",
+   "en": "HALONG BAY - OVERNIGHT CRUISE",
+   "acc": "cruise",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Halong Bay]",
+   "act": [
+    "Transfer ke Halong Bay",
+    "Check-in Halong Bay Cruise",
+    "Island tour: Stone Dog Island",
+    "Fighting Cocks Islet",
+    "Gua Sung Sot, gua batu kapur terbesar dan paling menakjubkan",
+    "Titop Island, pantai pasir putih berbentuk bulan sabit"
+   ],
+   "eact": [
+    "Transfer to Halong Bay",
+    "Check in Halong Bay cruise",
+    "Island tour: Stone Dog Island",
+    "Fighting Cocks Islet",
+    "Sung Sot Cave, the largest and most stunning limestone cave",
+    "Titop Island, crescent-moon shaped beach with soft white sand"
+   ],
+   "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+  },
+  {
+   "v": "L5d4",
+   "t": "Halong Bay - kembali ke Hanoi",
+   "en": "HALONG BAY - RETURN TO HANOI",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Hanoi]",
+   "act": [
+    "Gua Luon dengan kayak",
+    "Check-out Halong Bay Cruise",
+    "Mega Grand World Hanoi, kawasan hiburan terbesar",
+    "Hanoi Train Street Coffee",
+    "Shopping cenderamata",
+    "Check-in hotel 3 bintang di Hanoi"
+   ],
+   "eact": [
+    "Luon Cave by kayak",
+    "Check out Halong Bay cruise",
+    "Mega Grand World Hanoi, the largest entertainment area",
+    "Hanoi Train Street Coffee",
+    "Souvenir shopping",
+    "Check in 3-Star hotel in Hanoi"
+   ],
+   "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+  },
+  {
+   "v": "L5d5",
+   "t": "Hanoi - penerbangan pulang",
+   "en": "HANOI - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Check-out hotel",
+    "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+   ],
+   "g": "Blok 5D4N - Hanoi, Sapa, Halong Bay"
+  },
+  {
+   "v": "L4d1",
+   "t": "Ketibaan Hanoi - transfer ke Sapa",
+   "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+   "acc": "incl",
+   "meal": "d",
+   "trp": "incl",
+   "region": "[Sapa]",
+   "act": [
+    "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+    "Airport pickup",
+    "Transfer ke Sapa (6 - 8 jam pemanduan)",
+    "Check-in hotel 3 bintang di Sapa"
+   ],
+   "eact": [
+    "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+    "Airport pickup",
+    "Transfer to Sapa (6 - 8 hours drive)",
+    "Check in 3-Star hotel in Sapa"
+   ],
+   "g": "Blok 4D3N - Hanoi, Sapa"
+  },
+  {
+   "v": "L4d2",
+   "t": "Fansipan - transfer ke Hanoi",
+   "en": "FANSIPAN - TRANSFER TO HANOI",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Sapa]",
+   "act": [
+    "Check-out hotel",
+    "Train ke Cable Car Fansipan Mountain (termasuk)",
+    "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+    "Cat Cat Village, kampung etnik H'mong",
+    "Muong Hua Valley",
+    "Transfer ke Hanoi",
+    "Check-in hotel 3 bintang di Hanoi"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Train to Fansipan Mountain cable car (included)",
+    "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+    "Cat Cat Village, H'mong ethnic mountain village",
+    "Muong Hua Valley",
+    "Transfer to Hanoi",
+    "Check in 3-Star hotel in Hanoi"
+   ],
+   "g": "Blok 4D3N - Hanoi, Sapa"
+  },
+  {
+   "v": "L4d3",
+   "t": "Hanoi city tour",
+   "en": "HANOI CITY TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Hanoi]",
+   "act": [
+    "Masjid Al Noor - solat dan rehat",
+    "HCM Museum, muzium pemimpin Vietnam",
+    "Dong Xuan Market, pasar fesyen terbesar",
+    "Hanoi Old City - budaya tempatan dan shopping cenderamata",
+    "Hoang Kiem Lake, tasik air tawar yang dikenali sebagai Sword Lake"
+   ],
+   "eact": [
+    "Al Noor Mosque - prayer and rest stopover",
+    "Ho Chi Minh Museum, the Vietnamese leaders museum",
+    "Dong Xuan Market, the largest fashion market",
+    "Hanoi Old City - local culture and souvenir shopping",
+    "Hoan Kiem Lake, the natural fresh water lake known as the Sword Lake"
+   ],
+   "g": "Blok 4D3N - Hanoi, Sapa"
+  },
+  {
+   "v": "L4d4",
+   "t": "Hanoi - penerbangan pulang",
+   "en": "HANOI - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Check-out hotel",
+    "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+   ],
+   "g": "Blok 4D3N - Hanoi, Sapa"
+  },
+  {
+   "v": "S2d2",
+   "t": "Fansipan - Cat Cat Village - bermalam di Sapa (tolak RM 50)",
+   "en": "FANSIPAN - CAT CAT VILLAGE - OVERNIGHT SAPA",
+   "acc": "sapa2",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Sapa]",
+   "g": "Sapa 2 malam (4D3N) - itinerari diselaraskan",
+   "act": [
+    "Train ke Cable Car Fansipan Mountain (termasuk)",
+    "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+    "Cat Cat Village, kampung etnik H'mong",
+    "Muong Hua Valley",
+    "Bermalam di Sapa (malam ke-2)"
+   ],
+   "eact": [
+    "Train to Fansipan Mountain cable car (included)",
+    "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+    "Cat Cat Village, H'mong ethnic mountain village",
+    "Muong Hua Valley",
+    "Overnight in Sapa (second night)"
+   ]
+  },
+  {
+   "v": "S2d3",
+   "t": "Sapa - transfer ke Hanoi",
+   "en": "SAPA - TRANSFER TO HANOI",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Hanoi]",
+   "g": "Sapa 2 malam (4D3N) - itinerari diselaraskan",
+   "act": [
+    "Check-out hotel Sapa",
+    "Transfer ke Hanoi (6 - 8 jam pemanduan)",
+    "Check-in hotel 3 bintang di Hanoi"
+   ],
+   "eact": [
+    "Check out Sapa hotel",
+    "Transfer to Hanoi (6 - 8 hours drive)",
+    "Check in 3-Star hotel in Hanoi"
+   ]
+  },
+  {
+   "v": "CDd",
+   "t": "Halong Bay day cruise - kembali ke Hanoi (tolak RM 100) - hari 4 WAJIB ditukar",
+   "en": "HALONG BAY DAY CRUISE - RETURN TO HANOI",
+   "acc": "cruiseday",
+   "meal": "bld",
+   "trp": "incl",
+   "region": "[Halong Bay]",
+   "g": "Halong Bay tanpa bermalam - tukar hari 3 DAN hari 4",
+   "act": [
+    "Transfer ke Halong Bay",
+    "Day cruise (Diamond Cruise) - tiada bermalam atas cruise",
+    "Island tour: Stone Dog Island",
+    "Fighting Cocks Islet",
+    "Gua Sung Sot, gua batu kapur terbesar dan paling menakjubkan",
+    "Titop Island, pantai pasir putih berbentuk bulan sabit",
+    "Transfer kembali ke Hanoi",
+    "Check-in hotel 3 bintang di Hanoi"
+   ],
+   "eact": [
+    "Transfer to Halong Bay",
+    "Day cruise on Diamond Cruise - no overnight on board",
+    "Island tour: Stone Dog Island",
+    "Fighting Cocks Islet",
+    "Sung Sot Cave, the largest and most stunning limestone cave",
+    "Titop Island, crescent-moon shaped beach with soft white sand",
+    "Transfer back to Hanoi",
+    "Check in 3-Star hotel in Hanoi"
+   ]
+  },
+  {
+   "v": "ext",
+   "t": "Hari tambahan - itinerari ikut permintaan customer",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "region": "[Hanoi]",
+   "g": "Umum",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ]
+  },
+  {
+   "v": "fed",
+   "t": "Free and easy - tiada transport",
+   "en": "FREE AND EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "region": "[Hanoi]",
+   "g": "Umum",
+   "act": [
+    "Free and easy sepanjang hari"
+   ],
+   "eact": [
+    "Free and easy at own leisure"
+   ]
+  }
+ ],
+ "addons": [
+  [
+   "Bang Mon Alpine Coaster at Sapa",
+   50,
+   50
+  ],
+  [
+   "Day trip to Ninh Binh - breakfast, lunch, dinner, transfer and paddle boat",
+   380,
+   380
+  ],
+  [
+   "Sleeper train or bus, Regular - per way",
+   180,
+   180
+  ],
+  [
+   "Sleeper train or bus, VVIP - per way",
+   200,
+   200
+  ],
+  [
+   "Extra meal - breakfast, lunch or dinner",
+   30,
+   30
+  ]
+ ],
+ "extraSurcharge": [
+  {
+   "label": "Travel date surcharge 2027",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 100
+  }
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 4,
+   "text": "2&ndash;4 pax: MPV 7-seater &middot; private, driver + guide"
+  },
+  {
+   "from": 5,
+   "to": 12,
+   "text": "5&ndash;12 pax: Van 16-seater &middot; private"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "text": "13&ndash;15 pax: Mini bus 25-seater &middot; private"
+  },
+  {
+   "from": 16,
+   "to": 99999,
+   "text": "16 pax ke atas: hanya varian 4D3N ada tier 16&ndash;20 pax &mdash; 5D4N tamat pada 15 pax, rujuk consultant"
+  }
+ ],
+ "validity": "Prices follow the PT Hanoi - Sapa - Halong Bay 5D4N 2026 v4 and PT Hanoi - Sapa 4D3N 2026 v4 catalogues dated 12 March 2026, valid for travel until 31 December 2026. Departures from 1 January to 30 June 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout date: 17 - 18 February 2027 (Chinese New Year).",
+ "variants": [
+  {
+   "id": "v5d4n",
+   "name": "PT Hanoi - Sapa - Halong Bay 5D4N (3-Star Fullboard)",
+   "pkgLabel": "Hanoi - Sapa - Halong Bay: Halong Bay Cruise, Cat Cat Village, Fansipan, Hanoi",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "single": 0,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 400,
+    "rate3": 300
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 3477,
+     "c": 3277,
+     "n": 3077
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 3277,
+     "c": 3077,
+     "n": 2877
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 2877,
+     "c": 2677,
+     "n": 2477
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 2677,
+     "c": 2477,
+     "n": 2277
+    },
+    {
+     "from": 8,
+     "to": 9,
+     "a": 2577,
+     "c": 2377,
+     "n": 2177
+    },
+    {
+     "from": 10,
+     "to": 10,
+     "a": 2397,
+     "c": 2197,
+     "n": 1997
+    },
+    {
+     "from": 11,
+     "to": 12,
+     "a": 2297,
+     "c": 2097,
+     "n": 1897
+    },
+    {
+     "from": 13,
+     "to": 15,
+     "a": 2097,
+     "c": 1897,
+     "n": 1697
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Hanoi - transfer ke Sapa",
+     "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "incl",
+     "region": "[Sapa]",
+     "act": [
+      "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+      "Transfer ke Sapa (6 - 8 jam pemanduan)",
+      "Check-in hotel 3 bintang di Sapa"
+     ],
+     "eact": [
+      "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+      "Transfer to Sapa (6 - 8 hours drive)",
+      "Check in 3-Star hotel in Sapa"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Fansipan - Cat Cat Village - transfer ke Hanoi",
+     "en": "FANSIPAN - CAT CAT VILLAGE - TRANSFER TO HANOI",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Sapa]",
+     "act": [
+      "Train ke Cable Car Fansipan Mountain (termasuk)",
+      "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+      "Cat Cat Village, kampung etnik H'mong",
+      "Moana Sapa",
+      "Muong Hua Valley",
+      "Transfer ke Hanoi",
+      "Check-in hotel 3 bintang di Hanoi"
+     ],
+     "eact": [
+      "Train to Fansipan Mountain cable car (included)",
+      "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+      "Cat Cat Village, H'mong ethnic mountain village",
+      "Moana Sapa",
+      "Muong Hua Valley",
+      "Transfer to Hanoi",
+      "Check in 3-Star hotel in Hanoi"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Halong Bay - bermalam atas cruise",
+     "en": "HALONG BAY - OVERNIGHT CRUISE",
+     "acc": "cruise",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Halong Bay]",
+     "act": [
+      "Transfer ke Halong Bay",
+      "Check-in Halong Bay Cruise",
+      "Island tour: Stone Dog Island",
+      "Fighting Cocks Islet",
+      "Gua Sung Sot, gua batu kapur terbesar dan paling menakjubkan",
+      "Titop Island, pantai pasir putih berbentuk bulan sabit"
+     ],
+     "eact": [
+      "Transfer to Halong Bay",
+      "Check in Halong Bay cruise",
+      "Island tour: Stone Dog Island",
+      "Fighting Cocks Islet",
+      "Sung Sot Cave, the largest and most stunning limestone cave",
+      "Titop Island, crescent-moon shaped beach with soft white sand"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Halong Bay - kembali ke Hanoi",
+     "en": "HALONG BAY - RETURN TO HANOI",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Hanoi]",
+     "act": [
+      "Gua Luon dengan kayak",
+      "Check-out Halong Bay Cruise",
+      "Mega Grand World Hanoi, kawasan hiburan terbesar",
+      "Hanoi Train Street Coffee",
+      "Shopping cenderamata",
+      "Check-in hotel 3 bintang di Hanoi"
+     ],
+     "eact": [
+      "Luon Cave by kayak",
+      "Check out Halong Bay cruise",
+      "Mega Grand World Hanoi, the largest entertainment area",
+      "Hanoi Train Street Coffee",
+      "Souvenir shopping",
+      "Check in 3-Star hotel in Hanoi"
+     ]
+    },
+    {
+     "v": "d5",
+     "t": "Hanoi - penerbangan pulang",
+     "en": "HANOI - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Check-out hotel",
+      "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+     ],
+     "eact": [
+      "Hotel check out",
+      "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "3 nights accommodation at 3-Star Hotel in Sapa and Hanoi",
+    "{auto}",
+    "Entrance fees",
+    "Daily halal breakfast at hotel",
+    "Driving guide (Malay spoken)",
+    "Train and cable car to Fansipan Mountain",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ]
+  },
+  {
+   "id": "v4d3n",
+   "name": "PT Hanoi - Sapa 4D3N (3-Star Fullboard)",
+   "pkgLabel": "Hanoi - Sapa: Cat Cat Village, Fansipan, Hanoi",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 0,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 300,
+    "rate3": 200
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 2537,
+     "c": 2337,
+     "n": 2137
+    },
+    {
+     "from": 3,
+     "to": 4,
+     "a": 2337,
+     "c": 2137,
+     "n": 1937
+    },
+    {
+     "from": 5,
+     "to": 9,
+     "a": 2077,
+     "c": 1877,
+     "n": 1677
+    },
+    {
+     "from": 10,
+     "to": 15,
+     "a": 1777,
+     "c": 1577,
+     "n": 1377
+    },
+    {
+     "from": 16,
+     "to": 20,
+     "a": 1677,
+     "c": 1477,
+     "n": 1277
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Hanoi - transfer ke Sapa",
+     "en": "ARRIVAL HANOI - TRANSFER TO SAPA",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "incl",
+     "region": "[Sapa]",
+     "act": [
+      "Tiba Hanoi Airport (HAN) (waktu ketibaan dicadangkan tengah hari ke atas)",
+      "Airport pickup",
+      "Transfer ke Sapa (6 - 8 jam pemanduan)",
+      "Check-in hotel 3 bintang di Sapa"
+     ],
+     "eact": [
+      "Arrive Hanoi Airport (HAN) (suggested arrival noon time onwards)",
+      "Airport pickup",
+      "Transfer to Sapa (6 - 8 hours drive)",
+      "Check in 3-Star hotel in Sapa"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Fansipan - transfer ke Hanoi",
+     "en": "FANSIPAN - TRANSFER TO HANOI",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Sapa]",
+     "act": [
+      "Check-out hotel",
+      "Train ke Cable Car Fansipan Mountain (termasuk)",
+      "Cable Car ke Fansipan Mountain, cable car terpanjang dan tertinggi di dunia",
+      "Cat Cat Village, kampung etnik H'mong",
+      "Muong Hua Valley",
+      "Transfer ke Hanoi",
+      "Check-in hotel 3 bintang di Hanoi"
+     ],
+     "eact": [
+      "Hotel check out",
+      "Train to Fansipan Mountain cable car (included)",
+      "Cable car to Fansipan Mountain, the world's longest and highest cable car",
+      "Cat Cat Village, H'mong ethnic mountain village",
+      "Muong Hua Valley",
+      "Transfer to Hanoi",
+      "Check in 3-Star hotel in Hanoi"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Hanoi city tour",
+     "en": "HANOI CITY TOUR",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Hanoi]",
+     "act": [
+      "Masjid Al Noor - solat dan rehat",
+      "HCM Museum, muzium pemimpin Vietnam",
+      "Dong Xuan Market, pasar fesyen terbesar",
+      "Hanoi Old City - budaya tempatan dan shopping cenderamata",
+      "Hoang Kiem Lake, tasik air tawar yang dikenali sebagai Sword Lake"
+     ],
+     "eact": [
+      "Al Noor Mosque - prayer and rest stopover",
+      "Ho Chi Minh Museum, the Vietnamese leaders museum",
+      "Dong Xuan Market, the largest fashion market",
+      "Hanoi Old City - local culture and souvenir shopping",
+      "Hoan Kiem Lake, the natural fresh water lake known as the Sword Lake"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Hanoi - penerbangan pulang",
+     "en": "HANOI - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Check-out hotel",
+      "Airport transfer ke Hanoi Airport (HAN) untuk penerbangan pulang (waktu berlepas dicadangkan tengah hari)"
+     ],
+     "eact": [
+      "Hotel check out",
+      "Airport transfer to Hanoi Airport (HAN) for return flight (suggested departure noon time)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Sapa and Hanoi",
+    "{auto}",
+    "Entrance fees",
+    "Daily halal breakfast at hotel",
+    "Driving guide (Malay / English spoken)",
+    "Train and cable car to Fansipan Mountain",
+    "Cat Cat Village entrance fee",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ]
+  }
+ ]
+}

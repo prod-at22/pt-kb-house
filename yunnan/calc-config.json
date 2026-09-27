@@ -1,0 +1,1400 @@
+{
+ "dest": "Yunnan",
+ "currency": "RM",
+ "deposit": 500,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;5)"
+ },
+ "infantNote": "Infant bawah 2 tahun: FOC",
+ "singleNote": "Single supplement 3 Wilayah RM 600/pax &middot; 4 Wilayah RM 700/pax",
+ "intro": "Kadar katalog PT Yunnan v1 (29 Jul 2026) &mdash; <b>Ground &amp; Tipping sahaja</b>, tiket flight TIDAK termasuk. Sah untuk travel sehingga 31 Dis 2026. Blackout: Chinese New Year 14&ndash;22 Feb 2026 &middot; Labor Day 1&ndash;5 Mei 2026.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "hideGeneric": [
+  "fe",
+  "ext"
+ ],
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "extincl"
+ },
+ "autoAddonQty": true,
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 60,
+  "drop": 30
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 4 bintang (dalam pakej)",
+   "cost": "incl",
+   "hotel": "4-Star Hotel",
+   "incl": "Accommodation with International Breakfast on sharing basis, Local 4-Star Hotel ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan + day tour (kadar katalog)",
+   "cost": "night",
+   "nightRate": "extNight",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night with day tour",
+   "incl": "Accommodation with International Breakfast on sharing basis, Local 4-Star Hotel ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel &ndash; tolak 1 malam + day tour dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "ld",
+   "t": "Breakfast, Lunch &amp; Dinner (dalam pakej)",
+   "l": 1,
+   "d": 1,
+   "b": 0,
+   "lbl": "International Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Breakfast &amp; Lunch",
+   "l": 1,
+   "d": 0,
+   "b": 0,
+   "lbl": "International Breakfast, Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Breakfast &amp; Dinner",
+   "l": 0,
+   "d": 1,
+   "b": 0,
+   "lbl": "International Breakfast, Dinner"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast hotel sahaja",
+   "l": 0,
+   "d": 0,
+   "b": 0,
+   "lbl": "International Breakfast"
+  },
+  {
+   "v": "none",
+   "t": "Tiada makan (hari ketibaan)",
+   "l": 0,
+   "d": 0,
+   "b": 0,
+   "lbl": "-"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + English Speaking Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport",
+   "incl": "Private Transportation on 10 hours basis with English Speaking Tour Guide ({days})"
+  },
+  {
+   "v": "train",
+   "t": "Bullet Train 2nd Class + Private Transport (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport, Bullet Train",
+   "incl": "Bullet Train Second Class Seat ({days})"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Private Airport Transfer",
+   "incl": "Private Airport Transfer ({days})"
+  },
+  {
+   "v": "airtrp",
+   "t": "Private Airport Transfer + tour hari itu (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport, Airport Transfer",
+   "incl": "Private Airport Transfer with private transportation and English Speaking Tour Guide ({days})"
+  },
+  {
+   "v": "extincl",
+   "t": "Transport + guide + meals (sudah termasuk dalam malam tambahan)",
+   "cost": "zero",
+   "guided": true,
+   "lbl": "Private Transport",
+   "incl": "Private Transportation on 10 hours basis with English Speaking Tour Guide ({days})"
+  },
+  {
+   "v": "daytour",
+   "t": "Day tour tambahan &ndash; transport + guide + meals (tanpa hotel)",
+   "cost": "zero",
+   "perPaxRate": "dayTour",
+   "guided": true,
+   "lbl": "Private Transport",
+   "line": "Additional day tour",
+   "incl": "Additional day tour with transport, guide and meals ({days})"
+  },
+  {
+   "v": "apick",
+   "t": "Tambah airport transfer pick up",
+   "cost": "incl",
+   "perVehicleRate": "airT",
+   "lbl": "Private Airport Transfer",
+   "line": "Airport transfer pick up",
+   "incl": "Private Airport Transfer ({days})"
+  },
+  {
+   "v": "adrop",
+   "t": "Tambah airport transfer drop off",
+   "cost": "incl",
+   "perVehicleRate": "airT",
+   "lbl": "Private Airport Transfer",
+   "line": "Airport transfer drop off",
+   "incl": "Private Airport Transfer ({days})"
+  },
+  {
+   "v": "acut",
+   "t": "Buang airport transfer &ndash; tolak dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "airTCut",
+   "lbl": "-",
+   "line": "Less airport transfer"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "t": "Kuala Lumpur - Kunming (ketibaan)",
+   "en": "KUALA LUMPUR - KUNMING",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Kunming]",
+   "act": [
+    "Suggested flight: AirAsia atau Batik Air",
+    "Tiba di Kunming Changshui Intl Airport (KMG)",
+    "Airport pickup & transfer ke hotel Kunming",
+    "Check-in hotel, rehat"
+   ],
+   "eact": [
+    "Suggested flight: AirAsia or Batik Air",
+    "Arrive in Kunming Changshui Intl Airport",
+    "Airport pickup",
+    "Transfer to hotel in Kunming and check in",
+    "Rest for the day"
+   ],
+   "v": "Larr",
+   "g": "Kunming - ketibaan & pulang"
+  },
+  {
+   "t": "Kunming City Tour + Airport Transfer (pulang)",
+   "en": "KUNMING CITY TOUR + AIRPORT TRANSFER",
+   "acc": "none",
+   "meal": "ld",
+   "trp": "airtrp",
+   "region": "[Kunming]",
+   "act": [
+    "Check out hotel",
+    "Shilin Stone Forest (UNESCO, incl buggy)",
+    "Kunming Waterfall Park",
+    "Yongning Mosque",
+    "Selepas dinner, transfer ke airport untuk flight awal pagi",
+    "Nota: guest dengan flight petang transfer selepas lunch"
+   ],
+   "eact": [
+    "After breakfast, check out from hotel",
+    "Transfer to Shilin Stone Forest, UNESCO rated limestone formations",
+    "Kunming Waterfall Park",
+    "Visit Yongning Mosque",
+    "After dinner, transfer to airport for midnight flight"
+   ],
+   "v": "Ldep",
+   "g": "Kunming - ketibaan & pulang"
+  },
+  {
+   "v": "Ldepo",
+   "t": "Check-out + airport transfer pulang (tanpa tour)",
+   "en": "KUNMING DEPARTURE",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "region": "[Kunming]",
+   "act": [
+    "Check out hotel",
+    "Private airport transfer ke Kunming Changshui Intl Airport"
+   ],
+   "eact": [
+    "Check out hotel",
+    "Private airport transfer to Kunming Changshui Intl Airport"
+   ],
+   "g": "Kunming - ketibaan & pulang"
+  },
+  {
+   "v": "Lkmgcity",
+   "t": "Kunming City Tour (Shilin, Waterfall Park, Yongning Mosque)",
+   "en": "KUNMING CITY TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Kunming]",
+   "act": [
+    "Shilin Stone Forest (UNESCO, incl buggy)",
+    "Kunming Waterfall Park",
+    "Yongning Mosque"
+   ],
+   "eact": [
+    "Shilin Stone Forest, UNESCO rated limestone formations (include buggy)",
+    "Kunming Waterfall Park",
+    "Visit Yongning Mosque"
+   ],
+   "g": "Kunming"
+  },
+  {
+   "v": "Lkmgtown",
+   "t": "Kunming - Nanping Street & Shuncheng Mosque",
+   "en": "KUNMING CITY",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Kunming]",
+   "act": [
+    "Nanping Pedestrian Street (souvenir shopping)",
+    "Shuncheng Mosque (seni bina Cina + Islam)"
+   ],
+   "eact": [
+    "Nanping Pedestrian Street for souvenir shopping",
+    "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture"
+   ],
+   "g": "Kunming"
+  },
+  {
+   "t": "Kunming - Dali [Bullet Train]",
+   "en": "KUNMING - DALI [BULLET TRAIN]",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "train",
+   "region": "[Dali]",
+   "act": [
+    "Check out hotel, bullet train ke Dali (~2 jam)",
+    "Dali Foreigner Street & Dali Ancient Town",
+    "Dali Santorini (incl return buggy)",
+    "Dinner & check-in hotel Dali"
+   ],
+   "eact": [
+    "After breakfast, check out hotel",
+    "Transfer to Dali by Bullet Train (~2 hours)",
+    "Dali Foreigner Street and Dali Ancient Town",
+    "Dali Santorini (include return buggy)",
+    "Dinner and check in hotel in Dali"
+   ],
+   "v": "Ldali1",
+   "g": "Dali"
+  },
+  {
+   "t": "Dali - Lijiang",
+   "en": "DALI - LIJIANG",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Lijiang]",
+   "act": [
+    "Check out hotel",
+    "Dali Erhai Lake (incl boat tour)",
+    "Transfer ke Lijiang secara private transport (~3 jam)",
+    "Lijiang Ancient City tour (warisan UNESCO)",
+    "Dinner & check-in hotel Lijiang"
+   ],
+   "eact": [
+    "After breakfast, check out hotel",
+    "Visit Dali Erhai Lake (include boat tour)",
+    "Transfer to Lijiang by private transport (~3 hour drive)",
+    "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+    "Dinner and check in hotel in Lijiang"
+   ],
+   "v": "Ldali2",
+   "g": "Dali"
+  },
+  {
+   "v": "Ldalitown",
+   "t": "Dali Ancient Town, Foreigner Street & Santorini",
+   "en": "DALI TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Dali]",
+   "act": [
+    "Dali Foreigner Street & Dali Ancient Town",
+    "Dali Santorini (incl return buggy)"
+   ],
+   "eact": [
+    "Dali Foreigner Street and Dali Ancient Town",
+    "Dali Santorini (include return buggy)"
+   ],
+   "g": "Dali"
+  },
+  {
+   "t": "Lijiang Tour (Jade Dragon Snow Mountain)",
+   "en": "LIJIANG TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Lijiang]",
+   "act": [
+    "Jade Dragon Snow Mountain (cable car ~4,506m)",
+    "Lijiang Impression Show",
+    "Blue Moon Valley & White Water River (incl battery car)",
+    "Dongbaqu (taman budaya warisan Naxi)",
+    "Dry Sea (padang rumput kaki JDSM)",
+    "Lijiang Mosque",
+    "Dinner & kembali ke hotel Lijiang"
+   ],
+   "eact": [
+    "Jade Dragon Snow Mountain, scenic cable car ride up Glacier Park at 4,506m",
+    "Lijiang Impression Show",
+    "Blue Moon Valley and White Water River (include battery car)",
+    "Dongbaqu, a cultural park of Naxi heritage",
+    "Dry Sea, vast grassland at the foot of Jade Dragon Snow Mountain",
+    "Lijiang Mosque",
+    "Dinner and back to hotel in Lijiang"
+   ],
+   "v": "Lljtour",
+   "g": "Lijiang"
+  },
+  {
+   "t": "Lijiang - Kunming [Bullet Train]",
+   "en": "LIJIANG - KUNMING [BULLET TRAIN]",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "train",
+   "region": "[Kunming]",
+   "act": [
+    "Check out hotel",
+    "Black Dragon Pool (tasik latar Snow Mountain)",
+    "Bullet train ke Kunming (~4-4.5 jam)",
+    "Nanping Pedestrian Street (souvenir shopping)",
+    "Shuncheng Mosque (seni bina Cina + Islam)",
+    "Dinner & check-in hotel Kunming"
+   ],
+   "eact": [
+    "After breakfast, check out from hotel",
+    "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+    "Transfer to Kunming by bullet train (~4 to 4.5 hours)",
+    "Nanping Pedestrian Street for souvenir shopping",
+    "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+    "After dinner, check in to hotel at Kunming"
+   ],
+   "v": "Lljkmg",
+   "g": "Lijiang"
+  },
+  {
+   "v": "Lljcity",
+   "t": "Lijiang Ancient City & Black Dragon Pool",
+   "en": "LIJIANG CITY TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Lijiang]",
+   "act": [
+    "Lijiang Ancient City tour (warisan UNESCO)",
+    "Black Dragon Pool",
+    "Lijiang Mosque"
+   ],
+   "eact": [
+    "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+    "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+    "Lijiang Mosque"
+   ],
+   "g": "Lijiang"
+  },
+  {
+   "t": "Lijiang - Shangri La",
+   "en": "LIJIANG - SHANGRI LA",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Shangri La]",
+   "act": [
+    "Check out hotel",
+    "Black Dragon Pool (tasik latar Snow Mountain)",
+    "Transfer ke Shangri La secara private transport (~2 jam)",
+    "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
+    "Dukezong Ancient Town",
+    "Dinner & check-in hotel Shangri La"
+   ],
+   "eact": [
+    "After breakfast, check out from hotel",
+    "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+    "Transfer to Shangri La by private transport (~2 hour drive)",
+    "Tiger Leaping Gorge, breathtaking canyon on the Jinsha River (include escalator)",
+    "Dukezong Ancient Town",
+    "After dinner, check in to hotel at Shangri La"
+   ],
+   "v": "Lsl1",
+   "g": "Shangri La"
+  },
+  {
+   "t": "Shangri La - Kunming [Bullet Train]",
+   "en": "SHANGRI LA - KUNMING [BULLET TRAIN]",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "train",
+   "region": "[Kunming]",
+   "act": [
+    "Check out hotel",
+    "Bullet train ke Kunming (~5-6 jam)",
+    "Nanping Pedestrian Street (souvenir shopping)",
+    "Shuncheng Mosque (seni bina Cina + Islam)",
+    "Dinner & check-in hotel Kunming"
+   ],
+   "eact": [
+    "After breakfast, check out from hotel",
+    "Transfer to Kunming by bullet train (~5 to 6 hours)",
+    "Nanping Pedestrian Street for souvenir shopping",
+    "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+    "After dinner, check in to hotel at Kunming"
+   ],
+   "v": "Lsl2",
+   "g": "Shangri La"
+  },
+  {
+   "v": "Lsltown",
+   "t": "Shangri La - Tiger Leaping Gorge & Dukezong Ancient Town",
+   "en": "SHANGRI LA TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Shangri La]",
+   "act": [
+    "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
+    "Dukezong Ancient Town"
+   ],
+   "eact": [
+    "Tiger Leaping Gorge, breathtaking canyon on the Jinsha River (include escalator)",
+    "Dukezong Ancient Town"
+   ],
+   "g": "Shangri La"
+  },
+  {
+   "v": "Lext",
+   "t": "Hari tambahan - malam tambahan + day tour (kadar katalog)",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "ld",
+   "trp": "extincl",
+   "region": "",
+   "act": [
+    "Hari tambahan - kos malam + day tour ikut kadar katalog",
+    "Itinerari hari ini untuk disahkan dengan operator"
+   ],
+   "eact": [
+    "Additional day - itinerary to be confirmed"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "Lday",
+   "t": "Day tour tambahan sahaja (tanpa hotel)",
+   "en": "ADDITIONAL DAY TOUR",
+   "acc": "none",
+   "meal": "ld",
+   "trp": "daytour",
+   "region": "",
+   "act": [
+    "Day tour tambahan - transport + guide + meals, tanpa malam hotel"
+   ],
+   "eact": [
+    "Additional day tour - transport, guide and meals"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "Lfe",
+   "t": "Free & Easy (tiada transport atau guide)",
+   "en": "FREE & EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "none",
+   "region": "",
+   "act": [
+    "Free & easy - tiada transport atau guide"
+   ],
+   "eact": [
+    "Free and easy - no transport or guide"
+   ],
+   "g": "Umum"
+  }
+ ],
+ "peak": {
+  "mode": "perNight",
+  "value": 30,
+  "windows": [
+   [
+    "2026-06-19",
+    "2026-06-21"
+   ],
+   [
+    "2027-06-12",
+    "2027-06-14"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Peak Season - China Summer Holiday",
+   "dateIn": [
+    "2026-07-01",
+    "2026-08-31"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Peak Season - China Golden Week",
+   "dateIn": [
+    "2026-10-01",
+    "2026-10-08"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Peak Season - Christmas and New Year",
+   "dateIn": [
+    "2026-12-22",
+    "2027-01-05"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Peak Season - China Summer Holiday",
+   "dateIn": [
+    "2027-07-01",
+    "2027-08-31"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Peak Season - China Golden Week",
+   "dateIn": [
+    "2027-10-01",
+    "2027-10-08"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Peak Season - Christmas and New Year",
+   "dateIn": [
+    "2027-12-22",
+    "2028-01-05"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "2027 travel surcharge",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 100
+  }
+ ],
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "addons": [
+  [
+   "Bullet train 1st Class upgrade, 3 Wilayah - per pax per way",
+   100,
+   100,
+   "unit"
+  ],
+  [
+   "Bullet train 1st Class upgrade, 4 Wilayah - per pax per way",
+   120,
+   120,
+   "unit"
+  ],
+  [
+   "Bullet train Business Class upgrade - per pax per way",
+   300,
+   300,
+   "unit"
+  ],
+  [
+   "Luggage van for bullet train, 3 Wilayah - per one way",
+   650,
+   0,
+   "share"
+  ],
+  [
+   "Luggage van for bullet train, 4 Wilayah 2-4 pax - per one way",
+   750,
+   0,
+   "share"
+  ],
+  [
+   "Luggage van for bullet train, 4 Wilayah 5-6 pax - per one way",
+   650,
+   0,
+   "share"
+  ],
+  [
+   "Additional 4-Star hotel night, 3 Wilayah - per room per night",
+   200,
+   0,
+   "unit"
+  ],
+  [
+   "Additional 4-Star hotel night, 4 Wilayah - per room per night",
+   250,
+   0,
+   "unit"
+  ],
+  [
+   "Less one hotel night - per room per night",
+   -100,
+   0,
+   "unit"
+  ],
+  [
+   "Indian or Arabic meal surcharge - per pax per meal",
+   30,
+   30,
+   "unit"
+  ],
+  [
+   "Upgrade to 4-Star hotel - per pax (kadar muka depan katalog)",
+   240,
+   240,
+   "pax"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 3,
+   "text": "2&ndash;3 pax: MPV 7-seater &mdash; ruang bagasi paling terhad, nasihat 1 luggage besar + 1 hand carry seorang"
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "text": "4&ndash;5 pax: MPV / Van 9-seater"
+  },
+  {
+   "from": 6,
+   "to": 9,
+   "text": "6&ndash;9 pax: Bus 17-seater"
+  },
+  {
+   "from": 10,
+   "to": 14,
+   "text": "10&ndash;14 pax: Bus 26 atau 38-seater"
+  },
+  {
+   "from": 15,
+   "to": 99999,
+   "text": "15 pax ke atas: katalog hanya beri harga sehingga 14 pax. Kadar extension &amp; airport transfer di luar band akan papar <i>kadar belum diisi</i> &mdash; quote manual dengan operator."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> All prices are valid for 24 hours after quotation submission and are subject to hotel and room availability as no space has been secured. Price is based on 2&ndash;3 persons per room and covers <b>Ground &amp; Tipping only</b> &mdash; international flight tickets are not included. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days prior to arrival. A late booking surcharge of RM 50 per booking applies for bookings made less than 45 days before departure. Private transportation and tour guide are based on a 10 hour basis; every extra hour is chargeable at RM 160 per hour and must be paid in cash on the ground. Fare is not applicable during peak seasons; please refer to the peak season surcharge. Blackout dates: Chinese New Year 14&ndash;22 February 2026 and Labor Day 1&ndash;5 May 2026. Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip. Itinerary, price and flight schedule are subject to change. This package is valid for travel until 31 December 2026.",
+ "variants": [
+  {
+   "id": "w3",
+   "name": "PT Yunnan 3 Wilayah (6D5N)",
+   "pkgLabel": "Yunnan 3 Wilayah - Kunming, Dali, Lijiang",
+   "pkgType": "Private Tour (Ground &amp; Tipping Only)",
+   "hotelLabel": "4-Star Hotel",
+   "days": 6,
+   "nights": 5,
+   "infant": 0,
+   "single": 600,
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 4997,
+     "c": 4797,
+     "n": 4597
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 4097,
+     "c": 3897,
+     "n": 3697
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "a": 3697,
+     "c": 3497,
+     "n": 3297
+    },
+    {
+     "from": 10,
+     "to": 14,
+     "a": 3197,
+     "c": 2997,
+     "n": 2797
+    }
+   ],
+   "itin": [
+    {
+     "t": "Kuala Lumpur - Kunming (ketibaan)",
+     "en": "KUALA LUMPUR - KUNMING",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Kunming]",
+     "act": [
+      "Suggested flight: AirAsia atau Batik Air",
+      "Tiba di Kunming Changshui Intl Airport (KMG)",
+      "Airport pickup & transfer ke hotel Kunming",
+      "Check-in hotel, rehat"
+     ],
+     "eact": [
+      "Suggested flight: AirAsia or Batik Air",
+      "Arrive in Kunming Changshui Intl Airport",
+      "Airport pickup",
+      "Transfer to hotel in Kunming and check in",
+      "Rest for the day"
+     ],
+     "v": "d1"
+    },
+    {
+     "t": "Kunming - Dali [Bullet Train]",
+     "en": "KUNMING - DALI [BULLET TRAIN]",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "train",
+     "region": "[Dali]",
+     "act": [
+      "Check out hotel, bullet train ke Dali (~2 jam)",
+      "Dali Foreigner Street & Dali Ancient Town",
+      "Dali Santorini (incl return buggy)",
+      "Dinner & check-in hotel Dali"
+     ],
+     "eact": [
+      "After breakfast, check out hotel",
+      "Transfer to Dali by Bullet Train (~2 hours)",
+      "Dali Foreigner Street and Dali Ancient Town",
+      "Dali Santorini (include return buggy)",
+      "Dinner and check in hotel in Dali"
+     ],
+     "v": "d2"
+    },
+    {
+     "t": "Dali - Lijiang",
+     "en": "DALI - LIJIANG",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Lijiang]",
+     "act": [
+      "Check out hotel",
+      "Dali Erhai Lake (incl boat tour)",
+      "Transfer ke Lijiang secara private transport (~3 jam)",
+      "Lijiang Ancient City tour (warisan UNESCO)",
+      "Dinner & check-in hotel Lijiang"
+     ],
+     "eact": [
+      "After breakfast, check out hotel",
+      "Visit Dali Erhai Lake (include boat tour)",
+      "Transfer to Lijiang by private transport (~3 hour drive)",
+      "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+      "Dinner and check in hotel in Lijiang"
+     ],
+     "v": "d3"
+    },
+    {
+     "t": "Lijiang Tour (Jade Dragon Snow Mountain)",
+     "en": "LIJIANG TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Lijiang]",
+     "act": [
+      "Jade Dragon Snow Mountain (cable car ~4,506m)",
+      "Lijiang Impression Show",
+      "Blue Moon Valley & White Water River (incl battery car)",
+      "Dongbaqu (taman budaya warisan Naxi)",
+      "Dry Sea (padang rumput kaki JDSM)",
+      "Lijiang Mosque",
+      "Dinner & kembali ke hotel Lijiang"
+     ],
+     "eact": [
+      "Jade Dragon Snow Mountain, scenic cable car ride up Glacier Park at 4,506m",
+      "Lijiang Impression Show",
+      "Blue Moon Valley and White Water River (include battery car)",
+      "Dongbaqu, a cultural park of Naxi heritage",
+      "Dry Sea, vast grassland at the foot of Jade Dragon Snow Mountain",
+      "Lijiang Mosque",
+      "Dinner and back to hotel in Lijiang"
+     ],
+     "v": "d4"
+    },
+    {
+     "t": "Lijiang - Kunming [Bullet Train]",
+     "en": "LIJIANG - KUNMING [BULLET TRAIN]",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "train",
+     "region": "[Kunming]",
+     "act": [
+      "Check out hotel",
+      "Black Dragon Pool (tasik latar Snow Mountain)",
+      "Bullet train ke Kunming (~4-4.5 jam)",
+      "Nanping Pedestrian Street (souvenir shopping)",
+      "Shuncheng Mosque (seni bina Cina + Islam)",
+      "Dinner & check-in hotel Kunming"
+     ],
+     "eact": [
+      "After breakfast, check out from hotel",
+      "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+      "Transfer to Kunming by bullet train (~4 to 4.5 hours)",
+      "Nanping Pedestrian Street for souvenir shopping",
+      "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+      "After dinner, check in to hotel at Kunming"
+     ],
+     "v": "d5"
+    },
+    {
+     "t": "Kunming City Tour + Airport Transfer (pulang)",
+     "en": "KUNMING CITY TOUR + AIRPORT TRANSFER",
+     "acc": "none",
+     "meal": "ld",
+     "trp": "airtrp",
+     "region": "[Kunming]",
+     "act": [
+      "Check out hotel",
+      "Shilin Stone Forest (UNESCO, incl buggy)",
+      "Kunming Waterfall Park",
+      "Yongning Mosque",
+      "Selepas dinner, transfer ke airport untuk flight awal pagi",
+      "Nota: guest dengan flight petang transfer selepas lunch"
+     ],
+     "eact": [
+      "After breakfast, check out from hotel",
+      "Transfer to Shilin Stone Forest, UNESCO rated limestone formations",
+      "Kunming Waterfall Park",
+      "Visit Yongning Mosque",
+      "After dinner, transfer to airport for midnight flight"
+     ],
+     "v": "d6"
+    }
+   ],
+   "ext": {
+    "shareVehicle": true,
+    "paxPerVehicle": 14,
+    "marginPerPax": 0,
+    "nightTiers": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 650,
+      "peak": 650
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 850,
+      "peak": 850
+     },
+     {
+      "from": 7,
+      "to": 14,
+      "normal": null,
+      "peak": null
+     }
+    ],
+    "rates": {
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 14,
+        "normal": -300,
+        "peak": -300
+       }
+      ]
+     },
+     "dayTour": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 14,
+        "normal": 400,
+        "peak": 400
+       }
+      ]
+     },
+     "extNight": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 650,
+        "peak": 650
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 850,
+        "peak": 850
+       },
+       {
+        "from": 7,
+        "to": 14,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "airT": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 300
+       },
+       {
+        "from": 13,
+        "to": 14,
+        "normal": null
+       }
+      ]
+     },
+     "airTCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -150
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -250
+       },
+       {
+        "from": 13,
+        "to": 14,
+        "normal": null
+       }
+      ]
+     }
+    }
+   },
+   "inclusions": [
+    "{auto}",
+    "Halal Meals as specified in itinerary",
+    "Entrance Fees as specified in itinerary",
+    "Boat tour at Dali Erhai Lake",
+    "Cable Car at Jade Dragon Snow Mountain",
+    "Buggy service at Dali Santorini and Shilin Stone Forest",
+    "Tipping Fee, Parking Fee",
+    "English Speaking Tour Guide"
+   ],
+   "exclusions": [
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal and Airport Tax",
+    "Additional Fees or Tours",
+    "Personal Expenses",
+    "Travel Insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour for private driver and guide beyond the 10 hours basis - RM 160 per hour, paid in cash on the ground",
+    "Optional tours and activities not stated above"
+   ]
+  },
+  {
+   "id": "w4",
+   "name": "PT Yunnan 4 Wilayah (7D6N)",
+   "pkgLabel": "Yunnan 4 Wilayah - Kunming, Dali, Lijiang, Shangri La",
+   "pkgType": "Private Tour (Ground &amp; Tipping Only)",
+   "hotelLabel": "4-Star Hotel",
+   "days": 7,
+   "nights": 6,
+   "infant": 0,
+   "single": 700,
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 5697,
+     "c": 5497,
+     "n": 5297
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 4497,
+     "c": 4297,
+     "n": 4097
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "a": 4097,
+     "c": 3897,
+     "n": 3697
+    },
+    {
+     "from": 10,
+     "to": 14,
+     "a": 3597,
+     "c": 3397,
+     "n": 3197
+    }
+   ],
+   "itin": [
+    {
+     "t": "Kuala Lumpur - Kunming (ketibaan)",
+     "en": "KUALA LUMPUR - KUNMING",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Kunming]",
+     "act": [
+      "Suggested flight: AirAsia atau Batik Air",
+      "Tiba di Kunming Changshui Intl Airport (KMG)",
+      "Airport pickup & transfer ke hotel Kunming",
+      "Check-in hotel, rehat"
+     ],
+     "eact": [
+      "Suggested flight: AirAsia or Batik Air",
+      "Arrive in Kunming Changshui Intl Airport",
+      "Airport pickup",
+      "Transfer to hotel in Kunming and check in",
+      "Rest for the day"
+     ],
+     "v": "d1"
+    },
+    {
+     "t": "Kunming - Dali [Bullet Train]",
+     "en": "KUNMING - DALI [BULLET TRAIN]",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "train",
+     "region": "[Dali]",
+     "act": [
+      "Check out hotel, bullet train ke Dali (~2 jam)",
+      "Dali Foreigner Street & Dali Ancient Town",
+      "Dali Santorini (incl return buggy)",
+      "Dinner & check-in hotel Dali"
+     ],
+     "eact": [
+      "After breakfast, check out hotel",
+      "Transfer to Dali by Bullet Train (~2 hours)",
+      "Dali Foreigner Street and Dali Ancient Town",
+      "Dali Santorini (include return buggy)",
+      "Dinner and check in hotel in Dali"
+     ],
+     "v": "d2"
+    },
+    {
+     "t": "Dali - Lijiang",
+     "en": "DALI - LIJIANG",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Lijiang]",
+     "act": [
+      "Check out hotel",
+      "Dali Erhai Lake (incl boat tour)",
+      "Transfer ke Lijiang secara private transport (~3 jam)",
+      "Lijiang Ancient City tour (warisan UNESCO)",
+      "Dinner & check-in hotel Lijiang"
+     ],
+     "eact": [
+      "After breakfast, check out hotel",
+      "Visit Dali Erhai Lake (include boat tour)",
+      "Transfer to Lijiang by private transport (~3 hour drive)",
+      "Lijiang Ancient City Tour, one of UNESCO best-preserved ancient towns in China",
+      "Dinner and check in hotel in Lijiang"
+     ],
+     "v": "d3"
+    },
+    {
+     "t": "Lijiang Tour (Jade Dragon Snow Mountain)",
+     "en": "LIJIANG TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Lijiang]",
+     "act": [
+      "Jade Dragon Snow Mountain (cable car ~4,506m)",
+      "Lijiang Impression Show",
+      "Blue Moon Valley & White Water River (incl battery car)",
+      "Dongbaqu (taman budaya warisan Naxi)",
+      "Dry Sea (padang rumput kaki JDSM)",
+      "Lijiang Mosque",
+      "Dinner & kembali ke hotel Lijiang"
+     ],
+     "eact": [
+      "Jade Dragon Snow Mountain, scenic cable car ride up Glacier Park at 4,506m",
+      "Lijiang Impression Show",
+      "Blue Moon Valley and White Water River (include battery car)",
+      "Dongbaqu, a cultural park of Naxi heritage",
+      "Dry Sea, vast grassland at the foot of Jade Dragon Snow Mountain",
+      "Lijiang Mosque",
+      "Dinner and back to hotel in Lijiang"
+     ],
+     "v": "d4"
+    },
+    {
+     "t": "Lijiang - Shangri La",
+     "en": "LIJIANG - SHANGRI LA",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Shangri La]",
+     "act": [
+      "Check out hotel",
+      "Black Dragon Pool (tasik latar Snow Mountain)",
+      "Transfer ke Shangri La secara private transport (~2 jam)",
+      "Tiger Leaping Gorge (canyon Jinsha River, incl escalator)",
+      "Dukezong Ancient Town",
+      "Dinner & check-in hotel Shangri La"
+     ],
+     "eact": [
+      "After breakfast, check out from hotel",
+      "Black Dragon Pool, scenic lake with Snow Mountain backdrop",
+      "Transfer to Shangri La by private transport (~2 hour drive)",
+      "Tiger Leaping Gorge, breathtaking canyon on the Jinsha River (include escalator)",
+      "Dukezong Ancient Town",
+      "After dinner, check in to hotel at Shangri La"
+     ],
+     "v": "d5"
+    },
+    {
+     "t": "Shangri La - Kunming [Bullet Train]",
+     "en": "SHANGRI LA - KUNMING [BULLET TRAIN]",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "train",
+     "region": "[Kunming]",
+     "act": [
+      "Check out hotel",
+      "Bullet train ke Kunming (~5-6 jam)",
+      "Nanping Pedestrian Street (souvenir shopping)",
+      "Shuncheng Mosque (seni bina Cina + Islam)",
+      "Dinner & check-in hotel Kunming"
+     ],
+     "eact": [
+      "After breakfast, check out from hotel",
+      "Transfer to Kunming by bullet train (~5 to 6 hours)",
+      "Nanping Pedestrian Street for souvenir shopping",
+      "Visit Shuncheng Mosque, a historic mosque blending Chinese and Islamic architecture",
+      "After dinner, check in to hotel at Kunming"
+     ],
+     "v": "d6"
+    },
+    {
+     "t": "Kunming City Tour + Airport Transfer (pulang)",
+     "en": "KUNMING CITY TOUR + AIRPORT TRANSFER",
+     "acc": "none",
+     "meal": "ld",
+     "trp": "airtrp",
+     "region": "[Kunming]",
+     "act": [
+      "Check out hotel",
+      "Shilin Stone Forest (UNESCO, incl buggy)",
+      "Kunming Waterfall Park",
+      "Yongning Mosque",
+      "Selepas dinner, transfer ke airport untuk flight awal pagi",
+      "Nota: guest dengan flight petang transfer selepas lunch"
+     ],
+     "eact": [
+      "After breakfast, check out from hotel",
+      "Transfer to Shilin Stone Forest, UNESCO rated limestone formations",
+      "Kunming Waterfall Park",
+      "Visit Yongning Mosque",
+      "After dinner, transfer to airport for midnight flight"
+     ],
+     "v": "d7"
+    }
+   ],
+   "ext": {
+    "shareVehicle": true,
+    "paxPerVehicle": 14,
+    "marginPerPax": 0,
+    "nightTiers": [
+     {
+      "from": 2,
+      "to": 4,
+      "normal": 650,
+      "peak": 650
+     },
+     {
+      "from": 5,
+      "to": 6,
+      "normal": 750,
+      "peak": 750
+     },
+     {
+      "from": 7,
+      "to": 14,
+      "normal": null,
+      "peak": null
+     }
+    ],
+    "rates": {
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 14,
+        "normal": -300,
+        "peak": -300
+       }
+      ]
+     },
+     "dayTour": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 14,
+        "normal": 400,
+        "peak": 400
+       }
+      ]
+     },
+     "extNight": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 650,
+        "peak": 650
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 750,
+        "peak": 750
+       },
+       {
+        "from": 7,
+        "to": 14,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "airT": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 350
+       },
+       {
+        "from": 13,
+        "to": 14,
+        "normal": 650
+       }
+      ]
+     },
+     "airTCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -150
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -250
+       },
+       {
+        "from": 13,
+        "to": 14,
+        "normal": null
+       }
+      ]
+     }
+    }
+   },
+   "inclusions": [
+    "{auto}",
+    "Halal Meals as specified in itinerary",
+    "Entrance Fees as specified in itinerary",
+    "Boat tour at Dali Erhai Lake",
+    "Cable Car at Jade Dragon Snow Mountain",
+    "Escalator at Tiger Leaping Gorge",
+    "Buggy service at Dali Santorini and Shilin Stone Forest",
+    "Tipping Fee, Parking Fee",
+    "English Speaking Tour Guide"
+   ],
+   "exclusions": [
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal and Airport Tax",
+    "Additional Fees or Tours",
+    "Personal Expenses",
+    "Travel Insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour for private driver and guide beyond the 10 hours basis - RM 160 per hour, paid in cash on the ground",
+    "Optional tours and activities not stated above"
+   ]
+  }
+ ]
+}

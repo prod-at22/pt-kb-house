@@ -1,0 +1,1115 @@
+{
+ "dest": "Perhentian",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "childLabels": {
+  "cwb": "Kanak-kanak dengan katil (6&ndash;11 thn)",
+  "cnb": "Kanak-kanak tanpa katil (2&ndash;5 thn)"
+ },
+ "infantNote": "Katalog V3 tiada kategori infant; rate card ARBA tulis infant <b>FOC</b> untuk Ombak &amp; Flora Bay. Sahkan polisi resort.",
+ "singleNote": "Katalog: Mimpi +RM600 &middot; Shari-la +RM500 &middot; Ombak / Flora Bay +RM400 (rate card). Kadar rata untuk pakej 2 malam &mdash; tidak berskala bila malam ditambah.",
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra"
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 35,
+  "drop": 35
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "library": [
+  {
+   "v": "ext",
+   "g": "Hari tambahan",
+   "region": "[Perhentian]",
+   "t": "Hari tambahan di pulau - free & easy",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "none",
+   "act": [
+    "Free & easy di resort",
+    "Aktiviti pantai / snorkeling sendiri",
+    "Breakfast, lunch & dinner di resort"
+   ],
+   "en": "EXTRA DAY AT PERHENTIAN - FREE & EASY",
+   "eact": [
+    "Free & easy at resort",
+    "Beach activities at leisure",
+    "Breakfast, lunch & dinner at resort"
+   ]
+  },
+  {
+   "v": "libact",
+   "g": "Hari tambahan",
+   "region": "[Perhentian]",
+   "t": "Hari tambahan - aktiviti optional (beli sebagai add-on)",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "none",
+   "act": [
+    "Free & easy / aktiviti optional ikut pilihan customer",
+    "Pilih add-on: Pulau Rawa, scuba diving atau private boat island hopping",
+    "Breakfast, lunch & dinner di resort"
+   ],
+   "en": "EXTRA DAY AT PERHENTIAN - OPTIONAL ACTIVITIES",
+   "eact": [
+    "Free & easy at leisure",
+    "Optional activities as selected",
+    "Breakfast, lunch & dinner at resort"
+   ]
+  },
+  {
+   "v": "kbin",
+   "g": "Transfer lapangan terbang",
+   "t": "Ketibaan Kota Bharu - transfer ke Jetty Kuala Besut",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "kbtrf",
+   "act": [
+    "Tiba Lapangan Terbang Sultan Ismail Petra, Kota Bharu (KBR)",
+    "Transfer sharing ke Jetty Kuala Besut (~1 jam 30 minit)",
+    "Bermalam di Kuala Besut / Kota Bharu - penginapan belum termasuk"
+   ],
+   "en": "KOTA BHARU ARRIVAL - KUALA BESUT JETTY",
+   "eact": [
+    "Arrive Sultan Ismail Petra Airport, Kota Bharu (KBR)",
+    "Transfer on sharing basis to Kuala Besut Jetty (approx. 1 hour 30 minutes)"
+   ]
+  },
+  {
+   "v": "kbout",
+   "g": "Transfer lapangan terbang",
+   "t": "Jetty Kuala Besut - transfer ke Kota Bharu, berlepas",
+   "acc": "none",
+   "meal": "none",
+   "trp": "kbtrf",
+   "act": [
+    "Transfer sharing dari Jetty Kuala Besut ke Lapangan Terbang Kota Bharu (KBR)",
+    "Berlepas"
+   ],
+   "en": "KUALA BESUT JETTY - KOTA BHARU DEPARTURE",
+   "eact": [
+    "Transfer on sharing basis from Kuala Besut Jetty to Kota Bharu Airport (KBR)",
+    "Departure"
+   ]
+  }
+ ],
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Resort (malam dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan di resort (fullboard)",
+   "cost": "night",
+   "nightRate": "addnight",
+   "incl": "Additional night at resort on fullboard basis ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / balik ke jetty)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast (dalam pakej)",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Breakfast"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner (hari ketibaan)",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner (fullboard)",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch sahaja",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner sahaja",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "boatin",
+   "t": "Shared boat transfer &mdash; Jetty Kuala Besut &rarr; Perhentian (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Shared Boat Transfer (Kuala Besut Jetty - Perhentian Island)",
+   "incl": "Return Shared Boat Transfer (SIC), Kuala Besut Jetty to Perhentian Island ({days})"
+  },
+  {
+   "v": "boatsnk",
+   "t": "Boat 5-points snorkeling trip (SIC, dalam pakej)",
+   "cost": "incl",
+   "lbl": "Boat for 5-Points Snorkelling Trip (SIC)",
+   "incl": "5 Points Snorkelling Trip including snorkelling gear ({days})"
+  },
+  {
+   "v": "boatout",
+   "t": "Shared boat transfer &mdash; Perhentian &rarr; Jetty Kuala Besut (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Shared Boat Transfer (Perhentian Island - Kuala Besut Jetty)"
+  },
+  {
+   "v": "kbtrf",
+   "t": "Airport transfer Kota Bharu &harr; Jetty Kuala Besut (sharing, sehala)",
+   "cost": "zero",
+   "perPax": 65,
+   "lbl": "Airport Transfer (Kota Bharu - Kuala Besut Jetty)",
+   "line": "Airport Transfer on sharing basis (one way)",
+   "incl": "Airport Transfer on sharing basis, Kota Bharu Airport to Kuala Besut Jetty ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada boat / free &amp; easy di pulau",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 1,
+   "text": "Solo: harga tier 1 pax <b>sudah</b> berasaskan bilik single occupancy &mdash; <b>jangan tambah single supplement lagi</b>. Flora Bay tiada harga tersiar untuk 1 pax (<i>on request</i>)."
+  },
+  {
+   "from": 11,
+   "to": 99999,
+   "text": "11 pax ke atas: tier katalog berhenti pada 10 pax, jadi kalkulator guna tier 8&ndash;10. <b>Quote manual</b> dan sahkan dengan operator. Private boat maksimum 12 pax sebot."
+  },
+  {
+   "from": 1,
+   "to": 99999,
+   "text": "<b>Kadar tidak tersiar</b> (quote manual, sahkan dengan operator): tarikh peak Ombak &amp; Flora Bay (amaun tersiar +RM150 dan +RM50 per pax per malam, tarikh tidak) &middot; tambah-malam BASIC &amp; Flora Bay &middot; kurang-malam BASIC, STANDARD &amp; Flora Bay."
+  },
+  {
+   "from": 1,
+   "to": 99999,
+   "text": "Semak tarikh bertolak bukan dalam musim monsun (<b>15 Okt &ndash; 15 Feb</b>, pulau tutup). Marine Park Fee (katalog RM5/RM2 &middot; RAW DATA PHT 2026 RM12/pax &mdash; sahkan) dan flight domestik tidak termasuk."
+  }
+ ],
+ "addons": [
+  [
+   "Airport Transfer Kota Bharu - Jetty Kuala Besut (sharing, sehala)",
+   65,
+   65,
+   "pax"
+  ],
+  [
+   "Airport Transfer Kota Bharu - Jetty Kuala Besut (sharing, return)",
+   130,
+   130,
+   "pax"
+  ],
+  [
+   "Private Boat Transfer return - Jetty Kuala Besut ke resort (max 12 pax sebot)",
+   957,
+   0,
+   "unit"
+  ],
+  [
+   "Private Boat Island Hopping 5 snorkelling point (max 12 pax sebot)",
+   957,
+   0,
+   "unit"
+  ],
+  [
+   "Snorkelling Pulau Rawa (sharing boat, minimum 4 pax)",
+   120,
+   120,
+   "pax"
+  ],
+  [
+   "Scuba Diving DSD - termasuk gear & dive master (minimum 1 pax)",
+   300,
+   300,
+   "pax"
+  ],
+  [
+   "Scuba Diving Fun Dive - termasuk gear & dive master (minimum 1 pax)",
+   120,
+   120,
+   "pax"
+  ],
+  [
+   "Honeymoon Package Mimpi - deko bilik + candle light dinner",
+   600,
+   0,
+   "unit"
+  ],
+  [
+   "Honeymoon Package Ombak - deko bilik + candle light dinner",
+   380,
+   0,
+   "unit"
+  ],
+  [
+   "Honeymoon Package Shari-la - deko bilik + candle light dinner",
+   280,
+   0,
+   "unit"
+  ],
+  [
+   "Honeymoon Package Flora Bay - deko bilik + candle light dinner",
+   297,
+   0,
+   "unit"
+  ],
+  [
+   "Picnic Trip",
+   45,
+   45,
+   "pax"
+  ],
+  [
+   "Extra Breakfast",
+   25,
+   25,
+   "pax"
+  ],
+  [
+   "Extra Lunch / Dinner",
+   35,
+   35,
+   "pax"
+  ],
+  [
+   "BBQ Dinner",
+   37,
+   37,
+   "pax"
+  ],
+  [
+   "Kayak - per jam per couple",
+   15,
+   0,
+   "unit"
+  ],
+  [
+   "Takaful TripCare 360 individu 1-5 hari (Area 1 domestik)",
+   50,
+   50,
+   "pax"
+  ],
+  [
+   "Luggage Tracker Blue Ribbon Silver",
+   20,
+   0,
+   "unit"
+  ],
+  [
+   "Luggage Tracker Blue Ribbon Gold",
+   40,
+   0,
+   "unit"
+  ],
+  [
+   "Luggage Tracker Blue Ribbon Platinum",
+   55,
+   0,
+   "unit"
+  ],
+  [
+   "Luggage Tracker Blue Ribbon Diamond",
+   70,
+   0,
+   "unit"
+  ]
+ ],
+ "validity": "<b>Validity of Quotation:</b> All prices are valid for 24 hours after quotation submission and are subject to resort and room availability as no space has been secured. Prices are quoted for 2 to 3 persons per room on a Default Standard Room basis. A deposit of RM 250 per person is required upon confirmation, with full payment due 30 days prior to departure. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before the departure date. Boat timings are subject to weather and sea tide conditions; SIC tour and shared boat transfer are shared with other travellers. Marine Park Entrance Fees (Adult RM 5 / Child RM 2) are payable directly by guests at Kuala Besut Jetty. Perhentian Island is closed during the monsoon season from 15 October to 15 February and no trips operate on those dates. Triple sharing rooms with 3 single beds are provided subject to availability; an extra bed is added if no triple bed is available during the travel period. Itinerary, price and boat schedule are subject to change (weather, sea conditions, safety). Final itinerary and accommodation arrangements are confirmed 14 days before the trip. Any complimentary activity is non-exchangeable for other activities, vouchers or cash. Package is valid until 15 October 2026.",
+ "variants": [
+  {
+   "id": "basic",
+   "name": "PT Perhentian BASIC &middot; Shari-la Resort (3D2N) &mdash; katalog V3",
+   "pkgLabel": "Private Tour Perhentian BASIC - Shari-la Resort",
+   "hotelLabel": "Shari-la Perhentian Resort (2.5-Star)",
+   "days": 3,
+   "nights": 2,
+   "single": 500,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "tiers": [
+    {
+     "from": 1,
+     "to": 1,
+     "a": 1457,
+     "c": 0,
+     "n": 0
+    },
+    {
+     "from": 2,
+     "to": 3,
+     "a": 1097,
+     "c": 997,
+     "n": 897
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 1057,
+     "c": 957,
+     "n": 857
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 1007,
+     "c": 907,
+     "n": 807
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "a": 997,
+     "c": 897,
+     "n": 797
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 50,
+    "windows": [
+     [
+      "2025-03-21",
+      "2026-09-30"
+     ],
+     [
+      "2027-02-15",
+      "2027-03-31"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 0,
+     "peak": 0
+    },
+    "day": {
+     "normal": 0,
+     "peak": 0
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "rates": {
+     "addnight": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "region": "[Perhentian]",
+     "t": "Jetty Kuala Besut - Perhentian Kecil (ketibaan)",
+     "en": "KUALA BESUT JETTY - PERHENTIAN KECIL",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "boatin",
+     "act": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+      "Check-in Shari-la Perhentian Resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Lunch & dinner di resort"
+     ],
+     "eact": [
+      "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+      "Check-in at Shari-la Perhentian Resort (approx. 3pm)",
+      "Free & easy, beach activities",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (evening)",
+      "Lunch & dinner at resort"
+     ]
+    },
+    {
+     "v": "d2",
+     "region": "[Perhentian]",
+     "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+     "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "boatsnk",
+     "act": [
+      "Breakfast di resort",
+      "Boat snorkeling trip 5 points",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "5 Points Snorkelling Trip by boat",
+      "Fish Point",
+      "Turtle Point",
+      "Shark Point (blacktip reef shark)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Return to resort, free & easy",
+      "Dinner at resort"
+     ]
+    },
+    {
+     "v": "d3",
+     "region": "[Perhentian]",
+     "t": "Perhentian Kecil - Jetty Kuala Besut (berlepas)",
+     "en": "PERHENTIAN KECIL - KUALA BESUT JETTY",
+     "acc": "none",
+     "meal": "b",
+     "trp": "boatout",
+     "act": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out Shari-la Perhentian Resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "Free & easy at leisure",
+      "Check-out from Shari-la Perhentian Resort",
+      "Shared boat transfer back to Kuala Besut Jetty"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "{nights} nights accommodation at Shari-la Perhentian Resort, Perhentian Kecil (Default Standard Room, 2-3 pax sharing)",
+    "All meals as per itinerary - halal local food",
+    "Ground handling & tipping"
+   ],
+   "exclusions": [
+    "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+    "Surcharge for Non-Malaysian passport holders (quoted separately)",
+    "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+    "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+    "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+    "Travel insurance / takaful",
+    "Personal expenses and additional meals"
+   ]
+  },
+  {
+   "id": "standard",
+   "name": "PT Perhentian STANDARD &middot; Mimpi Resort (3D2N) &mdash; katalog V3",
+   "pkgLabel": "Private Tour Perhentian STANDARD - Mimpi Resort",
+   "hotelLabel": "Mimpi Perhentian Resort (4-Star)",
+   "days": 3,
+   "nights": 2,
+   "single": 600,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "tiers": [
+    {
+     "from": 1,
+     "to": 1,
+     "a": 2197,
+     "c": 0,
+     "n": 0
+    },
+    {
+     "from": 2,
+     "to": 10,
+     "a": 1597,
+     "c": 1497,
+     "n": 1397
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 150,
+    "windows": [
+     [
+      "2026-05-26",
+      "2026-06-01"
+     ],
+     [
+      "2026-07-01",
+      "2026-08-31"
+     ],
+     [
+      "2027-02-15",
+      "2027-03-31"
+     ]
+    ]
+   },
+   "ext": {
+    "night": {
+     "normal": 0,
+     "peak": 0
+    },
+    "day": {
+     "normal": 0,
+     "peak": 0
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "rates": {
+     "addnight": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 550,
+        "peak": 550
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "region": "[Perhentian]",
+     "t": "Jetty Kuala Besut - Perhentian Kecil (ketibaan)",
+     "en": "KUALA BESUT JETTY - PERHENTIAN KECIL",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "boatin",
+     "act": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+      "Check-in Mimpi Perhentian Resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Lunch & dinner di resort"
+     ],
+     "eact": [
+      "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+      "Check-in at Mimpi Perhentian Resort (approx. 3pm)",
+      "Free & easy, beach activities",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (evening)",
+      "Lunch & dinner at resort"
+     ]
+    },
+    {
+     "v": "d2",
+     "region": "[Perhentian]",
+     "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+     "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "boatsnk",
+     "act": [
+      "Breakfast di resort",
+      "Boat snorkeling trip 5 points",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "5 Points Snorkelling Trip by boat",
+      "Fish Point",
+      "Turtle Point",
+      "Shark Point (blacktip reef shark)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Return to resort, free & easy",
+      "Dinner at resort"
+     ]
+    },
+    {
+     "v": "d3",
+     "region": "[Perhentian]",
+     "t": "Perhentian Kecil - Jetty Kuala Besut (berlepas)",
+     "en": "PERHENTIAN KECIL - KUALA BESUT JETTY",
+     "acc": "none",
+     "meal": "b",
+     "trp": "boatout",
+     "act": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out Mimpi Perhentian Resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "Free & easy at leisure",
+      "Check-out from Mimpi Perhentian Resort",
+      "Shared boat transfer back to Kuala Besut Jetty"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "{nights} nights accommodation at Mimpi Perhentian Resort, Perhentian Kecil (Default Standard Room, 2-3 pax sharing)",
+    "All meals as per itinerary - halal local food",
+    "Ground handling & tipping"
+   ],
+   "exclusions": [
+    "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+    "Surcharge for Non-Malaysian passport holders (quoted separately)",
+    "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+    "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+    "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+    "Travel insurance / takaful",
+    "Personal expenses and additional meals"
+   ]
+  },
+  {
+   "id": "ombak",
+   "name": "PT Perhentian &middot; Ombak Resort (3D2N) &mdash; rate card ARBA",
+   "pkgLabel": "Private Tour Perhentian - Ombak Resort",
+   "hotelLabel": "Ombak Perhentian Resort (3-Star)",
+   "days": 3,
+   "nights": 2,
+   "single": 400,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "tiers": [
+    {
+     "from": 1,
+     "to": 1,
+     "a": 1510,
+     "c": 0,
+     "n": 0
+    },
+    {
+     "from": 2,
+     "to": 3,
+     "a": 1177,
+     "c": 1057,
+     "n": 657
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 1127,
+     "c": 1057,
+     "n": 657
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 1127,
+     "c": 1057,
+     "n": 657
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "a": 1077,
+     "c": 1057,
+     "n": 657
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 150,
+    "windows": []
+   },
+   "ext": {
+    "night": {
+     "normal": 0,
+     "peak": 0
+    },
+    "day": {
+     "normal": 0,
+     "peak": 0
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "rates": {
+     "addnight": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 475,
+        "peak": 475
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -400,
+        "peak": -400
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "region": "[Perhentian]",
+     "t": "Jetty Kuala Besut - Perhentian Kecil (ketibaan)",
+     "en": "KUALA BESUT JETTY - PERHENTIAN KECIL",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "boatin",
+     "act": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+      "Check-in Ombak Perhentian Resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Lunch & dinner di resort"
+     ],
+     "eact": [
+      "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+      "Check-in at Ombak Perhentian Resort (approx. 3pm)",
+      "Free & easy, beach activities",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (evening)",
+      "Lunch & dinner at resort"
+     ]
+    },
+    {
+     "v": "d2",
+     "region": "[Perhentian]",
+     "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+     "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "boatsnk",
+     "act": [
+      "Breakfast di resort",
+      "Boat snorkeling trip 5 points",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "5 Points Snorkelling Trip by boat",
+      "Fish Point",
+      "Turtle Point",
+      "Shark Point (blacktip reef shark)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Return to resort, free & easy",
+      "Dinner at resort"
+     ]
+    },
+    {
+     "v": "d3",
+     "region": "[Perhentian]",
+     "t": "Perhentian Kecil - Jetty Kuala Besut (berlepas)",
+     "en": "PERHENTIAN KECIL - KUALA BESUT JETTY",
+     "acc": "none",
+     "meal": "b",
+     "trp": "boatout",
+     "act": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out Ombak Perhentian Resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "Free & easy at leisure",
+      "Check-out from Ombak Perhentian Resort",
+      "Shared boat transfer back to Kuala Besut Jetty"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "{nights} nights accommodation at Ombak Perhentian Resort, Perhentian Kecil (Default Standard Room, 2-3 pax sharing)",
+    "All meals as per itinerary - halal local food",
+    "Ground handling & tipping"
+   ],
+   "exclusions": [
+    "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+    "Surcharge for Non-Malaysian passport holders (quoted separately)",
+    "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+    "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+    "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+    "Travel insurance / takaful",
+    "Personal expenses and additional meals"
+   ]
+  },
+  {
+   "id": "florabay",
+   "name": "PT Perhentian &middot; Flora Bay Resort (3D2N) &mdash; rate card ARBA",
+   "pkgLabel": "Private Tour Perhentian - Flora Bay Resort",
+   "hotelLabel": "Flora Bay Resort (Budget)",
+   "days": 3,
+   "nights": 2,
+   "single": 400,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "tiers": [
+    {
+     "from": 1,
+     "to": 1,
+     "a": "request",
+     "c": "request",
+     "n": "request"
+    },
+    {
+     "from": 2,
+     "to": 3,
+     "a": 797,
+     "c": 597,
+     "n": 357
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 657,
+     "c": 597,
+     "n": 357
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 657,
+     "c": 597,
+     "n": 357
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "a": 607,
+     "c": 597,
+     "n": 357
+    }
+   ],
+   "peak": {
+    "mode": "perNight",
+    "value": 50,
+    "windows": []
+   },
+   "ext": {
+    "night": {
+     "normal": 0,
+     "peak": 0
+    },
+    "day": {
+     "normal": 0,
+     "peak": 0
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "rates": {
+     "addnight": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     }
+    }
+   },
+   "itin": [
+    {
+     "v": "d1",
+     "region": "[Perhentian]",
+     "t": "Jetty Kuala Besut - Perhentian Besar (ketibaan)",
+     "en": "KUALA BESUT JETTY - PERHENTIAN BESAR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "boatin",
+     "act": [
+      "Shared boat transfer dari Jetty Kuala Besut (~30-45 minit)",
+      "Check-in Flora Bay Resort (~3pm)",
+      "Free & easy + aktiviti pantai",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (malam)",
+      "Lunch & dinner di resort"
+     ],
+     "eact": [
+      "Shared boat transfer from Kuala Besut Jetty (approx. 30-45 minutes)",
+      "Check-in at Flora Bay Resort (approx. 3pm)",
+      "Free & easy, beach activities",
+      "Windmill Hill trekking",
+      "Longbeach Fireshow (evening)",
+      "Lunch & dinner at resort"
+     ]
+    },
+    {
+     "v": "d2",
+     "region": "[Perhentian]",
+     "t": "Perhentian 5-Points Snorkeling Trip (SIC)",
+     "en": "PERHENTIAN 5-POINTS SNORKELLING TRIP (SIC TOUR)",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "boatsnk",
+     "act": [
+      "Breakfast di resort",
+      "Boat snorkeling trip 5 points",
+      "Fish Point",
+      "Turtle Point (penyu)",
+      "Shark Point (jerung karang blacktip)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Balik resort, free & easy",
+      "Dinner di resort"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "5 Points Snorkelling Trip by boat",
+      "Fish Point",
+      "Turtle Point",
+      "Shark Point (blacktip reef shark)",
+      "Kg Nelayan (lunch break)",
+      "Teluk Keke Beach",
+      "Nemo Point",
+      "Return to resort, free & easy",
+      "Dinner at resort"
+     ]
+    },
+    {
+     "v": "d3",
+     "region": "[Perhentian]",
+     "t": "Perhentian Besar - Jetty Kuala Besut (berlepas)",
+     "en": "PERHENTIAN BESAR - KUALA BESUT JETTY",
+     "acc": "none",
+     "meal": "b",
+     "trp": "boatout",
+     "act": [
+      "Breakfast di resort",
+      "Free & easy / leisure",
+      "Check-out Flora Bay Resort",
+      "Shared boat transfer balik ke Jetty Kuala Besut"
+     ],
+     "eact": [
+      "Breakfast at resort",
+      "Free & easy at leisure",
+      "Check-out from Flora Bay Resort",
+      "Shared boat transfer back to Kuala Besut Jetty"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "{nights} nights accommodation at Flora Bay Resort, Perhentian Besar (Default Standard Room, 2-3 pax sharing)",
+    "All meals as per itinerary - halal local food",
+    "Ground handling & tipping"
+   ],
+   "exclusions": [
+    "Marine Park Entrance Fee (Adult RM5 / Child RM2) - paid directly at Kuala Besut Jetty",
+    "Surcharge for Non-Malaysian passport holders (quoted separately)",
+    "Domestic flights to Kota Bharu (KBR) or Kuala Terengganu (TGG)",
+    "Airport Transfer, Kota Bharu Airport to Kuala Besut Jetty (available as an add-on)",
+    "Optional activities (scuba diving, Pulau Rawa snorkelling, private boat charter)",
+    "Travel insurance / takaful",
+    "Personal expenses and additional meals"
+   ]
+  }
+ ]
+}

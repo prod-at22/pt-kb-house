@@ -1,0 +1,2139 @@
+{
+ "dest": "MELBOURNE",
+ "currency": "RM",
+ "deposit": 1000,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (5&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;4)"
+ },
+ "infantNote": "RM 1,000 flat (bawah 2 tahun), bukan FOC",
+ "singleNote": "+RM 2,500 setiap satu",
+ "intro": "Isi pax dan tarikh &mdash; peak season RM 125/pax/malam dan late booking dikira sendiri. Transport ikut jam: Basic 10 jam/hari, Standard 12 jam/hari; lebih masa AUD 50/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "hideGeneric": [
+  "ext",
+  "cus",
+  "fe"
+ ],
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "peak": {
+  "mode": "perNight",
+  "value": 125,
+  "windows": [
+   [
+    "2026-09-20",
+    "2026-09-30"
+   ],
+   [
+    "2026-10-30",
+    "2026-11-08"
+   ],
+   [
+    "2026-12-01",
+    "2027-01-31"
+   ],
+   [
+    "2027-03-01",
+    "2027-04-12"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Travel date 2027",
+   "dateIn": [
+    "2027-01-01",
+    "2027-06-30"
+   ],
+   "perPax": 100
+  }
+ ],
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 100,
+  "dinner": 100
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang (dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade 4 bintang (malam pakej)",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "line": "4-Star hotel upgrade"
+  },
+  {
+   "v": "extra",
+   "t": "Hotel 3 bintang (malam tambahan)",
+   "cost": "night",
+   "line": "Additional night, 3-Star hotel"
+  },
+  {
+   "v": "nGrand",
+   "t": "Malam tambahan &middot; Grand Chancellor 4 bintang",
+   "cost": "night",
+   "nightRate": "hGrand",
+   "line": "Additional night, Grand Chancellor 4-Star"
+  },
+  {
+   "v": "nPeg",
+   "t": "Malam tambahan &middot; Pegasus Apart&rsquo;hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "hPegasus",
+   "line": "Additional night, Pegasus Apart hotel 4-Star"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel &ndash; tolak malam 3 bintang dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "noht4",
+   "t": "Tanpa hotel &ndash; tolak malam 4 bintang dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "None",
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast (termasuk pakej Standard)",
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast (termasuk pakej Standard) &amp; Lunch",
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast (termasuk pakej Standard) &amp; Dinner",
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast (termasuk pakej Standard), Lunch &amp; Dinner",
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "badd",
+   "t": "Breakfast buffet (tambahan)",
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
+  },
+  {
+   "v": "baddl",
+   "t": "Breakfast buffet (tambahan) &amp; Lunch",
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
+  },
+  {
+   "v": "baddd",
+   "t": "Breakfast buffet (tambahan) &amp; Dinner",
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
+  },
+  {
+   "v": "baddld",
+   "t": "Breakfast buffet (tambahan), Lunch &amp; Dinner",
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Guide"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer + Guide (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Private Airport Transfer + Guide"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Guide"
+  },
+  {
+   "v": "pipeng",
+   "t": "Phillip Island + Penguin Parade 12 jam",
+   "perVehicleRate": "piPeng12",
+   "guided": true,
+   "lbl": "Private Transport + Guide (12h)",
+   "line": "Phillip Island with Penguin Parade 12 hours"
+  },
+  {
+   "v": "apick",
+   "t": "Tambah airport transfer pick up + meet &amp; greet",
+   "cost": "incl",
+   "perVehicleRate": "airPick",
+   "lbl": "Private Airport Transfer + Meet &amp; Greet",
+   "line": "Airport transfer pick up with meet and greet"
+  },
+  {
+   "v": "adrop",
+   "t": "Tambah airport transfer drop off",
+   "cost": "incl",
+   "perVehicleRate": "airDrop",
+   "lbl": "Private Airport Transfer",
+   "line": "Airport transfer drop off"
+  },
+  {
+   "v": "festby",
+   "t": "Free &amp; Easy transport standby",
+   "cost": "incl",
+   "perVehicleRate": "feStandby",
+   "lbl": "Transport Standby",
+   "line": "Free and easy transport standby"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  },
+  {
+   "v": "feded",
+   "t": "Free &amp; easy &ndash; tolak driving guide dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (driving guide deducted)"
+  },
+  {
+   "v": "capick",
+   "t": "Buang airport transfer pick up &ndash; tolak dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "airPickCut",
+   "lbl": "-",
+   "line": "Less airport transfer pick up"
+  },
+  {
+   "v": "cadrop",
+   "t": "Buang airport transfer drop off &ndash; tolak dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "airDropCut",
+   "lbl": "-",
+   "line": "Less airport transfer drop off"
+  },
+  {
+   "v": "cfestby",
+   "t": "Buang Free &amp; Easy transport standby &ndash; tolak",
+   "cost": "zero",
+   "perVehicleRate": "feStandbyCut",
+   "lbl": "-",
+   "line": "Less free and easy transport standby"
+  }
+ ],
+ "addons": [
+  [
+   "Puffing Billy Steam Train ticket - per pax",
+   190,
+   95,
+   "pax"
+  ],
+  [
+   "Enchanted Garden Adventure ticket - per pax",
+   120,
+   90,
+   "pax"
+  ],
+  [
+   "Sealife Aquarium Melbourne ticket - per pax",
+   175,
+   175,
+   "pax"
+  ],
+  [
+   "Maru Koala & Animal Park ticket (Phillip Island) - per pax",
+   110,
+   110,
+   "pax"
+  ],
+  [
+   "Churchill Island Heritage Farm ticket (Phillip Island) - per pax",
+   55,
+   55,
+   "pax"
+  ],
+  [
+   "Penguin Parade General Viewing ticket (Phillip Island) - per pax",
+   110,
+   110,
+   "pax"
+  ],
+  [
+   "Arthurs Seat Gondola return ticket (Mornington) - per pax",
+   110,
+   110,
+   "pax"
+  ],
+  [
+   "Rayners Orchard fruit picking ticket, Feb to Dec (Dandenong) - per pax",
+   215,
+   215,
+   "pax"
+  ],
+  [
+   "Cherry fruit picking, Dec to Feb (Dandenong) - per pax",
+   65,
+   65,
+   "pax"
+  ],
+  [
+   "Snow resort entrance, Mt Buller / Mt Baw Baw - per pax",
+   85,
+   85,
+   "pax"
+  ],
+  [
+   "Less Maru Koala & Animal Park ticket - per pax",
+   -85,
+   -85,
+   "pax"
+  ],
+  [
+   "Less Churchill Island Heritage Farm ticket - per pax",
+   -45,
+   -45,
+   "pax"
+  ],
+  [
+   "Less Penguin Parade General Viewing ticket - per pax",
+   -85,
+   -85,
+   "pax"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 3,
+   "text": "2&ndash;3 pax: 5-seater car &mdash; kadar transport band 5 Seater"
+  },
+  {
+   "from": 4,
+   "to": 6,
+   "text": "4&ndash;6 pax: 7/8-seater van &mdash; kadar transport band 8 Seater"
+  },
+  {
+   "from": 7,
+   "to": 9,
+   "text": "7&ndash;9 pax: 12-seater van &mdash; kadar transport band 12 Seater"
+  },
+  {
+   "from": 10,
+   "to": 18,
+   "text": "10&ndash;18 pax: 21-seater (termasuk bus driver). Rate card tulis <b>Sebut harga</b> &mdash; kadar transport muncul sebagai <i>kadar?</i>, minta sebut harga operasi."
+  },
+  {
+   "from": 19,
+   "to": 99999,
+   "text": "19 pax ke atas: melebihi 21-seater &mdash; perlu kenderaan tambahan, sebut harga group besar."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel/room availability as no space has been secured. A deposit of RM 1,000 per pax is required upon confirmation, with full payment due 45 days before the departure date. Private transportation and driver-cum-guide are based on the total hours stated in the itinerary; AUD 50 per extra hour is payable in cash to the driver. Itinerary, price and flight schedule are subject to change (weather, traffic, safety). Final itinerary and hotel confirmation 14 days before the trip. Special event date surcharge (Christmas, New Year, Chinese New Year) is not included - please enquire prior to booking. Ground arrangement and tipping only - international flight tickets are not included.",
+ "variants": [
+  {
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel (City Centre)",
+   "days": 5,
+   "nights": 4,
+   "infant": 1000,
+   "single": 2500,
+   "labelCwb": "Child With Bed (5-11)",
+   "labelCnb": "Child No Bed (2-4)",
+   "id": "basic",
+   "name": "PT Melbourne Basic 5D4N",
+   "pkgLabel": "Melbourne Basic - Phillip Island, Maru Koala & Wildlife Park, Churchill Island, Melbourne City, Queen Victoria Market, Brighton Beach",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 5897,
+     "c": 5697,
+     "n": 5397
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 4597,
+     "c": 4397,
+     "n": 4097
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 4197,
+     "c": 3997,
+     "n": 3697
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 3797,
+     "c": 3597,
+     "n": 3297
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 3597,
+     "c": 3397,
+     "n": 3097
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "a": 3397,
+     "c": 3197,
+     "n": 2897
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL - Ketibaan Melbourne",
+     "en": "KUL - MELBOURNE ARRIVAL",
+     "act": [
+      "Meet & greet dengan driver-cum-guide ARBA",
+      "Private airport transfer ke hotel",
+      "Check-in hotel 3 bintang City Centre",
+      "Free & easy"
+     ],
+     "eact": [
+      "Meet & greet with ARBA driver-cum-guide",
+      "Private airport transfer to hotel",
+      "Check in 3-star hotel in City Centre",
+      "Free & easy"
+     ],
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Melbourne]"
+    },
+    {
+     "v": "d2",
+     "t": "Phillip Island - Wildlife & Farm Tour",
+     "en": "PHILLIP ISLAND - WILDLIFE & FARM TOUR",
+     "act": [
+      "Maru Koala & Animal Park - beri makan kangaroo & wallaby",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing, whip cracking",
+      "The Nobbies - boardwalk tebing & sunset photo stop",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing, whip cracking",
+      "The Nobbies - cliff-top boardwalks & sunset photo stop",
+      "Private transport - 10 hours basis"
+     ],
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Phillip Island]"
+    },
+    {
+     "v": "d3",
+     "t": "Melbourne City Icons & Shopping",
+     "en": "MELBOURNE CITY ICONS & SHOPPING",
+     "act": [
+      "Queen Victoria Market - souvenir, produk segar, kafe",
+      "DFO South Wharf - waterfront outlet mall",
+      "Flinders Street Station & Federation Square",
+      "Degraves Street & Flinders Lane - laneway kafe & dessert hunting",
+      "Princes Bridge - skyline & Sungai Yarra",
+      "Hosier Lane - lorong street art",
+      "Brighton Beach Bathing Boxes - pondok pantai ikonik",
+      "Shrine of Remembrance - photo stop",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Queen Victoria Market - souvenirs, fresh produce, cafes",
+      "DFO South Wharf - waterfront shopping mall",
+      "Flinders Street Station & Federation Square",
+      "Degraves Street & Flinders Lane - laneway cafe strip, coffee & dessert hunting",
+      "Princes Bridge - city skyline & Yarra River",
+      "Hosier Lane - street art alley",
+      "Brighton Beach Bathing Boxes - iconic beach huts",
+      "Shrine of Remembrance - photo stop",
+      "Private transport - 10 hours basis"
+     ],
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Melbourne City]"
+    },
+    {
+     "v": "d4",
+     "t": "Free & Easy / Add-On Day Tour",
+     "en": "FREE & EASY / ADD-ON DAY TOUR",
+     "act": [
+      "Free & easy di City Centre (Free Tram Zone)",
+      "ATAU pilih Add-On Private Day Tour"
+     ],
+     "eact": [
+      "Free & easy at leisure in City Centre (Free Tram Zone)"
+     ],
+     "acc": "incl",
+     "meal": "none",
+     "trp": "none",
+     "region": ""
+    },
+    {
+     "v": "d5",
+     "t": "Melbourne - KUL (Pulang)",
+     "en": "MELBOURNE - KUL DEPARTURE",
+     "act": [
+      "Check-out hotel",
+      "Private airport transfer ke Melbourne Airport"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Private airport transfer to Melbourne Airport"
+     ],
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Melbourne]"
+    }
+   ],
+   "library": [
+    {
+     "v": "ext",
+     "t": "Hari tambahan - pilih blok day tour di bawah",
+     "en": "ADDITIONAL DAY",
+     "acc": "extra",
+     "meal": "none",
+     "trp": "ext",
+     "region": "",
+     "g": "Umum",
+     "act": [
+      "Pilih satu blok Add-on day tour untuk hari ini"
+     ],
+     "eact": [
+      "Additional day - itinerary to be confirmed"
+     ]
+    },
+    {
+     "v": "fed",
+     "t": "Free & Easy - tolak driving guide dari katalog",
+     "en": "FREE & EASY",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "feded",
+     "region": "",
+     "g": "Umum",
+     "act": [
+      "Free & easy tanpa transport atau guide"
+     ],
+     "eact": [
+      "Free & easy - no transport or guide"
+     ]
+    },
+    {
+     "v": "fes",
+     "t": "Free & Easy + transport standby",
+     "en": "FREE & EASY",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "festby",
+     "region": "",
+     "g": "Umum",
+     "act": [
+      "Free & easy di City Centre (Free Tram Zone)",
+      "Transport standby atas permintaan",
+      "Hari F&E selang sehari: WAJIB caj standby (5, 8, 12 seater sahaja)"
+     ],
+     "eact": [
+      "Free & easy in City Centre (Free Tram Zone)",
+      "Transport on standby"
+     ]
+    },
+    {
+     "v": "arr",
+     "t": "Ketibaan - airport transfer + check-in",
+     "en": "MELBOURNE ARRIVAL",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Melbourne]",
+     "g": "Melbourne - ketibaan & pulang",
+     "act": [
+      "Meet & greet dengan driver-cum-guide ARBA",
+      "Private airport transfer ke hotel",
+      "Check-in hotel 3 bintang City Centre"
+     ],
+     "eact": [
+      "Meet & greet with ARBA driver-cum-guide",
+      "Private airport transfer to hotel",
+      "Check in 3-star hotel in City Centre"
+     ]
+    },
+    {
+     "v": "dep",
+     "t": "Check-out + airport transfer pulang",
+     "en": "MELBOURNE DEPARTURE",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Melbourne]",
+     "g": "Melbourne - ketibaan & pulang",
+     "act": [
+      "Check-out hotel",
+      "Private airport transfer ke Melbourne Airport"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Private airport transfer to Melbourne Airport"
+     ]
+    },
+    {
+     "v": "pi",
+     "t": "Phillip Island - Wildlife & Farm Tour (10 jam)",
+     "en": "PHILLIP ISLAND - WILDLIFE & FARM TOUR",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "region": "[Phillip Island]",
+     "g": "Phillip Island",
+     "act": [
+      "Maru Koala & Animal Park - beri makan kangaroo & wallaby",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
+      "The Nobbies - boardwalk tebing & sunset photo stop",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
+      "The Nobbies - cliff-top boardwalks & sunset photo stop",
+      "Private transport - 10 hours basis"
+     ]
+    },
+    {
+     "v": "pip",
+     "t": "Phillip Island + Penguin Parade (12 jam)",
+     "en": "PHILLIP ISLAND + PENGUIN PARADE",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "pipeng",
+     "region": "[Phillip Island]",
+     "g": "Phillip Island",
+     "act": [
+      "Maru Koala & Animal Park",
+      "San Remo Pelican Feeding Show",
+      "Churchill Island Heritage Farm",
+      "The Nobbies",
+      "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Penguin Parade WAJIB pakej 12 jam, bukan 10 jam",
+      "Availability susah - re-confirm selepas visa lulus & full deposit",
+      "Private transport - asas 12 jam"
+     ],
+     "eact": [
+      "Maru Koala & Animal Park",
+      "San Remo Pelican Feeding Show",
+      "Churchill Island Heritage Farm",
+      "The Nobbies",
+      "Penguin Parade General Viewing - Little Penguins at sunset",
+      "Private transport - 12 hours basis"
+     ]
+    },
+    {
+     "v": "dand",
+     "t": "Puffing Billy & Dandenong Ranges (10 jam)",
+     "en": "PUFFING BILLY & DANDENONG RANGES",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "ext",
+     "region": "[Dandenong]",
+     "g": "Add-on day tour",
+     "act": [
+      "Puffing Billy Steam Train - Belgrave ke Lakeside (tiket berasingan)",
+      "Tiket Puffing Billy availability sangat susah - re-confirm awal",
+      "Dandenong / Royal Botanic Garden",
+      "Sassafras Village - Devonshire tea & kraf",
+      "Skyhigh Lookout - vehicle entrance termasuk",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Puffing Billy Steam Train - Belgrave to Lakeside (ticket not included)",
+      "Dandenong / Royal Botanic Garden",
+      "Sassafras Village - Devonshire tea & local crafts",
+      "Skyhigh Lookout - vehicle entrance included",
+      "Private transport - 10 hours basis"
+     ]
+    },
+    {
+     "v": "morn",
+     "t": "Mornington Peninsula (10 jam)",
+     "en": "MORNINGTON PENINSULA",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "ext",
+     "region": "[Mornington]",
+     "g": "Add-on day tour",
+     "act": [
+      "Pure Peninsula Honey - ladang madu",
+      "Enchanted Garden Adventure (tiket berasingan)",
+      "Red Hill Lavender Farm - bermusim",
+      "Sorrento Ocean Beach - kolam batu semula jadi",
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Pure Peninsula Honey - local honey farm",
+      "Enchanted Garden Adventure (ticket not included)",
+      "Red Hill Lavender Farm - seasonal",
+      "Sorrento Ocean Beach - natural rock pool",
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - 10 hours basis"
+     ]
+    },
+    {
+     "v": "snow",
+     "t": "Winter Snow Trip (12 jam)",
+     "en": "WINTER SNOW TRIP",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "ext",
+     "region": "[Snow]",
+     "g": "Add-on day tour",
+     "act": [
+      "Mt Buller / Mt Baw Baw - ski, snowboard, tobogganing",
+      "ATAU Lake Mountain - snow play & tobogganing",
+      "Vehicle entrance & tyre snow chains termasuk",
+      "WAJIB tambah add-on Snow Trip resort entrance RM85 per pax",
+      "Private transport - asas 12 jam"
+     ],
+     "eact": [
+      "Mt Buller / Mt Baw Baw - skiing, snowboarding, tobogganing",
+      "OR Lake Mountain - snow play & tobogganing",
+      "Vehicle entrance ticket & tyre snow chains included",
+      "Private transport - 12 hours basis"
+     ]
+    },
+    {
+     "v": "gor",
+     "t": "Great Ocean Road (12 jam)",
+     "en": "GREAT OCEAN ROAD",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "ext",
+     "region": "[Great Ocean Road]",
+     "g": "Add-on day tour",
+     "act": [
+      "Aireys Inlet Lighthouse",
+      "Great Ocean Road Memorial Arch",
+      "Apollo Bay - pekan tepi laut",
+      "Maits Rest Rainforest Walk",
+      "Twelve Apostles",
+      "Loch Ard Gorge",
+      "Private transport - asas 12 jam"
+     ],
+     "eact": [
+      "Aireys Inlet Lighthouse",
+      "Great Ocean Road Memorial Arch",
+      "Apollo Bay - seaside town",
+      "Maits Rest Rainforest Walk",
+      "Twelve Apostles",
+      "Loch Ard Gorge",
+      "Private transport - 12 hours basis"
+     ]
+    }
+   ],
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 450
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 18,
+    "shareVehicle": true,
+    "rates": {
+     "airPick": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 1400
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 1700
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 2150
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "airDrop": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 1300
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 1600
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 2050
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "airPickCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -1100
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -1300
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -1700
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "airDropCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -1000
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -1200
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -1600
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "piPeng12": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2950
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 3350
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3900
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "feStandby": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 650
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 1000
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "feStandbyCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -500
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -700
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "hGrand": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 450,
+        "peak": 600
+       }
+      ]
+     },
+     "hPegasus": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 450,
+        "peak": 600
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": -200
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": -350
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 125
+       }
+      ]
+     },
+     "bfAdd": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 125
+       }
+      ]
+     },
+     "day": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Phillip Island]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2600
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 3000
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3600
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Mornington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2550
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 2950
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3500
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Dandenong]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2450
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 2850
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3400
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Snow]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 3500
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 3900
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 4450
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Great Ocean Road]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 3350
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 3750
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 4300
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "dayDed": {
+      "[Phillip Island]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -2000
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -2400
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -2800
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Melbourne City]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -1800
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -2100
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -2600
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     }
+    }
+   },
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Melbourne City Centre (Free Tram Zone) - Ibis Melbourne or similar, double or triple sharing",
+    "Return private airport transfers",
+    "Private transportation as per itinerary (10 hours basis per day)",
+    "Malaysian driver-cum-guide based in Melbourne",
+    "Entry ticket to Maru Koala & Animal Park",
+    "Entry ticket to Churchill Island Heritage Farm",
+    "Tipping fee for driver-cum-guide",
+    "Visa application assistance (online or in-office appointment session)"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Hotel breakfast (not included in the Basic package)",
+    "Penguin Parade General Viewing entrance - Standard package only, unless listed as an optional activity above",
+    "Australian visa fee (AUD 20, paid directly to Australian Immigration)",
+    "Personal travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport & tour guide - AUD 50 per hour, paid in cash to the driver",
+    "Optional tours, activity tickets and meals not stated above",
+    "Personal expenses and shopping"
+   ]
+  },
+  {
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel (City Centre)",
+   "days": 5,
+   "nights": 4,
+   "infant": 1000,
+   "single": 2500,
+   "labelCwb": "Child With Bed (5-11)",
+   "labelCnb": "Child No Bed (2-4)",
+   "id": "std",
+   "name": "PT Melbourne Standard 5D4N",
+   "pkgLabel": "Melbourne Standard - Phillip Island, Maru Koala & Wildlife Park, Penguin Parade, Great Ocean Road, Apollo Bay, Twelve Apostles",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 6997,
+     "c": 6797,
+     "n": 6497
+    },
+    {
+     "from": 3,
+     "to": 3,
+     "a": 5497,
+     "c": 5297,
+     "n": 4997
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 4997,
+     "c": 4797,
+     "n": 4497
+    },
+    {
+     "from": 5,
+     "to": 5,
+     "a": 4497,
+     "c": 4297,
+     "n": 3997
+    },
+    {
+     "from": 6,
+     "to": 7,
+     "a": 4197,
+     "c": 3997,
+     "n": 3697
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "a": 3997,
+     "c": 3797,
+     "n": 3497
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL - Ketibaan Melbourne",
+     "en": "KUL - MELBOURNE ARRIVAL",
+     "act": [
+      "Meet & greet dengan driver-cum-guide ARBA",
+      "Private airport transfer ke hotel",
+      "Check-in hotel 3 bintang City Centre",
+      "Free & easy"
+     ],
+     "eact": [
+      "Meet & greet with ARBA driver-cum-guide",
+      "Private airport transfer to hotel",
+      "Check in 3-star hotel in City Centre",
+      "Free & easy"
+     ],
+     "acc": "incl",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Melbourne]"
+    },
+    {
+     "v": "d2",
+     "t": "Phillip Island + Penguin Parade",
+     "en": "PHILLIP ISLAND + PENGUIN PARADE",
+     "act": [
+      "Maru Koala & Animal Park - beri makan kangaroo & wallaby",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
+      "The Nobbies - boardwalk tebing",
+      "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Private transport - asas 12 jam"
+     ],
+     "eact": [
+      "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
+      "The Nobbies - cliff-top boardwalks",
+      "Penguin Parade General Viewing - world-famous Little Penguins at sunset",
+      "Private transport - 12 hours basis"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Phillip Island]"
+    },
+    {
+     "v": "d3",
+     "t": "Great Ocean Road",
+     "en": "GREAT OCEAN ROAD",
+     "act": [
+      "Aireys Inlet Lighthouse - mercu tanda pantai",
+      "Great Ocean Road Memorial Arch",
+      "Apollo Bay - pekan tepi laut",
+      "Twelve Apostles - mercu tanda ikonik Great Ocean Road",
+      "Loch Ard Gorge - pantai antara tebing",
+      "Private transport - asas 12 jam"
+     ],
+     "eact": [
+      "Aireys Inlet Lighthouse - iconic lighthouse & coastal views",
+      "Great Ocean Road Memorial Arch",
+      "Apollo Bay - seaside town, fresh seafood",
+      "Twelve Apostles - iconic Great Ocean Road landmark",
+      "Loch Ard Gorge - stunning beach between cliffs",
+      "Private transport - 12 hours basis"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Great Ocean Road]"
+    },
+    {
+     "v": "d4",
+     "t": "Free & Easy / Add-On Day Tour",
+     "en": "FREE & EASY / ADD-ON DAY TOUR",
+     "act": [
+      "Free & easy di City Centre (Free Tram Zone)",
+      "ATAU pilih Add-On Private Day Tour"
+     ],
+     "eact": [
+      "Free & easy at leisure in City Centre (Free Tram Zone)"
+     ],
+     "acc": "incl",
+     "meal": "b",
+     "trp": "none",
+     "region": ""
+    },
+    {
+     "v": "d5",
+     "t": "Melbourne - KUL (Pulang)",
+     "en": "MELBOURNE - KUL DEPARTURE",
+     "act": [
+      "Check-out hotel",
+      "Private airport transfer ke Melbourne Airport"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Private airport transfer to Melbourne Airport"
+     ],
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Melbourne]"
+    }
+   ],
+   "library": [
+    {
+     "v": "ext",
+     "t": "Hari tambahan - pilih blok day tour di bawah",
+     "en": "ADDITIONAL DAY",
+     "acc": "extra",
+     "meal": "b",
+     "trp": "ext",
+     "region": "",
+     "g": "Umum",
+     "act": [
+      "Pilih satu blok Add-on day tour untuk hari ini"
+     ],
+     "eact": [
+      "Additional day - itinerary to be confirmed"
+     ]
+    },
+    {
+     "v": "fed",
+     "t": "Free & Easy - tolak driving guide dari katalog",
+     "en": "FREE & EASY",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "feded",
+     "region": "",
+     "g": "Umum",
+     "act": [
+      "Free & easy tanpa transport atau guide"
+     ],
+     "eact": [
+      "Free & easy - no transport or guide"
+     ]
+    },
+    {
+     "v": "fes",
+     "t": "Free & Easy + transport standby",
+     "en": "FREE & EASY",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "festby",
+     "region": "",
+     "g": "Umum",
+     "act": [
+      "Free & easy di City Centre (Free Tram Zone)",
+      "Transport standby atas permintaan",
+      "Hari F&E selang sehari: WAJIB caj standby (5, 8, 12 seater sahaja)"
+     ],
+     "eact": [
+      "Free & easy in City Centre (Free Tram Zone)",
+      "Transport on standby"
+     ]
+    },
+    {
+     "v": "arr",
+     "t": "Ketibaan - airport transfer + check-in",
+     "en": "MELBOURNE ARRIVAL",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Melbourne]",
+     "g": "Melbourne - ketibaan & pulang",
+     "act": [
+      "Meet & greet dengan driver-cum-guide ARBA",
+      "Private airport transfer ke hotel",
+      "Check-in hotel 3 bintang City Centre"
+     ],
+     "eact": [
+      "Meet & greet with ARBA driver-cum-guide",
+      "Private airport transfer to hotel",
+      "Check in 3-star hotel in City Centre"
+     ]
+    },
+    {
+     "v": "dep",
+     "t": "Check-out + airport transfer pulang",
+     "en": "MELBOURNE DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Melbourne]",
+     "g": "Melbourne - ketibaan & pulang",
+     "act": [
+      "Check-out hotel",
+      "Private airport transfer ke Melbourne Airport"
+     ],
+     "eact": [
+      "Check out hotel",
+      "Private airport transfer to Melbourne Airport"
+     ]
+    },
+    {
+     "v": "pi",
+     "t": "Phillip Island - Wildlife & Farm Tour (10 jam)",
+     "en": "PHILLIP ISLAND - WILDLIFE & FARM TOUR",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "incl",
+     "region": "[Phillip Island]",
+     "g": "Phillip Island",
+     "act": [
+      "Maru Koala & Animal Park - beri makan kangaroo & wallaby",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
+      "The Nobbies - boardwalk tebing & sunset photo stop",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
+      "San Remo Pelican Feeding Show",
+      "Phillip Island Chocolate Factory (shop stop)",
+      "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
+      "The Nobbies - cliff-top boardwalks & sunset photo stop",
+      "Private transport - 10 hours basis"
+     ]
+    },
+    {
+     "v": "pip",
+     "t": "Phillip Island + Penguin Parade (12 jam)",
+     "en": "PHILLIP ISLAND + PENGUIN PARADE",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "pipeng",
+     "region": "[Phillip Island]",
+     "g": "Phillip Island",
+     "act": [
+      "Maru Koala & Animal Park",
+      "San Remo Pelican Feeding Show",
+      "Churchill Island Heritage Farm",
+      "The Nobbies",
+      "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Penguin Parade WAJIB pakej 12 jam, bukan 10 jam",
+      "Availability susah - re-confirm selepas visa lulus & full deposit",
+      "Private transport - asas 12 jam"
+     ],
+     "eact": [
+      "Maru Koala & Animal Park",
+      "San Remo Pelican Feeding Show",
+      "Churchill Island Heritage Farm",
+      "The Nobbies",
+      "Penguin Parade General Viewing - Little Penguins at sunset",
+      "Private transport - 12 hours basis"
+     ]
+    },
+    {
+     "v": "dand",
+     "t": "Puffing Billy & Dandenong Ranges (10 jam)",
+     "en": "PUFFING BILLY & DANDENONG RANGES",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "ext",
+     "region": "[Dandenong]",
+     "g": "Add-on day tour",
+     "act": [
+      "Puffing Billy Steam Train - Belgrave ke Lakeside (tiket berasingan)",
+      "Tiket Puffing Billy availability sangat susah - re-confirm awal",
+      "Dandenong / Royal Botanic Garden",
+      "Sassafras Village - Devonshire tea & kraf",
+      "Skyhigh Lookout - vehicle entrance termasuk",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Puffing Billy Steam Train - Belgrave to Lakeside (ticket not included)",
+      "Dandenong / Royal Botanic Garden",
+      "Sassafras Village - Devonshire tea & local crafts",
+      "Skyhigh Lookout - vehicle entrance included",
+      "Private transport - 10 hours basis"
+     ]
+    },
+    {
+     "v": "morn",
+     "t": "Mornington Peninsula (10 jam)",
+     "en": "MORNINGTON PENINSULA",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "ext",
+     "region": "[Mornington]",
+     "g": "Add-on day tour",
+     "act": [
+      "Pure Peninsula Honey - ladang madu",
+      "Enchanted Garden Adventure (tiket berasingan)",
+      "Red Hill Lavender Farm - bermusim",
+      "Sorrento Ocean Beach - kolam batu semula jadi",
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Pure Peninsula Honey - local honey farm",
+      "Enchanted Garden Adventure (ticket not included)",
+      "Red Hill Lavender Farm - seasonal",
+      "Sorrento Ocean Beach - natural rock pool",
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - 10 hours basis"
+     ]
+    },
+    {
+     "v": "snow",
+     "t": "Winter Snow Trip (12 jam)",
+     "en": "WINTER SNOW TRIP",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "ext",
+     "region": "[Snow]",
+     "g": "Add-on day tour",
+     "act": [
+      "Mt Buller / Mt Baw Baw - ski, snowboard, tobogganing",
+      "ATAU Lake Mountain - snow play & tobogganing",
+      "Vehicle entrance & tyre snow chains termasuk",
+      "WAJIB tambah add-on Snow Trip resort entrance RM85 per pax",
+      "Private transport - asas 12 jam"
+     ],
+     "eact": [
+      "Mt Buller / Mt Baw Baw - skiing, snowboarding, tobogganing",
+      "OR Lake Mountain - snow play & tobogganing",
+      "Vehicle entrance ticket & tyre snow chains included",
+      "Private transport - 12 hours basis"
+     ]
+    },
+    {
+     "v": "cityf",
+     "t": "Melbourne City Tour full-day (10 jam)",
+     "en": "MELBOURNE CITY TOUR - FULL DAY",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "ext",
+     "region": "[Melbourne City]",
+     "g": "Add-on day tour",
+     "act": [
+      "Queen Victoria Market",
+      "DFO South Wharf",
+      "Flinders Street Station & Federation Square",
+      "Degraves Street & Flinders Lane - laneway kafe",
+      "Princes Bridge",
+      "Hosier Lane - street art",
+      "Brighton Beach Bathing Boxes",
+      "Shrine of Remembrance",
+      "Private transport - asas 10 jam"
+     ],
+     "eact": [
+      "Queen Victoria Market",
+      "DFO South Wharf",
+      "Flinders Street Station & Federation Square",
+      "Degraves Street & Flinders Lane - laneway cafe strip",
+      "Princes Bridge",
+      "Hosier Lane - street art alley",
+      "Brighton Beach Bathing Boxes",
+      "Shrine of Remembrance",
+      "Private transport - 10 hours basis"
+     ]
+    },
+    {
+     "v": "cityh",
+     "t": "Melbourne City Tour half-day (5 jam)",
+     "en": "MELBOURNE CITY TOUR - HALF DAY",
+     "acc": "incl",
+     "meal": "b",
+     "trp": "ext",
+     "region": "[Melbourne City Half]",
+     "g": "Add-on day tour",
+     "act": [
+      "Separuh senarai city tour - customer pilih",
+      "Queen Victoria Market atau DFO South Wharf",
+      "Federation Square & laneway kafe",
+      "Private transport - asas 5 jam"
+     ],
+     "eact": [
+      "Selected Melbourne city highlights",
+      "Queen Victoria Market or DFO South Wharf",
+      "Federation Square & laneway cafes",
+      "Private transport - 5 hours basis"
+     ]
+    }
+   ],
+   "ext": {
+    "night": {
+     "normal": 300,
+     "peak": 450
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 18,
+    "shareVehicle": true,
+    "rates": {
+     "airPick": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 1400
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 1700
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 2150
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "airDrop": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 1300
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 1600
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 2050
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "airPickCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -1100
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -1300
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -1700
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "airDropCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -1000
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -1200
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -1600
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "piPeng12": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2950
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 3350
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3900
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "feStandby": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 650
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 1000
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "feStandbyCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -500
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -700
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "hGrand": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 450,
+        "peak": 600
+       }
+      ]
+     },
+     "hPegasus": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 450,
+        "peak": 600
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": -200
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": -350
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 125
+       }
+      ]
+     },
+     "bfAdd": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 125
+       }
+      ]
+     },
+     "day": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Phillip Island]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2600
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 3000
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3600
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Mornington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2550
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 2950
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3500
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Dandenong]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2450
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 2850
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3400
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Snow]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 3500
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 3900
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 4450
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Melbourne City]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 2300
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 2700
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3250
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Melbourne City Half]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 1450
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": 1750
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 2200
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     },
+     "dayDed": {
+      "[Phillip Island]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -2300
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -2600
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -3100
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ],
+      "[Great Ocean Road]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -2600
+       },
+       {
+        "from": 4,
+        "to": 6,
+        "normal": -3000
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": -3400
+       },
+       {
+        "from": 10,
+        "to": 18,
+        "normal": null
+       }
+      ]
+     }
+    }
+   },
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Melbourne City Centre (Free Tram Zone) - Ibis Melbourne or similar, double or triple sharing",
+    "Daily hotel breakfast",
+    "Return private airport transfers",
+    "Private transportation as per itinerary (12 hours basis per day)",
+    "Malaysian driver-cum-guide based in Melbourne",
+    "Entry ticket to Maru Koala & Animal Park",
+    "Entry ticket to Churchill Island Heritage Farm",
+    "Entry ticket to Penguin Parade - General Viewing",
+    "Tipping fee for driver-cum-guide",
+    "Visa application assistance (online or in-office appointment session)"
+   ],
+   "exclusions": [
+    "Return international flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Australian visa fee (AUD 20, paid directly to Australian Immigration)",
+    "Personal travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport & tour guide - AUD 50 per hour, paid in cash to the driver",
+    "Optional tours, activity tickets and meals not stated above",
+    "Personal expenses and shopping"
+   ]
+  }
+ ]
+}

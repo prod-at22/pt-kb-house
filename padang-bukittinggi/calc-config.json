@@ -1,0 +1,782 @@
+{
+ "dest": "Padang - Bukittinggi",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-11)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (katalog v7)",
+ "singleNote": "RM300/pax sekali, Hotel 3&#9733; sahaja &mdash; katalog tiada single supplement untuk 4&#9733;",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Peak season:</b> 3&#9733; +RM50/pax/malam dikira automatik; untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf Hotel 4&#9733; &ndash; malam peak season</i> pada baris hari itu (RM80 upgrade + RM10 beza peak). <b>Kadar hari / malam tambahan belum diterbitkan</b> &mdash; kalkulator akan tanda cip merah <i>kadar?</i> dan bukan RM 0; sahkan dengan PO sebelum quote hari tambahan.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "peak": {
+  "mode": "perNight",
+  "value": 50,
+  "windows": [
+   [
+    "2025-12-25",
+    "2026-01-05"
+   ],
+   [
+    "2026-03-15",
+    "2026-03-31"
+   ],
+   [
+    "2026-06-25",
+    "2026-07-12"
+   ],
+   [
+    "2026-12-25",
+    "2027-01-05"
+   ]
+  ]
+ },
+ "ext": {
+  "night": {
+   "normal": null,
+   "peak": null
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 12,
+  "shareVehicle": true,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 20,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   },
+   "h4": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 20,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 2,
+      "to": 20,
+      "normal": null,
+      "peak": null
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang (dalam pakej)",
+   "cost": "incl",
+   "hotel": "3-Star Hotel",
+   "incl": "Accommodation at 3-Star Hotel ({days}) - Grand Bunda or Royal Denai in Bukittinggi, 3-Star hotel in Padang"
+  },
+  {
+   "v": "up4",
+   "t": "Naik taraf Hotel 4 bintang",
+   "cost": "incl",
+   "perPax": 80,
+   "hotel": "4-Star Hotel",
+   "line": "4-Star hotel upgrade",
+   "incl": "Accommodation at 4-Star Hotel ({days}) - Grand Rocky, Santika or Grand Royal Denai, upgraded from 3-Star"
+  },
+  {
+   "v": "up4pk",
+   "t": "Naik taraf Hotel 4 bintang &ndash; malam peak season",
+   "cost": "incl",
+   "perPax": 90,
+   "hotel": "4-Star Hotel",
+   "line": "4-Star hotel upgrade (peak season night)",
+   "incl": "Accommodation at 4-Star Hotel ({days}) - Grand Rocky, Santika or Grand Royal Denai, upgraded from 3-Star"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; hotel 3 bintang",
+   "cost": "night",
+   "hotel": "3-Star Hotel",
+   "line": "Additional night, 3-Star hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "n4",
+   "t": "Malam tambahan &middot; hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "h4",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night, 4-Star hotel",
+   "incl": "Additional night at 4-Star Hotel ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel &ndash; tolak malam dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan termasuk",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast, Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private transportation with Indonesian driving guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Airport Transfer + Driving Guide",
+   "incl": "Private airport transfer with driving guide ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation with driving guide ({days}) - 12 hours basis"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "ext",
+   "t": "Hari tambahan - pilih blok tour di bawah",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "ext",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "fe",
+   "t": "Free & easy - tiada tour",
+   "en": "FREE AND EASY",
+   "acc": "extra",
+   "meal": "b",
+   "trp": "none",
+   "act": [
+    "Hari bebas - tiada aktiviti dijadualkan"
+   ],
+   "eact": [
+    "Free and easy day at own leisure"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "arr",
+   "t": "Ketibaan - airport transfer sahaja",
+   "en": "PADANG ARRIVAL",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "air",
+   "act": [
+    "Sambutan di Lapangan Terbang Minangkabau (PDG)",
+    "Check-in hotel"
+   ],
+   "eact": [
+    "Meet and greet at Minangkabau International Airport (PDG)",
+    "Hotel check in"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "dep",
+   "t": "Berlepas - airport transfer sahaja",
+   "en": "DEPARTURE",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Check-out hotel",
+    "Transfer ke Lapangan Terbang Minangkabau (PDG)"
+   ],
+   "eact": [
+    "Hotel check out",
+    "Transfer to Minangkabau International Airport (PDG)"
+   ],
+   "g": "Umum"
+  },
+  {
+   "v": "b2a",
+   "t": "Bukittinggi Option A - Kelok 9, Lembah Harau & Pagaruyung",
+   "en": "BUKITTINGGI OPTION A - KELOK 9, HARAU VALLEY & PAGARUYUNG",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Kelok 9 - jambatan sembilan selekoh tajam",
+    "Lembah Harau - lembah tebing granit",
+    "Tabek Patah",
+    "Kota Payakumbuh",
+    "Istana Pagaruyung - istana diraja Minangkabau",
+    "Danau Singkarak"
+   ],
+   "eact": [
+    "Kelok 9 - the famous nine-turn elevated bridge",
+    "Harau Valley",
+    "Tabek Patah",
+    "Payakumbuh town",
+    "Pagaruyung Royal Palace",
+    "Lake Singkarak"
+   ],
+   "g": "Blok hari pakej"
+  },
+  {
+   "v": "b2b",
+   "t": "Bukittinggi Option B - Pagaruyung, Singkarak & shopping",
+   "en": "BUKITTINGGI OPTION B - PAGARUYUNG, SINGKARAK & SHOPPING",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Istana Pagaruyung - istana diraja Minangkabau",
+    "Danau Singkarak",
+    "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)"
+   ],
+   "eact": [
+    "Pagaruyung Royal Palace",
+    "Lake Singkarak",
+    "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)"
+   ],
+   "g": "Blok hari pakej"
+  },
+  {
+   "v": "b3a",
+   "t": "Bukittinggi - Padang Option A - Puncak Lawang & Koto Gadang",
+   "en": "BUKITTINGGI - PADANG OPTION A - PUNCAK LAWANG & KOTO GADANG",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Panorama Baru Bukittinggi",
+    "Puncak Lawang - pemandangan Danau Maninjau",
+    "Perkampungan Koto Gadang",
+    "Check-in hotel di Padang"
+   ],
+   "eact": [
+    "Panorama Baru Bukittinggi",
+    "Puncak Lawang - Lake Maninjau viewpoint",
+    "Koto Gadang traditional village",
+    "Hotel check in at Padang"
+   ],
+   "g": "Blok hari pakej"
+  },
+  {
+   "v": "b3b",
+   "t": "Bukittinggi - Padang Option B - shopping, Puncak Lawang & Koto Gadang",
+   "en": "BUKITTINGGI - PADANG OPTION B - SHOPPING, PUNCAK LAWANG & KOTO GADANG",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)",
+    "Panorama Baru Bukittinggi",
+    "Puncak Lawang - pemandangan Danau Maninjau",
+    "Perkampungan Koto Gadang",
+    "Check-in hotel di Padang"
+   ],
+   "eact": [
+    "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)",
+    "Panorama Baru Bukittinggi",
+    "Puncak Lawang - Lake Maninjau viewpoint",
+    "Koto Gadang traditional village",
+    "Hotel check in at Padang"
+   ],
+   "g": "Blok hari pakej"
+  },
+  {
+   "v": "pdgcity",
+   "t": "Padang city tour - Masjid Raya & Pantai Air Manis",
+   "en": "PADANG CITY TOUR",
+   "acc": "incl",
+   "meal": "bld",
+   "trp": "incl",
+   "act": [
+    "Masjid Raya Sumatera Barat",
+    "Pantai Air Manis - legenda Malin Kundang",
+    "Jembatan Siti Nurbaya"
+   ],
+   "eact": [
+    "West Sumatra Grand Mosque",
+    "Air Manis Beach - the Malin Kundang legend",
+    "Siti Nurbaya Bridge"
+   ],
+   "g": "Blok hari pakej"
+  }
+ ],
+ "addons": [
+  [
+   "Shopping Tour Bukittinggi (Sanjai / Pasar Atas)",
+   100,
+   100,
+   "pax"
+  ],
+  [
+   "Baju Adat Minangkabau photo session (Istana Pagaruyung)",
+   50,
+   50,
+   "pax"
+  ],
+  [
+   "Dreampark Lembah Harau - tiket masuk",
+   30,
+   30,
+   "pax"
+  ],
+  [
+   "Airport transfer tambahan (sehala)",
+   100,
+   0,
+   "unit"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 5,
+   "text": "2&ndash;5 pax: kenderaan Avanza &middot; ruang bagasi terhad"
+  },
+  {
+   "from": 6,
+   "to": 7,
+   "text": "6&ndash;7 pax: kenderaan Innova &middot; ruang bagasi terhad"
+  },
+  {
+   "from": 8,
+   "to": 12,
+   "text": "8&ndash;12 pax: kenderaan Hiace"
+  },
+  {
+   "from": 13,
+   "to": 19,
+   "text": "13&ndash;19 pax: katalog senarai kenderaan sehingga Hiace 12 pax sahaja. Perlu van lebih besar atau dua unit &mdash; sahkan kadar dengan operator."
+  },
+  {
+   "from": 20,
+   "to": 99999,
+   "text": "20 pax: tier harga katalog berhenti di 20 pax dan operator quote maksimum 19 pax. Minta quotation baharu sebelum confirm."
+  }
+ ],
+ "validity": "Prices follow the PT Padang - Bukittinggi 4D3N 2026 catalogue v7 (last updated 9 August 2026) and are valid for travel until 31 January 2027. This quotation is valid for 24 hours after submission. A deposit of RM250 per pax is due on confirmation and full payment 45 days before departure. Prices are based on 2 to 3 persons sharing a room; the 3-Star hotel offers double-sharing rooms as standard and a triple request is served with an extra bed. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Private driver and guide are on a 12-hour basis; 150,000 IDR per extra hour is payable in cash to the driver. Itinerary, price and flight schedule are subject to change.",
+ "variants": [
+  {
+   "id": "optA",
+   "name": "PT Padang&ndash;Bukittinggi 4D3N &middot; Option A",
+   "pkgLabel": "Padang - Bukittinggi Option A - Kelok 9, Harau Valley, Tabek Patah, Pagaruyung Palace & Lake Singkarak",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 300,
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1297,
+     "c": 1197,
+     "n": 1097
+    },
+    {
+     "from": 3,
+     "to": 6,
+     "a": 1157,
+     "c": 1057,
+     "n": 957
+    },
+    {
+     "from": 7,
+     "to": 10,
+     "a": 1097,
+     "c": 997,
+     "n": 897
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "a": 1057,
+     "c": 957,
+     "n": 857
+    },
+    {
+     "from": 16,
+     "to": 20,
+     "a": 1037,
+     "c": 937,
+     "n": 837
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL - Padang (PDG) - Bukittinggi",
+     "en": "ARRIVAL PADANG - TRANSFER TO BUKITTINGGI",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Ketibaan disyorkan 09:00 - 10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
+      "Sambutan dan land transfer ke Bukittinggi",
+      "Air Terjun Lembah Anai (photostop)",
+      "Minangkabau Documentation & Information Centre (PDIKM)",
+      "Pandai Sikek - kampung tenunan songket & kraf tempatan",
+      "Check-in hotel di Bukittinggi"
+     ],
+     "eact": [
+      "Arrival at Minangkabau International Airport (PDG), recommended 9.00 - 10.00AM",
+      "Meet and greet, land transfer to Bukittinggi",
+      "Anai Valley Waterfall (photostop)",
+      "Minangkabau Documentation & Information Centre",
+      "Pandai Sikek - songket weaving and local craft village",
+      "Hotel check in at Bukittinggi"
+     ]
+    },
+    {
+     "v": "d2a",
+     "t": "Bukittinggi Option A - Kelok 9, Lembah Harau & Pagaruyung",
+     "en": "BUKITTINGGI OPTION A - KELOK 9, HARAU VALLEY & PAGARUYUNG",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Kelok 9 - jambatan sembilan selekoh tajam",
+      "Lembah Harau - lembah tebing granit",
+      "Tabek Patah",
+      "Kota Payakumbuh",
+      "Istana Pagaruyung - istana diraja Minangkabau",
+      "Danau Singkarak"
+     ],
+     "eact": [
+      "Kelok 9 - the famous nine-turn elevated bridge",
+      "Harau Valley",
+      "Tabek Patah",
+      "Payakumbuh town",
+      "Pagaruyung Royal Palace",
+      "Lake Singkarak"
+     ]
+    },
+    {
+     "v": "d3a",
+     "t": "Bukittinggi - Padang Option A - Puncak Lawang & Koto Gadang",
+     "en": "BUKITTINGGI - PADANG OPTION A - PUNCAK LAWANG & KOTO GADANG",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Panorama Baru Bukittinggi",
+      "Puncak Lawang - pemandangan Danau Maninjau",
+      "Perkampungan Koto Gadang",
+      "Check-in hotel di Padang"
+     ],
+     "eact": [
+      "Panorama Baru Bukittinggi",
+      "Puncak Lawang - Lake Maninjau viewpoint",
+      "Koto Gadang traditional village",
+      "Hotel check in at Padang"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Padang (PDG) - KUL",
+     "en": "PADANG CITY TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
+      "Pantai Air Manis - legenda Malin Kundang",
+      "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
+     ],
+     "eact": [
+      "West Sumatra Grand Mosque",
+      "Air Manis Beach - the Malin Kundang legend",
+      "Transfer to Minangkabau International Airport for departure flight"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "Daily breakfast at hotel",
+    "Return private airport transfer at Minangkabau International Airport (PDG)",
+    "Entrance fees as stated in the itinerary",
+    "All meals served at local Indonesian restaurants",
+    "Tipping fee and parking fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets KUL - PDG",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  },
+  {
+   "id": "optB",
+   "name": "PT Padang&ndash;Bukittinggi 4D3N &middot; Option B",
+   "pkgLabel": "Padang - Bukittinggi Option B - Pagaruyung Palace, Lake Singkarak, Bukittinggi shopping & Puncak Lawang",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "single": 300,
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1297,
+     "c": 1197,
+     "n": 1097
+    },
+    {
+     "from": 3,
+     "to": 6,
+     "a": 1157,
+     "c": 1057,
+     "n": 957
+    },
+    {
+     "from": 7,
+     "to": 10,
+     "a": 1097,
+     "c": 997,
+     "n": 897
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "a": 1057,
+     "c": 957,
+     "n": 857
+    },
+    {
+     "from": 16,
+     "to": 20,
+     "a": 1037,
+     "c": 937,
+     "n": 837
+    }
+   ],
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL - Padang (PDG) - Bukittinggi",
+     "en": "ARRIVAL PADANG - TRANSFER TO BUKITTINGGI",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Ketibaan disyorkan 09:00 - 10:00 pagi di Lapangan Terbang Minangkabau (PDG)",
+      "Sambutan dan land transfer ke Bukittinggi",
+      "Air Terjun Lembah Anai (photostop)",
+      "Minangkabau Documentation & Information Centre (PDIKM)",
+      "Pandai Sikek - kampung tenunan songket & kraf tempatan",
+      "Check-in hotel di Bukittinggi"
+     ],
+     "eact": [
+      "Arrival at Minangkabau International Airport (PDG), recommended 9.00 - 10.00AM",
+      "Meet and greet, land transfer to Bukittinggi",
+      "Anai Valley Waterfall (photostop)",
+      "Minangkabau Documentation & Information Centre",
+      "Pandai Sikek - songket weaving and local craft village",
+      "Hotel check in at Bukittinggi"
+     ]
+    },
+    {
+     "v": "d2b",
+     "t": "Bukittinggi Option B - Pagaruyung, Singkarak & shopping",
+     "en": "BUKITTINGGI OPTION B - PAGARUYUNG, SINGKARAK & SHOPPING",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Istana Pagaruyung - istana diraja Minangkabau",
+      "Danau Singkarak",
+      "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)"
+     ],
+     "eact": [
+      "Pagaruyung Royal Palace",
+      "Lake Singkarak",
+      "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)"
+     ]
+    },
+    {
+     "v": "d3b",
+     "t": "Bukittinggi - Padang Option B - shopping, Puncak Lawang & Koto Gadang",
+     "en": "BUKITTINGGI - PADANG OPTION B - SHOPPING, PUNCAK LAWANG & KOTO GADANG",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Shopping di Bukittinggi (Pasar Atas / Jam Gadang)",
+      "Panorama Baru Bukittinggi",
+      "Puncak Lawang - pemandangan Danau Maninjau",
+      "Perkampungan Koto Gadang",
+      "Check-in hotel di Padang"
+     ],
+     "eact": [
+      "Shopping in Bukittinggi (Pasar Atas / Jam Gadang)",
+      "Panorama Baru Bukittinggi",
+      "Puncak Lawang - Lake Maninjau viewpoint",
+      "Koto Gadang traditional village",
+      "Hotel check in at Padang"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Padang (PDG) - KUL",
+     "en": "PADANG CITY TOUR - DEPARTURE",
+     "acc": "none",
+     "meal": "b",
+     "trp": "incl",
+     "act": [
+      "Masjid Raya Sumatera Barat (West Sumatra Grand Mosque)",
+      "Pantai Air Manis - legenda Malin Kundang",
+      "Transfer ke Lapangan Terbang Minangkabau untuk penerbangan pulang"
+     ],
+     "eact": [
+      "West Sumatra Grand Mosque",
+      "Air Manis Beach - the Malin Kundang legend",
+      "Transfer to Minangkabau International Airport for departure flight"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{auto}",
+    "Daily breakfast at hotel",
+    "Return private airport transfer at Minangkabau International Airport (PDG)",
+    "Entrance fees as stated in the itinerary",
+    "All meals served at local Indonesian restaurants",
+    "Tipping fee and parking fee"
+   ],
+   "exclusions": [
+    "Return international flight tickets KUL - PDG",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses and shopping",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour transport and tour guide - 150,000 IDR per hour, paid in cash to the driver"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1335 @@
+{
+ "dest": "JOGJAKARTA",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;5)"
+ },
+ "infantNote": "Bawah 2 tahun FOC",
+ "singleNote": "+RM 550 setiap satu",
+ "intro": "Isi pax dan tarikh &mdash; peak season dan late booking RM 50 dikira sendiri. Pakej asal <b>3 Bintang</b>; untuk 4 Bintang tukar pilihan Accommodation pada setiap malam. Transport ikut kelas kenderaan: 2&ndash;4 pax Avanza/APV, 5&ndash;6 pax Innova, 7&ndash;12 pax Hiace; kadar per kenderaan per hari ikut tempoh tour yang dipilih pada baris hari. Upgrade 4 Bintang bergantung pada hari dalam minggu dan musim &mdash; pilih <i>Ahad&ndash;Khamis</i> (RM 100) atau <i>Jumaat&ndash;Sabtu</i> (RM 120) ikut tarikh yang dipapar pada baris hari, dan versi <i>PEAK</i> (RM 160 / RM 180) untuk malam yang jatuh dalam tetingkap peak season.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "hideGeneric": [
+  "ext",
+  "cus",
+  "fe"
+ ],
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "x3",
+  "trp": "ext",
+  "trpDrop": "feded"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 30,
+  "drop": 20
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3&#9733; (malam dalam pakej)",
+   "cost": "incl",
+   "hotel": "3-Star Hotel",
+   "incl": "{nights} nights accommodation at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "up4wd",
+   "t": "Upgrade 4&#9733; &mdash; malam Ahad&ndash;Khamis (biasa)",
+   "cost": "incl",
+   "perPaxRate": "up4wd",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+   "line": "4-Star hotel upgrade (Sun-Thu)"
+  },
+  {
+   "v": "up4we",
+   "t": "Upgrade 4&#9733; &mdash; malam Jumaat&ndash;Sabtu (biasa)",
+   "cost": "incl",
+   "perPaxRate": "up4we",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+   "line": "4-Star hotel upgrade (Fri-Sat)"
+  },
+  {
+   "v": "up4wdp",
+   "t": "Upgrade 4&#9733; &mdash; malam Ahad&ndash;Khamis PEAK",
+   "cost": "incl",
+   "perPaxRate": "up4wdp",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+   "line": "4-Star hotel upgrade, peak season (Sun-Thu)"
+  },
+  {
+   "v": "up4wep",
+   "t": "Upgrade 4&#9733; &mdash; malam Jumaat&ndash;Sabtu PEAK",
+   "cost": "incl",
+   "perPaxRate": "up4wep",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - The 101 Yogyakarta Tugu or similar ({days})",
+   "line": "4-Star hotel upgrade, peak season (Fri-Sat)"
+  },
+  {
+   "v": "x3",
+   "t": "Malam tambahan 3&#9733; (Luxury Malioboro / Emersia)",
+   "cost": "night",
+   "nightRate": "n3",
+   "hotel": "3-Star Hotel",
+   "incl": "Additional night at 3-Star Hotel - Luxury Malioboro or Emersia Hotel ({days})"
+  },
+  {
+   "v": "x4",
+   "t": "Malam tambahan 4&#9733; (The 101 Tugu / Grand Zuri Malioboro)",
+   "cost": "night",
+   "nightRate": "n4",
+   "hotel": "4-Star Hotel",
+   "incl": "Additional night at 4-Star Hotel - The 101 Yogyakarta Tugu or Grand Zuri Malioboro ({days})"
+  },
+  {
+   "v": "xdi",
+   "t": "Malam tambahan Dieng 3&#9733; (Villa Pintu Langit)",
+   "cost": "night",
+   "nightRate": "nDieng",
+   "hotel": "3-Star Hotel (Dieng)",
+   "incl": "Additional night at Villa Pintu Langit, Dieng ({days})"
+  },
+  {
+   "v": "xgl",
+   "t": "Malam tambahan glamping (Trianggulasi / Linggar Jati)",
+   "cost": "night",
+   "nightRate": "nGlamp",
+   "hotel": "Glamping (Nepal van Java)",
+   "incl": "Additional night at glamping - Trianggulasi or Linggar Jati ({days})"
+  },
+  {
+   "v": "xke",
+   "t": "Malam tambahan Kebumen 3&#9733; (Hotel Kebumen Maxolie)",
+   "cost": "night",
+   "nightRate": "nKebumen",
+   "hotel": "3-Star Hotel (Kebumen)",
+   "incl": "Additional night at Hotel Kebumen Maxolie ({days})"
+  },
+  {
+   "v": "no3",
+   "t": "Tanpa hotel &ndash; tolak malam 3&#9733; dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed (3-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "none",
+   "t": "Tiada makan (hari ketibaan)",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast (dalam pakej)",
+   "b": 1,
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast"
+  },
+  {
+   "v": "bl",
+   "t": "Breakfast (pakej) &amp; Lunch",
+   "b": 1,
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch"
+  },
+  {
+   "v": "bd",
+   "t": "Breakfast (pakej) &amp; Dinner",
+   "b": 1,
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner"
+  },
+  {
+   "v": "bld",
+   "t": "Breakfast (pakej), Lunch &amp; Dinner",
+   "b": 1,
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Lunch sahaja",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner sahaja",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private Transportation & Driving Guide ({days}) - unlimited until midnight"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Private Airport Transfer",
+   "incl": "Private Airport Transfer at Yogyakarta International Airport ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation & driving guide ({days})"
+  },
+  {
+   "v": "vvip",
+   "t": "Hiace VVIP 8-seater &ndash; Full Day Tour (hari tambahan)",
+   "cost": "zero",
+   "guided": true,
+   "perVehicleRate": "vvip",
+   "lbl": "Private Transport + Driving Guide (Hiace VVIP)",
+   "incl": "Additional day private transportation & driving guide - Hiace VVIP ({days})",
+   "line": "Hiace VVIP full day tour"
+  },
+  {
+   "v": "vded",
+   "t": "Tolak hari Hiace VVIP dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "vvipDed",
+   "lbl": "-",
+   "line": "Hiace VVIP day deducted"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy dalam pakej)",
+   "cost": "zero",
+   "lbl": "-"
+  },
+  {
+   "v": "feded",
+   "t": "Free &amp; easy &ndash; tolak transport dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayDed",
+   "lbl": "-",
+   "line": "Free and easy (transport deducted)"
+  }
+ ],
+ "addons": [
+  [
+   "Borobudur Temple - Ground Area",
+   150,
+   90,
+   "pax"
+  ],
+  [
+   "Borobudur Temple - Temple / Hill Area (guided)",
+   185,
+   111,
+   "pax"
+  ],
+  [
+   "Goa Pindul & Cave Tubing",
+   100,
+   60,
+   "pax"
+  ],
+  [
+   "Gamplong Studio Alam",
+   25,
+   15,
+   "pax"
+  ],
+  [
+   "Obelix Sea View",
+   20,
+   12,
+   "pax"
+  ],
+  [
+   "Pine Forest - Hutan Pinus Mangunan",
+   25,
+   15,
+   "pax"
+  ],
+  [
+   "Gondola Timang Beach",
+   80,
+   48,
+   "pax"
+  ],
+  [
+   "Jambatan (suspension bridge) Timang Beach",
+   50,
+   30,
+   "pax"
+  ],
+  [
+   "Jeep Timang Beach - per jeep (4 pax/jeep)",
+   160,
+   0,
+   "unit"
+  ],
+  [
+   "Merapi + Hobbit Jeep - per jeep (4 pax/jeep)",
+   250,
+   0,
+   "unit"
+  ],
+  [
+   "Jeep Gumuk Pasir - per jeep (4 pax/jeep)",
+   157,
+   0,
+   "unit"
+  ],
+  [
+   "ATV Gumuk Pasir - per ATV (2 pax/ATV)",
+   100,
+   0,
+   "unit"
+  ],
+  [
+   "Horse Carriage Ride Malioboro - per carriage (max 6 pax)",
+   70,
+   0,
+   "unit"
+  ],
+  [
+   "Honeymoon Decoration - cake, flower and card",
+   250,
+   0,
+   "unit"
+  ],
+  [
+   "Candle Light Dinner for 2 persons",
+   200,
+   0,
+   "unit"
+  ],
+  [
+   "Buang Obelix Sea View dari pakej",
+   -10,
+   -10,
+   "pax"
+  ],
+  [
+   "Buang Pine Forest dari pakej",
+   -10,
+   -10,
+   "pax"
+  ],
+  [
+   "Buang Gondola Timang dari pakej",
+   -50,
+   -50,
+   "pax"
+  ],
+  [
+   "Buang Jambatan Timang dari pakej",
+   -30,
+   -30,
+   "pax"
+  ],
+  [
+   "Buang Jeep Timang Beach - per jeep",
+   -100,
+   0,
+   "unit"
+  ],
+  [
+   "Buang Merapi + Hobbit Jeep - per jeep",
+   -150,
+   0,
+   "unit"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 1,
+   "to": 4,
+   "text": "2&ndash;4 pax: <b>Avanza / APV</b> &mdash; kadar transport band Avanza rate card."
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "text": "5&ndash;6 pax: <b>Innova</b> &mdash; kadar transport band Innova rate card."
+  },
+  {
+   "from": 7,
+   "to": 8,
+   "text": "7&ndash;8 pax: <b>Hiace</b>. Pilihan <i>Hiace VVIP 8-seater</i> tersedia untuk Full Day Tour (RM 950 per hari)."
+  },
+  {
+   "from": 9,
+   "to": 12,
+   "text": "9&ndash;12 pax: <b>Hiace</b> &mdash; kadar transport band Hiace rate card."
+  },
+  {
+   "from": 13,
+   "to": 99999,
+   "text": "13 pax ke atas: katalog ada tier harga (11&ndash;15 pax) tetapi <b>rate card tiada kadar transport</b> melebihi Hiace 7&ndash;12 pax. Kalkulator akan tanda <i>kadar?</i> &mdash; minta sebut harga operasi (KB tab Transport sebut 14 pax ke atas guna Bus, tetapi kadar Bus belum tersiar)."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. A deposit of RM 250 per person is required upon confirmation, with full payment due 45 days prior to departure. A late booking surcharge of RM 50 per booking applies to bookings made less than 45 days before the departure date. Prices are quoted for 2 to 3 persons per room; at the 3-Star Hotel a triple room uses an extra bed, while a proper triple bed is available only at the 4-Star Hotel. Single supplement is RM 550 per person. Private transportation is unlimited until midnight. Peak season surcharge applies as stated and is not included in the base price. Suggested arrival and departure times are at noon; late arrivals or early departures will not be refunded for activities and meals missed. Itinerary, price and flight schedule are subject to change. Final itinerary and hotel arrangements will be confirmed 14 days before the trip. This package is valid for travel until 31 March 2027. Ground arrangement and tipping only - flight tickets are not included.",
+ "variants": [
+  {
+   "id": "s3",
+   "name": "PT Jogjakarta 4D3N",
+   "pkgLabel": "Private Tour Jogjakarta",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "tiers": [
+    {
+     "from": 2,
+     "to": 2,
+     "a": 1457,
+     "c": 1257,
+     "n": 1057
+    },
+    {
+     "from": 3,
+     "to": 4,
+     "a": 1357,
+     "c": 1157,
+     "n": 957
+    },
+    {
+     "from": 5,
+     "to": 7,
+     "a": 1297,
+     "c": 1097,
+     "n": 897
+    },
+    {
+     "from": 8,
+     "to": 10,
+     "a": 1257,
+     "c": 1057,
+     "n": 857
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "a": 1197,
+     "c": 997,
+     "n": 797
+    }
+   ],
+   "infant": 0,
+   "single": 550,
+   "labelCwb": "Child With Bed (6-11 years)",
+   "labelCnb": "Child No Bed (2-5 years)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "KUL &ndash; Jogjakarta (Ketibaan)",
+     "en": "KUALA LUMPUR - JOGJAKARTA",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Airport + Half Day]",
+     "act": [
+      "Ketibaan &amp; pickup di Yogyakarta International Airport (YIA)",
+      "Gumuk Pasir &mdash; sand dunes (Jeep / ATV add-on)",
+      "Obelix Sea View (kawasan Parangtritis)",
+      "Malioboro Street (jalan shopping 24 jam)",
+      "Check-in hotel"
+     ],
+     "eact": [
+      "Arrival and pick up at Yogyakarta International Airport (YIA)",
+      "Gumuk Pasir sand dunes",
+      "Obelix Sea View at Parangtritis Beach area",
+      "Malioboro Street - the 24 hours shopping street",
+      "Hotel check in"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Hutan Pinus &middot; Timang Beach &middot; Heha Sky View",
+     "en": "PINE FOREST - TIMANG BEACH - HEHA SKYVIEW",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Bukit Panguk 4:45 AM &mdash; sunrise &amp; awan karpet",
+      "Hutan Pinus Mangunan (hutan pinus terbesar)",
+      "Timang Beach &mdash; Jeep INCLUDED (Gondola add-on)",
+      "Heha Sky View (scenic photo spot)",
+      "Batik Outlet",
+      "Kembali ke hotel"
+     ],
+     "eact": [
+      "Bukit Panguk at 4.45 AM for sunrise",
+      "Hutan Pinus Mangunan - the largest pine tree forest",
+      "Timang Beach - Jeep ride included",
+      "Heha Sky View - scenic photo spot",
+      "Batik Outlet",
+      "Back to hotel"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Kraton &middot; Taman Sari &middot; Plaosan &middot; Malioboro",
+     "en": "SULTAN PALACE - PLAOSAN TEMPLE - MALIOBORO",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "region": "[Full Day]",
+     "act": [
+      "Shopping ole-ole khas Jogja",
+      "Kraton Jogja (Istana Sultan Yogyakarta)",
+      "Taman Sari Water Castle (taman diraja abad ke-18)",
+      "Plaosan Temple (candi tenang, tanpa entrance)",
+      "Borobudur Temple &mdash; UNESCO (entrance add-on)",
+      "Shopping @ Malioboro Street &rarr; kembali ke hotel"
+     ],
+     "eact": [
+      "Shopping for Jogjakarta local delicacies",
+      "Kraton Jogja - the Royal Palace of Yogyakarta Sultanate",
+      "Taman Sari Water Castle - the Royal Garden",
+      "Plaosan Temple",
+      "UNESCO Borobudur Temple",
+      "Shopping at Malioboro Street and back to hotel"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Mt. Merapi Lava Tour &middot; Airport (Berlepas)",
+     "en": "MT. MERAPI - AIRPORT",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "region": "[Airport + Half Day]",
+     "act": [
+      "Mount Merapi Jeep Lava Tour &mdash; Bunker Kaliadem, Sisa Hartaku Mini Museum, Hobbit House, Kali Boyong River",
+      "Kembali ke hotel &middot; check-out",
+      "Transfer ke Yogyakarta International Airport (YIA)"
+     ],
+     "eact": [
+      "Mount Merapi Lava Jeep Tour - Bunker Kaliadem, Sisa Hartaku Mini Museum, Hobbit House and Kali Boyong River",
+      "Back to hotel and check out",
+      "Transfer to Yogyakarta International Airport (YIA)"
+     ]
+    }
+   ],
+   "library": [
+    {
+     "v": "ext",
+     "t": "Hari tambahan &ndash; pilih blok day tour di bawah",
+     "en": "ADDITIONAL DAY",
+     "g": "Umum",
+     "region": "[Full Day]",
+     "acc": "x3",
+     "meal": "bld",
+     "trp": "ext",
+     "act": [
+      "Pilih satu blok day tour untuk hari ini supaya kadar transport ikut tempoh tour"
+     ],
+     "eact": [
+      "Additional day - itinerary to be confirmed"
+     ]
+    },
+    {
+     "v": "fed",
+     "t": "Free &amp; Easy &ndash; tolak transport dari katalog",
+     "en": "FREE & EASY",
+     "g": "Umum",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "feded",
+     "act": [
+      "Free &amp; easy tanpa transport atau driving guide"
+     ],
+     "eact": [
+      "Free and easy - no transport or driving guide"
+     ]
+    },
+    {
+     "v": "fBor",
+     "t": "Borobudur &amp; Magelang (full day)",
+     "en": "BOROBUDUR & MAGELANG",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Borobudur Temple &mdash; UNESCO (entrance add-on: Ground RM 150 / Temple RM 185)",
+      "Gereja Ayam Bukit Rhema",
+      "Punthuk Setumbu sunrise point"
+     ],
+     "eact": [
+      "UNESCO Borobudur Temple",
+      "Gereja Ayam Bukit Rhema",
+      "Punthuk Setumbu sunrise point"
+     ]
+    },
+    {
+     "v": "fPra",
+     "t": "Prambanan &amp; Plaosan (full day)",
+     "en": "PRAMBANAN & PLAOSAN",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Prambanan Temple &mdash; UNESCO",
+      "Plaosan Temple",
+      "Ratu Boko sunset"
+     ],
+     "eact": [
+      "UNESCO Prambanan Temple",
+      "Plaosan Temple",
+      "Ratu Boko sunset point"
+     ]
+    },
+    {
+     "v": "fKra",
+     "t": "Kraton, Taman Sari &amp; Malioboro (full day)",
+     "en": "SULTAN PALACE - TAMAN SARI - MALIOBORO",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Kraton Jogja (Istana Sultan Yogyakarta)",
+      "Taman Sari Water Castle",
+      "Horse Carriage Ride Malioboro (add-on)",
+      "Shopping @ Malioboro Street"
+     ],
+     "eact": [
+      "Kraton Jogja - the Royal Palace of Yogyakarta Sultanate",
+      "Taman Sari Water Castle",
+      "Shopping at Malioboro Street"
+     ]
+    },
+    {
+     "v": "fTim",
+     "t": "Timang Beach &amp; Gunung Kidul (full day)",
+     "en": "TIMANG BEACH & GUNUNG KIDUL",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Timang Beach &mdash; Jeep (RM 160/jeep, 4 pax/jeep)",
+      "Gondola Timang (add-on RM 80/pax) atau Jambatan Timang (RM 50/pax)",
+      "Heha Ocean View"
+     ],
+     "eact": [
+      "Timang Beach with jeep ride",
+      "Timang Beach gondola or suspension bridge",
+      "Heha Ocean View"
+     ]
+    },
+    {
+     "v": "fMer",
+     "t": "Mt. Merapi Lava Jeep Tour (full day)",
+     "en": "MT. MERAPI LAVA JEEP TOUR",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Merapi + Hobbit Jeep Lava Tour (RM 250/jeep, 4 pax/jeep)",
+      "Bunker Kaliadem",
+      "Sisa Hartaku Mini Museum",
+      "Kali Boyong River"
+     ],
+     "eact": [
+      "Mount Merapi Lava Jeep Tour",
+      "Bunker Kaliadem",
+      "Sisa Hartaku Mini Museum",
+      "Kali Boyong River"
+     ]
+    },
+    {
+     "v": "fPan",
+     "t": "Bukit Panguk sunrise &amp; Hutan Pinus (full day)",
+     "en": "BUKIT PANGUK SUNRISE & PINE FOREST",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Bukit Panguk 4:45 AM &mdash; sunrise &amp; awan karpet",
+      "Hutan Pinus Mangunan (add-on RM 25/pax)",
+      "Heha Sky View",
+      "Batik Outlet"
+     ],
+     "eact": [
+      "Bukit Panguk at 4.45 AM for sunrise",
+      "Hutan Pinus Mangunan pine forest",
+      "Heha Sky View",
+      "Batik Outlet"
+     ]
+    },
+    {
+     "v": "fGum",
+     "t": "Gumuk Pasir &amp; Parangtritis (full day)",
+     "en": "GUMUK PASIR & PARANGTRITIS",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Gumuk Pasir sand dunes &mdash; Jeep RM 157/jeep atau ATV RM 100/ATV (add-on)",
+      "Obelix Sea View (add-on RM 20/pax)",
+      "Parangtritis Beach"
+     ],
+     "eact": [
+      "Gumuk Pasir sand dunes",
+      "Obelix Sea View",
+      "Parangtritis Beach"
+     ]
+    },
+    {
+     "v": "fPin",
+     "t": "Goa Pindul &amp; Cave Tubing (full day)",
+     "en": "GOA PINDUL CAVE TUBING",
+     "g": "Full day tour (12 jam)",
+     "region": "[Full Day]",
+     "acc": "incl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Goa Pindul &amp; Jomblang cave tubing (add-on RM 100/pax)",
+      "Gamplong Studio Alam (add-on RM 25/pax)"
+     ],
+     "eact": [
+      "Goa Pindul and Jomblang cave tubing",
+      "Gamplong Studio Alam"
+     ]
+    },
+    {
+     "v": "hMal",
+     "t": "Malioboro &amp; city half day",
+     "en": "MALIOBORO CITY HALF DAY",
+     "g": "Half day tour (5-6 jam)",
+     "region": "[Half Day]",
+     "acc": "incl",
+     "meal": "bd",
+     "trp": "incl",
+     "act": [
+      "Shopping @ Malioboro Street",
+      "Pasar Beringharjo",
+      "Titik Nol Kilometer"
+     ],
+     "eact": [
+      "Shopping at Malioboro Street",
+      "Beringharjo Market",
+      "Titik Nol Kilometer"
+     ]
+    },
+    {
+     "v": "hBat",
+     "t": "Batik &amp; kraftangan half day",
+     "en": "BATIK & HANDICRAFT HALF DAY",
+     "g": "Half day tour (5-6 jam)",
+     "region": "[Half Day]",
+     "acc": "incl",
+     "meal": "bd",
+     "trp": "incl",
+     "act": [
+      "Batik Outlet",
+      "Kotagede silver workshop",
+      "Ole-ole khas Jogja"
+     ],
+     "eact": [
+      "Batik Outlet",
+      "Kotagede silver workshop",
+      "Local delicacies shopping"
+     ]
+    },
+    {
+     "v": "tAir",
+     "t": "Airport transfer sehala (YIA)",
+     "en": "AIRPORT TRANSFER",
+     "g": "Airport transfer",
+     "region": "[Airport]",
+     "acc": "incl",
+     "meal": "none",
+     "trp": "incl",
+     "act": [
+      "Airport transfer sehala Yogyakarta International Airport (YIA)"
+     ],
+     "eact": [
+      "One way airport transfer at Yogyakarta International Airport (YIA)"
+     ]
+    },
+    {
+     "v": "tAhd",
+     "t": "Airport transfer + half day tour",
+     "en": "AIRPORT TRANSFER + HALF DAY TOUR",
+     "g": "Airport transfer",
+     "region": "[Airport + Half Day]",
+     "acc": "incl",
+     "meal": "d",
+     "trp": "incl",
+     "act": [
+      "Pickup di YIA",
+      "Half day tour sebelum check-in hotel"
+     ],
+     "eact": [
+      "Pick up at YIA",
+      "Half day tour before hotel check in"
+     ]
+    },
+    {
+     "v": "lDie",
+     "t": "Dieng Plateau (luar bandar &mdash; kadar transport belum tersiar)",
+     "en": "DIENG PLATEAU",
+     "g": "Luar bandar Jogja - kadar transport belum tersiar",
+     "region": "[Dieng]",
+     "acc": "xdi",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Kawah Sikidang",
+      "Telaga Warna",
+      "Candi Arjuna",
+      "Bermalam di Villa Pintu Langit (pilih acc Dieng)"
+     ],
+     "eact": [
+      "Sikidang Crater",
+      "Telaga Warna coloured lake",
+      "Arjuna Temple"
+     ]
+    },
+    {
+     "v": "lNep",
+     "t": "Nepal van Java glamping (luar bandar &mdash; kadar transport belum tersiar)",
+     "en": "NEPAL VAN JAVA",
+     "g": "Luar bandar Jogja - kadar transport belum tersiar",
+     "region": "[Nepal van Java]",
+     "acc": "xgl",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Kampung Butuh Magelang &mdash; Nepal van Java",
+      "Bermalam glamping Trianggulasi / Linggar Jati (pilih acc glamping)"
+     ],
+     "eact": [
+      "Butuh village, Magelang - Nepal van Java",
+      "Glamping stay"
+     ]
+    },
+    {
+     "v": "lKeb",
+     "t": "Kebumen (luar bandar &mdash; kadar transport belum tersiar)",
+     "en": "KEBUMEN",
+     "g": "Luar bandar Jogja - kadar transport belum tersiar",
+     "region": "[Kebumen]",
+     "acc": "xke",
+     "meal": "bld",
+     "trp": "incl",
+     "act": [
+      "Goa Jatijajar",
+      "Pantai Menganti",
+      "Bermalam di Hotel Kebumen Maxolie (pilih acc Kebumen)"
+     ],
+     "eact": [
+      "Jatijajar Cave",
+      "Menganti Beach"
+     ]
+    }
+   ],
+   "ext": {
+    "night": {
+     "normal": 150,
+     "peak": 250
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 12,
+    "shareVehicle": true,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 300,
+        "peak": 300
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 160,
+        "peak": 160
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 400,
+        "peak": 400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport + Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 300,
+        "peak": 300
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": 160,
+        "peak": 160
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 250,
+        "peak": 250
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 400,
+        "peak": 400
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "dayDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -100,
+        "peak": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport + Half Day]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -200,
+        "peak": -200
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Airport]": [
+       {
+        "from": 1,
+        "to": 4,
+        "normal": -100,
+        "peak": -100
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -150,
+        "peak": -150
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 13,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "vvip": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 6,
+        "normal": null,
+        "peak": null
+       },
+       {
+        "from": 7,
+        "to": 8,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 9,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "vvipDed": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ],
+      "[Full Day]": [
+       {
+        "from": 1,
+        "to": 6,
+        "normal": null,
+        "peak": null
+       },
+       {
+        "from": 7,
+        "to": 8,
+        "normal": -600,
+        "peak": -600
+       },
+       {
+        "from": 9,
+        "to": 99,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "up4wd": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 100,
+        "peak": 100
+       }
+      ]
+     },
+     "up4we": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 120,
+        "peak": 120
+       }
+      ]
+     },
+     "up4wdp": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 160,
+        "peak": 160
+       }
+      ]
+     },
+     "up4wep": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 180,
+        "peak": 180
+       }
+      ]
+     },
+     "n3": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 150,
+        "peak": 250
+       }
+      ]
+     },
+     "n4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 180,
+        "peak": 350
+       }
+      ]
+     },
+     "nDieng": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 200,
+        "peak": 350
+       }
+      ]
+     },
+     "nGlamp": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 150,
+        "peak": 250
+       }
+      ]
+     },
+     "nKebumen": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 210,
+        "peak": 350
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -80,
+        "peak": -80
+       }
+      ]
+     }
+    }
+   },
+   "peak": {
+    "mode": "perNight",
+    "value": 120,
+    "windows": [
+     [
+      "2026-03-15",
+      "2026-03-30"
+     ],
+     [
+      "2026-05-25",
+      "2026-06-05"
+     ],
+     [
+      "2026-12-20",
+      "2027-01-05"
+     ],
+     [
+      "2027-02-05",
+      "2027-02-25"
+     ],
+     [
+      "2027-03-05",
+      "2027-04-15"
+     ]
+    ]
+   },
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel in Yogyakarta city centre - Emersia Hotel or Luxury Malioboro or similar, 2 to 3 persons per room",
+    "{auto}",
+    "Entrance fees based on itinerary",
+    "Driving Guide (Malay or English spoken)",
+    "Travel insurance",
+    "Tipping fee",
+    "Jeep Merapi Lava Tour",
+    "Jeep Timang Beach"
+   ],
+   "exclusions": [
+    "Return flight tickets Kuala Lumpur - Yogyakarta (YIA)",
+    "Luggage, in flight meal and airport tax",
+    "Additional tours and meals outside the itinerary",
+    "Personal expenses"
+   ],
+   "exclusionsTail": [
+    "Borobudur Temple entrance, Timang Beach gondola and other optional activities unless listed above"
+   ]
+  }
+ ]
+}

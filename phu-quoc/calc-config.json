@@ -1,0 +1,1135 @@
+{
+ "dest": "Phu Quoc",
+ "currency": "RM",
+ "deposit": 250,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6-8)",
+  "cnb": "Child No Bed (2-5)"
+ },
+ "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
+ "singleNote": "4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Kadar accommodation, meal dan aktiviti mengikut <b>Rate Card Simple Customisation Phu Quoc</b>. <b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027). CNY 2026 (16&ndash;22 Feb 2026) masih boleh booking, tetapi kedai souvenir banyak tutup &mdash; set expectation customer. <b>Perhatian:</b> rate card tiada kadar transport untuk hari tambahan, jadi hari tambahan akan bertanda <i>kadar belum diisi</i> &mdash; minta harga operator.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "autoAddonQty": true,
+ "dropOwnRate": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "ext"
+ },
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 30,
+  "drop": 20
+ },
+ "breakfastLabel": "Hotel Breakfast",
+ "ext": {
+  "night": {
+   "normal": 100,
+   "peak": 100
+  },
+  "marginPerPax": 0,
+  "paxPerVehicle": 30,
+  "shareVehicle": true,
+  "autoNights": false,
+  "rates": {
+   "day": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 0,
+      "peak": 0
+     }
+    ]
+   },
+   "up4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 140,
+      "peak": 140
+     }
+    ]
+   },
+   "h4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 240,
+      "peak": 240
+     }
+    ]
+   },
+   "h5": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": 320,
+      "peak": 320
+     }
+    ]
+   },
+   "nightShort": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -50,
+      "peak": -50
+     }
+    ]
+   },
+   "nightShort4": {
+    "_default": [
+     {
+      "from": 1,
+      "to": 99,
+      "normal": -120,
+      "peak": -120
+     }
+    ]
+   }
+  }
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 3 bintang, Sunset Town (dalam pakej)",
+   "cost": "incl"
+  },
+  {
+   "v": "up4",
+   "t": "Upgrade hotel 4 bintang &middot; Muong Thanh Luxury / Marina Seaside Boutique",
+   "cost": "incl",
+   "perPaxRate": "up4",
+   "hotel": "4-Star Hotel",
+   "incl": "4-Star hotel upgrade - Muong Thanh Luxury Phu Quoc or Marina Seaside Boutique Phu Quoc ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan &middot; hotel 3 bintang",
+   "cost": "night",
+   "hotel": "3-Star Hotel",
+   "line": "Additional night, 3-Star hotel",
+   "incl": "Additional night at 3-Star Hotel ({days})"
+  },
+  {
+   "v": "n4",
+   "t": "Malam tambahan &middot; hotel 4 bintang",
+   "cost": "night",
+   "nightRate": "h4",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night, 4-Star hotel",
+   "incl": "Additional night at 4-Star Hotel ({days})"
+  },
+  {
+   "v": "n5",
+   "t": "Malam tambahan &middot; hotel 5 bintang",
+   "cost": "night",
+   "nightRate": "h5",
+   "hotel": "5-Star Hotel",
+   "line": "Additional night, 5-Star hotel",
+   "incl": "Additional night at 5-Star Hotel ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tolak 1 malam pakej &middot; hotel 3 bintang",
+   "cost": "zero",
+   "perPaxRate": "nightShort",
+   "dropsNight": true,
+   "line": "Package night removed (3-Star)"
+  },
+  {
+   "v": "noht4",
+   "t": "Tolak 1 malam pakej &middot; hotel 4 bintang (selepas upgrade)",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "arr",
+   "t": "Lunch &amp; Dinner (hari ketibaan &mdash; tiada breakfast)",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner",
+   "bfLock": true
+  },
+  {
+   "v": "arrl",
+   "t": "Lunch sahaja (hari ketibaan &mdash; tiada breakfast)",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch",
+   "bfLock": true
+  },
+  {
+   "v": "nobf",
+   "t": "Tiada makan (hari ketibaan &mdash; tiada breakfast)",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-",
+   "bfLock": true
+  },
+  {
+   "v": "none",
+   "t": "Tiada lunch / dinner",
+   "b": 0,
+   "l": 0,
+   "d": 0,
+   "lbl": "-"
+  },
+  {
+   "v": "l",
+   "t": "Lunch",
+   "b": 0,
+   "l": 1,
+   "d": 0,
+   "lbl": "Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Dinner",
+   "b": 0,
+   "l": 0,
+   "d": 1,
+   "lbl": "Dinner"
+  },
+  {
+   "v": "ld",
+   "t": "Lunch &amp; Dinner",
+   "b": 0,
+   "l": 1,
+   "d": 1,
+   "lbl": "Lunch, Dinner"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + Muslim Driving Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport + Muslim Driving Guide",
+   "incl": "Private transportation with Muslim driving guide (Malay / English spoken) ({days})"
+  },
+  {
+   "v": "air",
+   "t": "Airport Transfer (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Airport Transfer",
+   "incl": "Private airport transfer ({days})"
+  },
+  {
+   "v": "ext",
+   "t": "Private Transport + Driving Guide (hari tambahan)",
+   "cost": "day",
+   "guided": true,
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Additional day private transportation with driving guide ({days})"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "v": "L4d1",
+   "t": "Ketibaan - Phu Quoc tour",
+   "en": "ARRIVAL - PHU QUOC TOUR",
+   "acc": "incl",
+   "meal": "arr",
+   "trp": "incl",
+   "region": "[Sunset Town]",
+   "act": [
+    "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+    "Airport pick-up",
+    "Sanato Beach - matahari terbenam dan seni pantai",
+    "Night market",
+    "Check-in hotel 3 bintang"
+   ],
+   "eact": [
+    "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+    "Airport pick-up",
+    "Sanato Beach - vibrant sunsets and innovative arts",
+    "Night market",
+    "Check in 3-Star hotel"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L4d2",
+   "t": "Phu Quoc tour (Utara) - Grand World dan VinWonders",
+   "en": "PHU QUOC TOUR (NORTH)",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Utara]",
+   "act": [
+    "Grand World, dikenali sebagai Venice of Vietnam",
+    "Teddy Bear Museum",
+    "VinPearl Safari (termasuk buggy)",
+    "VinWonders, salah satu theme park terbesar di Vietnam",
+    "Aquarium - Mermaid show",
+    "Roller coaster dan ferris wheel",
+    "Water park",
+    "Night market dan makan malam"
+   ],
+   "eact": [
+    "Grand World, known as the Venice of Vietnam",
+    "Teddy Bear Museum",
+    "VinPearl Safari (buggy included)",
+    "VinWonders, one of the largest theme parks in Vietnam",
+    "Aquarium - Mermaid show",
+    "Roller coasters and Ferris wheel",
+    "Water park",
+    "Night market and dinner"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L4d3",
+   "t": "Phu Quoc tour (Selatan) - Hon Thom cable car",
+   "en": "PHU QUOC TOUR (SOUTH)",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Hon Thom]",
+   "act": [
+    "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+    "Aquatopia water theme park di Pulau Hon Thom",
+    "Water slides, roller coaster dan Eagle Eye Tower",
+    "Ngoc Hien Pearl Farm",
+    "Kiss Bridge",
+    "Free and easy malam - night market atau Kiss of The Sea Show (bayar sendiri)"
+   ],
+   "eact": [
+    "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+    "Aquatopia water theme park at Hon Thom Island",
+    "Water slides, roller coaster and Eagle Eye Tower",
+    "Ngoc Hien Pearl Farm",
+    "Kiss Bridge",
+    "Free and easy evening - night market or Kiss of The Sea Show (paid on site)"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L4d4",
+   "t": "Free and easy - penerbangan pulang",
+   "en": "FREE AND EASY - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Free and easy",
+    "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+   ],
+   "eact": [
+    "Free and easy",
+    "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+   ],
+   "g": "Blok 4D3N"
+  },
+  {
+   "v": "L5d1",
+   "t": "Ketibaan Phu Quoc - Long Beach",
+   "en": "ARRIVAL PHU QUOC - LONG BEACH",
+   "acc": "incl",
+   "meal": "arr",
+   "trp": "incl",
+   "region": "[Sunset Town]",
+   "act": [
+    "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+    "Airport pick-up",
+    "Pantai Long Beach - matahari terbenam",
+    "Check-in hotel 3 bintang",
+    "Night market dan makan malam"
+   ],
+   "eact": [
+    "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+    "Airport pick-up",
+    "Long Beach - vibrant sunsets",
+    "Check in 3-Star hotel",
+    "Night market and dinner"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d2",
+   "t": "Grand World dan VinWonders",
+   "en": "GRAND WORLD AND VINWONDERS TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Utara]",
+   "act": [
+    "Grand World, dikenali sebagai Venice of Vietnam",
+    "Teddy Bear Museum",
+    "VinWonders, salah satu theme park terbesar di Vietnam",
+    "VinWonders Aquarium, antara akuarium terbesar dunia",
+    "Kembali ke hotel",
+    "Night market dan makan malam"
+   ],
+   "eact": [
+    "Grand World, known as the Venice of Vietnam",
+    "Teddy Bear Museum",
+    "VinWonders, one of the largest theme parks in Vietnam",
+    "VinWonders Aquarium, among the world's largest aquariums",
+    "Return to hotel",
+    "Night market and dinner"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d3",
+   "t": "VinPearl Safari dan Tranh Stream",
+   "en": "VINPEARL SAFARI AND TRANH STREAM",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Utara]",
+   "act": [
+    "VinPearl Safari, taman pemuliharaan haiwan semi-liar",
+    "Tranh Stream",
+    "Sanato Beach - matahari terbenam dan seni pantai",
+    "Kembali ke hotel"
+   ],
+   "eact": [
+    "VinPearl Safari, semi-wild animal conservation park",
+    "Tranh Stream",
+    "Sanato Beach - vibrant sunsets and innovative art",
+    "Return to hotel"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d4",
+   "t": "Hon Thom cable car dan Aquatopia",
+   "en": "HON THOM CABLE CAR AND AQUATOPIA",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "[Hon Thom]",
+   "act": [
+    "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+    "Aquatopia water theme park di Pulau Hon Thom",
+    "Water slides, roller coaster dan Eagle Eye Tower",
+    "Kiss Bridge - pemandangan matahari terbenam",
+    "Kembali ke hotel"
+   ],
+   "eact": [
+    "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+    "Aquatopia water theme park at Hon Thom Island",
+    "Water slides, roller coaster and Eagle Eye Tower",
+    "Kiss Bridge - sunset viewing",
+    "Return to hotel"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "L5d5",
+   "t": "Free and easy - penerbangan pulang",
+   "en": "FREE AND EASY - RETURN FLIGHT",
+   "acc": "none",
+   "meal": "none",
+   "trp": "air",
+   "region": "[Airport]",
+   "act": [
+    "Free and easy",
+    "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+   ],
+   "eact": [
+    "Free and easy",
+    "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+   ],
+   "g": "Blok 5D4N"
+  },
+  {
+   "v": "ext",
+   "t": "Hari tambahan - itinerari ikut permintaan customer",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "none",
+   "trp": "ext",
+   "region": "[Sunset Town]",
+   "g": "Umum",
+   "act": [
+    "Itinerari tambahan mengikut permintaan customer"
+   ],
+   "eact": [
+    "Itinerary as requested by customer"
+   ]
+  },
+  {
+   "v": "fed",
+   "t": "Free and easy - tiada transport",
+   "en": "FREE AND EASY",
+   "acc": "incl",
+   "meal": "none",
+   "trp": "none",
+   "region": "[Sunset Town]",
+   "g": "Umum",
+   "act": [
+    "Free and easy sepanjang hari"
+   ],
+   "eact": [
+    "Free and easy at own leisure"
+   ]
+  }
+ ],
+ "addons": [
+  [
+   "Water Taxi at Grand World - per pax per ride",
+   50,
+   50,
+   "pax"
+  ],
+  [
+   "Grand World area hotel (North Phu Quoc) - per pax, on request",
+   50,
+   50,
+   "pax"
+  ],
+  [
+   "Honeymoon bedroom decoration - per couple",
+   250,
+   0,
+   "unit"
+  ],
+  [
+   "Honeymoon candle light dinner - per couple",
+   250,
+   0,
+   "unit"
+  ],
+  [
+   "Additional extra meal, beyond the day meal plan - per pax",
+   30,
+   30,
+   "pax"
+  ],
+  [
+   "Less Teddy Bear Museum entrance - per pax",
+   -20,
+   -20,
+   "pax",
+   "Teddy Bear Museum"
+  ],
+  [
+   "Less VinWonders Theme Park entrance - per pax",
+   -100,
+   -100,
+   "pax",
+   "VinWonders Theme Park"
+  ],
+  [
+   "Less Hon Thom Cable Car + Aquatopia entrance - per pax",
+   -110,
+   -110,
+   "pax",
+   "Hon Thom Cable Car and Aquatopia"
+  ],
+  [
+   "Less VinPearl Safari + buggy entrance - per pax",
+   -250,
+   -250,
+   "pax",
+   "VinPearl Safari with buggy"
+  ]
+ ],
+ "extraSurcharge": [
+  {
+   "label": "Travel date surcharge 2027 (January - February)",
+   "dateIn": [
+    "2027-01-01",
+    "2027-02-28"
+   ],
+   "perPax": 120
+  }
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 7,
+   "text": "2&ndash;7 pax: van persendirian &middot; Muslim driving guide"
+  },
+  {
+   "from": 8,
+   "to": 16,
+   "text": "8&ndash;16 pax: mini bus &middot; Muslim driving guide"
+  },
+  {
+   "from": 17,
+   "to": 30,
+   "text": "17&ndash;30 pax: big bus &middot; Muslim tour guide berasingan"
+  },
+  {
+   "from": 21,
+   "to": 99999,
+   "text": "Di luar jadual harga katalog (maksimum 20 pax 4D3N / 16 pax 5D4N) &mdash; rujuk consultant"
+  }
+ ],
+ "validity": "Prices follow the PT Phu Quoc 4D3N and 5D4N 2026 v3 catalogues dated 11 March 2026, valid for travel until 31 December 2026. Departures in January and February 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout date: 17 - 18 February 2027 (Chinese New Year).",
+ "variants": [
+  {
+   "id": "v4d3n",
+   "name": "PT Phu Quoc 4D3N (3-Star Fullboard)",
+   "pkgLabel": "Phu Quoc Island: World's Longest Sea-Crossing Cable Car, Sunset Beach, Theme Park",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 4,
+   "nights": 3,
+   "breakfast": true,
+   "single": 240,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 300,
+    "rate3": 200
+   },
+   "ext": {
+    "night": {
+     "normal": 100,
+     "peak": 100
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 30,
+    "shareVehicle": true,
+    "autoNights": false,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 140,
+        "peak": 140
+       }
+      ]
+     },
+     "h4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 240,
+        "peak": 240
+       }
+      ]
+     },
+     "h5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 320,
+        "peak": 320
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": -50
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -120,
+        "peak": -120
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 2597,
+     "c": 2397,
+     "n": 2197
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 2437,
+     "c": 2237,
+     "n": 2037
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "a": 2257,
+     "c": 2057,
+     "n": 1857
+    },
+    {
+     "from": 7,
+     "to": 8,
+     "a": 2077,
+     "c": 1877,
+     "n": 1677
+    },
+    {
+     "from": 9,
+     "to": 10,
+     "a": 1967,
+     "c": 1767,
+     "n": 1567
+    },
+    {
+     "from": 11,
+     "to": 15,
+     "a": 1857,
+     "c": 1657,
+     "n": 1457
+    },
+    {
+     "from": 16,
+     "to": 20,
+     "a": 1737,
+     "c": 1537,
+     "n": 1337
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan - Phu Quoc tour",
+     "en": "ARRIVAL - PHU QUOC TOUR",
+     "acc": "incl",
+     "meal": "arr",
+     "trp": "incl",
+     "region": "[Sunset Town]",
+     "act": [
+      "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+      "Airport pick-up",
+      "Sanato Beach - matahari terbenam dan seni pantai",
+      "Night market",
+      "Check-in hotel 3 bintang"
+     ],
+     "eact": [
+      "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+      "Airport pick-up",
+      "Sanato Beach - vibrant sunsets and innovative arts",
+      "Night market",
+      "Check in 3-Star hotel"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Phu Quoc tour (Utara) - Grand World dan VinWonders",
+     "en": "PHU QUOC TOUR (NORTH)",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Utara]",
+     "act": [
+      "Grand World, dikenali sebagai Venice of Vietnam",
+      "Teddy Bear Museum",
+      "VinPearl Safari (termasuk buggy)",
+      "VinWonders, salah satu theme park terbesar di Vietnam",
+      "Aquarium - Mermaid show",
+      "Roller coaster dan ferris wheel",
+      "Water park",
+      "Night market dan makan malam"
+     ],
+     "eact": [
+      "Grand World, known as the Venice of Vietnam",
+      "Teddy Bear Museum",
+      "VinPearl Safari (buggy included)",
+      "VinWonders, one of the largest theme parks in Vietnam",
+      "Aquarium - Mermaid show",
+      "Roller coasters and Ferris wheel",
+      "Water park",
+      "Night market and dinner"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "Phu Quoc tour (Selatan) - Hon Thom cable car",
+     "en": "PHU QUOC TOUR (SOUTH)",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Hon Thom]",
+     "act": [
+      "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+      "Aquatopia water theme park di Pulau Hon Thom",
+      "Water slides, roller coaster dan Eagle Eye Tower",
+      "Ngoc Hien Pearl Farm",
+      "Kiss Bridge",
+      "Free and easy malam - night market atau Kiss of The Sea Show (bayar sendiri)"
+     ],
+     "eact": [
+      "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+      "Aquatopia water theme park at Hon Thom Island",
+      "Water slides, roller coaster and Eagle Eye Tower",
+      "Ngoc Hien Pearl Farm",
+      "Kiss Bridge",
+      "Free and easy evening - night market or Kiss of The Sea Show (paid on site)"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Free and easy - penerbangan pulang",
+     "en": "FREE AND EASY - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Free and easy",
+      "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+     ],
+     "eact": [
+      "Free and easy",
+      "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel",
+    "{auto}",
+    "Entrance fee: Hon Thom Cable Car and Aquatopia",
+    "Entrance fee: VinPearl Safari with buggy",
+    "Entrance fee: Grand World",
+    "Entrance fee: VinWonders Theme Park",
+    "Entrance fee: Teddy Bear Museum",
+    "Daily breakfast at hotel",
+    "Muslim driving guide (Malay / English spoken)",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Optional activities not stated in the itinerary, for example water taxi and the Kiss of The Sea Show"
+   ]
+  },
+  {
+   "id": "v5d4n",
+   "name": "PT Phu Quoc 5D4N (3-Star Fullboard)",
+   "pkgLabel": "Phu Quoc Island: World's Longest Sea-Crossing Cable Car, Sunset Beach, Theme Park",
+   "pkgType": "Private Tour (Ground Arrangement Only)",
+   "hotelLabel": "3-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "breakfast": true,
+   "single": 320,
+   "lastMinute": {
+    "lt": 21,
+    "rate2": 400,
+    "rate3": 300
+   },
+   "ext": {
+    "night": {
+     "normal": 100,
+     "peak": 100
+    },
+    "marginPerPax": 0,
+    "paxPerVehicle": 30,
+    "shareVehicle": true,
+    "autoNights": false,
+    "rates": {
+     "day": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 0,
+        "peak": 0
+       }
+      ]
+     },
+     "up4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 140,
+        "peak": 140
+       }
+      ]
+     },
+     "h4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 240,
+        "peak": 240
+       }
+      ]
+     },
+     "h5": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": 320,
+        "peak": 320
+       }
+      ]
+     },
+     "nightShort": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -50,
+        "peak": -50
+       }
+      ]
+     },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -120,
+        "peak": -120
+       }
+      ]
+     }
+    }
+   },
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 3077,
+     "c": 2877,
+     "n": 2677
+    },
+    {
+     "from": 4,
+     "to": 4,
+     "a": 2867,
+     "c": 2667,
+     "n": 2467
+    },
+    {
+     "from": 5,
+     "to": 6,
+     "a": 2677,
+     "c": 2477,
+     "n": 2277
+    },
+    {
+     "from": 7,
+     "to": 8,
+     "a": 2567,
+     "c": 2367,
+     "n": 2167
+    },
+    {
+     "from": 9,
+     "to": 10,
+     "a": 2297,
+     "c": 2097,
+     "n": 1897
+    },
+    {
+     "from": 11,
+     "to": 13,
+     "a": 2177,
+     "c": 1977,
+     "n": 1777
+    },
+    {
+     "from": 14,
+     "to": 16,
+     "a": 2147,
+     "c": 1947,
+     "n": 1747
+    }
+   ],
+   "labelCwb": "Child With Bed (6-8)",
+   "labelCnb": "Child No Bed (2-5)",
+   "itin": [
+    {
+     "v": "d1",
+     "t": "Ketibaan Phu Quoc - Long Beach",
+     "en": "ARRIVAL PHU QUOC - LONG BEACH",
+     "acc": "incl",
+     "meal": "arr",
+     "trp": "incl",
+     "region": "[Sunset Town]",
+     "act": [
+      "Tiba Phu Quoc International Airport (waktu ketibaan dicadangkan 2 petang atau lebih awal)",
+      "Airport pick-up",
+      "Pantai Long Beach - matahari terbenam",
+      "Check-in hotel 3 bintang",
+      "Night market dan makan malam"
+     ],
+     "eact": [
+      "Arrive Phu Quoc International Airport (suggested arrival time 2pm or earlier)",
+      "Airport pick-up",
+      "Long Beach - vibrant sunsets",
+      "Check in 3-Star hotel",
+      "Night market and dinner"
+     ]
+    },
+    {
+     "v": "d2",
+     "t": "Grand World dan VinWonders",
+     "en": "GRAND WORLD AND VINWONDERS TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Utara]",
+     "act": [
+      "Grand World, dikenali sebagai Venice of Vietnam",
+      "Teddy Bear Museum",
+      "VinWonders, salah satu theme park terbesar di Vietnam",
+      "VinWonders Aquarium, antara akuarium terbesar dunia",
+      "Kembali ke hotel",
+      "Night market dan makan malam"
+     ],
+     "eact": [
+      "Grand World, known as the Venice of Vietnam",
+      "Teddy Bear Museum",
+      "VinWonders, one of the largest theme parks in Vietnam",
+      "VinWonders Aquarium, among the world's largest aquariums",
+      "Return to hotel",
+      "Night market and dinner"
+     ]
+    },
+    {
+     "v": "d3",
+     "t": "VinPearl Safari dan Tranh Stream",
+     "en": "VINPEARL SAFARI AND TRANH STREAM",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Utara]",
+     "act": [
+      "VinPearl Safari, taman pemuliharaan haiwan semi-liar",
+      "Tranh Stream",
+      "Sanato Beach - matahari terbenam dan seni pantai",
+      "Kembali ke hotel"
+     ],
+     "eact": [
+      "VinPearl Safari, semi-wild animal conservation park",
+      "Tranh Stream",
+      "Sanato Beach - vibrant sunsets and innovative art",
+      "Return to hotel"
+     ]
+    },
+    {
+     "v": "d4",
+     "t": "Hon Thom cable car dan Aquatopia",
+     "en": "HON THOM CABLE CAR AND AQUATOPIA",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "region": "[Hon Thom]",
+     "act": [
+      "Hon Thom Cable Car, cable car merentas laut terpanjang di dunia",
+      "Aquatopia water theme park di Pulau Hon Thom",
+      "Water slides, roller coaster dan Eagle Eye Tower",
+      "Kiss Bridge - pemandangan matahari terbenam",
+      "Kembali ke hotel"
+     ],
+     "eact": [
+      "Hon Thom Cable Car, the world's longest sea-crossing cable car",
+      "Aquatopia water theme park at Hon Thom Island",
+      "Water slides, roller coaster and Eagle Eye Tower",
+      "Kiss Bridge - sunset viewing",
+      "Return to hotel"
+     ]
+    },
+    {
+     "v": "d5",
+     "t": "Free and easy - penerbangan pulang",
+     "en": "FREE AND EASY - RETURN FLIGHT",
+     "acc": "none",
+     "meal": "none",
+     "trp": "air",
+     "region": "[Airport]",
+     "act": [
+      "Free and easy",
+      "Transfer ke Phu Quoc International Airport untuk penerbangan pulang (waktu berlepas dicadangkan 2 petang atau lewat)"
+     ],
+     "eact": [
+      "Free and easy",
+      "Transfer to Phu Quoc International Airport for return flight (suggested departure time 2pm onwards)"
+     ]
+    }
+   ],
+   "inclusions": [
+    "{nights} nights accommodation at 3-Star Hotel",
+    "{auto}",
+    "Entrance fee: Hon Thom Cable Car and Aquatopia",
+    "Entrance fee: VinPearl Safari with buggy",
+    "Entrance fee: Grand World",
+    "Entrance fee: VinWonders Theme Park",
+    "Entrance fee: Teddy Bear Museum",
+    "Daily breakfast at hotel",
+    "Muslim tour guide (Malay / English spoken)",
+    "Tipping fee"
+   ],
+   "exclusions": [
+    "Return flight tickets",
+    "Flight luggage, in-flight meal and airport tax",
+    "Additional tours and meals not stated above",
+    "Personal expenses",
+    "Travel insurance"
+   ],
+   "exclusionsTail": [
+    "Optional activities not stated in the itinerary, for example water taxi"
+   ]
+  }
+ ]
+}

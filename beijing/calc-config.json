@@ -1,0 +1,1203 @@
+{
+ "dest": "Beijing",
+ "currency": "RM",
+ "deposit": 500,
+ "defaultAdult": 2,
+ "childLabels": {
+  "cwb": "Child With Bed (6&ndash;11)",
+  "cnb": "Child No Bed (2&ndash;5)"
+ },
+ "infantNote": "Infant bawah 2 tahun: FOC",
+ "singleNote": "Single supplement RM 800/pax (bilik single occupancy)",
+ "intro": "Kadar katalog PT Beijing 5D4N 2026 (last updated 4 Mac 2026) &mdash; <b>Ground &amp; Tipping sahaja</b>, tiket flight TIDAK termasuk. Sah untuk travel sehingga 31 Dis 2026. Blackout: Chinese New Year 14&ndash;22 Feb 2026 &middot; Labor Day 1&ndash;5 Mei 2026. Tolak malam hotel tersiar <b>per bilik</b> (&minus;RM 100/bilik/malam) &mdash; guna add-on, bukan pilihan hari.",
+ "tabAfter": "custom",
+ "blockBefore": "surcharge",
+ "hideGeneric": [
+  "fe",
+  "ext"
+ ],
+ "autoAddonQty": true,
+ "extDefaults": {
+  "acc": "extra",
+  "trp": "extincl",
+  "trpDrop": "daycut"
+ },
+ "meals": {
+  "lunch": 0,
+  "dinner": 0
+ },
+ "mealDelta": {
+  "add": 60,
+  "drop": 30
+ },
+ "accOptions": [
+  {
+   "v": "incl",
+   "t": "Hotel 4 bintang (dalam pakej)",
+   "cost": "incl",
+   "hotel": "4-Star Hotel",
+   "incl": "Accommodation with breakfast on sharing basis, 4-Star Hotel ({days})"
+  },
+  {
+   "v": "extra",
+   "t": "Malam tambahan + 1 hari tour Beijing (kadar katalog)",
+   "cost": "night",
+   "nightRate": "extNight",
+   "hotel": "4-Star Hotel",
+   "line": "Additional night with one day tour",
+   "incl": "Accommodation with breakfast on sharing basis, 4-Star Hotel ({days})"
+  },
+  {
+   "v": "noht",
+   "t": "Tanpa hotel &ndash; guna add-on tolak per bilik",
+   "cost": "zero",
+   "dropsNight": true,
+   "line": "Package night removed"
+  },
+  {
+   "v": "none",
+   "t": "Tiada malam (checkout / hari akhir)",
+   "cost": "zero"
+  }
+ ],
+ "mealOptions": [
+  {
+   "v": "ld",
+   "t": "Breakfast, Lunch &amp; Dinner (dalam pakej)",
+   "l": 1,
+   "d": 1,
+   "b": 0,
+   "lbl": "Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "ld0",
+   "t": "Lunch &amp; Dinner (hari ketibaan &ndash; tiada breakfast)",
+   "l": 1,
+   "d": 1,
+   "b": 0,
+   "lbl": "Lunch, Dinner"
+  },
+  {
+   "v": "l",
+   "t": "Breakfast &amp; Lunch",
+   "l": 1,
+   "d": 0,
+   "b": 0,
+   "lbl": "Breakfast, Lunch"
+  },
+  {
+   "v": "d",
+   "t": "Breakfast &amp; Dinner",
+   "l": 0,
+   "d": 1,
+   "b": 0,
+   "lbl": "Breakfast, Dinner"
+  },
+  {
+   "v": "b",
+   "t": "Breakfast hotel sahaja",
+   "l": 0,
+   "d": 0,
+   "b": 0,
+   "lbl": "Breakfast"
+  },
+  {
+   "v": "none",
+   "t": "Tiada makan",
+   "l": 0,
+   "d": 0,
+   "b": 0,
+   "lbl": "-"
+  }
+ ],
+ "trpOptions": [
+  {
+   "v": "incl",
+   "t": "Private Transport + English Speaking Guide (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Private Transport",
+   "incl": "Private Transportation on 10 hours basis with English Speaking Guide Service ({days})"
+  },
+  {
+   "v": "airtrp",
+   "t": "Airport Transfer + tour hari itu (dalam pakej)",
+   "cost": "incl",
+   "guided": true,
+   "lbl": "Airport Transfer, Private Transport",
+   "incl": "Private Transportation on 10 hours basis with English Speaking Guide Service ({days})"
+  },
+  {
+   "v": "air",
+   "t": "Private Airport Transfer sahaja (dalam pakej)",
+   "cost": "incl",
+   "lbl": "Private Airport Transfer"
+  },
+  {
+   "v": "extincl",
+   "t": "Transport + guide (sudah termasuk dalam malam tambahan)",
+   "cost": "zero",
+   "guided": true,
+   "lbl": "Private Transport",
+   "incl": "Private Transportation on 10 hours basis with English Speaking Guide Service ({days})"
+  },
+  {
+   "v": "daytour",
+   "t": "Day tour tambahan (kadar per kenderaan)",
+   "cost": "zero",
+   "perVehicleRate": "dayTour",
+   "guided": true,
+   "lbl": "Private Transport",
+   "line": "Additional day tour transport",
+   "incl": "Private Transportation on 10 hours basis with English Speaking Guide Service ({days})"
+  },
+  {
+   "v": "daycut",
+   "t": "Free &amp; easy &ndash; tolak day tour dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "dayTourCut",
+   "lbl": "-",
+   "line": "Less day tour transport"
+  },
+  {
+   "v": "apick",
+   "t": "Tambah airport transfer pick up",
+   "cost": "incl",
+   "perVehicleRate": "airT",
+   "lbl": "Private Airport Transfer",
+   "line": "Airport transfer pick up",
+   "incl": "Additional private airport transfer ({days})"
+  },
+  {
+   "v": "adrop",
+   "t": "Tambah airport transfer drop off",
+   "cost": "incl",
+   "perVehicleRate": "airT",
+   "lbl": "Private Airport Transfer",
+   "line": "Airport transfer drop off",
+   "incl": "Additional private airport transfer ({days})"
+  },
+  {
+   "v": "acut",
+   "t": "Buang airport transfer &ndash; tolak dari katalog",
+   "cost": "zero",
+   "perVehicleRate": "airTCut",
+   "lbl": "-",
+   "line": "Less airport transfer"
+  },
+  {
+   "v": "none",
+   "t": "Tiada transport (free &amp; easy)",
+   "cost": "zero",
+   "lbl": "-"
+  }
+ ],
+ "library": [
+  {
+   "t": "Ketibaan Beijing (pagi) + City Tour",
+   "en": "ARRIVAL IN BEIJING + CITY TOUR",
+   "acc": "incl",
+   "meal": "ld0",
+   "trp": "airtrp",
+   "act": [
+    "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
+    "Check-in hotel",
+    "Masjid Nandouya",
+    "Nanluoguxiang (lorong hutong & rumah warisan tradisional)",
+    "Sanlitun Shopping District",
+    "Makan malam & kembali ke hotel"
+   ],
+   "eact": [
+    "Arrive in Beijing Daxing Intl Airport (PKX)",
+    "Check in hotel",
+    "Nandouya Mosque",
+    "Visit Nanluoguxiang, historic alley famous for its hutongs and traditional heritage houses",
+    "Sanlitun Shopping District",
+    "Dinner and back to hotel"
+   ],
+   "v": "Larram",
+   "g": "Beijing - ketibaan & pulang"
+  },
+  {
+   "t": "Ketibaan Beijing (malam) &ndash; rehat",
+   "en": "ARRIVAL IN BEIJING",
+   "acc": "incl",
+   "meal": "ld0",
+   "trp": "air",
+   "act": [
+    "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
+    "Airport pickup",
+    "Check-in hotel & rehat"
+   ],
+   "eact": [
+    "Arrive in Beijing Daxing Intl Airport (PKX)",
+    "Airport pickup",
+    "Check in hotel and rest for the day"
+   ],
+   "v": "Larrpm",
+   "g": "Beijing - ketibaan & pulang"
+  },
+  {
+   "t": "Berlepas pulang ke Kuala Lumpur",
+   "en": "DEPARTURE BEIJING - KUALA LUMPUR",
+   "acc": "none",
+   "meal": "b",
+   "trp": "air",
+   "act": [
+    "Sarapan & check-out hotel",
+    "Airport transfer",
+    "Penerbangan ke Kuala Lumpur",
+    "Tiba di KLIA - tamat perjalanan"
+   ],
+   "eact": [
+    "Breakfast and hotel check out",
+    "Airport transfer",
+    "Flight to Kuala Lumpur",
+    "Arrive in Kuala Lumpur International Airport (KLIA), end of trip"
+   ],
+   "v": "Ldep",
+   "g": "Beijing - ketibaan & pulang"
+  },
+  {
+   "t": "Muslim Street Tour + Berlepas",
+   "en": "MUSLIM STREET TOUR AND AIRPORT TRANSFER",
+   "acc": "none",
+   "meal": "ld",
+   "trp": "airtrp",
+   "act": [
+    "Masjid Niujie (masjid tertua & terbesar Beijing)",
+    "Pasar Muslim Niujie (shopping & makanan halal)",
+    "The Place - LED Sky Screen",
+    "Makan malam & airport transfer",
+    "Penerbangan ke Kuala Lumpur - tiba KLIA, tamat perjalanan"
+   ],
+   "eact": [
+    "Niujie Mosque, Beijing oldest and largest mosque",
+    "Visit Niujie Muslim Market for shopping and halal food",
+    "The Place LED Screen, futuristic shopping center featuring a massive LED screen ceiling",
+    "Dinner and airport transfer",
+    "Flight to Kuala Lumpur, arrive KLIA and end of trip"
+   ],
+   "v": "Ldepmus",
+   "g": "Beijing - ketibaan & pulang"
+  },
+  {
+   "t": "Dataran Tiananmen & Kota Larangan",
+   "en": "TIANANMEN SQUARE AND FORBIDDEN CITY",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "act": [
+    "Dataran Tiananmen (dataran bersejarah UNESCO)",
+    "Kota Larangan / Forbidden City (Sept-Jun)",
+    "Taman Jingshan (Jul-Ogos) - panorama Kota Larangan",
+    "Wangfujing Street (shopping)",
+    "Makan malam & kembali ke hotel"
+   ],
+   "eact": [
+    "Tiananmen Square, UNESCO historic square of Beijing",
+    "Forbidden City, September to June, residence of the Chinese Emperor",
+    "Visit Jingshan Park, July to August, man-made hill with Forbidden City panoramic view",
+    "Wangfujing Street for shopping",
+    "Dinner and back to hotel"
+   ],
+   "v": "Ltian",
+   "g": "Beijing - blok tour"
+  },
+  {
+   "t": "Tembok Besar China + Taman Olimpik",
+   "en": "GREAT WALL OF CHINA AND OLYMPIC PARK",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "act": [
+    "Tembok Besar Mutianyu (termasuk cable car 2 hala / toboggan)",
+    "Istana Musim Panas (Summer Palace)",
+    "Photostop Bird's Nest (Stadium Olimpik)",
+    "Photostop Water Cube (Pusat Akuatik Olimpik)",
+    "Makan malam & kembali ke hotel",
+    "Nota: Mutianyu +-2 jam dari bandar - hari paling panjang, elak tambah spot lain"
+   ],
+   "eact": [
+    "Mutianyu Great Wall of China, include 2 way cable car or toboggan",
+    "Summer Palace, Chinese palace with Qing Dynasty architecture",
+    "Photostop at Bird Nest, Beijing Olympic Stadium",
+    "Photostop at Water Cube, Olympic Aquatic Centre",
+    "Dinner and back to hotel"
+   ],
+   "v": "Lwall",
+   "g": "Beijing - blok tour"
+  },
+  {
+   "t": "City & Hutong Tour",
+   "en": "BEIJING CITY AND HUTONG TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "act": [
+    "Masjid Nandouya",
+    "Nanluoguxiang (lorong hutong & rumah warisan tradisional)",
+    "Sanlitun Shopping District",
+    "Makan malam & kembali ke hotel"
+   ],
+   "eact": [
+    "Nandouya Mosque",
+    "Visit Nanluoguxiang, historic alley famous for its hutongs and traditional heritage houses",
+    "Sanlitun Shopping District",
+    "Dinner and back to hotel"
+   ],
+   "v": "Lhutong",
+   "g": "Beijing - blok tour"
+  },
+  {
+   "t": "Muslim Street Tour",
+   "en": "MUSLIM STREET TOUR",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "act": [
+    "Masjid Niujie (masjid tertua & terbesar Beijing)",
+    "Pasar Muslim Niujie (shopping & makanan halal)",
+    "The Place - LED Sky Screen",
+    "Makan malam"
+   ],
+   "eact": [
+    "Niujie Mosque, Beijing oldest and largest mosque",
+    "Visit Niujie Muslim Market for shopping and halal food",
+    "The Place LED Screen, futuristic shopping center featuring a massive LED screen ceiling",
+    "Dinner"
+   ],
+   "v": "Lmuslim",
+   "g": "Beijing - blok tour"
+  },
+  {
+   "v": "Lusb",
+   "t": "Universal Studios Beijing (guna add-on untuk harga)",
+   "en": "UNIVERSAL STUDIOS BEIJING",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "incl",
+   "region": "",
+   "act": [
+    "Universal Studios Beijing sepanjang hari",
+    "Pilih add-on USB low season atau high season untuk harga"
+   ],
+   "eact": [
+    "Universal Studios Beijing full day"
+   ],
+   "g": "Beijing - blok tour"
+  },
+  {
+   "v": "Lgz",
+   "t": "Guangzhou extension (guna add-on untuk harga)",
+   "en": "GUANGZHOU",
+   "acc": "incl",
+   "meal": "ld",
+   "trp": "none",
+   "region": "",
+   "act": [
+    "Extension keluar Beijing - pilih add-on Guangzhou untuk harga",
+    "Sahkan flight domestik & susunan dengan operator"
+   ],
+   "eact": [
+    "Guangzhou extension - itinerary as per selected add-on"
+   ],
+   "g": "Extension & umum"
+  },
+  {
+   "v": "Lext",
+   "t": "Hari tambahan - malam tambahan + 1 hari tour (kadar katalog)",
+   "en": "ADDITIONAL DAY",
+   "acc": "extra",
+   "meal": "ld",
+   "trp": "extincl",
+   "region": "",
+   "act": [
+    "Hari tambahan - kos malam + day tour ikut kadar katalog per pax",
+    "Itinerari hari ini untuk disahkan dengan operator"
+   ],
+   "eact": [
+    "Additional day - itinerary to be confirmed"
+   ],
+   "g": "Extension & umum"
+  },
+  {
+   "v": "Lfe",
+   "t": "Free & Easy (tolak day tour dari katalog)",
+   "en": "FREE & EASY",
+   "acc": "incl",
+   "meal": "b",
+   "trp": "daycut",
+   "region": "",
+   "act": [
+    "Free & easy - tiada transport atau guide"
+   ],
+   "eact": [
+    "Free and easy - no transport or guide"
+   ],
+   "g": "Extension & umum"
+  }
+ ],
+ "peak": {
+  "mode": "perNight",
+  "value": 60,
+  "windows": [
+   [
+    "2026-06-19",
+    "2026-06-21"
+   ],
+   [
+    "2027-06-12",
+    "2027-06-14"
+   ]
+  ]
+ },
+ "extraSurcharge": [
+  {
+   "label": "Super Peak - China Summer Holiday",
+   "dateIn": [
+    "2026-07-01",
+    "2026-08-31"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Super Peak - China Golden Week",
+   "dateIn": [
+    "2026-10-01",
+    "2026-10-08"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Super Peak - Christmas and New Year",
+   "dateIn": [
+    "2026-12-22",
+    "2027-01-05"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Super Peak - China Summer Holiday",
+   "dateIn": [
+    "2027-07-01",
+    "2027-08-31"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Super Peak - China Golden Week",
+   "dateIn": [
+    "2027-10-01",
+    "2027-10-08"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "Super Peak - Christmas and New Year",
+   "dateIn": [
+    "2027-12-22",
+    "2028-01-05"
+   ],
+   "perPax": 300
+  },
+  {
+   "label": "2027 travel surcharge",
+   "dateIn": [
+    "2027-01-01",
+    "2027-12-31"
+   ],
+   "perPax": 100
+  }
+ ],
+ "lateBooking": {
+  "lt": 45,
+  "amount": 50
+ },
+ "addons": [
+  [
+   "Universal Studios Beijing, low season - per pax",
+   400,
+   400,
+   "pax"
+  ],
+  [
+   "Universal Studios Beijing, high season July to October - per pax",
+   850,
+   850,
+   "pax"
+  ],
+  [
+   "Guangzhou 1 day shopping with lunch and dinner, with hotel - per pax",
+   1000,
+   1000,
+   "pax"
+  ],
+  [
+   "Guangzhou 1 day shopping with lunch and dinner, without hotel - per pax",
+   900,
+   900,
+   "pax"
+  ],
+  [
+   "Guangzhou city tour with lunch and dinner, with hotel - per pax",
+   1000,
+   1000,
+   "pax"
+  ],
+  [
+   "Guangzhou city tour with lunch and dinner, without hotel - per pax",
+   900,
+   900,
+   "pax"
+  ],
+  [
+   "Upgrade to 4-Star Superior hotel - per pax",
+   240,
+   240,
+   "pax"
+  ],
+  [
+   "Additional 4-Star hotel night, normal season - per room per night",
+   250,
+   0,
+   "unit"
+  ],
+  [
+   "Additional 4-Star hotel night, peak season - per room per night",
+   350,
+   0,
+   "unit"
+  ],
+  [
+   "Less one hotel night - per room per night",
+   -100,
+   0,
+   "unit"
+  ]
+ ],
+ "paxNotes": [
+  {
+   "from": 2,
+   "to": 4,
+   "text": "2&ndash;4 pax: MPV. <b>Kadar day tour 2&ndash;4 pax tiada dalam Product Cheatsheet 2026</b> &mdash; pilihan <i>Day tour tambahan</i> &amp; <i>tolak day tour</i> akan papar <i>kadar belum diisi</i>. Guna kadar per pax <i>Malam tambahan + 1 hari tour</i> (RM 450/pax), atau minta kadar dari operator."
+  },
+  {
+   "from": 5,
+   "to": 6,
+   "text": "5&ndash;6 pax: Van / Small Bus &mdash; day tour RM 1,500/hari, airport transfer RM 500/hala"
+  },
+  {
+   "from": 7,
+   "to": 12,
+   "text": "7&ndash;12 pax: Big Bus &mdash; day tour RM 1,700/hari, airport transfer RM 650/hala"
+  },
+  {
+   "from": 13,
+   "to": 15,
+   "text": "13&ndash;15 pax: harga tier ada, tetapi <b>kadar transport hanya tersiar sehingga 12 pax</b> &mdash; day tour &amp; airport transfer akan papar <i>kadar belum diisi</i>. Quote manual dengan operator."
+  },
+  {
+   "from": 16,
+   "to": 99999,
+   "text": "16 pax ke atas: di luar jadual katalog (maksimum 15 pax) &mdash; minta quote khas dari operator."
+  }
+ ],
+ "validity": "<b>Validity of Quotation:</b> All prices are valid for 24 hours after quotation submission and are subject to hotel and room availability as no space has been secured. Price is based on 2&ndash;3 persons per room and covers <b>Ground &amp; Tipping only</b> &mdash; international flight tickets are not included. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days prior to arrival. A late booking surcharge of RM 50 per booking applies for bookings made less than 45 days before departure. Private transportation and tour guide are based on a 10 hour basis; every extra hour is chargeable at RM 160 per hour and must be paid in cash on the ground. Fare is not applicable during peak seasons; please refer to the peak season surcharge. Blackout dates: Chinese New Year 14&ndash;22 February 2026 and Labor Day 1&ndash;5 May 2026. Final itinerary and hotel arrangements will be confirmed at least 15 days before the trip. Default arrangement may change without prior notice depending on weather and traffic conditions. This package is valid for travel until 31 December 2026.",
+ "variants": [
+  {
+   "id": "am",
+   "name": "PT Beijing 5D4N &ndash; Ketibaan Pagi (MAS)",
+   "pkgLabel": "Beijing 5D4N - Tiananmen Square, Forbidden City, Great Wall of China, Summer Palace (morning arrival and return)",
+   "pkgType": "Private Tour (Ground &amp; Tipping Only)",
+   "hotelLabel": "4-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "infant": 0,
+   "single": 800,
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 4397,
+     "c": 4297,
+     "n": 4197
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 4197,
+     "c": 4097,
+     "n": 3897
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "a": 3597,
+     "c": 3497,
+     "n": 3297
+    },
+    {
+     "from": 10,
+     "to": 15,
+     "a": 3097,
+     "c": 2997,
+     "n": 2797
+    }
+   ],
+   "itin": [
+    {
+     "t": "Ketibaan Beijing (pagi) + City Tour",
+     "en": "ARRIVAL IN BEIJING + CITY TOUR",
+     "acc": "incl",
+     "meal": "ld0",
+     "trp": "airtrp",
+     "act": [
+      "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
+      "Check-in hotel",
+      "Masjid Nandouya",
+      "Nanluoguxiang (lorong hutong & rumah warisan tradisional)",
+      "Sanlitun Shopping District",
+      "Makan malam & kembali ke hotel"
+     ],
+     "eact": [
+      "Arrive in Beijing Daxing Intl Airport (PKX)",
+      "Check in hotel",
+      "Nandouya Mosque",
+      "Visit Nanluoguxiang, historic alley famous for its hutongs and traditional heritage houses",
+      "Sanlitun Shopping District",
+      "Dinner and back to hotel"
+     ],
+     "v": "d1"
+    },
+    {
+     "t": "Dataran Tiananmen & Kota Larangan",
+     "en": "TIANANMEN SQUARE AND FORBIDDEN CITY",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Dataran Tiananmen (dataran bersejarah UNESCO)",
+      "Kota Larangan / Forbidden City (Sept-Jun)",
+      "Taman Jingshan (Jul-Ogos) - panorama Kota Larangan",
+      "Wangfujing Street (shopping)",
+      "Makan malam & kembali ke hotel"
+     ],
+     "eact": [
+      "Tiananmen Square, UNESCO historic square of Beijing",
+      "Forbidden City, September to June, residence of the Chinese Emperor",
+      "Visit Jingshan Park, July to August, man-made hill with Forbidden City panoramic view",
+      "Wangfujing Street for shopping",
+      "Dinner and back to hotel"
+     ],
+     "v": "d2"
+    },
+    {
+     "t": "Tembok Besar China + Taman Olimpik",
+     "en": "GREAT WALL OF CHINA AND OLYMPIC PARK",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Tembok Besar Mutianyu (termasuk cable car 2 hala / toboggan)",
+      "Istana Musim Panas (Summer Palace)",
+      "Photostop Bird's Nest (Stadium Olimpik)",
+      "Photostop Water Cube (Pusat Akuatik Olimpik)",
+      "Makan malam & kembali ke hotel",
+      "Nota: Mutianyu +-2 jam dari bandar - hari paling panjang, elak tambah spot lain"
+     ],
+     "eact": [
+      "Mutianyu Great Wall of China, include 2 way cable car or toboggan",
+      "Summer Palace, Chinese palace with Qing Dynasty architecture",
+      "Photostop at Bird Nest, Beijing Olympic Stadium",
+      "Photostop at Water Cube, Olympic Aquatic Centre",
+      "Dinner and back to hotel"
+     ],
+     "v": "d3"
+    },
+    {
+     "t": "Muslim Street Tour",
+     "en": "MUSLIM STREET TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Masjid Niujie (masjid tertua & terbesar Beijing)",
+      "Pasar Muslim Niujie (shopping & makanan halal)",
+      "The Place - LED Sky Screen",
+      "Makan malam"
+     ],
+     "eact": [
+      "Niujie Mosque, Beijing oldest and largest mosque",
+      "Visit Niujie Muslim Market for shopping and halal food",
+      "The Place LED Screen, futuristic shopping center featuring a massive LED screen ceiling",
+      "Dinner"
+     ],
+     "v": "d4"
+    },
+    {
+     "t": "Berlepas pulang ke Kuala Lumpur",
+     "en": "DEPARTURE BEIJING - KUALA LUMPUR",
+     "acc": "none",
+     "meal": "b",
+     "trp": "air",
+     "act": [
+      "Sarapan & check-out hotel",
+      "Airport transfer",
+      "Penerbangan ke Kuala Lumpur",
+      "Tiba di KLIA - tamat perjalanan"
+     ],
+     "eact": [
+      "Breakfast and hotel check out",
+      "Airport transfer",
+      "Flight to Kuala Lumpur",
+      "Arrive in Kuala Lumpur International Airport (KLIA), end of trip"
+     ],
+     "v": "d5"
+    }
+   ],
+   "ext": {
+    "shareVehicle": true,
+    "paxPerVehicle": 15,
+    "marginPerPax": 0,
+    "rates": {
+     "extNight": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 650,
+        "peak": 650
+       },
+       {
+        "from": 7,
+        "to": 15,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "dayTour": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1500
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 1700
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     },
+     "dayTourCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -800
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -800
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     },
+     "airT": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 300
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 500
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 650
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     },
+     "airTCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -300
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -400
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     }
+    }
+   },
+   "inclusions": [
+    "{auto}",
+    "Airport Transfer",
+    "Halal Meals mentioned in itinerary",
+    "Entrance Fees",
+    "Cable car at Great Wall of China (Mutianyu)",
+    "Tipping Fee, Parking Fee",
+    "English Speaking Guide Service"
+   ],
+   "exclusions": [
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal and Airport Tax",
+    "Additional Fees or Optional Tour",
+    "Personal Expenses",
+    "Travel Insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour for private driver and guide beyond the 10 hours basis - RM 160 per hour, paid in cash on the ground",
+    "Optional tours and activities not stated above"
+   ]
+  },
+  {
+   "id": "pm",
+   "name": "PT Beijing 5D4N &ndash; Ketibaan Malam (AirAsia)",
+   "pkgLabel": "Beijing 5D4N - Tiananmen Square, Forbidden City, Great Wall of China, Summer Palace (midnight arrival and return)",
+   "pkgType": "Private Tour (Ground &amp; Tipping Only)",
+   "hotelLabel": "4-Star Hotel",
+   "days": 5,
+   "nights": 4,
+   "infant": 0,
+   "single": 800,
+   "labelCwb": "Child With Bed (6-11)",
+   "labelCnb": "Child No Bed (2-5)",
+   "tiers": [
+    {
+     "from": 2,
+     "to": 3,
+     "a": 4397,
+     "c": 4297,
+     "n": 4197
+    },
+    {
+     "from": 4,
+     "to": 5,
+     "a": 4197,
+     "c": 4097,
+     "n": 3897
+    },
+    {
+     "from": 6,
+     "to": 9,
+     "a": 3597,
+     "c": 3497,
+     "n": 3297
+    },
+    {
+     "from": 10,
+     "to": 15,
+     "a": 3097,
+     "c": 2997,
+     "n": 2797
+    }
+   ],
+   "itin": [
+    {
+     "t": "Ketibaan Beijing (malam) &ndash; rehat",
+     "en": "ARRIVAL IN BEIJING",
+     "acc": "incl",
+     "meal": "ld0",
+     "trp": "air",
+     "act": [
+      "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
+      "Airport pickup",
+      "Check-in hotel & rehat"
+     ],
+     "eact": [
+      "Arrive in Beijing Daxing Intl Airport (PKX)",
+      "Airport pickup",
+      "Check in hotel and rest for the day"
+     ],
+     "v": "d1"
+    },
+    {
+     "t": "Dataran Tiananmen & Kota Larangan",
+     "en": "TIANANMEN SQUARE AND FORBIDDEN CITY",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Dataran Tiananmen (dataran bersejarah UNESCO)",
+      "Kota Larangan / Forbidden City (Sept-Jun)",
+      "Taman Jingshan (Jul-Ogos) - panorama Kota Larangan",
+      "Wangfujing Street (shopping)",
+      "Makan malam & kembali ke hotel"
+     ],
+     "eact": [
+      "Tiananmen Square, UNESCO historic square of Beijing",
+      "Forbidden City, September to June, residence of the Chinese Emperor",
+      "Visit Jingshan Park, July to August, man-made hill with Forbidden City panoramic view",
+      "Wangfujing Street for shopping",
+      "Dinner and back to hotel"
+     ],
+     "v": "d2"
+    },
+    {
+     "t": "Tembok Besar China + Taman Olimpik",
+     "en": "GREAT WALL OF CHINA AND OLYMPIC PARK",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Tembok Besar Mutianyu (termasuk cable car 2 hala / toboggan)",
+      "Istana Musim Panas (Summer Palace)",
+      "Photostop Bird's Nest (Stadium Olimpik)",
+      "Photostop Water Cube (Pusat Akuatik Olimpik)",
+      "Makan malam & kembali ke hotel",
+      "Nota: Mutianyu +-2 jam dari bandar - hari paling panjang, elak tambah spot lain"
+     ],
+     "eact": [
+      "Mutianyu Great Wall of China, include 2 way cable car or toboggan",
+      "Summer Palace, Chinese palace with Qing Dynasty architecture",
+      "Photostop at Bird Nest, Beijing Olympic Stadium",
+      "Photostop at Water Cube, Olympic Aquatic Centre",
+      "Dinner and back to hotel"
+     ],
+     "v": "d3"
+    },
+    {
+     "t": "City & Hutong Tour",
+     "en": "BEIJING CITY AND HUTONG TOUR",
+     "acc": "incl",
+     "meal": "ld",
+     "trp": "incl",
+     "act": [
+      "Masjid Nandouya",
+      "Nanluoguxiang (lorong hutong & rumah warisan tradisional)",
+      "Sanlitun Shopping District",
+      "Makan malam & kembali ke hotel"
+     ],
+     "eact": [
+      "Nandouya Mosque",
+      "Visit Nanluoguxiang, historic alley famous for its hutongs and traditional heritage houses",
+      "Sanlitun Shopping District",
+      "Dinner and back to hotel"
+     ],
+     "v": "d4"
+    },
+    {
+     "t": "Muslim Street Tour + Berlepas",
+     "en": "MUSLIM STREET TOUR AND AIRPORT TRANSFER",
+     "acc": "none",
+     "meal": "ld",
+     "trp": "airtrp",
+     "act": [
+      "Masjid Niujie (masjid tertua & terbesar Beijing)",
+      "Pasar Muslim Niujie (shopping & makanan halal)",
+      "The Place - LED Sky Screen",
+      "Makan malam & airport transfer",
+      "Penerbangan ke Kuala Lumpur - tiba KLIA, tamat perjalanan"
+     ],
+     "eact": [
+      "Niujie Mosque, Beijing oldest and largest mosque",
+      "Visit Niujie Muslim Market for shopping and halal food",
+      "The Place LED Screen, futuristic shopping center featuring a massive LED screen ceiling",
+      "Dinner and airport transfer",
+      "Flight to Kuala Lumpur, arrive KLIA and end of trip"
+     ],
+     "v": "d5"
+    }
+   ],
+   "ext": {
+    "shareVehicle": true,
+    "paxPerVehicle": 15,
+    "marginPerPax": 0,
+    "rates": {
+     "extNight": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 650,
+        "peak": 650
+       },
+       {
+        "from": 7,
+        "to": 15,
+        "normal": null,
+        "peak": null
+       }
+      ]
+     },
+     "dayTour": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1500
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 1700
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     },
+     "dayTourCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": null
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -800
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -800
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     },
+     "airT": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": 300
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 500
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": 650
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     },
+     "airTCut": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 4,
+        "normal": -200
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -300
+       },
+       {
+        "from": 7,
+        "to": 12,
+        "normal": -400
+       },
+       {
+        "from": 13,
+        "to": 15,
+        "normal": null
+       }
+      ]
+     }
+    }
+   },
+   "inclusions": [
+    "{auto}",
+    "Airport Transfer",
+    "Halal Meals mentioned in itinerary",
+    "Entrance Fees",
+    "Cable car at Great Wall of China (Mutianyu)",
+    "Tipping Fee, Parking Fee",
+    "English Speaking Guide Service"
+   ],
+   "exclusions": [
+    "Return Flight Tickets",
+    "Luggage, In Flight Meal and Airport Tax",
+    "Additional Fees or Optional Tour",
+    "Personal Expenses",
+    "Travel Insurance"
+   ],
+   "exclusionsTail": [
+    "Extra hour for private driver and guide beyond the 10 hours basis - RM 160 per hour, paid in cash on the ground",
+    "Optional tours and activities not stated above"
+   ]
+  }
+ ]
+}
