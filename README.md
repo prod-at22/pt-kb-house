@@ -11,3 +11,9 @@ Repo KB asal (contoh `arba-bali-kb`) kekal sebagai sumber. GitHub Action `sync.y
 (atau tekan *Run workflow* di tab Actions untuk sync segera).
 
 Tambah destinasi baru: tambah satu baris dalam `destinations.json`, dan tambah kad dalam `index.html`.
+
+## Link ke PT Catalog House
+Setiap KB ada bar terapung di bawah kiri: **← Semua KB** (balik ke hub) dan **Katalog PT**
+(senarai katalog customer untuk destinasi tu). Senarai katalog datang dari `catalogs.json`;
+bila katalog baru ditambah di PT Catalog House, tambah juga di sini. Hub pula ada link terus
+ke https://prod-at22.github.io/catalog-pt-public/.
