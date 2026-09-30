@@ -14,6 +14,6 @@ Tambah destinasi baru: tambah satu baris dalam `destinations.json`, dan tambah k
 
 ## Link ke PT Catalog House
 Setiap KB ada bar terapung di bawah kiri: **← Semua KB** (balik ke hub) dan **Katalog PT**
-(senarai katalog customer untuk destinasi tu). Senarai katalog datang dari `catalogs.json`;
+(senarai katalog customer untuk destinasi tu). Senarai katalog datang dari `catalogs.json`; kad di hub pula ada butang **Buka Katalog** yang membuka PT Catalog House dengan tapisan `?q=` (lihat `CATQ` dalam `index.html`);
 bila katalog baru ditambah di PT Catalog House, tambah juga di sini. Hub pula ada link terus
 ke https://prod-at22.github.io/catalog-pt-public/.
