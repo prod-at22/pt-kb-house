@@ -1,0 +1,23 @@
+name: Pasang bar navigasi KB
+# KB disunting terus dalam repo ini. Setiap push yang ubah KB atau senarai katalog
+# akan pasang semula bar "Semua KB" + "Katalog PT" (backlink.py, idempotent).
+on:
+  push:
+    branches: [main]
+    paths: ["*/index.html", "catalogs.json", "destinations.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: nav
+jobs:
+  nav:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/backlink.py
+      - name: Commit jika ada perubahan
+        run: |
+          git config user.name "kb-house-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || { git commit -m "Pasang bar navigasi KB"; git push; }
