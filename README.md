@@ -5,12 +5,24 @@ Satu tempat untuk semua KB (TC Reference) Private Tour ARBA.
 - Hub: https://prod-at22.github.io/pt-kb-house/
 - Setiap destinasi: `https://prod-at22.github.io/pt-kb-house/<destinasi>/` (senarai dalam `destinations.json`)
 
-## Macam mana ia dikemas kini
-Repo KB asal (contoh `arba-bali-kb`) kekal sebagai sumber. GitHub Action `sync.yml` salin
-`index.html` + `calc-config.json` dari setiap repo ke folder destinasi di sini **setiap jam**
-(atau tekan *Run workflow* di tab Actions untuk sync segera).
+## Repo ini satu-satunya sumber
+Mulai 8 Okt 2026 semua KB disunting **terus dalam repo ini**, satu folder setiap destinasi:
 
-Tambah destinasi baru: tambah satu baris dalam `destinations.json`, dan tambah kad dalam `index.html`.
+```
+<destinasi>/index.html        halaman KB penuh + enjin kalkulator
+<destinasi>/calc-config.json  nombor kalkulator (PO boleh edit terus di GitHub)
+<destinasi>/README.md         panduan edit untuk destinasi itu
+```
+
+Repo KB lama (`arba-bali-kb`, `korea-kb` dan lain-lain, senarai dalam `destinations.json`)
+sudah di-**archive** (baca sahaja). Halaman lama redirect ke folder di sini, jadi link lama masih jalan.
+Jangan terbit ke repo lama lagi.
+
+Bar navigasi terapung (**← Semua KB** + **Katalog PT**) dipasang automatik oleh Action
+`nav.yml` setiap kali `index.html` berubah, jadi fail yang dimuat naik tak perlu ada bar itu.
+
+Tambah destinasi baru: buat folder `<destinasi>/`, tambah `"<destinasi>": "-"` dalam
+`destinations.json`, dan tambah kad dalam `index.html`.
 
 ## Link ke PT Catalog House
 Setiap KB ada bar terapung di bawah kiri: **← Semua KB** (balik ke hub) dan **Katalog PT**
