@@ -1,0 +1,51 @@
+# Mirror of the PT R&D Costing Hub (prod-at22/pt-calculator-hub) — the source of every KB's content and
+# Simple Calculator numbers (hub: data/kb/<slug>.json, builder kb-build/build.py). The page itself (layout,
+# engine, travel map) and the images (<slug>/assets.json) stay here. The hub's Save starts this workflow
+# (workflow_dispatch); the schedule is only a fallback. Every KB is rebuilt (the build only rewrites the
+# data blocks, so an unchanged KB stays byte-identical), then the nav bar and the hub page are refreshed —
+# a push made by this workflow does not start nav.yml, so it runs those scripts itself.
+# "Run workflow" mirrors at once (slugs = rebuild just those, empty = all).
+name: Mirror from PT R&D Costing Hub
+on:
+  schedule: [{ cron: "*/10 * * * *" }]
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: "Rebuild only these KBs (space-separated); empty = all"
+        type: string
+        default: ""
+permissions: { contents: write }
+concurrency: nav
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with: { repository: prod-at22/pt-calculator-hub, path: _hub, fetch-depth: 0 }
+      - name: What changed in the hub
+        id: pick
+        run: |
+          new=$(git -C _hub log -1 --format=%H -- data/kb data/data.json data/catalogs kb-build)
+          last=$(cat .hub-sha 2>/dev/null || true)
+          echo "new=$new" >> "$GITHUB_OUTPUT"
+          if [ "$new" = "$last" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "run=no" >> "$GITHUB_OUTPUT"; echo "up to date ($new)"; exit 0
+          fi
+          echo "run=yes" >> "$GITHUB_OUTPUT"
+      - name: Build
+        if: steps.pick.outputs.run == 'yes'
+        run: |
+          python3 _hub/kb-build/build.py . ${{ inputs.slugs }}
+          python3 .github/scripts/backlink.py
+          python3 .github/scripts/build_hub.py
+      - name: Commit
+        if: steps.pick.outputs.run == 'yes'
+        run: |
+          echo "${{ steps.pick.outputs.new }}" > .hub-sha
+          git config user.name "PT R&D Costing Hub"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A   # _hub/ is in .gitignore
+          if git diff --cached --quiet; then echo "nothing to publish"; exit 0; fi
+          git commit -q -m "Mirror from PT R&D Costing Hub ${{ steps.pick.outputs.new }}"
+          git push

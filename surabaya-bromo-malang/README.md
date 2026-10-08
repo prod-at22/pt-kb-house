@@ -1,5 +1,7 @@
 # ARBA — Surabaya · Bromo · Malang KB (TC Reference) + Simple Calculator
 
+> **Mulai 9 Okt 2026 kandungan KB dan `calc-config.json` datang dari PT R&D Costing Hub** (`prod-at22/pt-calculator-hub`, `data/kb/surabaya-bromo-malang.json`). Fail di sini ditulis semula oleh mirror — **jangan edit di GitHub repo ini**; edit di hub. Skema di bawah masih terpakai.
+
 Halaman live: **https://prod-at22.github.io/pt-kb-house/surabaya-bromo-malang/**
 
 Repo ini ada dua fail yang penting:

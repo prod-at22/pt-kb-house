@@ -1,5 +1,7 @@
 # ARBA Beijing KB (TC Reference)
 
+> **Mulai 9 Okt 2026 kandungan KB dan `calc-config.json` datang dari PT R&D Costing Hub** (`prod-at22/pt-calculator-hub`, `data/kb/beijing.json`). Fail di sini ditulis semula oleh mirror — **jangan edit di GitHub repo ini**; edit di hub. Skema di bawah masih terpakai.
+
 Interactive Travel-Consultant Knowledge Base untuk **PT Beijing 5D4N** — dua varian flight:
 ketibaan pagi (Malaysia Airlines) dan ketibaan malam (AirAsia).
 

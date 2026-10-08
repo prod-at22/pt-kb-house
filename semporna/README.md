@@ -1,5 +1,7 @@
 # ARBA Semporna KB — panduan PO
 
+> **Mulai 9 Okt 2026 kandungan KB dan `calc-config.json` datang dari PT R&D Costing Hub** (`prod-at22/pt-calculator-hub`, `data/kb/semporna.json`). Fail di sini ditulis semula oleh mirror — **jangan edit di GitHub repo ini**; edit di hub. Skema di bawah masih terpakai.
+
 KB TC Reference untuk PT Semporna, termasuk tab **Simple Calculator**.
 Live: https://prod-at22.github.io/pt-kb-house/semporna/
 

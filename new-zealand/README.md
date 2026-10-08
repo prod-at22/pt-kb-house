@@ -1,5 +1,7 @@
 # ARBA New Zealand KB (TC Reference)
 
+> **Mulai 9 Okt 2026 kandungan KB dan `calc-config.json` datang dari PT R&D Costing Hub** (`prod-at22/pt-calculator-hub`, `data/kb/new-zealand.json`). Fail di sini ditulis semula oleh mirror — **jangan edit di GitHub repo ini**; edit di hub. Skema di bawah masih terpakai.
+
 Knowledge Base destinasi New Zealand untuk Travel Consultant ARBA — Private Tour (PT)
 dan Self Tour (ST). Disajikan sebagai `index.html`.
 
