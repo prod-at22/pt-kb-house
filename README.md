@@ -15,8 +15,8 @@ Mulai 8 Okt 2026 semua KB disunting **terus dalam repo ini**, satu folder setiap
 ```
 
 Repo KB lama (`arba-bali-kb`, `korea-kb` dan lain-lain, senarai dalam `destinations.json`)
-sudah di-**archive** (baca sahaja). Halaman lama redirect ke folder di sini, jadi link lama masih jalan.
-Jangan terbit ke repo lama lagi.
+sudah **dipadam** (8 Okt 2026). Link lama seperti `prod-at22.github.io/korea-kb/` kini 404;
+guna `https://prod-at22.github.io/pt-kb-house/<destinasi>/`.
 
 Bar navigasi terapung (**← Semua KB** + **Katalog PT**) dipasang automatik oleh Action
 `nav.yml` setiap kali `index.html` berubah, jadi fail yang dimuat naik tak perlu ada bar itu.
