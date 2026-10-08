@@ -1,0 +1,234 @@
+[
+ {
+  "slug": "kk-kundasang",
+  "name": "KK-Kundasang",
+  "country": "Malaysia",
+  "code": "BKI",
+  "flag": "",
+  "updated": "2026-09-03"
+ },
+ {
+  "slug": "perhentian",
+  "name": "Perhentian",
+  "country": "Malaysia",
+  "code": "TGG",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "semporna",
+  "name": "Semporna",
+  "country": "Malaysia",
+  "code": "TWU",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "aceh",
+  "name": "Aceh",
+  "country": "Indonesia",
+  "code": "BTJ",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "bali",
+  "name": "Bali",
+  "country": "Indonesia",
+  "code": "DPS",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "jakarta-bandung",
+  "name": "Jakarta-Bandung",
+  "country": "Indonesia",
+  "code": "CGK",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "jakarta-bandung-lama",
+  "name": "Jakarta-Bandung",
+  "country": "Indonesia",
+  "code": "CGK",
+  "flag": "Lama",
+  "updated": ""
+ },
+ {
+  "slug": "jogja",
+  "name": "Jogjakarta",
+  "country": "Indonesia",
+  "code": "YIA",
+  "flag": "",
+  "updated": "2026-09-03"
+ },
+ {
+  "slug": "lombok",
+  "name": "Lombok",
+  "country": "Indonesia",
+  "code": "LOP",
+  "flag": "",
+  "updated": "2026-09-03"
+ },
+ {
+  "slug": "medan-lake-toba",
+  "name": "Medan-Lake Toba",
+  "country": "Indonesia",
+  "code": "KNO",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "padang-bukittinggi",
+  "name": "Padang-Bukittinggi",
+  "country": "Indonesia",
+  "code": "PDG",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "surabaya-bromo-malang",
+  "name": "Surabaya-Bromo-Malang",
+  "country": "Indonesia",
+  "code": "SUB",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "bangkok",
+  "name": "Bangkok",
+  "country": "Thailand",
+  "code": "BKK",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "krabi",
+  "name": "Krabi",
+  "country": "Thailand",
+  "code": "KBV",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "phuket",
+  "name": "Phuket",
+  "country": "Thailand",
+  "code": "HKT",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "dalat",
+  "name": "HCM-Dalat-Muine",
+  "country": "Vietnam",
+  "code": "DLI",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "danang",
+  "name": "Danang-Hoi An",
+  "country": "Vietnam",
+  "code": "DAD",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "hanoi-sapa",
+  "name": "Hanoi-Sapa",
+  "country": "Vietnam",
+  "code": "HAN",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "phu-quoc",
+  "name": "Phu Quoc",
+  "country": "Vietnam",
+  "code": "PQC",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "beijing",
+  "name": "Beijing",
+  "country": "China",
+  "code": "PEK",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "yunnan",
+  "name": "Yunnan",
+  "country": "China",
+  "code": "KMG",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "jepun",
+  "name": "Jepun",
+  "country": "Jepun",
+  "code": "TYO",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "korea",
+  "name": "Korea",
+  "country": "Korea",
+  "code": "ICN",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "melbourne",
+  "name": "Melbourne",
+  "country": "Australia",
+  "code": "MEL",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "perth",
+  "name": "Perth",
+  "country": "Australia",
+  "code": "PER",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "new-zealand",
+  "name": "New Zealand",
+  "country": "New Zealand",
+  "code": "AKL",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "switzerland",
+  "name": "Switzerland",
+  "country": "Switzerland",
+  "code": "ZRH",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "turki",
+  "name": "Turki",
+  "country": "Turki",
+  "code": "IST",
+  "flag": "",
+  "updated": ""
+ },
+ {
+  "slug": "maldives",
+  "name": "Maldives",
+  "country": "Maldives",
+  "code": "MLE",
+  "flag": "",
+  "updated": ""
+ }
+]

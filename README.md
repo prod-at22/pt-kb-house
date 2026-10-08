@@ -21,8 +21,12 @@ guna `https://prod-at22.github.io/pt-kb-house/<destinasi>/`.
 Bar navigasi terapung (**← Semua KB** + **Katalog PT**) dipasang automatik oleh Action
 `nav.yml` setiap kali `index.html` berubah, jadi fail yang dimuat naik tak perlu ada bar itu.
 
+Halaman hub (`index.html`) dijana automatik oleh `.github/scripts/build_hub.py` dari `hub.json`
+(nama, negara, kod) — jangan edit `index.html` hub dengan tangan. Tarikh "updated" diambil dari
+teks "Last updated" dalam setiap KB.
+
 Tambah destinasi baru: buat folder `<destinasi>/`, tambah `"<destinasi>": "-"` dalam
-`destinations.json`, dan tambah kad dalam `index.html`.
+`destinations.json`, dan satu entri dalam `hub.json`.
 
 ## Link ke PT Catalog House
 Setiap KB ada bar terapung di bawah kiri: **← Semua KB** (balik ke hub) dan **Katalog PT**
