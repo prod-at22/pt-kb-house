@@ -26,7 +26,7 @@ jobs:
       - name: What changed in the hub
         id: pick
         run: |
-          new=$(git -C _hub log -1 --format=%H -- data/kb data/data.json data/catalogs kb-build)
+          new=$(git -C _hub log -1 --format=%H -- data/kb data/data.json data/catalogs kb-build catalog-build/hub_data.py)
           last=$(cat .hub-sha 2>/dev/null || true)
           echo "new=$new" >> "$GITHUB_OUTPUT"
           if [ "$new" = "$last" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
