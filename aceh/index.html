@@ -783,6 +783,7 @@ const TRANSPORT_HTML = KBD.TRANSPORT_HTML;
 const STAY_HTML = KBD.STAY_HTML;
 const HOTELS=KBD.HOTELS;
 function renderHotels(){
+  if(KBD.ACC_HTML!=null)return KBD.ACC_HTML; // Accommodation list from the hub (kb-build stay_html)
   return '<details class="qa" data-text="hotel akomodasi grand nanggroe oasis arabiya ayani grand ph kyriad hermes palace freddies sumur tiga sabang"><summary><span class="tw">&#9654;</span><span>Senarai hotel ikut tier</span></summary><div class="ans"><div class="hotels">'+HOTELS.map(ht=>{var media=ht.img?'<img src="'+IMG(ht.img)+'" alt="'+ht.name+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.style.display=\'none\'">':'';return `<div class="hcard"><div class="ph">${media}</div><div class="hb"><div class="tier">${ht.tier}</div><div class="hn">${ht.name}</div><div class="hnote">${ht.note}</div></div></div>`;}).join("")+'</div><p class="custnote" style="margin-bottom:2px">Semua makan (B/L/D) halal disediakan. Sarapan hotel = continental breakfast.</p></div></details>';
 }
 
