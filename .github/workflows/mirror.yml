@@ -4,6 +4,9 @@
 # (workflow_dispatch); the schedule is only a fallback. Every KB is rebuilt (the build only rewrites the
 # data blocks, so an unchanged KB stays byte-identical), then the nav bar and the hub page are refreshed —
 # a push made by this workflow does not start nav.yml, so it runs those scripts itself.
+# Before committing, kb-build/verify.py checks every page against the hub (prices, itinerary, includes /
+# excludes, calculator tiers, hotels) and kb-build/smoke.js opens each page in jsdom; a failure stops the mirror
+# (nothing is published, GitHub emails the failure) — fix the hub data or the builder, then Run workflow again.
 # "Run workflow" mirrors at once (slugs = rebuild just those, empty = all).
 name: Mirror from PT R&D Costing Hub
 on:
@@ -39,6 +42,15 @@ jobs:
           python3 _hub/kb-build/build.py . ${{ inputs.slugs }}
           python3 .github/scripts/backlink.py
           python3 .github/scripts/build_hub.py
+      - uses: actions/setup-node@v4
+        if: steps.pick.outputs.run == 'yes'
+        with: { node-version: "22" }
+      - name: Verify (nothing is published unless every KB matches the hub)
+        if: steps.pick.outputs.run == 'yes'
+        run: |
+          python3 _hub/kb-build/verify.py .
+          npm i --prefix "$RUNNER_TEMP/js" --no-save --silent jsdom@30.1.2
+          NODE_PATH="$RUNNER_TEMP/js/node_modules" node _hub/kb-build/smoke.js .
       - name: Commit
         if: steps.pick.outputs.run == 'yes'
         run: |
