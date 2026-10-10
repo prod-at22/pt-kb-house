@@ -1,6 +1,6 @@
 # KB KK–Kundasang (TC Reference) + Simple Calculator
 
-> **Mulai 9 Okt 2026 kandungan KB dan `calc-config.json` datang dari PT R&D Costing Hub** (`prod-at22/pt-calculator-hub`, `data/kb/kk-kundasang.json`). Fail di sini ditulis semula oleh mirror — **jangan edit di GitHub repo ini**; edit di hub. Skema di bawah masih terpakai.
+> **Mulai 9 Okt 2026 kandungan KB dan `calc-config.json` datang dari PT R&D Costing Hub** (`prod-at22/rnd-hub`, `data/kb/kk-kundasang.json`). Fail di sini ditulis semula oleh mirror — **jangan edit di GitHub repo ini**; edit di hub. Skema di bawah masih terpakai.
 
 Halaman rujukan dalaman untuk Travel Consultant PT KK–Kundasang, termasuk tab
 **Simple Calculator** yang mengira quotation dan menjana PDF quotation format ARBA.
