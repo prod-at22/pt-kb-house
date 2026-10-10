@@ -1,4 +1,4 @@
-# Mirror of the PT R&D Costing Hub (prod-at22/rnd-hub) — the source of every KB's content and
+# Mirror of the PT R&D Costing Hub (prod-at22/pt-rnd-hub) — the source of every KB's content and
 # Simple Calculator numbers (hub: data/kb/<slug>.json, builder kb-build/build.py). The page itself (layout,
 # engine, travel map) and the images (<slug>/assets.json) stay here. The hub's Save starts this workflow
 # (workflow_dispatch); the schedule is only a fallback. Every KB is rebuilt (the build only rewrites the
@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
-        with: { repository: prod-at22/rnd-hub, path: _hub, fetch-depth: 0 }
+        with: { repository: prod-at22/pt-rnd-hub, path: _hub, fetch-depth: 0 }
       - name: What changed in the hub
         id: pick
         run: |
