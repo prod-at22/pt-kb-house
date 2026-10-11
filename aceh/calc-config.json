@@ -183,7 +183,7 @@
   },
   {
    "v": "van",
-   "t": "Upgrade Van (Toyota Hiace) &ndash; 5 pax ke atas",
+   "t": "Upgrade Van (Toyota Hiace) &ndash; 5&ndash;6 pax",
    "cost": "incl",
    "perVehicle": 300,
    "guided": true,
@@ -507,28 +507,23 @@
  "paxNotes": [
   {
    "from": 2,
-   "to": 3,
-   "text": "Kenderaan rate card: <b>Toyota Calya</b> (2&ndash;3 pax)."
+   "to": 4,
+   "text": "Kenderaan (katalog): <b>Toyota Avanza</b> (2&ndash;4 pax)."
   },
   {
-   "from": 4,
+   "from": 5,
    "to": 6,
-   "text": "Kenderaan rate card: <b>Innova Reborn</b> (4&ndash;6 pax). 5 pax ke atas boleh upgrade ke Van (Hiace) &mdash; pilih <i>Upgrade Van</i> pada baris hari (+RM300/hari/transport)."
+   "text": "Kenderaan (katalog): <b>Toyota Innova</b> (5&ndash;6 pax). Boleh upgrade ke Van (Hiace) &mdash; pilih <i>Upgrade Van</i> pada baris hari (+RM300/hari/transport)."
   },
   {
    "from": 7,
-   "to": 9,
-   "text": "Kenderaan rate card: <b>Van (Toyota Hiace)</b> (7&ndash;9 pax)."
+   "to": 12,
+   "text": "Kenderaan (katalog): <b>Van (Toyota Hiace)</b> (7&ndash;12 pax)."
   },
   {
-   "from": 10,
-   "to": 15,
-   "text": "Kenderaan rate card: <b>Medium Bus</b> (10&ndash;15 pax)."
-  },
-  {
-   "from": 16,
+   "from": 13,
    "to": 99999,
-   "text": "16 pax ke atas: rate card hanya senaraikan kenderaan sehingga 15 pax &mdash; <b>sahkan bilangan kenderaan dengan Ops</b>, kalkulator kira 1 kenderaan sahaja."
+   "text": "13 pax ke atas: katalog senaraikan kenderaan sehingga 12 pax sahaja &mdash; <b>sahkan bilangan kenderaan dengan Ops</b>, kalkulator kira 1 kenderaan sahaja."
   },
   {
    "from": 26,
