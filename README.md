@@ -5,8 +5,8 @@ Satu tempat untuk semua KB (TC Reference) Private Tour ARBA.
 - Hub: https://prod-at22.github.io/pt-kb-house/
 - Setiap destinasi: `https://prod-at22.github.io/pt-kb-house/<destinasi>/` (senarai dalam `destinations.json`)
 
-## Sumber data: PT R&D Costing Hub (mulai 9 Okt 2026)
-Kandungan setiap KB dan nombor Simple Calculator kini disimpan dalam **PT R&D Costing Hub**
+## Sumber data: PT R&D Hub (mulai 9 Okt 2026)
+Kandungan setiap KB dan nombor Simple Calculator kini disimpan dalam **PT R&D Hub**
 (`prod-at22/pt-rnd-hub`, fail `data/kb/<destinasi>.json`) — hub ialah source of truth.
 Repo ini ialah **mirror**: Action `mirror.yml` menjalankan `kb-build/build.py` dari hub dan menulis semula
 blok data dalam setiap KB. **Jangan edit kandungan atau `calc-config.json` di sini** — ia akan ditimpa
