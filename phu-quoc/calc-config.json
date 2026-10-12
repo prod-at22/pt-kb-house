@@ -8,7 +8,7 @@
   "cnb": "Child No Bed (2-5)"
  },
  "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
- "singleNote": "4D3N RM 240/pax &middot; 5D4N RM 320/pax (rate card ARBA &mdash; katalog tulis quoted upon request)",
+ "singleNote": "4D3N RM 240/pax &middot; 5D4N RM 320/pax (ikut katalog)",
  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Kadar accommodation, meal dan aktiviti mengikut <b>Rate Card Simple Customisation Phu Quoc</b>. <b>Tiada peak season surcharge</b> untuk Phu Quoc &mdash; boleh travel sepanjang tahun. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027). CNY 2026 (16&ndash;22 Feb 2026) masih boleh booking, tetapi kedai souvenir banyak tutup &mdash; set expectation customer. <b>Perhatian:</b> rate card tiada kadar transport untuk hari tambahan, jadi hari tambahan akan bertanda <i>kadar belum diisi</i> &mdash; minta harga operator.",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
@@ -564,16 +564,7 @@
    "VinPearl Safari with buggy"
   ]
  ],
- "extraSurcharge": [
-  {
-   "label": "Travel date surcharge 2027 (January - February)",
-   "dateIn": [
-    "2027-01-01",
-    "2027-02-28"
-   ],
-   "perPax": 120
-  }
- ],
+ "extraSurcharge": [],
  "paxNotes": [
   {
    "from": 2,
