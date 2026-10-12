@@ -222,7 +222,7 @@
    "t": "Ketibaan Beijing (malam) &ndash; rehat",
    "en": "ARRIVAL IN BEIJING",
    "acc": "incl",
-   "meal": "ld0",
+   "meal": "none",
    "trp": "air",
    "act": [
     "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
@@ -580,22 +580,17 @@
   {
    "from": 2,
    "to": 4,
-   "text": "2&ndash;4 pax: MPV. <b>Kadar day tour 2&ndash;4 pax tiada dalam Product Cheatsheet 2026</b> &mdash; pilihan <i>Day tour tambahan</i> &amp; <i>tolak day tour</i> akan papar <i>kadar belum diisi</i>. Guna kadar per pax <i>Malam tambahan + 1 hari tour</i> (RM 450/pax), atau minta kadar dari operator."
+   "text": "2&ndash;4 pax: MPV 7 tempat. <b>Kadar day tour 2&ndash;4 pax tiada dalam Product Cheatsheet 2026</b> &mdash; pilihan <i>Day tour tambahan</i> &amp; <i>tolak day tour</i> akan papar <i>kadar belum diisi</i>. Guna kadar per pax <i>Malam tambahan + 1 hari tour</i> (RM 450/pax), atau minta kadar dari operator."
   },
   {
    "from": 5,
-   "to": 6,
-   "text": "5&ndash;6 pax: Van / Small Bus &mdash; day tour RM 1,500/hari, airport transfer RM 500/hala"
+   "to": 9,
+   "text": "5&ndash;9 pax: Coach 14&ndash;17 tempat (CR Tourdechina) &mdash; day tour RM 1,700/hari, airport transfer RM 650/hala"
   },
   {
-   "from": 7,
-   "to": 12,
-   "text": "7&ndash;12 pax: Big Bus &mdash; day tour RM 1,700/hari, airport transfer RM 650/hala"
-  },
-  {
-   "from": 13,
+   "from": 10,
    "to": 15,
-   "text": "13&ndash;15 pax: harga tier ada, tetapi <b>kadar transport hanya tersiar sehingga 12 pax</b> &mdash; day tour &amp; airport transfer akan papar <i>kadar belum diisi</i>. Quote manual dengan operator."
+   "text": "10&ndash;15 pax: Coach 37 tempat. Harga tier ada, tetapi <b>kadar transport tambahan belum ada</b> &mdash; day tour &amp; airport transfer akan papar <i>kadar belum diisi</i>. Quote manual dengan operator."
   },
   {
    "from": 16,
@@ -794,16 +789,11 @@
        },
        {
         "from": 5,
-        "to": 6,
-        "normal": 1500
-       },
-       {
-        "from": 7,
-        "to": 12,
+        "to": 9,
         "normal": 1700
        },
        {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
@@ -818,16 +808,11 @@
        },
        {
         "from": 5,
-        "to": 6,
+        "to": 9,
         "normal": -800
        },
        {
-        "from": 7,
-        "to": 12,
-        "normal": -800
-       },
-       {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
@@ -842,16 +827,11 @@
        },
        {
         "from": 5,
-        "to": 6,
-        "normal": 500
-       },
-       {
-        "from": 7,
-        "to": 12,
+        "to": 9,
         "normal": 650
        },
        {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
@@ -866,16 +846,11 @@
        },
        {
         "from": 5,
-        "to": 6,
-        "normal": -300
-       },
-       {
-        "from": 7,
-        "to": 12,
+        "to": 9,
         "normal": -400
        },
        {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
@@ -951,7 +926,7 @@
      "t": "Ketibaan Beijing (malam) &ndash; rehat",
      "en": "ARRIVAL IN BEIJING",
      "acc": "incl",
-     "meal": "ld0",
+     "meal": "none",
      "trp": "air",
      "act": [
       "Tiba di Lapangan Terbang Beijing Daxing (PKX)",
@@ -1089,16 +1064,11 @@
        },
        {
         "from": 5,
-        "to": 6,
-        "normal": 1500
-       },
-       {
-        "from": 7,
-        "to": 12,
+        "to": 9,
         "normal": 1700
        },
        {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
@@ -1113,16 +1083,11 @@
        },
        {
         "from": 5,
-        "to": 6,
+        "to": 9,
         "normal": -800
        },
        {
-        "from": 7,
-        "to": 12,
-        "normal": -800
-       },
-       {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
@@ -1137,16 +1102,11 @@
        },
        {
         "from": 5,
-        "to": 6,
-        "normal": 500
-       },
-       {
-        "from": 7,
-        "to": 12,
+        "to": 9,
         "normal": 650
        },
        {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
@@ -1161,16 +1121,11 @@
        },
        {
         "from": 5,
-        "to": 6,
-        "normal": -300
-       },
-       {
-        "from": 7,
-        "to": 12,
+        "to": 9,
         "normal": -400
        },
        {
-        "from": 13,
+        "from": 10,
         "to": 15,
         "normal": null
        }
