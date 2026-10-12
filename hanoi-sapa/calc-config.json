@@ -8,7 +8,7 @@
   "cnb": "Child No Bed (2-5)"
  },
  "infantNote": "Bawah 2 tahun = FOC (katalog kedua-dua varian)",
- "singleNote": "Katalog dan rate card kedua-duanya tulis <b>quoted upon request</b> &mdash; minta kadar daripada operator sebelum quote solo. Tiada kadar tersiar, jadi kalkulator tidak caj apa-apa untuk bilik single.",
+ "singleNote": "Single supplement ikut katalog: <b>RM 300</b> (4D3N) &middot; <b>RM 700</b> (5D4N, termasuk cruise) setiap bilik single.",
  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. <b>Blackout:</b> Chinese New Year 2027 (17&ndash;18 Feb 2027) &mdash; tiada operasi. <b>Check availability</b> dengan operator untuk Chinese New Year, Raya Aidilfitri, Raya Haji, New Year dan Christmas.",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
@@ -680,16 +680,7 @@
    30
   ]
  ],
- "extraSurcharge": [
-  {
-   "label": "Travel date surcharge 2027",
-   "dateIn": [
-    "2027-01-01",
-    "2027-06-30"
-   ],
-   "perPax": 100
-  }
- ],
+ "extraSurcharge": [],
  "paxNotes": [
   {
    "from": 2,
@@ -712,7 +703,7 @@
    "text": "16 pax ke atas: hanya varian 4D3N ada tier 16&ndash;20 pax &mdash; 5D4N tamat pada 15 pax, rujuk consultant"
   }
  ],
- "validity": "Prices follow the PT Hanoi - Sapa - Halong Bay 5D4N 2026 v4 and PT Hanoi - Sapa 4D3N 2026 v4 catalogues dated 12 March 2026, valid for travel until 31 December 2026. Departures from 1 January to 30 June 2027 carry the 2027 travel date surcharge. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout date: 17 - 18 February 2027 (Chinese New Year).",
+ "validity": "Prices follow the PT Hanoi - Sapa - Halong Bay 5D4N 2026 v4 and PT Hanoi - Sapa 4D3N 2026 v4 catalogues dated 12 March 2026, valid for travel until 31 December 2026. This quotation is valid for 24 hours after submission. Itinerary, flight, price and quotation are subject to change. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Free activities are not exchangeable for other activities, vouchers or cash. Blockout date: 17 - 18 February 2027 (Chinese New Year).",
  "variants": [
   {
    "id": "v5d4n",
@@ -722,7 +713,7 @@
    "hotelLabel": "3-Star Hotel",
    "days": 5,
    "nights": 4,
-   "single": 0,
+   "single": 700,
    "lastMinute": {
     "lt": 21,
     "rate2": 400,
@@ -928,7 +919,7 @@
    "hotelLabel": "3-Star Hotel",
    "days": 4,
    "nights": 3,
-   "single": 0,
+   "single": 300,
    "lastMinute": {
     "lt": 21,
     "rate2": 300,
