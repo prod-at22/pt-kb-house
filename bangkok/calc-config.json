@@ -9,7 +9,7 @@
  },
  "infantNote": "Bawah 2 tahun FOC",
  "singleNote": "+RM 450 setiap satu",
- "intro": "Isi pax dan tarikh &mdash; peak season RM 80/pax/malam dan late booking RM 50 dikira sendiri. Transport ikut kelas kenderaan: 1&ndash;4 pax SUV, 5&ndash;8 pax Minivan; hari tambahan asas 10 jam, lebih masa 500 THB/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan. Malam tambahan hotel dikira <b>per bilik</b> &mdash; pilih add-on <i>Malam tambahan hotel &hellip; per bilik</i> dan isi bilangan bilik.",
+ "intro": "Isi pax dan tarikh &mdash; peak season RM 80/pax/malam dan late booking RM 50 dikira sendiri. Transport ikut kelas kenderaan: 1&ndash;3 pax SUV, 4&ndash;9 pax Minivan, 10 pax ke atas 2 kenderaan; hari tambahan asas 10 jam, lebih masa 500 THB/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan. Malam tambahan hotel dikira <b>per bilik</b> &mdash; pilih add-on <i>Malam tambahan hotel &hellip; per bilik</i> dan isi bilangan bilik.",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
  "hideGeneric": [
@@ -444,18 +444,18 @@
  "paxNotes": [
   {
    "from": 1,
-   "to": 4,
-   "text": "1&ndash;4 pax: SUV &mdash; kadar transport band SUV rate card."
+   "to": 3,
+   "text": "1&ndash;3 pax: SUV &mdash; kadar transport band SUV rate card."
   },
   {
-   "from": 5,
-   "to": 8,
-   "text": "5&ndash;8 pax: Minivan &mdash; kadar transport band Minivan rate card."
+   "from": 4,
+   "to": 9,
+   "text": "4&ndash;9 pax: Minivan (maks 9 pax) &mdash; kadar transport band Minivan rate card."
   },
   {
-   "from": 9,
+   "from": 10,
    "to": 10,
-   "text": "9&ndash;10 pax: perlu <b>2 kenderaan</b>. Rate card tiada band khusus, jadi kalkulator kira <b>2 &times; kadar Minivan</b> &mdash; sahkan dengan operasi sebelum quote."
+   "text": "10 pax: perlu <b>2 kenderaan</b> (minivan + SUV). Kalkulator kira <b>2 &times; kadar Minivan</b> &mdash; sahkan dengan operasi sebelum quote."
   },
   {
    "from": 11,
@@ -1062,320 +1062,320 @@
      "peak": 0
     },
     "marginPerPax": 0,
-    "paxPerVehicle": 8,
+    "paxPerVehicle": 9,
     "shareVehicle": true,
     "rates": {
      "day": {
       "_default": [
        {
         "from": 1,
-        "to": 16,
+        "to": 18,
         "normal": null
        }
       ],
       "[Bangkok]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 450
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 475
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 475
        }
       ],
       "[Damnoen Saduak]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 500
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 550
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 550
        }
       ],
       "[Kanchanaburi]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 550
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 630
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 630
        }
       ],
       "[Erawan]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 600
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 700
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 700
        }
       ],
       "[Ayutthaya]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 500
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 575
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 575
        }
       ],
       "[Khao Yai]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 575
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 650
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 650
        }
       ],
       "[Pattaya]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 525
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 610
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 610
        }
       ],
       "[Hua Hin]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 575
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 650
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 650
        }
       ],
       "[Rayong]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 575
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 650
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 650
        }
       ],
       "[Koh Chang 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 700
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 850
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 850
        }
       ],
       "[Airport 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 125
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 175
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 175
        }
       ],
       "[Airport + Half Day]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 400
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 440
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 440
        }
       ],
       "[Pattaya 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 275
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 350
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 350
        }
       ],
       "[Hua Hin 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 350
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 450
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 450
        }
       ],
       "[Khao Kor 4D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 2150
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 2500
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 2500
        }
       ],
       "[Khao Yai 3D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 1550
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 1700
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 1700
        }
       ],
       "[Kanchanaburi 2D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 1110
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 1300
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 1300
        }
       ],
       "[Hua Hin 2D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": 1110
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": 1300
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": 1300
        }
       ]
@@ -1384,313 +1384,313 @@
       "_default": [
        {
         "from": 1,
-        "to": 16,
+        "to": 18,
         "normal": null
        }
       ],
       "[Bangkok]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -300
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -350
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -350
        }
       ],
       "[Damnoen Saduak]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -350
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -400
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -400
        }
       ],
       "[Kanchanaburi]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -400
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -480
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -480
        }
       ],
       "[Erawan]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -450
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -550
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -550
        }
       ],
       "[Ayutthaya]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -350
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -425
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -425
        }
       ],
       "[Khao Yai]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -425
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -500
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -500
        }
       ],
       "[Pattaya]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -375
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -460
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -460
        }
       ],
       "[Hua Hin]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -425
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -500
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -500
        }
       ],
       "[Rayong]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -425
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -500
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -500
        }
       ],
       "[Koh Chang 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -550
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -700
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -700
        }
       ],
       "[Airport 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -75
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -125
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -125
        }
       ],
       "[Airport + Half Day]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -250
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -390
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -390
        }
       ],
       "[Pattaya 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -125
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -200
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -200
        }
       ],
       "[Hua Hin 1 way]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -200
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -300
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -300
        }
       ],
       "[Khao Kor 4D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -1800
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -2150
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -2150
        }
       ],
       "[Khao Yai 3D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -1300
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -1450
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -1450
        }
       ],
       "[Kanchanaburi 2D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -960
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -1150
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -1150
        }
       ],
       "[Hua Hin 2D]": [
        {
         "from": 1,
-        "to": 4,
+        "to": 3,
         "normal": -960
        },
        {
-        "from": 5,
-        "to": 8,
+        "from": 4,
+        "to": 9,
         "normal": -1150
        },
        {
-        "from": 9,
-        "to": 16,
+        "from": 10,
+        "to": 18,
         "normal": -1150
        }
       ]
@@ -1699,7 +1699,7 @@
       "_default": [
        {
         "from": 1,
-        "to": 16,
+        "to": 18,
         "normal": 50
        }
       ]
@@ -1708,7 +1708,7 @@
       "_default": [
        {
         "from": 1,
-        "to": 16,
+        "to": 18,
         "normal": 60
        }
       ]
@@ -1717,7 +1717,7 @@
       "_default": [
        {
         "from": 1,
-        "to": 16,
+        "to": 18,
         "normal": -50
        }
       ]
@@ -1726,7 +1726,7 @@
       "_default": [
        {
         "from": 1,
-        "to": 16,
+        "to": 18,
         "normal": -100
        }
       ]
@@ -1735,7 +1735,7 @@
       "_default": [
        {
         "from": 1,
-        "to": 16,
+        "to": 18,
         "normal": -150
        }
       ]
