@@ -8,7 +8,7 @@
   "cnb": "Child No Bed (2&ndash;5 tahun)"
  },
  "infantNote": "Bawah 2 tahun &mdash; RM 200 flat, tidak dikenakan peratusan peak.",
- "singleNote": "Tokyo / Osaka RM 1,200 &middot; Tokyo&ndash;Osaka RM 1,400 &middot; Hokkaido RM 300 semalam (RM 1,200 untuk 4 malam standard).",
+ "singleNote": "Tokyo / Osaka RM 1,200 &middot; Tokyo&ndash;Osaka RM 1,400 &middot; Hokkaido RM 1,200.",
  "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan semua surcharge dikira sendiri dan terus masuk dalam harga per pax. Buka panel itinerary untuk tukar blok hari daripada pustaka ProdReq (Tokyo, Osaka, Kyoto, Nara, Kobe, Fuji, theme park, pindah bandar, Hokkaido) &mdash; kos transport berlabuh pada kawasan blok yang dipilih.",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
@@ -3461,7 +3461,6 @@
    "days": 5,
    "nights": 4,
    "infant": 200,
-   "singlePerNight": 300,
    "labelCwb": "Child With Bed (6-11 years)",
    "labelCnb": "Child No Bed (2-5 years)",
    "ext": {
@@ -3928,12 +3927,6 @@
       "2027-03-01",
       null,
       10
-     ],
-     [
-      "2027-06-15",
-      "2027-09-01",
-      null,
-      10
      ]
     ]
    },
@@ -4061,7 +4054,8 @@
     "Personal expenses",
     "Optional activity",
     "Travel insurance"
-   ]
+   ],
+   "single": 1200
   }
  ],
  "library": [
@@ -4919,7 +4913,15 @@
     "2027-01-01",
     "2027-06-30"
    ],
-   "perPax": 200
+   "perPax": 200,
+   "variants": [
+    "tokyob",
+    "tokyos",
+    "osakab",
+    "osakas",
+    "tobab",
+    "tobas"
+   ]
   }
  ],
  "lateBooking": {
@@ -5216,7 +5218,7 @@
   {
    "from": 1,
    "to": 99999,
-   "text": "Harga adalah untuk <b>2&ndash;4 orang per apartment</b> atau 2 orang per bilik hotel. Single supplement terpakai &mdash; ProdReq 12."
+   "text": "Harga adalah untuk <b>2&ndash;4 orang per apartment</b> atau 2 orang per bilik hotel. Hokkaido-Sapporo: <b>2&ndash;3 orang sebilik</b> (katalog). Single supplement terpakai &mdash; ProdReq 12."
   },
   {
    "from": 1,
