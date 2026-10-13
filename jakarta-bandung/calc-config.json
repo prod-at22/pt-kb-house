@@ -9,7 +9,7 @@
  },
  "infantNote": "Bawah 2 tahun = FOC (katalog)",
  "singleNote": "RM 350 per pax, sekali sahaja",
- "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season, late booking dan surcaj 2027 dikira sendiri dan terus masuk dalam harga per pax. <b>Kadar transport ikut kawasan dan kelas kenderaan</b> (Avanza 2&ndash;4, Innova 5&ndash;6, Hiace 7&ndash;12) &mdash; pilih blok itinerary supaya kadar hari tambahan berlabuh pada kawasan yang betul. <b>Pindah bandar</b> guna blok <i>Pindah bandar</i>: ia mengenakan full day tour <b>dan</b> transfer, seperti nota rate card. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf hotel 4 bintang &ndash; malam peak season</i> pada baris hari itu (RM90 upgrade + RM5 beza peak).",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, peak season dan late booking dikira sendiri dan terus masuk dalam harga per pax. <b>Kadar transport ikut kawasan dan kelas kenderaan</b> (Avanza 2&ndash;4, Innova 5&ndash;6, Hiace 7&ndash;12) &mdash; pilih blok itinerary supaya kadar hari tambahan berlabuh pada kawasan yang betul. <b>Pindah bandar</b> guna blok <i>Pindah bandar</i>: ia mengenakan full day tour <b>dan</b> transfer, seperti nota rate card. Untuk malam peak yang guna hotel 4&#9733;, pilih <i>Naik taraf hotel 4 bintang &ndash; malam peak season</i> pada baris hari itu (RM90 upgrade + RM5 beza peak).",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
  "hideGeneric": [
@@ -70,16 +70,7 @@
    ]
   ]
  },
- "extraSurcharge": [
-  {
-   "label": "Travel date 2027",
-   "dateIn": [
-    "2027-01-01",
-    "2027-06-30"
-   ],
-   "perPax": 50
-  }
- ],
+ "extraSurcharge": [],
  "ext": {
   "night": {
    "normal": 90,
@@ -1052,7 +1043,7 @@
    "inclusions": [
     "{nights} nights accommodation, double or triple sharing (triple sharing is extra bed only)",
     "{auto}",
-    "Daily hotel breakfast",
+    "Meals - 3x International Breakfast, 3 Lunch, 3 Dinner",
     "One-way Whoosh High Speed Train ticket, Jakarta to Bandung (Economy Seat)",
     "Entrance fees - Kawah Putih, Glamping Lakeside, Rengganis Bridge & Keranjang Sultan with chairlift, The Lodge Maribaya, Floating Market Lembang and Lembang Farm House",
     "Tipping fee for driver-cum-guide"
@@ -1207,7 +1198,7 @@
    "inclusions": [
     "{nights} nights accommodation, double or triple sharing (triple sharing is extra bed only)",
     "{auto}",
-    "Daily hotel breakfast",
+    "Meals - 3x International Breakfast, 3 Lunch, 3 Dinner",
     "One-way Whoosh High Speed Train ticket, Jakarta to Bandung (Economy Seat)",
     "Entrance fees - Orchid Forest Cikole, Lembang Park & Zoo, The Lodge Maribaya, Floating Market Lembang and Lembang Farm House",
     "Tipping fee for driver-cum-guide"
