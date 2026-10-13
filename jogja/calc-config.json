@@ -260,26 +260,26 @@
  "addons": [
   [
    "Borobudur Temple - Ground Area",
-   150,
-   90,
+   130,
+   78,
    "pax"
   ],
   [
    "Borobudur Temple - Temple / Hill Area (guided)",
-   185,
-   111,
+   130,
+   78,
    "pax"
   ],
   [
    "Goa Pindul & Cave Tubing",
-   100,
-   60,
+   75,
+   45,
    "pax"
   ],
   [
    "Gamplong Studio Alam",
-   25,
-   15,
+   10,
+   6,
    "pax"
   ],
   [
@@ -296,8 +296,8 @@
   ],
   [
    "Gondola Timang Beach",
-   80,
-   48,
+   60,
+   36,
    "pax"
   ],
   [
@@ -600,7 +600,7 @@
      "meal": "bld",
      "trp": "incl",
      "act": [
-      "Borobudur Temple &mdash; UNESCO (entrance add-on: Ground RM 150 / Temple RM 185)",
+      "Borobudur Temple &mdash; UNESCO (entrance add-on: RM 130, Ground atau Structure Area)",
       "Gereja Ayam Bukit Rhema",
       "Punthuk Setumbu sunrise point"
      ],
@@ -662,7 +662,7 @@
      "trp": "incl",
      "act": [
       "Timang Beach &mdash; Jeep (RM 160/jeep, 4 pax/jeep)",
-      "Gondola Timang (add-on RM 80/pax) atau Jambatan Timang (RM 50/pax)",
+      "Gondola Timang (add-on RM 60/pax) atau Jambatan Timang (RM 50/pax)",
       "Heha Ocean View"
      ],
      "eact": [
@@ -745,8 +745,8 @@
      "meal": "bld",
      "trp": "incl",
      "act": [
-      "Goa Pindul &amp; Jomblang cave tubing (add-on RM 100/pax)",
-      "Gamplong Studio Alam (add-on RM 25/pax)"
+      "Goa Pindul &amp; Jomblang cave tubing (add-on RM 75/pax)",
+      "Gamplong Studio Alam (add-on RM 10/pax)"
      ],
      "eact": [
       "Goa Pindul and Jomblang cave tubing",
@@ -1314,9 +1314,9 @@
    "inclusions": [
     "{nights} nights accommodation at 3-Star Hotel in Yogyakarta city centre - Emersia Hotel or Luxury Malioboro or similar, 2 to 3 persons per room",
     "{auto}",
+    "Meals - 3x International Breakfast, 3 Lunch, 3 Dinner",
     "Entrance fees based on itinerary",
     "Driving Guide (Malay or English spoken)",
-    "Travel insurance",
     "Tipping fee",
     "Jeep Merapi Lava Tour",
     "Jeep Timang Beach"
@@ -1328,7 +1328,8 @@
     "Personal expenses"
    ],
    "exclusionsTail": [
-    "Borobudur Temple entrance, Timang Beach gondola and other optional activities unless listed above"
+    "Borobudur Temple entrance, Timang Beach gondola and other optional activities unless listed above",
+    "Travel insurance"
    ]
   }
  ]
