@@ -40,16 +40,7 @@
    ]
   ]
  },
- "extraSurcharge": [
-  {
-   "label": "Travel date surcharge 8&ndash;15 Mac 2027",
-   "dateIn": [
-    "2027-03-08",
-    "2027-03-15"
-   ],
-   "perPax": 90
-  }
- ],
+ "extraSurcharge": [],
  "lateBooking": {
   "lt": 45,
   "amount": 50
