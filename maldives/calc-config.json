@@ -9,7 +9,7 @@
  },
  "infantNote": "Infant 0&ndash;2 tahun RM100 setiap varian &mdash; bukan FOC.",
  "singleNote": "4-Star, Combo &amp; Water Villa +RM700/pax &middot; Basic: quoted upon request (katalog tiada kadar &mdash; kalkulator tidak caj apa-apa untuk Basic).",
- "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, surcaj musim dan late/last minute dikira sendiri. <b>Surcaj musim Maldives ialah amaun rata per pax</b> untuk keseluruhan trip (bukan per malam), dan setiap varian ada tetingkap tarikhnya sendiri. <b>Super Peak</b> (Combo 1 Sep&ndash;31 Dis 2026, Water Villa 25&ndash;31 Dis 2026) ialah <i>price upon request</i> &mdash; kalkulator sengaja tidak mengira apa-apa dan akan beri amaran; minta sebut harga operator. <b>Travel 11 Jan&ndash;30 Jun 2027</b> dikenakan surcaj RM200/pax semua varian.",
+ "intro": "Isi pax dan tarikh berlepas / balik &mdash; panjang trip, surcaj musim dan late booking dikira sendiri; last minute (Basic / 4-Star, per group) tambah sendiri ikut jadual Surcharge. <b>Surcaj musim Maldives ialah amaun rata per pax</b> untuk keseluruhan trip (bukan per malam), dan setiap varian ada tetingkap tarikhnya sendiri. <b>Super Peak</b> (Combo 1 Nov&ndash;31 Dis 2026, Water Villa 25&ndash;31 Dis 2026) ialah <i>price upon request</i> &mdash; kalkulator sengaja tidak mengira apa-apa dan akan beri amaran; minta sebut harga operator.",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
  "autoAddonQty": true,
@@ -78,17 +78,8 @@
    "hotel": "Water Villa"
   },
   {
-   "v": "up4a",
-   "t": "Upgrade hotel 4 bintang &ndash; kadar muka depan katalog (RM240/pax untuk 3 malam)",
-   "cost": "incl",
-   "perPax": 80.0,
-   "hotel": "4-Star Hotel (Maafushi)",
-   "incl": "4-Star hotel upgrade ({days})",
-   "line": "4-Star hotel upgrade"
-  },
-  {
    "v": "up4b",
-   "t": "Upgrade hotel 4 bintang &ndash; kadar Important Notes katalog (RM400/pax untuk 3 malam)",
+   "t": "Upgrade hotel 4 bintang &ndash; kadar katalog (RM400/pax untuk 3 malam)",
    "cost": "incl",
    "perPax": 133.33333333333334,
    "hotel": "4-Star Hotel (Maafushi)",
@@ -243,18 +234,6 @@
  ],
  "addons": [
   [
-   "Kaani (4-Star) - Full Day Excursion Trip",
-   250,
-   250,
-   "pax"
-  ],
-  [
-   "Kaani (4-Star) - Real Break Trip",
-   350,
-   350,
-   "pax"
-  ],
-  [
    "Kaani (4-Star) - Whale Shark Trip",
    500,
    500,
@@ -375,16 +354,7 @@
    "unit"
   ]
  ],
- "extraSurcharge": [
-  {
-   "label": "Travel date 2027",
-   "dateIn": [
-    "2027-01-11",
-    "2027-06-30"
-   ],
-   "perPax": 200
-  }
- ],
+ "extraSurcharge": [],
  "paxNotes": [
   {
    "from": 1,
@@ -397,7 +367,7 @@
    "text": "Add-on excursion <b>Arena</b> perlu minimum 10 pax."
   }
  ],
- "validity": "Prices are based on the PT Maldives 2026 catalogues (Basic v4, 4-Star v3, Combo, Water Villa) and are valid for travel until 31 December 2026; travel dates from 11 January to 30 June 2027 carry a RM 200 per pax 2027 travel surcharge. Quotation valid for 24 hours after submission. Price is based on 2 to 3 persons per room. Deposit RM 500 per pax upon confirmation, full payment 45 days before departure. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Itinerary, price and flight are subject to change. All island transfers and activities are by shared speedboat and depend on weather conditions. Free activities are non-exchangeable for other activities, vouchers or cash.",
+ "validity": "Prices are based on the PT Maldives 2026 catalogues (Basic v4, 4-Star v3, Combo, Water Villa) and are valid for travel until 31 December 2026. Quotation valid for 24 hours after submission. Price is based on 2 to 3 persons per room. Deposit RM 500 per pax upon confirmation, full payment 45 days before departure. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Itinerary, price and flight are subject to change. All island transfers and activities are by shared speedboat and depend on weather conditions. Free activities are non-exchangeable for other activities, vouchers or cash.",
  "variants": [
   {
    "id": "basic",
@@ -427,13 +397,6 @@
     "mode": "flat",
     "value": 0,
     "windows": [
-     [
-      "2025-12-21",
-      "2026-01-10",
-      null,
-      200,
-      "Peak Season"
-     ],
      [
       "2026-01-11",
       "2026-04-30",
@@ -878,7 +841,7 @@
       "Shoulder Season"
      ],
      [
-      "2026-09-01",
+      "2026-11-01",
       "2026-12-31",
       null,
       "request",
