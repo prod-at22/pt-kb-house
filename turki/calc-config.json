@@ -21,28 +21,8 @@
     "klasikbasic"
    ],
    [
-    "2026-08-21",
-    "2026-08-24",
-    "klasikbasic"
-   ],
-   [
-    "2026-12-20",
-    "2027-01-01",
-    "klasikbasic"
-   ],
-   [
     "2026-09-01",
     "2026-11-30",
-    "klasikstd"
-   ],
-   [
-    "2026-08-21",
-    "2026-08-24",
-    "klasikstd"
-   ],
-   [
-    "2026-12-20",
-    "2027-01-01",
     "klasikstd"
    ],
    [
@@ -61,8 +41,6 @@
    ],
    "perPax": 300,
    "variants": [
-    "klasikbasic",
-    "klasikstd",
     "istcap"
    ]
   },
@@ -1031,7 +1009,7 @@
     "Tour guide (English speaking)",
     "Entrance fees as per itinerary",
     "Tipping fee for driver and tour guide",
-    "{nights} breakfasts",
+    "Meals (7x International Breakfast, 6x Lunch, 7x Dinner)",
     "Cotton Castle",
     "Bosphorus Cruise",
     "Topkapi Palace Tour"
