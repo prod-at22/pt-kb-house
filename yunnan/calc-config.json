@@ -554,10 +554,6 @@
    [
     "2026-06-19",
     "2026-06-21"
-   ],
-   [
-    "2027-06-12",
-    "2027-06-14"
    ]
   ]
  },
@@ -585,38 +581,6 @@
     "2027-01-05"
    ],
    "perPax": 300
-  },
-  {
-   "label": "Peak Season - China Summer Holiday",
-   "dateIn": [
-    "2027-07-01",
-    "2027-08-31"
-   ],
-   "perPax": 300
-  },
-  {
-   "label": "Peak Season - China Golden Week",
-   "dateIn": [
-    "2027-10-01",
-    "2027-10-08"
-   ],
-   "perPax": 300
-  },
-  {
-   "label": "Peak Season - Christmas and New Year",
-   "dateIn": [
-    "2027-12-22",
-    "2028-01-05"
-   ],
-   "perPax": 300
-  },
-  {
-   "label": "2027 travel surcharge",
-   "dateIn": [
-    "2027-01-01",
-    "2027-06-30"
-   ],
-   "perPax": 100
   }
  ],
  "lateBooking": {
@@ -683,12 +647,6 @@
    30,
    30,
    "unit"
-  ],
-  [
-   "Upgrade to 4-Star hotel - per pax (kadar muka depan katalog)",
-   240,
-   240,
-   "pax"
   ]
  ],
  "paxNotes": [
