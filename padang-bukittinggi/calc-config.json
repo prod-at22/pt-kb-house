@@ -467,7 +467,7 @@
   {
    "from": 20,
    "to": 99999,
-   "text": "20 pax: tier harga katalog berhenti di 20 pax dan operator quote maksimum 19 pax. Minta quotation baharu sebelum confirm."
+   "text": "20 pax ke atas: harga katalog berhenti di 19 pax (kadar operator maksimum 19 pax). Minta quotation baharu sebelum confirm."
   }
  ],
  "validity": "Prices follow the PT Padang - Bukittinggi 4D3N 2026 catalogue v7 (last updated 9 August 2026) and are valid for travel until 31 January 2027. This quotation is valid for 24 hours after submission. A deposit of RM250 per pax is due on confirmation and full payment 45 days before departure. Prices are based on 2 to 3 persons sharing a room; the 3-Star hotel offers double-sharing rooms as standard and a triple request is served with an extra bed. Final itinerary and hotel arrangements are confirmed 14 days before the trip. Private driver and guide are on a 12-hour basis; 150,000 IDR per extra hour is payable in cash to the driver. Itinerary, price and flight schedule are subject to change.",
@@ -514,7 +514,7 @@
     },
     {
      "from": 16,
-     "to": 20,
+     "to": 19,
      "a": 1037,
      "c": 937,
      "n": 837
@@ -669,7 +669,7 @@
     },
     {
      "from": 16,
-     "to": 20,
+     "to": 19,
      "a": 1037,
      "c": 937,
      "n": 837
