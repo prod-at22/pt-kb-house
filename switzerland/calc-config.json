@@ -8,7 +8,7 @@
   "cnb": "Child No Bed (2&ndash;6)"
  },
  "infantNote": "RM 900 flat, bukan FOC",
- "singleNote": "+RM 2,800 setiap satu (rate card ARBA)",
+ "singleNote": "Quoted upon request (katalog) &mdash; kalkulator tidak caj; minta kadar daripada PO.",
  "intro": "Isi pax dan tarikh &mdash; peak season, surcaj travel 2027, last minute dan late booking dikira sendiri. Dalam panel <b>Ubah itinerary</b>, setiap hari boleh ditukar kepada mana-mana blok dalam pustaka (Zurich &middot; Lucerne &middot; Interlaken &middot; Zermatt &middot; panoramic train). Hari yang TC tambah sendiri terus berkos ikut kadar extension; malam lebih atau kurang daripada pakej asal dilaras sendiri. Sumber: katalog PT Switzerland Standard 7D6N 2026 (last updated 8 Dis 2025) dan rate card ARBA. Switzerland <b>tiada ProdReq</b>, jadi kadar transport adalah satu kadar rata seluruh negara &mdash; tiada kadar ikut kawasan.",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
@@ -22,7 +22,7 @@
    "days": 7,
    "nights": 6,
    "infant": 900,
-   "single": 2800,
+   "single": 0,
    "labelCwb": "Child With Bed (7-11)",
    "labelCnb": "Child No Bed (2-6)",
    "lastMinute": {
@@ -790,18 +790,6 @@
   "mode": "perNight",
   "value": 200,
   "windows": [
-   [
-    "2025-12-20",
-    "2026-01-10"
-   ],
-   [
-    "2026-02-01",
-    "2026-02-28"
-   ],
-   [
-    "2026-07-15",
-    "2026-08-15"
-   ],
    [
     "2026-12-20",
     "2027-01-03"
