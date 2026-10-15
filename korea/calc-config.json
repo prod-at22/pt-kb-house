@@ -112,7 +112,7 @@
       "2027-10-31"
      ],
      [
-      "2026-12-16",
+      "2026-12-20",
       "2027-01-01",
       null,
       90,
@@ -4654,20 +4654,6 @@
  ],
  "extraSurcharge": [
   {
-   "label": "Travel date 2027 (1 Jan - 30 Jun 2027)",
-   "dateIn": [
-    "2027-01-01",
-    "2027-06-30"
-   ],
-   "perPax": 100,
-   "variants": [
-    "sbasic",
-    "sstd",
-    "seljju",
-    "custom"
-   ]
-  },
-  {
    "label": "ATK / TO Charge",
    "variants": [
     "custom"
@@ -5208,5 +5194,5 @@
   }
  ],
  "dropOwnRate": true,
- "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. Price is based on 2&ndash;3 persons per room. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days before the departure date; payment must be made in cash. A late booking surcharge of RM 50 per booking applies if the booking is made less than 45 days before departure. Airport transfer allows a maximum of 1 luggage per pax. The final itinerary is confirmed 14 days before the trip. Package is valid for travel until 30 June 2027. Ground arrangement and tipping only &mdash; international flight tickets are not included."
+ "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability as no space has been secured. Price is based on 2&ndash;3 persons per room. A deposit of RM 500 per pax is required upon confirmation, with full payment due 45 days before the departure date; payment must be made in cash. A late booking surcharge of RM 50 per booking applies if the booking is made less than 45 days before departure. Airport transfer allows a maximum of 1 luggage per pax. The final itinerary is confirmed 14 days before the trip. Package is valid for travel until 31 December 2026. Ground arrangement and tipping only &mdash; international flight tickets are not included."
 }
