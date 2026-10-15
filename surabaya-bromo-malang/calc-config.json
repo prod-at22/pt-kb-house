@@ -50,12 +50,12 @@
      },
      {
       "from": 5,
-      "to": 10,
+      "to": 12,
       "normal": 900,
       "peak": 900
      },
      {
-      "from": 11,
+      "from": 13,
       "to": 15,
       "normal": null,
       "peak": null
@@ -72,12 +72,12 @@
      },
      {
       "from": 5,
-      "to": 10,
+      "to": 12,
       "normal": -750,
       "peak": -750
      },
      {
-      "from": 11,
+      "from": 13,
       "to": 15,
       "normal": null,
       "peak": null
@@ -779,16 +779,16 @@
   },
   {
    "from": 5,
-   "to": 10,
-   "text": "5&ndash;10 pax: kenderaan Hiace (van)"
+   "to": 12,
+   "text": "5&ndash;12 pax: kenderaan Hiace (van)"
   },
   {
-   "from": 11,
+   "from": 13,
    "to": 99999,
-   "text": "11 pax ke atas: katalog Surabaya&ndash;Bromo&ndash;Malang beri tier sehingga 15 pax, tetapi rate card transport berhenti pada Hiace 10 pax &mdash; perlu 2 kenderaan. Minta kadar operator sebelum quote. Jeep Bromo maksimum 5 pax sejeep."
+   "text": "13 pax ke atas: 2&times; Hiace &mdash; rate card transport tiada kadar untuk 2 kenderaan. Minta kadar operator sebelum quote. Jeep Bromo maksimum 5 pax sejeep."
   }
  ],
- "validity": "Prices are based on the PT Surabaya&ndash;Bromo&ndash;Malang v2 and PT Surabaya&ndash;Malang v2 catalogues last updated 9 March 2026. This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability. Prices are for 2 to 3 persons per room. Departures between 1 January and 30 June 2027 carry no travel date surcharge. A deposit of RM250 per person is due on confirmation and full payment 45 days before departure. A late booking surcharge of RM50 per booking applies to bookings made less than 45 days before departure. The final itinerary and hotel arrangements are confirmed 14 days before the trip. Maximum 1 luggage per person &mdash; vehicle capacity is limited. Ground arrangement and tipping only; international flight tickets are not included. Itinerary, price and flights are subject to change.",
+ "validity": "Prices are based on the PT Surabaya&ndash;Bromo&ndash;Malang v2 and PT Surabaya&ndash;Malang v2 catalogues last updated 9 March 2026. This quotation is valid for 24 hours from the date of issue and is subject to hotel and room availability. Prices are for 2 to 3 persons per room. A deposit of RM250 per person is due on confirmation and full payment 45 days before departure. A late booking surcharge of RM50 per booking applies to bookings made less than 45 days before departure. The final itinerary and hotel arrangements are confirmed 14 days before the trip. Maximum 1 luggage per person &mdash; vehicle capacity is limited. Ground arrangement and tipping only; international flight tickets are not included. Itinerary, price and flights are subject to change.",
  "variants": [
   {
    "id": "sbm3",
@@ -842,22 +842,6 @@
     "mode": "perNight",
     "value": 130,
     "windows": [
-     [
-      "2025-12-21",
-      "2025-12-31"
-     ],
-     [
-      "2026-01-01",
-      "2026-01-05"
-     ],
-     [
-      "2026-03-15",
-      "2026-03-30"
-     ],
-     [
-      "2026-05-25",
-      "2026-06-05"
-     ],
      [
       "2026-12-20",
       "2027-01-05"
@@ -1042,22 +1026,6 @@
     "mode": "perNight",
     "value": 180,
     "windows": [
-     [
-      "2025-12-21",
-      "2025-12-31"
-     ],
-     [
-      "2026-01-01",
-      "2026-01-05"
-     ],
-     [
-      "2026-03-15",
-      "2026-03-30"
-     ],
-     [
-      "2026-05-25",
-      "2026-06-05"
-     ],
      [
       "2026-12-20",
       "2027-01-05"
@@ -1244,22 +1212,6 @@
     "value": 130,
     "windows": [
      [
-      "2025-12-21",
-      "2025-12-31"
-     ],
-     [
-      "2026-01-01",
-      "2026-01-05"
-     ],
-     [
-      "2026-03-15",
-      "2026-03-30"
-     ],
-     [
-      "2026-05-25",
-      "2026-06-05"
-     ],
-     [
       "2026-12-20",
       "2027-01-05"
      ]
@@ -1432,22 +1384,6 @@
     "mode": "perNight",
     "value": 180,
     "windows": [
-     [
-      "2025-12-21",
-      "2025-12-31"
-     ],
-     [
-      "2026-01-01",
-      "2026-01-05"
-     ],
-     [
-      "2026-03-15",
-      "2026-03-30"
-     ],
-     [
-      "2026-05-25",
-      "2026-06-05"
-     ],
      [
       "2026-12-20",
       "2027-01-05"
