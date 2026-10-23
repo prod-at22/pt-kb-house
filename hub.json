@@ -120,6 +120,14 @@
   "updated": ""
  },
  {
+  "slug": "ho-chi-minh",
+  "name": "Ho Chi Minh",
+  "country": "Vietnam",
+  "code": "SGN",
+  "flag": "",
+  "updated": ""
+ },
+ {
   "slug": "danang",
   "name": "Danang-Hoi An",
   "country": "Vietnam",
